@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/tft-synerge-helper/static/css/main.2cce8147.chunk.css",
-    "main.js": "/tft-synerge-helper/static/js/main.2fc87c95.chunk.js",
-    "main.js.map": "/tft-synerge-helper/static/js/main.2fc87c95.chunk.js.map",
-    "runtime~main.js": "/tft-synerge-helper/static/js/runtime~main.5f4a9cda.js",
-    "runtime~main.js.map": "/tft-synerge-helper/static/js/runtime~main.5f4a9cda.js.map",
-    "static/js/2.b41502e9.chunk.js": "/tft-synerge-helper/static/js/2.b41502e9.chunk.js",
-    "static/js/2.b41502e9.chunk.js.map": "/tft-synerge-helper/static/js/2.b41502e9.chunk.js.map",
-    "index.html": "/tft-synerge-helper/index.html",
-    "precache-manifest.c58f4c80f7bdc0ac75b11345dec06df7.js": "/tft-synerge-helper/precache-manifest.c58f4c80f7bdc0ac75b11345dec06df7.js",
-    "service-worker.js": "/tft-synerge-helper/service-worker.js",
-    "static/css/main.2cce8147.chunk.css.map": "/tft-synerge-helper/static/css/main.2cce8147.chunk.css.map",
-    "static/media/logo.svg": "/tft-synerge-helper/static/media/logo.5d5d9eef.svg"
+    "main.css": "/tft-synergy-helper/static/css/main.2cce8147.chunk.css",
+    "main.js": "/tft-synergy-helper/static/js/main.0bfe45d1.chunk.js",
+    "main.js.map": "/tft-synergy-helper/static/js/main.0bfe45d1.chunk.js.map",
+    "runtime~main.js": "/tft-synergy-helper/static/js/runtime~main.7eb6066a.js",
+    "runtime~main.js.map": "/tft-synergy-helper/static/js/runtime~main.7eb6066a.js.map",
+    "static/js/2.b41502e9.chunk.js": "/tft-synergy-helper/static/js/2.b41502e9.chunk.js",
+    "static/js/2.b41502e9.chunk.js.map": "/tft-synergy-helper/static/js/2.b41502e9.chunk.js.map",
+    "index.html": "/tft-synergy-helper/index.html",
+    "precache-manifest.5a26a3982d3e56921c30cec7258fa738.js": "/tft-synergy-helper/precache-manifest.5a26a3982d3e56921c30cec7258fa738.js",
+    "service-worker.js": "/tft-synergy-helper/service-worker.js",
+    "static/css/main.2cce8147.chunk.css.map": "/tft-synergy-helper/static/css/main.2cce8147.chunk.css.map",
+    "static/media/logo.svg": "/tft-synergy-helper/static/media/logo.5d5d9eef.svg"
   }
 }
