@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0a48844821a9c83e8b68c9e3432ead04",
+    "revision": "5c5a30407609bf656ab36a9f82e7b729",
     "url": "/tft-synergy-helper/index.html"
   },
   {
-    "revision": "548f97f091fffbe713fc",
+    "revision": "254429d114dc33e57d58",
     "url": "/tft-synergy-helper/static/css/main.2cce8147.chunk.css"
   },
   {
-    "revision": "77e1430daa896a2c3f57",
-    "url": "/tft-synergy-helper/static/js/2.6094c35a.chunk.js"
+    "revision": "450bbf0cb205ba2f01e2",
+    "url": "/tft-synergy-helper/static/js/2.3b396c10.chunk.js"
   },
   {
-    "revision": "548f97f091fffbe713fc",
-    "url": "/tft-synergy-helper/static/js/main.f1a76d4e.chunk.js"
+    "revision": "254429d114dc33e57d58",
+    "url": "/tft-synergy-helper/static/js/main.40798aec.chunk.js"
   },
   {
     "revision": "d8a66bc7e35b29b7feea",
