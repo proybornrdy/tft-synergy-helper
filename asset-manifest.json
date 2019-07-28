@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/tft-synergy-helper/static/css/main.4ec6b790.chunk.css",
-    "main.js": "/tft-synergy-helper/static/js/main.2ecc0cd3.chunk.js",
-    "main.js.map": "/tft-synergy-helper/static/js/main.2ecc0cd3.chunk.js.map",
+    "main.css": "/tft-synergy-helper/static/css/main.5f89ec49.chunk.css",
+    "main.js": "/tft-synergy-helper/static/js/main.0d31f886.chunk.js",
+    "main.js.map": "/tft-synergy-helper/static/js/main.0d31f886.chunk.js.map",
     "runtime~main.js": "/tft-synergy-helper/static/js/runtime~main.7eb6066a.js",
     "runtime~main.js.map": "/tft-synergy-helper/static/js/runtime~main.7eb6066a.js.map",
-    "static/js/2.9a853c1d.chunk.js": "/tft-synergy-helper/static/js/2.9a853c1d.chunk.js",
-    "static/js/2.9a853c1d.chunk.js.map": "/tft-synergy-helper/static/js/2.9a853c1d.chunk.js.map",
+    "static/js/2.e820535f.chunk.js": "/tft-synergy-helper/static/js/2.e820535f.chunk.js",
+    "static/js/2.e820535f.chunk.js.map": "/tft-synergy-helper/static/js/2.e820535f.chunk.js.map",
     "index.html": "/tft-synergy-helper/index.html",
-    "precache-manifest.71895ecad15a36ac2fc8331a80f6f47b.js": "/tft-synergy-helper/precache-manifest.71895ecad15a36ac2fc8331a80f6f47b.js",
+    "precache-manifest.981f3293baf944aa611f9f23b1563b16.js": "/tft-synergy-helper/precache-manifest.981f3293baf944aa611f9f23b1563b16.js",
     "service-worker.js": "/tft-synergy-helper/service-worker.js",
-    "static/css/main.4ec6b790.chunk.css.map": "/tft-synergy-helper/static/css/main.4ec6b790.chunk.css.map",
+    "static/css/main.5f89ec49.chunk.css.map": "/tft-synergy-helper/static/css/main.5f89ec49.chunk.css.map",
     "static/media/logo.svg": "/tft-synergy-helper/static/media/logo.5d5d9eef.svg"
   }
 }
