@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/tft-synergy-helper/static/css/main.f05c116f.chunk.css",
-    "main.js": "/tft-synergy-helper/static/js/main.752948d6.chunk.js",
-    "main.js.map": "/tft-synergy-helper/static/js/main.752948d6.chunk.js.map",
+    "main.css": "/tft-synergy-helper/static/css/main.3782830d.chunk.css",
+    "main.js": "/tft-synergy-helper/static/js/main.9d4860d2.chunk.js",
+    "main.js.map": "/tft-synergy-helper/static/js/main.9d4860d2.chunk.js.map",
     "runtime~main.js": "/tft-synergy-helper/static/js/runtime~main.7eb6066a.js",
     "runtime~main.js.map": "/tft-synergy-helper/static/js/runtime~main.7eb6066a.js.map",
     "static/js/2.10f3704e.chunk.js": "/tft-synergy-helper/static/js/2.10f3704e.chunk.js",
     "static/js/2.10f3704e.chunk.js.map": "/tft-synergy-helper/static/js/2.10f3704e.chunk.js.map",
     "index.html": "/tft-synergy-helper/index.html",
-    "precache-manifest.7fa9318acdcb44058f3d23c956ebe972.js": "/tft-synergy-helper/precache-manifest.7fa9318acdcb44058f3d23c956ebe972.js",
+    "precache-manifest.4112332dd236358c74a08361e38590df.js": "/tft-synergy-helper/precache-manifest.4112332dd236358c74a08361e38590df.js",
     "service-worker.js": "/tft-synergy-helper/service-worker.js",
-    "static/css/main.f05c116f.chunk.css.map": "/tft-synergy-helper/static/css/main.f05c116f.chunk.css.map"
+    "static/css/main.3782830d.chunk.css.map": "/tft-synergy-helper/static/css/main.3782830d.chunk.css.map"
   }
 }
