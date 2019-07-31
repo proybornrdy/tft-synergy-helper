@@ -1,0 +1,452 @@
+
+/*
+colors:
+    EEE6AB
+    C5BC8E
+    696758
+    45484B
+    36393B
+*/
+body{
+    background-color: #36393b;
+    margin-top: 0;
+}
+
+
+.imgPlaceholder{
+    content: url('https://ddragon.leagueoflegends.com/cdn/9.12.1/img/champion/Kassadin.png');
+    width: 50px;
+    height: 50px;
+}
+
+.bottom {
+    position:absolute;
+    width:100%;
+    bottom: 0;
+}
+.top-right {
+    position: absolute;
+    width: 100%;
+    top:0;
+}
+.center{
+    margin: auto;
+    width: 90%;
+    text-align: center;
+}
+
+
+.padding{
+    padding:10px 10px
+}
+
+.banner-wrapper {
+    width: 100%;
+    height: 250px;
+
+}
+
+.banner{
+    position: relative;
+    overflow: hidden;
+    background-image: url(https://nexus.leagueoflegends.com/wp-content/uploads/2019/07/01_Nexus_Top_Image-1_ufys84msalpml4qyp3dp.jpg);
+    background-size: 150% auto;
+    background-repeat: no-repeat;
+    background-position: 0% 25%;
+    height: 100%;
+
+}
+
+
+
+
+.banner h1, .banner h2{
+    margin:0;
+    padding-left: 20px;
+    font-family:  "Verdana";
+    font-weight: bold;
+    font-size: 40px;
+    color: #EEE6AB;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #696758;
+}
+
+.nav-mainmenu{
+    margin-top: 10px;
+    width:100%;
+    height: 30px;
+    background-color: #696758;
+    opacity: 0.9;
+    overflow: hidden;
+}
+
+.nav-mainmenu h5{
+    display: inline-block;
+    padding: 0px 25px;
+    margin: 0;
+    font-family:  "Verdana";
+    font-size: 20px;
+    color: #EEE6AB;
+}
+
+.nav-language{
+    width:100%;
+    height: 30px;
+    background-color: #696758;
+    opacity: 0.9;
+    overflow: hidden;
+}
+.nav-language h6{
+    float:right;
+    display: inline-block;
+    padding: 0px 5px;
+    padding-top: 3px;
+    margin: 0;
+    font-family:  "Verdana";
+    font-size: 15px;
+    color: #EEE6AB;
+}
+
+.main-body{
+    margin-top: 2%;
+}
+
+.result-wrapper{
+    margin: auto;
+}
+
+.resultTable-wrapper{
+    width:80%;
+    border-collapse: collapse;
+    empty-cells: show;
+    margin: 0 auto;
+    margin-top: 10px;
+
+}
+
+.resultTable-wrapper p{
+    margin:0;
+    float:left;
+    margin:0 5px;
+
+    margin-bottom: 5px;
+}
+.resultTable-wrapper td a{
+    background-color: #C5BC8E;
+    color:black;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.resultTable-wrapper thead{
+    width: 100%;
+    background-color: #696758;
+    color: #EEE6AB;
+}
+.resultTable-wrapper caption{
+    padding-bottom: 5px;
+}
+.resultTable-wrapper {
+    text-align: left;
+}
+.resultTable-wrapper tbody{
+    width: 100%;
+    background-color: #45484b;
+    color: #EEE6AB;
+}
+.right button{
+    float:right;
+}
+.right button:hover{
+    cursor: pointer;
+}
+.selected-champ-wrapper{
+    border-collapse: collapse;
+    empty-cells: show;
+    padding:10px 10px;
+    padding-top: 0px;
+}
+
+.border{
+    border-collapse: collapse;
+    border: thick solid #C5BC8E;
+
+
+}
+.border td{
+    width: 70px;
+    max-height: 70px;
+}
+
+.sort-nav-wrapper{
+    width:100%;
+    height: 20px;
+}
+.sort-nav{
+    width: 100%;
+    margin:auto;
+    height: 30px;
+}
+.sort-nav button{
+    margin:10px;
+}
+
+.champion-list-wrapper {
+    margin: auto;
+    margin-top: 20px;
+    width:100%;
+
+}
+.champion-list{
+    margin:auto;
+     border-spacing:20px;
+}
+.champion-list td{
+    vertical-align: top;
+}
+.champion-list caption{
+    border-bottom: 1px solid #EEE6AB;
+    padding:3px;
+    color: #EEE6AB;
+}
+.group{
+    text-align:left;
+}
+.champ-Frame{
+    width:48px;
+    height: 48px;
+}
+
+.select-container{
+    padding: 10px !important;
+}
+
+.cost1 {
+    border: thick solid gray;
+}
+
+.cost2{
+    border: thick solid MediumSeaGreen;
+}
+.cost3{
+    border: thick solid DodgerBlue;
+}
+.cost4{
+    border: thick solid fuchsia;
+}
+.cost5{
+    border: thick solid orange;
+}
+
+.sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.syn-wrapper{
+    width:100%;
+}
+.synergyContainer{
+    float:left;
+
+    background-color: GoldenRod;
+    border-radius: 5px;
+    padding : 2px 10px;
+    color: black;
+}
+
+.partial{
+    background-color: slateGray;
+}
+
+/*
+.sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.center{
+    width:100%;
+    text-align:center
+}
+.centerContent{
+    display:inline-block;
+}
+
+.titleBox{
+    width: auto;
+    height: 200px;
+    background-image: url(https://nexus.leagueoflegends.com/wp-content/uploads/2019/07/01_Nexus_Top_Image-1_ufys84msalpml4qyp3dp.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom 80% right 80%;
+    filter: grayscale(60%);
+    -webkit-filter: grayscale(60%);
+}
+.title{
+    padding-left: 15px;
+    font-family:  "Verdana";
+    font-weight: bold;
+    font-size: 40px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    color: ghostWhite;
+    position: relative;
+    margin-bottom: 0;
+}
+.sub{
+    padding-left:90px;
+    font-size: 30px;
+}
+
+
+.menuBox{
+    width: 100%;
+    height: 15%;
+    position:absolute;
+    bottom: 0px;
+    background-color: rgba(30, 30, 30,0.9);
+}
+
+.cell{
+    width: 120px;
+}
+
+.divider{
+    color: gray;
+}
+
+
+
+.resultContainer{
+
+    position: -webkit-sticky;
+    position: sticky;
+    top: 200px;
+    z-index: 100;
+
+    padding: 20px;
+    background-color: rgb(30, 30, 30);
+    width: 100%;
+    height: 200px;
+}
+
+.resultTable{
+    border-collapse: collapse;
+    width: 90%;
+
+}
+.resultTable th, .resultTable td {
+    width: 70%;
+    text-align: left;
+    padding: 8px;
+}
+
+.resultTable td{
+    background-color: rgb(100, 100, 100);
+    height: 100px;
+}
+.resultTable th {
+  background-color: rgb(60, 60, 60);
+  color: white;
+}
+
+.sortNavBox{
+    width: 100%;
+    background-color: rgb(30, 30, 30);
+}
+
+.sortNavBox table{
+    width: 90%;
+    margin-bottom: 10px;
+
+}
+.sortCell{
+    width:49%;
+}
+.sortNavBox tr{
+    width:100%;
+}
+
+.sortBtnone{
+    background-color: DodgerBlue;
+    color: ghostWhite;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    height: 30px;
+}
+.sortBtntwo{
+    background-color: rgb(30, 30, 30);
+    color: DodgerBlue;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    height: 30px;
+}
+.sortBtnone:focus,.sortBtntwo:focus  {outline:0;}
+.sortBtnone:hover, .sortBtntwo:hover {cursor: pointer;}
+
+
+.synergyContainer{
+    width: 40%;
+    height: 10px !important;
+    background-color: GoldenRod;
+    padding:-8px;
+}
+.synergy{
+    width: 100%;
+
+}
+
+
+
+table,tr,td{
+    border: 2px solid red;
+}
+
+
+
+.champ-Frame{
+    background-image: '';
+    background-position:center;
+	background-repeat:no-repeat;
+	background-size:contain;
+    width: 80% ;
+    -webkit-filter: grayscale(80%);
+    filter: grayscale(80%);
+}
+
+.champ-Frame:hover{
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+.clicked{
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+.cost1 {
+    border: thick solid gray;
+}
+
+.cost2{
+    border: thick solid MediumSeaGreen;
+}
+.cost3{
+    border: thick solid DodgerBlue;
+}
+.cost4{
+    border: thick solid fuchsia;
+}
+.cost5{
+    border: thick solid orange;
+}
+*/
