@@ -22,6 +22,6 @@ Select champions of your choice to build the team.
    - When synergies are selected, it will indicate it was selected with green outline around it.
    - `build with synergy` button will be available upon selecting the synergy 
    - by clicking on `build with synergy` button, it will move champions with selected synergies from `generated`box to `selected`box
-   - Caution: this action will regenerate the team with updated champion pool in `selected` box
+   - **Caution**: this action will regenerate the team with updated champion pool in `selected` box
 5. If the generated team is not to your taste, clicking on `reBuild` button will regenerate the team.
 7. By clicking on `reset` button, it clears out both `selected` and `generated` boxes.
