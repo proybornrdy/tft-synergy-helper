@@ -26,9 +26,21 @@ Select champions of your choice to build the team.
 5. If the generated team is not to your taste, clicking on `reBuild` button will regenerate the team.
 7. By clicking on `reset` button, it clears out both `selected` and `generated` boxes.
 
-## Information on code itself
+## Detailed description of .js file
 
 #### DataManage.js
+Contains functions that grabs information from the `.json` file.<br>
+Properties in this script are passed down to ContentManage.js
+
+###### properties:
+- **champsByCost:** dictionary with key being cost of champion (1 to 5) and value being the list of champions(IDs) that matches with key.  
+- **champsBySynergy:** dictionary with key being trait and value being list of champions with that trait
+
+- getSpecificChampData(champID):
+- getSpecificTraitData(trait):
+- getChampWithTrait(trait):
+
+
 
 #### ContentManage.js
 
