@@ -1,15 +1,11 @@
 import React from 'react';
-import './App.css';
 
-import Synergy from './synergy_champ'
+import DataManage from './DataManage'
 
 function App() {
   return (
-
-    <div >      
-        <div>
-          <Synergy />
-        </div>
+    <div>
+        <DataManage />
     </div>
   );
 }

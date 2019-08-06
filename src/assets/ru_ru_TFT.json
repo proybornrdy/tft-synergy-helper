@@ -1,0 +1,5279 @@
+{
+  "champions": {
+    "4": {
+      "name": "Твистед Фэйт",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_TwistedFate.dds",
+      "stats": {
+        "hp": 450.0,
+        "hpScaleFactor": 1.8,
+        "mana": 50.0,
+        "initalMana": 0,
+        "damage": 40.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.7,
+        "range": 3
+      },
+      "traits": [
+        "Pirate",
+        "Sorcerer"
+      ],
+      "ability": {
+        "name": "Выбор карты",
+        "desc": "Твистед Фэйт выпускает карту, которая оглушает, наносит урон врагам вокруг цели или восстанавливает ману Твистед Фэйту и ближайшим союзникам.",
+        "icon": "ASSETS/Characters/TFT_TwistedFate/HUD/Icons2D/TFT_TwistedFate_Spell.TFT.dds",
+        "variables": [
+          {
+            "key": "RedCardDamage",
+            "values": [
+              50.0,
+              150.0,
+              250.0,
+              350.0,
+              450.0,
+              550.0,
+              650.0
+            ]
+          },
+          {
+            "key": "BlueCardDamage",
+            "values": [
+              50.0,
+              150.0,
+              250.0,
+              350.0,
+              450.0,
+              550.0,
+              650.0
+            ]
+          },
+          {
+            "key": "BlueCardManaRestore",
+            "values": [
+              5.0,
+              20.0,
+              35.0,
+              50.0,
+              65.0,
+              80.0,
+              95.0
+            ]
+          },
+          {
+            "key": "GoldCardStunDuration",
+            "values": [
+              1.0,
+              2.0,
+              3.0,
+              4.0,
+              5.0,
+              6.0,
+              7.0
+            ]
+          },
+          {
+            "key": "GoldCardDamage",
+            "values": [
+              50.0,
+              150.0,
+              250.0,
+              350.0,
+              450.0,
+              550.0,
+              650.0
+            ]
+          }
+        ]
+      }
+    },
+    "10": {
+      "name": "Кейл",
+      "cost": 5,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Kayle.dds",
+      "stats": {
+        "hp": 750.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 70.0,
+        "damageScaleFactor": 1.25,
+        "armor": 40.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 1.1,
+        "range": 3
+      },
+      "traits": [
+        "Noble",
+        "Knight"
+      ],
+      "ability": {
+        "name": "Божественный приговор",
+        "desc": "Кейл накладывает щит на союзника с самым низким уровнем здоровья, делая его невосприимчивым к урону.",
+        "icon": "ASSETS/Characters/Kayle/HUD/Icons2D/Kayle_R.dds",
+        "variables": [
+          {
+            "key": "ShieldDuration",
+            "values": [
+              1.0,
+              2.0,
+              3.0,
+              4.0,
+              5.0,
+              6.0,
+              7.0
+            ]
+          },
+          {
+            "key": "ExtraTargets",
+            "values": [
+              -1.0,
+              0.0,
+              1.0,
+              2.0,
+              3.0,
+              4.0,
+              5.0
+            ]
+          }
+        ]
+      }
+    },
+    "18": {
+      "name": "Тристана",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Tristana.dds",
+      "stats": {
+        "hp": 500.0,
+        "hpScaleFactor": 1.8,
+        "mana": 50.0,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 4
+      },
+      "traits": [
+        "Yordle",
+        "Gunslinger"
+      ],
+      "ability": {
+        "name": "Разрывной снаряд",
+        "desc": "Тристана бросает бомбу на текущую цель, которая взрывается через 3 атаки, нанося урон ближайшим врагам.",
+        "icon": "ASSETS/Characters/Tristana/HUD/Icons2D/Tristana_E.dds",
+        "variables": [
+          {
+            "key": "ExplosiveChargeDuration",
+            "values": [
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0
+            ]
+          },
+          {
+            "key": "ChargeBaseDamage",
+            "values": [
+              30.0,
+              60.0,
+              90.0,
+              120.0,
+              150.0,
+              180.0,
+              210.0
+            ]
+          },
+          {
+            "key": "PercentDamageIncreasePerStack",
+            "values": [
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5
+            ]
+          }
+        ]
+      }
+    },
+    "19": {
+      "name": "Варвик",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Warwick.dds",
+      "stats": {
+        "hp": 600.0,
+        "hpScaleFactor": 1.8,
+        "mana": 150.0,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 30.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 1
+      },
+      "traits": [
+        "Wild",
+        "Brawler"
+      ],
+      "ability": {
+        "name": "Бесконечная жестокость",
+        "desc": "Варвик набрасывается на врага с самым низким уровнем здоровья, оглушая его на @Duration@ сек. и нанося урон. При этом Варвик восстанавливает себе здоровье. Умение накладывает эффекты при попадании.",
+        "icon": "ASSETS/Characters/Warwick/HUD/Icons2D/WarwickR.dds",
+        "variables": [
+          {
+            "key": "Duration",
+            "values": [
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5
+            ]
+          },
+          {
+            "key": "BaseDamage",
+            "values": [
+              75.0,
+              150.0,
+              225.0,
+              300.0,
+              375.0,
+              450.0,
+              525.0
+            ]
+          },
+          {
+            "key": "DashHexSpeed",
+            "values": [
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0
+            ]
+          },
+          {
+            "key": "Hits",
+            "values": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          }
+        ]
+      }
+    },
+    "21": {
+      "name": "Мисс Фортуна",
+      "cost": 5,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_MissFortune.dds",
+      "stats": {
+        "hp": 650.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 75.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.85,
+        "range": 3
+      },
+      "traits": [
+        "Pirate",
+        "Gunslinger"
+      ],
+      "ability": {
+        "name": "Время умирать",
+        "desc": "Мисс Фортуна выпускает несколько залпов пуль в течение @ChannelDuration@ сек., нанося урон врагам в конусе.",
+        "icon": "ASSETS/Characters/MissFortune/HUD/Icons2D/MissFortune_R.dds",
+        "variables": [
+          {
+            "key": "Waves",
+            "values": [
+              14.0,
+              14.0,
+              14.0,
+              14.0,
+              14.0,
+              14.0,
+              14.0
+            ]
+          },
+          {
+            "key": "TotalDamage",
+            "values": [
+              350.0,
+              800.0,
+              1250.0,
+              1700.0,
+              2150.0,
+              2600.0,
+              3050.0
+            ]
+          },
+          {
+            "key": "ChannelDuration",
+            "values": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          }
+        ]
+      }
+    },
+    "22": {
+      "name": "Эш",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Ashe.dds",
+      "stats": {
+        "hp": 550.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 65.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.7,
+        "range": 4
+      },
+      "traits": [
+        "Glacial",
+        "Ranger"
+      ],
+      "ability": {
+        "name": "Зачарованная ледяная стрела",
+        "desc": "Эш выпускает стрелу, которая наносит урон самому дальнему врагу и оглушает его. Чем дальше находится враг, тем дольше длится оглушение.",
+        "icon": "ASSETS/Characters/Ashe/HUD/Icons2D/Ashe_R.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              0.0,
+              200.0,
+              400.0,
+              600.0,
+              800.0,
+              1000.0,
+              1200.0
+            ]
+          },
+          {
+            "key": "StunDurationPerSquare",
+            "values": [
+              0.5,
+              1.0,
+              1.5,
+              2.0,
+              2.5,
+              3.0,
+              3.5
+            ]
+          }
+        ]
+      }
+    },
+    "25": {
+      "name": "Моргана",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Morgana.dds",
+      "stats": {
+        "hp": 650.0,
+        "hpScaleFactor": 1.8,
+        "mana": 150.0,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 2
+      },
+      "traits": [
+        "Demon",
+        "Sorcerer"
+      ],
+      "ability": {
+        "name": "Оковы души",
+        "desc": "Моргана сковывает цепями ближайших врагов, нанося урон и оглушая их спустя короткое время, если они все еще находятся поблизости.",
+        "icon": "ASSETS/Characters/Morgana/HUD/Icons2D/FallenAngel_Purgatory.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              75.0,
+              200.0,
+              325.0,
+              450.0,
+              575.0,
+              700.0,
+              825.0
+            ]
+          },
+          {
+            "key": "ChainDuration",
+            "values": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          },
+          {
+            "key": "StunDuration",
+            "values": [
+              0.0,
+              2.0,
+              4.0,
+              6.0,
+              8.0,
+              10.0,
+              12.0
+            ]
+          },
+          {
+            "key": "SlowPercent",
+            "values": [
+              20.0,
+              20.0,
+              20.0,
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          {
+            "key": "CanCastRange",
+            "values": [
+              575.0,
+              575.0,
+              575.0,
+              575.0,
+              575.0,
+              575.0,
+              575.0
+            ]
+          }
+        ]
+      }
+    },
+    "28": {
+      "name": "Эвелинн",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Evelyn.dds",
+      "stats": {
+        "hp": 550.0,
+        "hpScaleFactor": 1.8,
+        "mana": 75.0,
+        "initalMana": 0,
+        "damage": 70.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 1
+      },
+      "traits": [
+        "Demon",
+        "Assassin"
+      ],
+      "ability": {
+        "name": "Последний поцелуй",
+        "desc": "Эвелинн наносит урон 3 ближайшим врагам и телепортируется с того места, где она была. Враги с низким уровнем здоровья получают больше урона.",
+        "icon": "ASSETS/Characters/Evelynn/HUD/Icons2D/Evelynn_R.dds",
+        "variables": [
+          {
+            "key": "CritMultiplier",
+            "values": [
+              1.0,
+              3.0,
+              5.0,
+              7.0,
+              9.0,
+              11.0,
+              13.0
+            ]
+          },
+          {
+            "key": "CritThreshold",
+            "values": [
+              0.65,
+              0.65,
+              0.65,
+              0.65,
+              0.65,
+              0.65,
+              0.65
+            ]
+          },
+          {
+            "key": "Damage",
+            "values": [
+              100.0,
+              200.0,
+              300.0,
+              400.0,
+              500.0,
+              600.0,
+              700.0
+            ]
+          },
+          {
+            "key": "BlinkBackDistance",
+            "values": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          }
+        ]
+      }
+    },
+    "30": {
+      "name": "Картус",
+      "cost": 5,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Karthus.dds",
+      "stats": {
+        "hp": 850.0,
+        "hpScaleFactor": 1.8,
+        "mana": 85.0,
+        "initalMana": 0,
+        "damage": 65.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 3
+      },
+      "traits": [
+        "Phantom",
+        "Sorcerer"
+      ],
+      "ability": {
+        "name": "Реквием",
+        "desc": "Картус начинает подготовку, мгновенно накладывая безмолвие на нескольких случайных врагов (@NumberOfTargets@). По окончании подготовки он наносит им высокий урон.",
+        "icon": "ASSETS/Characters/Karthus/HUD/Icons2D/Karthus_R.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              100.0,
+              400.0,
+              700.0,
+              1000.0,
+              1300.0,
+              1600.0,
+              1900.0
+            ]
+          },
+          {
+            "key": "NumberOfTargets",
+            "values": [
+              1.0,
+              5.0,
+              9.0,
+              13.0,
+              17.0,
+              21.0,
+              25.0
+            ]
+          }
+        ]
+      }
+    },
+    "31": {
+      "name": "Чо'Гат",
+      "cost": 4,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Chogath.dds",
+      "stats": {
+        "hp": 1000.0,
+        "hpScaleFactor": 1.8,
+        "mana": 150.0,
+        "initalMana": 0,
+        "damage": 70.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 1
+      },
+      "traits": [
+        "Void",
+        "Brawler"
+      ],
+      "ability": {
+        "name": "Пролом",
+        "desc": "Чо'Гат пронзает землю, оглушая врагов в области поражения и нанося им урон.",
+        "icon": "ASSETS/Characters/Chogath/HUD/Icons2D/GreenTerror_SpikeSlam.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              0.0,
+              200.0,
+              400.0,
+              600.0,
+              800.0,
+              1000.0,
+              1200.0
+            ]
+          },
+          {
+            "key": "KnockDuration",
+            "values": [
+              1.25,
+              1.5,
+              1.75,
+              2.0,
+              2.25,
+              2.5,
+              2.75
+            ]
+          },
+          {
+            "key": "RuptureDelay",
+            "values": [
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5
+            ]
+          }
+        ]
+      }
+    },
+    "34": {
+      "name": "Анивия",
+      "cost": 5,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Anivia.dds",
+      "stats": {
+        "hp": 650.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 40.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 3
+      },
+      "traits": [
+        "Glacial",
+        "Elementalist"
+      ],
+      "ability": {
+        "name": "Ледяная буря",
+        "desc": "Анивия создает большую бурю, которая наносит урон врагам внутри и уменьшает их скорость атаки.",
+        "icon": "ASSETS/Characters/Anivia/HUD/Icons2D/Anivia_R.dds",
+        "variables": [
+          {
+            "key": "TotalDamage",
+            "values": [
+              450.0,
+              700.0,
+              950.0,
+              1200.0,
+              1450.0,
+              1700.0,
+              1950.0
+            ]
+          },
+          {
+            "key": "AttackSpeedSlow",
+            "values": [
+              30.0,
+              50.0,
+              70.0,
+              90.0,
+              110.0,
+              130.0,
+              150.0
+            ]
+          },
+          {
+            "key": "StormDuration",
+            "values": [
+              8.0,
+              8.0,
+              8.0,
+              8.0,
+              8.0,
+              8.0,
+              8.0
+            ]
+          }
+        ]
+      }
+    },
+    "38": {
+      "name": "Кассадин",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Kassadin.dds",
+      "stats": {
+        "hp": 550.0,
+        "hpScaleFactor": 1.8,
+        "mana": 0.0,
+        "initalMana": 0,
+        "damage": 55.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 1
+      },
+      "traits": [
+        "Void",
+        "Sorcerer"
+      ],
+      "ability": {
+        "name": "Клинок пустоты",
+        "desc": "Атаки Кассадина похищают ману врагов и превращают ее в щит, который существует в течение @ShieldDuration@ сек.",
+        "icon": "ASSETS/Characters/Kassadin/HUD/Icons2D/Kassadin_W.dds",
+        "variables": [
+          {
+            "key": "ShieldDuration",
+            "values": [
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0
+            ]
+          },
+          {
+            "key": "ManaSteal",
+            "values": [
+              0.0,
+              20.0,
+              40.0,
+              60.0,
+              80.0,
+              100.0,
+              120.0
+            ]
+          }
+        ]
+      }
+    },
+    "41": {
+      "name": "Гангпланк",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Gangplank.dds",
+      "stats": {
+        "hp": 700.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 55.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 1
+      },
+      "traits": [
+        "Pirate",
+        "Gunslinger",
+        "Blademaster"
+      ],
+      "ability": {
+        "name": "Пороховые бочки",
+        "desc": "Гангпланк периодически создает бочки. При применении Гангпланк взрывает бочки, нанося урон врагам поблизости. Накладывает эффекты при попадании.",
+        "icon": "ASSETS/Characters/Gangplank/HUD/Icons2D/Gangplank_E.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              75.0,
+              200.0,
+              325.0,
+              450.0,
+              575.0,
+              700.0,
+              825.0
+            ]
+          }
+        ]
+      }
+    },
+    "45": {
+      "name": "Вейгар",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Veigar.dds",
+      "stats": {
+        "hp": 500.0,
+        "hpScaleFactor": 1.8,
+        "mana": 75.0,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.55,
+        "range": 3
+      },
+      "traits": [
+        "Yordle",
+        "Sorcerer"
+      ],
+      "ability": {
+        "name": "Большой взрыв",
+        "desc": "Вейгар поражает врага магической энергией, нанося урон. Если у врага меньше звезд, чем у Вейгара, он мгновенно погибает.",
+        "icon": "ASSETS/Characters/Veigar/HUD/Icons2D/VeigarPrimordialBurst.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              100.0,
+              300.0,
+              500.0,
+              700.0,
+              900.0,
+              1100.0,
+              1300.0
+            ]
+          },
+          {
+            "key": "LowerStarDamage",
+            "values": [
+              19999.0,
+              19999.0,
+              19999.0,
+              19999.0,
+              19999.0,
+              19999.0,
+              19999.0
+            ]
+          }
+        ]
+      }
+    },
+    "50": {
+      "name": "Свейн",
+      "cost": 5,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Swain.dds",
+      "stats": {
+        "hp": 850.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 65.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 2
+      },
+      "traits": [
+        "Imperial",
+        "Demon",
+        "Shapeshifter"
+      ],
+      "ability": {
+        "name": "Вспышка демона",
+        "desc": "Свейн меняет форму и вытягивает здоровье из всех ближайших врагов. По окончании превращения Свейн высвобождает энергию, которая наносит урон врагам поблизости.",
+        "icon": "ASSETS/Characters/Swain/HUD/Icons2D/Swain_R.dds",
+        "variables": [
+          {
+            "key": "TransformDuration",
+            "values": [
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0
+            ]
+          },
+          {
+            "key": "DamagePerTick",
+            "values": [
+              0.0,
+              50.0,
+              100.0,
+              150.0,
+              200.0,
+              250.0,
+              300.0
+            ]
+          },
+          {
+            "key": "HealPerTick",
+            "values": [
+              10.0,
+              50.0,
+              90.0,
+              130.0,
+              170.0,
+              210.0,
+              250.0
+            ]
+          },
+          {
+            "key": "SoulFlareDamage",
+            "values": [
+              0.0,
+              300.0,
+              600.0,
+              900.0,
+              1200.0,
+              1500.0,
+              1800.0
+            ]
+          },
+          {
+            "key": "HealthIncrease",
+            "values": null
+          }
+        ]
+      }
+    },
+    "53": {
+      "name": "Блицкранк",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Blitzcrank.dds",
+      "stats": {
+        "hp": 600.0,
+        "hpScaleFactor": 1.8,
+        "mana": 125.0,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 35.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.5,
+        "range": 1
+      },
+      "traits": [
+        "Robot",
+        "Brawler"
+      ],
+      "ability": {
+        "name": "Ракетный захват",
+        "desc": "Блицкранк притягивает к себе самого дальнего врага и оглушает его на @StunDuration@ сек.",
+        "icon": "ASSETS/Characters/Blitzcrank/HUD/Icons2D/Blitzcrank_RocketGrab.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              -250.0,
+              100.0,
+              450.0,
+              800.0,
+              1150.0,
+              1500.0,
+              1850.0
+            ]
+          },
+          {
+            "key": "StunDuration",
+            "values": [
+              2.5,
+              2.5,
+              2.5,
+              2.5,
+              2.5,
+              2.5,
+              2.5
+            ]
+          }
+        ]
+      }
+    },
+    "55": {
+      "name": "Катарина",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Katarina.dds",
+      "stats": {
+        "hp": 450.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 1
+      },
+      "traits": [
+        "Imperial",
+        "Assassin"
+      ],
+      "ability": {
+        "name": "Цветок смерти",
+        "desc": "Катарина выпускает кинжалы в нескольких врагов поблизости (@NumberOfTargets@) в течение @Duration@ сек., нанося урон и уменьшая их эффективность лечения.",
+        "icon": "ASSETS/Characters/Katarina/HUD/Icons2D/Katarina_R.dds",
+        "variables": [
+          {
+            "key": "DamagePerTick",
+            "values": [
+              20.0,
+              40.0,
+              60.0,
+              80.0,
+              100.0,
+              120.0,
+              140.0
+            ]
+          },
+          {
+            "key": "TicksPerSecond",
+            "values": [
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0
+            ]
+          },
+          {
+            "key": "Duration",
+            "values": [
+              2.5,
+              2.5,
+              2.5,
+              2.5,
+              2.5,
+              2.5,
+              2.5
+            ]
+          },
+          {
+            "key": "GrievousWoundsDuration",
+            "values": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          },
+          {
+            "key": "NumberOfTargets",
+            "values": [
+              2.0,
+              4.0,
+              6.0,
+              8.0,
+              10.0,
+              12.0,
+              14.0
+            ]
+          }
+        ]
+      }
+    },
+    "60": {
+      "name": "Элиза",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Elise.dds",
+      "stats": {
+        "hp": 450.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 40.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 2
+      },
+      "traits": [
+        "Demon",
+        "Shapeshifter"
+      ],
+      "ability": {
+        "name": "Форма паука",
+        "desc": "Элиза призывает паучков и меняет форму, увеличивая свой вампиризм.",
+        "icon": "ASSETS/Characters/Elise/HUD/Icons2D/EliseR.DDS",
+        "variables": [
+          {
+            "key": "NumSpiderlings",
+            "values": [
+              1.0,
+              1.0,
+              2.0,
+              4.0,
+              5.0,
+              6.0,
+              7.0
+            ]
+          },
+          {
+            "key": "Lifesteal",
+            "values": [
+              0.3,
+              0.6,
+              0.9,
+              1.2,
+              1.5,
+              1.8,
+              2.1
+            ]
+          },
+          {
+            "key": "SpiderFormDuration",
+            "values": [
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0
+            ]
+          }
+        ]
+      }
+    },
+    "63": {
+      "name": "Брэнд",
+      "cost": 4,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Brand.dds",
+      "stats": {
+        "hp": 700.0,
+        "hpScaleFactor": 1.8,
+        "mana": 125.0,
+        "initalMana": 0,
+        "damage": 60.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 3
+      },
+      "traits": [
+        "Demon",
+        "Elementalist"
+      ],
+      "ability": {
+        "name": "Очищение огнем",
+        "desc": "Брэнд выпускает прыгающий огненный шар, который наносит урон пораженным врагам.",
+        "icon": "ASSETS/Characters/Brand/HUD/Icons2D/BrandR.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              25.0,
+              200.0,
+              375.0,
+              550.0,
+              725.0,
+              900.0,
+              1075.0
+            ]
+          },
+          {
+            "key": "MaxBounces",
+            "values": [
+              4.0,
+              4.0,
+              6.0,
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          }
+        ]
+      }
+    },
+    "67": {
+      "name": "Вейн",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Vayne.dds",
+      "stats": {
+        "hp": 550.0,
+        "hpScaleFactor": 1.8,
+        "mana": 0.0,
+        "initalMana": 0,
+        "damage": 40.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.75,
+        "range": 3
+      },
+      "traits": [
+        "Noble",
+        "Ranger"
+      ],
+      "ability": {
+        "name": "Серебряные стрелы",
+        "desc": "Пассивно: Вейн наносит дополнительный чистый урон каждую третью автоатаку в зависимости от максимального запаса здоровья врага.",
+        "icon": "ASSETS/Characters/Vayne/HUD/Icons2D/Vayne_SilveredBolts.dds",
+        "variables": [
+          {
+            "key": "PercentDamage",
+            "values": [
+              0.06,
+              0.08,
+              0.1,
+              0.12,
+              0.14,
+              0.16,
+              0.18
+            ]
+          }
+        ]
+      }
+    },
+    "76": {
+      "name": "Нидали",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Nidalee.dds",
+      "stats": {
+        "hp": 500.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 3
+      },
+      "traits": [
+        "Wild",
+        "Shapeshifter"
+      ],
+      "ability": {
+        "name": "Зов предков",
+        "desc": "Нидали исцеляет себя и союзника с самым низким уровнем здоровья, а затем меняет форму, увеличивая силу атаки.",
+        "icon": "ASSETS/Characters/Nidalee/HUD/Icons2D/Nidalee_R2.dds",
+        "variables": [
+          {
+            "key": "HoTDuration",
+            "values": [
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0
+            ]
+          },
+          {
+            "key": "HoTTotalHeal",
+            "values": [
+              -75.0,
+              150.0,
+              375.0,
+              600.0,
+              825.0,
+              1050.0,
+              1275.0
+            ]
+          },
+          {
+            "key": "ADInCougar",
+            "values": [
+              -30.0,
+              20.0,
+              70.0,
+              120.0,
+              170.0,
+              220.0,
+              270.0
+            ]
+          },
+          {
+            "key": "TransformDuration",
+            "values": [
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0
+            ]
+          },
+          {
+            "key": "AnimTime",
+            "values": [
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5
+            ]
+          }
+        ]
+      }
+    },
+    "78": {
+      "name": "Поппи",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Poppy.dds",
+      "stats": {
+        "hp": 800.0,
+        "hpScaleFactor": 1.8,
+        "mana": 75.0,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 40.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.5,
+        "range": 1
+      },
+      "traits": [
+        "Yordle",
+        "Knight"
+      ],
+      "ability": {
+        "name": "Вердикт Хранительницы",
+        "desc": "Поппи раскручивает свой молот, нанося урон ближайшему врагу и подбрасывая его.",
+        "icon": "ASSETS/Characters/Poppy/HUD/Icons2D/Poppy_R.dds",
+        "variables": [
+          {
+            "key": "DamagePart2",
+            "values": [
+              100.0,
+              300.0,
+              500.0,
+              700.0,
+              900.0,
+              1100.0,
+              1300.0
+            ]
+          },
+          {
+            "key": "KnockbackDurationPart2",
+            "values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "key": "StunDuration",
+            "values": [
+              1.0,
+              2.0,
+              3.0,
+              4.0,
+              5.0,
+              6.0,
+              7.0
+            ]
+          },
+          {
+            "key": "PoppyAnimLockDuration",
+            "values": [
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75
+            ]
+          },
+          {
+            "key": "NumberOfTargets",
+            "values": [
+              0.0,
+              1.0,
+              2.0,
+              3.0,
+              4.0,
+              5.0,
+              6.0
+            ]
+          }
+        ]
+      }
+    },
+    "82": {
+      "name": "Мордекайзер",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Mordekaiser.dds",
+      "stats": {
+        "hp": 550.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 40.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.5,
+        "range": 1
+      },
+      "traits": [
+        "Phantom",
+        "Knight"
+      ],
+      "ability": {
+        "name": "Уничтожение",
+        "desc": "Мордекайзер ударяет булавой по земле перед собой, нанося урон двум врагам по прямой.",
+        "icon": "ASSETS/Characters/Mordekaiser/HUD/Icons2D/MordekaiserQ.MordeVGU.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              75.0,
+              200.0,
+              325.0,
+              450.0,
+              575.0,
+              700.0,
+              825.0
+            ]
+          },
+          {
+            "key": "MaceStartDistance",
+            "values": [
+              400.0,
+              400.0,
+              400.0,
+              400.0,
+              400.0,
+              400.0,
+              400.0
+            ]
+          },
+          {
+            "key": "MaceLength",
+            "values": [
+              625.0,
+              625.0,
+              625.0,
+              625.0,
+              625.0,
+              625.0,
+              625.0
+            ]
+          },
+          {
+            "key": "RectangleWidth",
+            "values": [
+              160.0,
+              160.0,
+              160.0,
+              160.0,
+              160.0,
+              160.0,
+              160.0
+            ]
+          }
+        ]
+      }
+    },
+    "84": {
+      "name": "Акали",
+      "cost": 4,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Akali.dds",
+      "stats": {
+        "hp": 650.0,
+        "hpScaleFactor": 1.8,
+        "mana": 25.0,
+        "initalMana": 0,
+        "damage": 70.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.7,
+        "range": 1
+      },
+      "traits": [
+        "Ninja",
+        "Assassin"
+      ],
+      "ability": {
+        "name": "Пятиточечный удар",
+        "desc": "Акали бросает кунаи в цель, нанося урон. Умение может наносить критический урон.",
+        "icon": "ASSETS/Characters/Akali/HUD/Icons2D/Akali_Q.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              25.0,
+              150.0,
+              275.0,
+              400.0,
+              525.0,
+              650.0,
+              775.0
+            ]
+          },
+          {
+            "key": "ConeDeg",
+            "values": [
+              30.0,
+              30.0,
+              30.0,
+              30.0,
+              30.0,
+              30.0,
+              30.0
+            ]
+          },
+          {
+            "key": "HexRange",
+            "values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        ]
+      }
+    },
+    "85": {
+      "name": "Кеннен",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Kennen.dds",
+      "stats": {
+        "hp": 550.0,
+        "hpScaleFactor": 1.8,
+        "mana": 150.0,
+        "initalMana": 0,
+        "damage": 65.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 2
+      },
+      "traits": [
+        "Ninja",
+        "Yordle",
+        "Elementalist"
+      ],
+      "ability": {
+        "name": "Убийственный шторм",
+        "desc": "Кеннен создает вокруг себя бурю, которая наносит урон попавшим в нее врагам и оглушает их на @StunDuration@ сек.",
+        "icon": "ASSETS/Characters/Kennen/HUD/Icons2D/Kennen_R.dds",
+        "variables": [
+          {
+            "key": "TickRate",
+            "values": [
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5
+            ]
+          },
+          {
+            "key": "Duration",
+            "values": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          },
+          {
+            "key": "Damage",
+            "values": [
+              0.0,
+              225.0,
+              450.0,
+              675.0,
+              900.0,
+              1125.0,
+              1350.0
+            ]
+          },
+          {
+            "key": "StunDuration",
+            "values": [
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5
+            ]
+          }
+        ]
+      }
+    },
+    "86": {
+      "name": "Гарен",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Garen.dds",
+      "stats": {
+        "hp": 600.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 40.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 1
+      },
+      "traits": [
+        "Noble",
+        "Knight"
+      ],
+      "ability": {
+        "name": "Вердикт",
+        "desc": "Гарен вращает мечом в течение @SpinDuration@ сек., получая иммунитет к магическому урону и нанося урон врагам поблизости.",
+        "icon": "ASSETS/Characters/Garen/HUD/Icons2D/Garen_E1.dds",
+        "variables": [
+          {
+            "key": "SpinDuration",
+            "values": [
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0
+            ]
+          },
+          {
+            "key": "ETotalTicks",
+            "values": [
+              9.0,
+              9.0,
+              9.0,
+              9.0,
+              9.0,
+              9.0,
+              9.0
+            ]
+          },
+          {
+            "key": "DamagePerTick",
+            "values": [
+              15.0,
+              40.0,
+              65.0,
+              90.0,
+              115.0,
+              140.0,
+              165.0
+            ]
+          }
+        ]
+      }
+    },
+    "89": {
+      "name": "Леона",
+      "cost": 4,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Leona.dds",
+      "stats": {
+        "hp": 750.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 45.0,
+        "damageScaleFactor": 1.25,
+        "armor": 100.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.55,
+        "range": 1
+      },
+      "traits": [
+        "Noble",
+        "Guardian"
+      ],
+      "ability": {
+        "name": "Солнечная вспышка",
+        "desc": "Леона обрушивает на землю солнечный луч, который замедляет врагов и наносит им урон. Враги в центре луча оглушаются.",
+        "icon": "ASSETS/Characters/Leona/HUD/Icons2D/LeonaSolarFlare.dds",
+        "variables": [
+          {
+            "key": "DelayTime",
+            "values": [
+              0.625,
+              0.625,
+              0.625,
+              0.625,
+              0.625,
+              0.625,
+              0.625
+            ]
+          },
+          {
+            "key": "CCDuration",
+            "values": [
+              2.0,
+              5.0,
+              8.0,
+              11.0,
+              14.0,
+              17.0,
+              20.0
+            ]
+          },
+          {
+            "key": "Damage",
+            "values": [
+              100.0,
+              175.0,
+              250.0,
+              325.0,
+              400.0,
+              475.0,
+              550.0
+            ]
+          }
+        ]
+      }
+    },
+    "98": {
+      "name": "Шен",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Shen.dds",
+      "stats": {
+        "hp": 650.0,
+        "hpScaleFactor": 1.8,
+        "mana": 150.0,
+        "initalMana": 0,
+        "damage": 65.0,
+        "damageScaleFactor": 1.25,
+        "armor": 30.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.7,
+        "range": 1
+      },
+      "traits": [
+        "Ninja",
+        "Blademaster"
+      ],
+      "ability": {
+        "name": "Пристанище духа",
+        "desc": "Шен создает вокруг себя область, которая позволяет союзникам внутри уклоняться ото всех атак.",
+        "icon": "ASSETS/Characters/Shen/HUD/Icons2D/Shen_W.dds",
+        "variables": [
+          {
+            "key": "ZoneDuration",
+            "values": [
+              2.0,
+              3.0,
+              4.0,
+              5.0,
+              6.0,
+              7.0,
+              8.0
+            ]
+          }
+        ]
+      }
+    },
+    "102": {
+      "name": "Шивана",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Shyvana.dds",
+      "stats": {
+        "hp": 650.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 30.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.7,
+        "range": 1
+      },
+      "traits": [
+        "Dragon",
+        "Shapeshifter"
+      ],
+      "ability": {
+        "name": "Приземление дракона",
+        "desc": "Шивана совершает рывок и меняет форму, увеличивая свои силу и дальность атаки. Пока она в форме дракона, ее атаки поджигают врагов.",
+        "icon": "ASSETS/Characters/Shyvana/HUD/Icons2D/ShyvanaDragonsDescent.dds",
+        "variables": [
+          {
+            "key": "TransformDuration",
+            "values": [
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0
+            ]
+          },
+          {
+            "key": "ADWhileDragon",
+            "values": [
+              50.0,
+              100.0,
+              150.0,
+              200.0,
+              250.0,
+              300.0,
+              350.0
+            ]
+          },
+          {
+            "key": "BurnDuration",
+            "values": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          },
+          {
+            "key": "BurnDamage",
+            "values": [
+              125.0,
+              250.0,
+              375.0,
+              500.0,
+              625.0,
+              750.0,
+              875.0
+            ]
+          }
+        ]
+      }
+    },
+    "103": {
+      "name": "Ари",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Ahri.dds",
+      "stats": {
+        "hp": 450.0,
+        "hpScaleFactor": 1.8,
+        "mana": 75.0,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.55,
+        "range": 3
+      },
+      "traits": [
+        "Wild",
+        "Sorcerer"
+      ],
+      "ability": {
+        "name": "Сфера обмана",
+        "desc": "Ари выпускает по прямой сферу, которая затем возвращается к ней. Сфера наносит урон всем пораженным врагам.",
+        "icon": "ASSETS/Characters/Ahri/HUD/Icons2D/Ahri_OrbofDeception.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              50.0,
+              100.0,
+              200.0,
+              300.0,
+              400.0,
+              500.0,
+              475.0
+            ]
+          }
+        ]
+      }
+    },
+    "104": {
+      "name": "Грейвз",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Graves.dds",
+      "stats": {
+        "hp": 450.0,
+        "hpScaleFactor": 1.8,
+        "mana": 0.0,
+        "initalMana": 0,
+        "damage": 55.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.55,
+        "range": 1
+      },
+      "traits": [
+        "Pirate",
+        "Gunslinger"
+      ],
+      "ability": {
+        "name": "Картечь",
+        "desc": "Пассивно: атаки Грейвза поражают всех врагов перед ним, нанося повышенный урон.",
+        "icon": "ASSETS/Characters/Graves/HUD/Icons2D/BuckshotOld.dds",
+        "variables": [
+          {
+            "key": "DamageMultiplier",
+            "values": [
+              0.0,
+              0.05,
+              0.1,
+              0.15,
+              0.2,
+              0.25,
+              0.3
+            ]
+          }
+        ]
+      }
+    },
+    "106": {
+      "name": "Волибир",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Volibear.dds",
+      "stats": {
+        "hp": 700.0,
+        "hpScaleFactor": 1.8,
+        "mana": 75.0,
+        "initalMana": 0,
+        "damage": 75.0,
+        "damageScaleFactor": 1.25,
+        "armor": 30.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.55,
+        "range": 1
+      },
+      "traits": [
+        "Glacial",
+        "Brawler"
+      ],
+      "ability": {
+        "name": "Громовые когти",
+        "desc": "Волибир усиливает свои атаки, и они поражают нескольких врагов, накладывая эффекты при попадании.",
+        "icon": "ASSETS/Characters/Volibear/HUD/Icons2D/VolibearR.dds",
+        "variables": [
+          {
+            "key": "BuffDuration",
+            "values": [
+              20.0,
+              20.0,
+              20.0,
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          {
+            "key": "MaxBounces",
+            "values": [
+              1.0,
+              2.0,
+              3.0,
+              4.0,
+              5.0,
+              6.0,
+              7.0
+            ]
+          },
+          {
+            "key": "ChainADMult",
+            "values": [
+              0.7,
+              0.8,
+              0.9,
+              1.0,
+              1.1,
+              1.2,
+              1.3
+            ]
+          },
+          {
+            "key": "SizeIncrease",
+            "values": [
+              0.08,
+              0.08,
+              0.08,
+              0.08,
+              0.08,
+              0.08,
+              0.08
+            ]
+          },
+          {
+            "key": "HexRange",
+            "values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        ]
+      }
+    },
+    "107": {
+      "name": "Ренгар",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Rengar.dds",
+      "stats": {
+        "hp": 550.0,
+        "hpScaleFactor": 1.8,
+        "mana": 75.0,
+        "initalMana": 0,
+        "damage": 70.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 1
+      },
+      "traits": [
+        "Wild",
+        "Assassin"
+      ],
+      "ability": {
+        "name": "Дикость",
+        "desc": "Ренгар набрасывается на врага с самым низким уровнем здоровья и наносит ему дополнительный урон при попадании. После нанесения урона Ренгар получает дополнительную скорость атаки и увеличивает свой шанс критического удара на @CritBuff*100@%.",
+        "icon": "ASSETS/Characters/Rengar/HUD/Icons2D/RengarQ.dds",
+        "variables": [
+          {
+            "key": "ADMult",
+            "values": [
+              1.0,
+              2.0,
+              3.0,
+              4.0,
+              5.0,
+              6.0,
+              7.0
+            ]
+          },
+          {
+            "key": "ASBuff",
+            "values": [
+              0.1,
+              0.4,
+              0.7,
+              1.0,
+              1.3,
+              1.6,
+              1.9
+            ]
+          },
+          {
+            "key": "CritBuff",
+            "values": [
+              0.25,
+              0.25,
+              0.25,
+              0.25,
+              0.25,
+              0.25,
+              0.25
+            ]
+          },
+          {
+            "key": "BuffDuration",
+            "values": [
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0
+            ]
+          }
+        ]
+      }
+    },
+    "110": {
+      "name": "Варус",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Varus.dds",
+      "stats": {
+        "hp": 500.0,
+        "hpScaleFactor": 1.8,
+        "mana": 75.0,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.7,
+        "range": 4
+      },
+      "traits": [
+        "Demon",
+        "Ranger"
+      ],
+      "ability": {
+        "name": "Пробивающая стрела",
+        "desc": "Варус готовится к выстрелу, после чего выпускает стрелу, которая наносит урон всем врагам по прямой.",
+        "icon": "ASSETS/Characters/Varus/HUD/Icons2D/VarusQ.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              50.0,
+              300.0,
+              550.0,
+              800.0,
+              1050.0,
+              1300.0,
+              1550.0
+            ]
+          },
+          {
+            "key": "HexRange",
+            "values": [
+              8.0,
+              8.0,
+              8.0,
+              8.0,
+              8.0,
+              8.0,
+              8.0
+            ]
+          }
+        ]
+      }
+    },
+    "113": {
+      "name": "Седжуани",
+      "cost": 4,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Sejuani.dds",
+      "stats": {
+        "hp": 850.0,
+        "hpScaleFactor": 1.8,
+        "mana": 150.0,
+        "initalMana": 0,
+        "damage": 45.0,
+        "damageScaleFactor": 1.25,
+        "armor": 40.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.55,
+        "range": 1
+      },
+      "traits": [
+        "Glacial",
+        "Knight"
+      ],
+      "ability": {
+        "name": "Ледниковый плен",
+        "desc": "Седжуани создает большую снежную бурю. Враги, которые в ней находятся, оглушаются спустя короткое время.",
+        "icon": "ASSETS/Characters/Sejuani/HUD/Icons2D/Sejuani_R.dds",
+        "variables": [
+          {
+            "key": "ExplosionDelay",
+            "values": [
+              0.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "key": "Damage",
+            "values": [
+              25.0,
+              100.0,
+              175.0,
+              250.0,
+              325.0,
+              400.0,
+              475.0
+            ]
+          },
+          {
+            "key": "StunDuration",
+            "values": [
+              1.0,
+              2.0,
+              4.0,
+              6.0,
+              8.0,
+              10.0,
+              12.0
+            ]
+          }
+        ]
+      }
+    },
+    "114": {
+      "name": "Фиора",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Fiora.dds",
+      "stats": {
+        "hp": 400.0,
+        "hpScaleFactor": 1.8,
+        "mana": 75.0,
+        "initalMana": 0,
+        "damage": 40.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 1.0,
+        "range": 1
+      },
+      "traits": [
+        "Noble",
+        "Blademaster"
+      ],
+      "ability": {
+        "name": "Парирование",
+        "desc": "Фиора получает иммунитет к урону и умениям. После короткой задержки она оглушает ближайшего врага и наносит ему урон.",
+        "icon": "ASSETS/Characters/Fiora/HUD/Icons2D/Fiora_W.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              -50.0,
+              100.0,
+              250.0,
+              400.0,
+              550.0,
+              700.0,
+              850.0
+            ]
+          },
+          {
+            "key": "StunDuration",
+            "values": [
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5
+            ]
+          },
+          {
+            "key": "BlockDuration",
+            "values": [
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5
+            ]
+          }
+        ]
+      }
+    },
+    "117": {
+      "name": "Лулу",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Lulu.dds",
+      "stats": {
+        "hp": 500.0,
+        "hpScaleFactor": 1.8,
+        "mana": 150.0,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 2
+      },
+      "traits": [
+        "Yordle",
+        "Sorcerer"
+      ],
+      "ability": {
+        "name": "Буйный рост",
+        "desc": "Лулу увеличивает здоровье союзника и подбрасывает врагов вокруг цели на @CCDuration@ сек.",
+        "icon": "ASSETS/Characters/Lulu/HUD/Icons2D/Lulu_GiantGrowth.dds",
+        "variables": [
+          {
+            "key": "BonusHealth",
+            "values": [
+              125.0,
+              300.0,
+              475.0,
+              650.0,
+              825.0,
+              1000.0,
+              1175.0
+            ]
+          },
+          {
+            "key": "ExtraTargets",
+            "values": [
+              -1.0,
+              0.0,
+              1.0,
+              2.0,
+              3.0,
+              4.0,
+              5.0
+            ]
+          },
+          {
+            "key": "BuffDuration",
+            "values": [
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0
+            ]
+          },
+          {
+            "key": "CCDuration",
+            "values": [
+              1.25,
+              1.25,
+              1.25,
+              1.25,
+              1.25,
+              1.25,
+              1.25
+            ]
+          }
+        ]
+      }
+    },
+    "119": {
+      "name": "Дрейвен",
+      "cost": 4,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Draven.dds",
+      "stats": {
+        "hp": 700.0,
+        "hpScaleFactor": 1.8,
+        "mana": 50.0,
+        "initalMana": 0,
+        "damage": 75.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.75,
+        "range": 3
+      },
+      "traits": [
+        "Imperial",
+        "Blademaster"
+      ],
+      "ability": {
+        "name": "Вращающиеся топоры",
+        "desc": "Дрейвен получает Вращающиеся топоры и наносит дополнительный урон при попадании. Суммируется до двух раз.",
+        "icon": "ASSETS/Characters/Draven/HUD/Icons2D/Draven_SpinningAxe.dds",
+        "variables": [
+          {
+            "key": "BuffDuration",
+            "values": [
+              5.75,
+              5.75,
+              5.75,
+              5.75,
+              5.75,
+              5.75,
+              5.75
+            ]
+          },
+          {
+            "key": "ADMult",
+            "values": [
+              1.0,
+              1.5,
+              2.0,
+              2.5,
+              3.0,
+              3.5,
+              4.0
+            ]
+          },
+          {
+            "key": "ASBuff",
+            "values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        ]
+      }
+    },
+    "121": {
+      "name": "Ка'Зикс",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Khazix.dds",
+      "stats": {
+        "hp": 500.0,
+        "hpScaleFactor": 1.8,
+        "mana": 50.0,
+        "initalMana": 0,
+        "damage": 55.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 1
+      },
+      "traits": [
+        "Void",
+        "Assassin"
+      ],
+      "ability": {
+        "name": "Вкус страха",
+        "desc": "Ка'Зикс рассекает ближайшего врага, нанося дополнительный урон изолированным целям.",
+        "icon": "ASSETS/Characters/KhaZix/HUD/Icons2D/Khazix_Q.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              50.0,
+              150.0,
+              300.0,
+              450.0,
+              600.0,
+              750.0,
+              900.0
+            ]
+          },
+          {
+            "key": "IsolationDamage",
+            "values": [
+              200.0,
+              400.0,
+              600.0,
+              800.0,
+              1000.0,
+              1200.0,
+              1400.0
+            ]
+          }
+        ]
+      }
+    },
+    "122": {
+      "name": "Дариус",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Darius.dds",
+      "stats": {
+        "hp": 600.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 40.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.5,
+        "range": 1
+      },
+      "traits": [
+        "Imperial",
+        "Knight"
+      ],
+      "ability": {
+        "name": "Истребление",
+        "desc": "Дариус взмахивает топором, нанося урон ближайшим врагам и исцеляя себя на величину, которая зависит от количества пораженных врагов.",
+        "icon": "ASSETS/Characters/Darius/HUD/Icons2D/Darius_Icon_Decimate.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              100.0,
+              150.0,
+              200.0,
+              250.0,
+              300.0,
+              350.0,
+              400.0
+            ]
+          },
+          {
+            "key": "Heal",
+            "values": [
+              50.0,
+              100.0,
+              150.0,
+              200.0,
+              250.0,
+              300.0,
+              350.0
+            ]
+          }
+        ]
+      }
+    },
+    "126": {
+      "name": "Джейс",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Jayce.dds",
+      "stats": {
+        "hp": 600.0,
+        "hpScaleFactor": 1.8,
+        "mana": 50.0,
+        "initalMana": 0,
+        "damage": 55.0,
+        "damageScaleFactor": 1.25,
+        "armor": 30.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.7,
+        "range": 1
+      },
+      "traits": [
+        "Hextech",
+        "Shapeshifter"
+      ],
+      "ability": {
+        "name": "tft_character_jayce_ability_name",
+        "desc": "tft_character_jayce_ability_description",
+        "icon": "ASSETS/Characters/TFT_Jayce/HUD/Icons2D/TFT_Jayce_Spell.TFT_Hextech.dds",
+        "variables": [
+          {
+            "key": "RangeIncrease",
+            "values": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          },
+          {
+            "key": "TransformDuration",
+            "values": [
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0
+            ]
+          },
+          {
+            "key": "Damage",
+            "values": [
+              75.0,
+              150.0,
+              225.0,
+              300.0,
+              375.0,
+              450.0,
+              525.0
+            ]
+          },
+          {
+            "key": "CCDuration",
+            "values": [
+              0.75,
+              2.5,
+              4.25,
+              6.0,
+              7.75,
+              9.5,
+              11.25
+            ]
+          },
+          {
+            "key": "KnockbackDistance",
+            "values": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          },
+          {
+            "key": "AAMax",
+            "values": [
+              1.0,
+              3.0,
+              5.0,
+              7.0,
+              9.0,
+              11.0,
+              13.0
+            ]
+          }
+        ]
+      }
+    },
+    "127": {
+      "name": "Лиссандра",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Lissandra.dds",
+      "stats": {
+        "hp": 450.0,
+        "hpScaleFactor": 1.8,
+        "mana": 150.0,
+        "initalMana": 0,
+        "damage": 40.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 2
+      },
+      "traits": [
+        "Glacial",
+        "Elementalist"
+      ],
+      "ability": {
+        "name": "Ледяная гробница",
+        "desc": "Лиссандра заковывает цель в лед на @EnemyStunDuration@ сек., нанося урон ближайшим врагам. Если у Лиссандры меньше половины здоровья, вместо этого она заковывает в лед себя, после чего ее нельзя выбрать в качестве цели в течение @SelfDuration@ сек.",
+        "icon": "ASSETS/Characters/Lissandra/HUD/Icons2D/Lissandra_R.dds",
+        "variables": [
+          {
+            "key": "EnemyStunDuration",
+            "values": [
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5
+            ]
+          },
+          {
+            "key": "SelfDuration",
+            "values": [
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "key": "Damage",
+            "values": [
+              25.0,
+              150.0,
+              275.0,
+              400.0,
+              525.0,
+              650.0,
+              775.0
+            ]
+          },
+          {
+            "key": "SlowDuration",
+            "values": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          },
+          {
+            "key": "SlowAmount",
+            "values": [
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "key": "SlowFieldDuration",
+            "values": [
+              0.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          },
+          {
+            "key": "MaxHexRange",
+            "values": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          },
+          {
+            "key": "SelfUltHealthPercent",
+            "values": [
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5
+            ]
+          }
+        ]
+      }
+    },
+    "136": {
+      "name": "Аурелион Сол",
+      "cost": 4,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_AurelionSol.dds",
+      "stats": {
+        "hp": 650.0,
+        "hpScaleFactor": 1.8,
+        "mana": 125.0,
+        "initalMana": 0,
+        "damage": 40.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 3
+      },
+      "traits": [
+        "Dragon",
+        "Sorcerer"
+      ],
+      "ability": {
+        "name": "Голос света",
+        "desc": "Аурелион Сол выпускает по прямой большой сгусток огня, нанося урон врагам.",
+        "icon": "ASSETS/Characters/AurelionSol/HUD/Icons2D/AurelionSol_R.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              50.0,
+              250.0,
+              500.0,
+              750.0,
+              1000.0,
+              1250.0,
+              1500.0
+            ]
+          },
+          {
+            "key": "HexRange",
+            "values": [
+              8.0,
+              8.0,
+              8.0,
+              8.0,
+              8.0,
+              8.0,
+              8.0
+            ]
+          }
+        ]
+      }
+    },
+    "150": {
+      "name": "Гнар",
+      "cost": 4,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Gnar.dds",
+      "stats": {
+        "hp": 750.0,
+        "hpScaleFactor": 1.8,
+        "mana": 125.0,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 30.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.7,
+        "range": 2
+      },
+      "traits": [
+        "Wild",
+        "Yordle",
+        "Shapeshifter"
+      ],
+      "ability": {
+        "name": "ГНА-А-А-Р!",
+        "desc": "Гнар меняет форму, увеличивает свои здоровье и силу атаки, а также прыгает за самого дальнего врага, нанося урон и оглушая врагов поблизости на @RCCDuration@ сек.",
+        "icon": "ASSETS/Characters/Gnar/HUD/Icons2D/GnarTransform.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              100.0,
+              200.0,
+              300.0,
+              400.0,
+              500.0,
+              600.0,
+              700.0
+            ]
+          },
+          {
+            "key": "RCCDuration",
+            "values": [
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "key": "RKnockbackDistance",
+            "values": [
+              500.0,
+              500.0,
+              500.0,
+              500.0,
+              500.0,
+              500.0,
+              500.0
+            ]
+          },
+          {
+            "key": "TransformDuration",
+            "values": [
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0
+            ]
+          },
+          {
+            "key": "TransformHealth",
+            "values": [
+              0.0,
+              300.0,
+              600.0,
+              900.0,
+              1200.0,
+              1500.0,
+              1800.0
+            ]
+          },
+          {
+            "key": "TransformAD",
+            "values": [
+              0.0,
+              30.0,
+              60.0,
+              90.0,
+              120.0,
+              150.0,
+              180.0
+            ]
+          }
+        ]
+      }
+    },
+    "157": {
+      "name": "Ясуо",
+      "cost": 5,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Yasuo.dds",
+      "stats": {
+        "hp": 700.0,
+        "hpScaleFactor": 1.8,
+        "mana": 25.0,
+        "initalMana": 0,
+        "damage": 75.0,
+        "damageScaleFactor": 1.25,
+        "armor": 35.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 1.0,
+        "range": 1
+      },
+      "traits": [
+        "Exile",
+        "Blademaster"
+      ],
+      "ability": {
+        "name": "Стальная буря",
+        "desc": "Ясуо совершает выпад, нанося урон двум врагам по прямой. При третьем применении Ясуо вместо этого выпускает по прямой вихрь, который наносит урон и подбрасывает врагов на @QKnockupDuration@ сек.<br><br>Накладывает эффекты при попадании.",
+        "icon": "ASSETS/Characters/Yasuo/HUD/Icons2D/Yasuo_Q1.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              -50.0,
+              150.0,
+              350.0,
+              550.0,
+              750.0,
+              950.0,
+              1150.0
+            ]
+          },
+          {
+            "key": "QHexRange",
+            "values": [
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "key": "QEmpowerHexRange",
+            "values": [
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0
+            ]
+          },
+          {
+            "key": "QCountForEmpower",
+            "values": [
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "key": "QWidth",
+            "values": [
+              75.0,
+              75.0,
+              75.0,
+              75.0,
+              75.0,
+              75.0,
+              75.0
+            ]
+          },
+          {
+            "key": "QKnockupDuration",
+            "values": [
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5
+            ]
+          }
+        ]
+      }
+    },
+    "164": {
+      "name": "Камилла",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Camille.dds",
+      "stats": {
+        "hp": 550.0,
+        "hpScaleFactor": 1.8,
+        "mana": 150.0,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 1
+      },
+      "traits": [
+        "Hextech",
+        "Blademaster"
+      ],
+      "ability": {
+        "name": "Spell_TFT_CamilleR_Name",
+        "desc": "Spell_TFT_CamilleR_Summary",
+        "icon": "ASSETS/Characters/TFT_Camille/HUD/Icons2D/TFT_Camille_R.TFT_Hextech.dds",
+        "variables": [
+          {
+            "key": "Duration",
+            "values": [
+              3.0,
+              4.0,
+              5.0,
+              6.0,
+              7.0,
+              8.0,
+              9.0
+            ]
+          },
+          {
+            "key": "Damage",
+            "values": [
+              75.0,
+              200.0,
+              325.0,
+              450.0,
+              575.0,
+              700.0,
+              825.0
+            ]
+          }
+        ]
+      }
+    },
+    "201": {
+      "name": "Браум",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Braum.dds",
+      "stats": {
+        "hp": 750.0,
+        "hpScaleFactor": 1.8,
+        "mana": 50.0,
+        "initalMana": 0,
+        "damage": 40.0,
+        "damageScaleFactor": 1.25,
+        "armor": 75.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 1
+      },
+      "traits": [
+        "Glacial",
+        "Guardian"
+      ],
+      "ability": {
+        "name": "Неуязвимый",
+        "desc": "Браум получает барьер, который поглощает входящий урон.",
+        "icon": "ASSETS/Characters/Braum/HUD/Icons2D/Braum_E.dds",
+        "variables": [
+          {
+            "key": "ShieldDR",
+            "values": [
+              60.0,
+              70.0,
+              80.0,
+              90.0,
+              100.0,
+              110.0,
+              120.0
+            ]
+          },
+          {
+            "key": "ShieldDuration",
+            "values": [
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0
+            ]
+          }
+        ]
+      }
+    },
+    "203": {
+      "name": "Киндред",
+      "cost": 4,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Kindred.dds",
+      "stats": {
+        "hp": 600.0,
+        "hpScaleFactor": 1.8,
+        "mana": 150.0,
+        "initalMana": 0,
+        "damage": 60.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 3
+      },
+      "traits": [
+        "Phantom",
+        "Ranger"
+      ],
+      "ability": {
+        "name": "Милость Овечки",
+        "desc": "Киндред создают вокруг себя область, которая не позволяет союзникам внутри умереть.",
+        "icon": "ASSETS/Characters/Kindred/HUD/Icons2D/Kindred_R.dds",
+        "variables": [
+          {
+            "key": "Duration",
+            "values": [
+              3.0,
+              4.0,
+              5.0,
+              6.0,
+              7.0,
+              8.0,
+              9.0
+            ]
+          },
+          {
+            "key": "MinHealth",
+            "values": [
+              0.0,
+              300.0,
+              600.0,
+              900.0,
+              1200.0,
+              1500.0,
+              1800.0
+            ]
+          }
+        ]
+      }
+    },
+    "222": {
+      "name": "Джинкс",
+      "cost": 4,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Jinx.dds",
+      "stats": {
+        "hp": 550.0,
+        "hpScaleFactor": 1.8,
+        "mana": 0.0,
+        "initalMana": 0,
+        "damage": 75.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 3
+      },
+      "traits": [
+        "Hextech",
+        "Gunslinger"
+      ],
+      "ability": {
+        "name": "tft_character_jinx_ability_name",
+        "desc": "Spell_TFT_JinxPassive_Description",
+        "icon": "ASSETS/Characters/TFT_Jinx/HUD/Icons2D/TFT_Jinx_Spell.TFT_Hextech.dds",
+        "variables": [
+          {
+            "key": "HitWindow",
+            "values": [
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0
+            ]
+          },
+          {
+            "key": "BuffDuration",
+            "values": [
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0
+            ]
+          },
+          {
+            "key": "AttackSpeedBonus",
+            "values": [
+              0.5,
+              0.75,
+              1.0,
+              1.25,
+              1.5,
+              1.75,
+              2.0
+            ]
+          },
+          {
+            "key": "RocketDamage",
+            "values": [
+              -25.0,
+              100.0,
+              225.0,
+              350.0,
+              475.0,
+              600.0,
+              725.0
+            ]
+          }
+        ]
+      }
+    },
+    "236": {
+      "name": "Люциан",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Lucian.dds",
+      "stats": {
+        "hp": 600.0,
+        "hpScaleFactor": 1.8,
+        "mana": 35.0,
+        "initalMana": 0,
+        "damage": 65.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 3
+      },
+      "traits": [
+        "Noble",
+        "Gunslinger"
+      ],
+      "ability": {
+        "name": "Нескончаемая погоня",
+        "desc": "Люциан совершает рывок в безопасное место и дважды атакует врага. Урон первого выстрела зависит от силы атаки, второго – от силы умений.",
+        "icon": "ASSETS/Characters/Lucian/HUD/Icons2D/Lucian_E.dds",
+        "variables": [
+          {
+            "key": "FirstShotRatio",
+            "values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "key": "SecondShotDamage",
+            "values": [
+              50.0,
+              150.0,
+              250.0,
+              350.0,
+              450.0,
+              550.0,
+              650.0
+            ]
+          }
+        ]
+      }
+    },
+    "238": {
+      "name": "Зед",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Zed.dds",
+      "stats": {
+        "hp": 500.0,
+        "hpScaleFactor": 1.8,
+        "mana": 75.0,
+        "initalMana": 0,
+        "damage": 65.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 1
+      },
+      "traits": [
+        "Ninja",
+        "Assassin"
+      ],
+      "ability": {
+        "name": "Бросок сюрикена",
+        "desc": "Зед бросает сюрикен, нанося урон врагам по прямой.",
+        "icon": "ASSETS/Characters/Zed/HUD/Icons2D/shadowninja_Q.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              100.0,
+              200.0,
+              300.0,
+              400.0,
+              500.0,
+              600.0,
+              700.0
+            ]
+          },
+          {
+            "key": "HexRange",
+            "values": [
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0
+            ]
+          }
+        ]
+      }
+    },
+    "254": {
+      "name": "Вай",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Vi.dds",
+      "stats": {
+        "hp": 600.0,
+        "hpScaleFactor": 1.8,
+        "mana": 125.0,
+        "initalMana": 0,
+        "damage": 55.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 1
+      },
+      "traits": [
+        "Hextech",
+        "Brawler"
+      ],
+      "ability": {
+        "name": "Spell_TFT_ViR_Name",
+        "desc": "Spell_TFT_ViR_Description",
+        "icon": "ASSETS/Characters/TFT_Vi/HUD/Icons2D/TFT_ViR.TFT_Hextech.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              100.0,
+              250.0,
+              400.0,
+              550.0,
+              700.0,
+              850.0,
+              1000.0
+            ]
+          },
+          {
+            "key": "CCDuration",
+            "values": [
+              1.5,
+              2.0,
+              2.5,
+              3.0,
+              3.5,
+              4.0,
+              4.5
+            ]
+          },
+          {
+            "key": "MoveSpeed",
+            "values": [
+              1000.0,
+              1000.0,
+              1000.0,
+              1000.0,
+              1000.0,
+              1000.0,
+              1000.0
+            ]
+          },
+          {
+            "key": "OthersCCDuration",
+            "values": [
+              0.25,
+              0.25,
+              0.25,
+              0.25,
+              0.25,
+              0.25,
+              0.25
+            ]
+          }
+        ]
+      }
+    },
+    "266": {
+      "name": "Атрокс",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Aatrox.dds",
+      "stats": {
+        "hp": 700.0,
+        "hpScaleFactor": 1.8,
+        "mana": 75.0,
+        "initalMana": 0,
+        "damage": 65.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 1
+      },
+      "traits": [
+        "Demon",
+        "Blademaster"
+      ],
+      "ability": {
+        "name": "Клинок даркинов",
+        "desc": "Атрокс рассекает область перед собой, нанося урон врагам в области поражения.",
+        "icon": "ASSETS/Characters/Aatrox/HUD/Icons2D/Aatrox_Q3.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              50.0,
+              250.0,
+              600.0,
+              950.0,
+              1250.0,
+              1550.0,
+              1850.0
+            ]
+          }
+        ]
+      }
+    },
+    "421": {
+      "name": "Рек'Сай",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Reksai.dds",
+      "stats": {
+        "hp": 650.0,
+        "hpScaleFactor": 1.8,
+        "mana": 150.0,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 1
+      },
+      "traits": [
+        "Void",
+        "Brawler"
+      ],
+      "ability": {
+        "name": "Уход под землю",
+        "desc": "Рек'Сай на некоторое время уходит под землю, восстанавливая себе здоровье. В течение этого периода ее нельзя выбрать в качестве цели. Когда Рек'Сай возвращается, она наносит урон ближайшему врагу и подбрасывает его на @KnockUpDuration@ сек.",
+        "icon": "ASSETS/Characters/RekSai/HUD/Icons2D/RekSai_W1.dds",
+        "variables": [
+          {
+            "key": "HealAmount",
+            "values": [
+              75.0,
+              150.0,
+              300.0,
+              450.0,
+              600.0,
+              750.0,
+              900.0
+            ]
+          },
+          {
+            "key": "BurrowDuration",
+            "values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "key": "HealTickRate",
+            "values": [
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5
+            ]
+          },
+          {
+            "key": "KnockupDuration",
+            "values": [
+              1.75,
+              1.75,
+              1.75,
+              1.75,
+              1.75,
+              1.75,
+              1.75
+            ]
+          },
+          {
+            "key": "KnockupDamage",
+            "values": [
+              50.0,
+              200.0,
+              350.0,
+              500.0,
+              650.0,
+              800.0,
+              950.0
+            ]
+          }
+        ]
+      }
+    },
+    "555": {
+      "name": "Пайк",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Pyke.dds",
+      "stats": {
+        "hp": 600.0,
+        "hpScaleFactor": 1.8,
+        "mana": 125.0,
+        "initalMana": 0,
+        "damage": 60.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 1
+      },
+      "traits": [
+        "Pirate",
+        "Assassin"
+      ],
+      "ability": {
+        "name": "Призрачный прилив",
+        "desc": "Пайк совершает рывок за самого дальнего врага, оставляя за собой образ, который переносится к нему и оглушает всех врагов на пути.",
+        "icon": "ASSETS/Characters/Pyke/HUD/Icons2D/PykeE.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              100.0,
+              150.0,
+              200.0,
+              250.0,
+              300.0,
+              350.0,
+              400.0
+            ]
+          },
+          {
+            "key": "StunDuration",
+            "values": [
+              1.5,
+              2.0,
+              2.5,
+              3.0,
+              3.5,
+              4.0,
+              4.5
+            ]
+          },
+          {
+            "key": "StunDelay",
+            "values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "traits": [
+    {
+      "name": "Пират",
+      "desc": "<row>(@MinUnits@) В конце боя против другого игрока получает до 4 дополнительного золота</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Pirate.dds",
+      "effects": [
+        {
+          "minUnits": 3,
+          "maxUnits": 25000,
+          "vars": []
+        }
+      ]
+    },
+    {
+      "name": "Элементалист",
+      "desc": "Пассивно: элементалисты получают вдвое больше маны от атак<br><br><row>(@MinUnits@) В начале боя призывает голема</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Elementalist.dds",
+      "effects": [
+        {
+          "minUnits": 3,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "HPMultiplier",
+              "value": null
+            },
+            {
+              "name": "558229DF",
+              "value": null
+            },
+            {
+              "name": "SizeCoefficient",
+              "value": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Демон",
+      "desc": "У демонов есть шанс при атаках опустошить весь запас маны врага и нанести чистый урон в размере опустошенной маны<br><br><expandRow>(@MinUnits@) @ProcChance@% шанс опустошить запас маны</expandRow><br>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Demon.dds",
+      "effects": [
+        {
+          "minUnits": 2,
+          "maxUnits": 3,
+          "vars": [
+            {
+              "name": "ProcChance",
+              "value": 20.0
+            },
+            {
+              "name": "DamagePercent",
+              "value": 100.0
+            },
+            {
+              "name": "4516A18D",
+              "value": 3.0
+            },
+            {
+              "name": "35BB0E0C",
+              "value": 33.0
+            },
+            {
+              "name": "0EBB5365",
+              "value": 25.0
+            },
+            {
+              "name": "1A14AA8A",
+              "value": 10.0
+            }
+          ]
+        },
+        {
+          "minUnits": 4,
+          "maxUnits": 5,
+          "vars": [
+            {
+              "name": "ProcChance",
+              "value": 40.0
+            },
+            {
+              "name": "DamagePercent",
+              "value": 100.0
+            },
+            {
+              "name": "4516A18D",
+              "value": 3.0
+            },
+            {
+              "name": "35BB0E0C",
+              "value": 33.0
+            },
+            {
+              "name": "0EBB5365",
+              "value": 25.0
+            },
+            {
+              "name": "1A14AA8A",
+              "value": 10.0
+            }
+          ]
+        },
+        {
+          "minUnits": 6,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "ProcChance",
+              "value": 80.0
+            },
+            {
+              "name": "DamagePercent",
+              "value": 100.0
+            },
+            {
+              "name": "4516A18D",
+              "value": 3.0
+            },
+            {
+              "name": "35BB0E0C",
+              "value": 33.0
+            },
+            {
+              "name": "0EBB5365",
+              "value": 25.0
+            },
+            {
+              "name": "1A14AA8A",
+              "value": 25.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Одичалый",
+      "desc": "Атаки дают заряды ярости (максимум 5 зарядов). Каждый заряд ярости увеличивает скорость атаки на @AttackSpeedPercent@%<br><br><row>(@MinUnits@) Только одичалые союзники</row><br><row>(@MinUnits@) Все союзники</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Wild.dds",
+      "effects": [
+        {
+          "minUnits": 2,
+          "maxUnits": 3,
+          "vars": [
+            {
+              "name": "AttackSpeedPercent",
+              "value": 10.0
+            }
+          ]
+        },
+        {
+          "minUnits": 4,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "AttackSpeedPercent",
+              "value": 10.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Обитатель Бездны",
+      "desc": "<row>Чемпионы из Бездны (@MinUnits@) теперь наносят чистый урон.</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Void.dds",
+      "effects": [
+        {
+          "minUnits": 3,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "PercentArmorPen",
+              "value": 100.0
+            },
+            {
+              "name": "CB42693F",
+              "value": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Дебошир",
+      "desc": "Дебоширы получают прибавку к максимальному запасу здоровья<br><br><expandRow>(@MinUnits@) @BonusHealth@ дополнительного здоровья</expandRow><br>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Brawler.dds",
+      "effects": [
+        {
+          "minUnits": 2,
+          "maxUnits": 3,
+          "vars": [
+            {
+              "name": "BonusHealth",
+              "value": 300.0
+            }
+          ]
+        },
+        {
+          "minUnits": 4,
+          "maxUnits": 5,
+          "vars": [
+            {
+              "name": "BonusHealth",
+              "value": 700.0
+            }
+          ]
+        },
+        {
+          "minUnits": 6,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "BonusHealth",
+              "value": 1200.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Дракон",
+      "desc": "<row>(@MinUnits@) Дает драконам @MagicReduction@% сопротивления магическому урону</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Dragon.dds",
+      "effects": [
+        {
+          "minUnits": 2,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "MagicReduction",
+              "value": 83.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Изгнанник",
+      "desc": "<row>(@MinUnits@) Если в начале боя вокруг изгнанника нет союзников, он получает щит прочностью @ShieldPercent@% от максимального запаса здоровья</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Exile.dds",
+      "effects": [
+        {
+          "minUnits": 1,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "ShieldPercent",
+              "value": 100.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Йордл",
+      "desc": "У йордов есть шанс уклониться от вражеских атак<br><br><expandRow>(@MinUnits@) @MissPercent@% шанс уклонения</expandRow><br>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Yordle.dds",
+      "effects": [
+        {
+          "minUnits": 3,
+          "maxUnits": 5,
+          "vars": [
+            {
+              "name": "MissPercent",
+              "value": 30.0
+            }
+          ]
+        },
+        {
+          "minUnits": 6,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "MissPercent",
+              "value": 55.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Страж",
+      "desc": "<row>(@MinUnits@) В начале боя стражи дают +@Armor@ брони союзникам поблизости. Эта броня может суммироваться.</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Guardian.dds",
+      "effects": [
+        {
+          "minUnits": 2,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "Armor",
+              "value": 50.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Рыцарь",
+      "desc": "Все союзники поглощают получаемый урон<br><br><expandRow>(@MinUnits@) @BlockAmount@ поглощаемого урона</expandRow>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Knight.dds",
+      "effects": [
+        {
+          "minUnits": 2,
+          "maxUnits": 3,
+          "vars": [
+            {
+              "name": "BlockAmount",
+              "value": 15.0
+            }
+          ]
+        },
+        {
+          "minUnits": 4,
+          "maxUnits": 5,
+          "vars": [
+            {
+              "name": "BlockAmount",
+              "value": 30.0
+            }
+          ]
+        },
+        {
+          "minUnits": 6,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "BlockAmount",
+              "value": 55.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ниндзя",
+      "desc": "Особенность ниндзя срабатывает тогда, когда на поле *только* 1 или все 4 ниндзя<br><br><row>(@MinUnits@) Ниндзя получает +@ADValue@ силы атаки и +@APValue@% силы умений</row><br><row>(@MinUnits@) Все ниндзя получают +@ADValue@ силы атаки и +@APValue@% силы умений</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Ninja.dds",
+      "effects": [
+        {
+          "minUnits": 1,
+          "maxUnits": 1,
+          "vars": [
+            {
+              "name": "ADValue",
+              "value": 40.0
+            },
+            {
+              "name": "APValue",
+              "value": 40.0
+            }
+          ]
+        },
+        {
+          "minUnits": 4,
+          "maxUnits": 4,
+          "vars": [
+            {
+              "name": "ADValue",
+              "value": 60.0
+            },
+            {
+              "name": "APValue",
+              "value": 60.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Рейнджер",
+      "desc": "Каждые @ProcRate@ сек. у рейнджеров появляется шанс удвоить скорость атаки на следующие @ProcRate@ сек. <br><br><expandRow>(@MinUnits@) @ProcPercent@% шанс удвоить скорость атаки</expandRow><br>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Ranger.dds",
+      "effects": [
+        {
+          "minUnits": 2,
+          "maxUnits": 3,
+          "vars": [
+            {
+              "name": "ProcPercent",
+              "value": 25.0
+            },
+            {
+              "name": "ASMultiplier",
+              "value": 2.0
+            },
+            {
+              "name": "ProcRate",
+              "value": 3.0
+            }
+          ]
+        },
+        {
+          "minUnits": 4,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "ProcPercent",
+              "value": 65.0
+            },
+            {
+              "name": "ASMultiplier",
+              "value": 2.0
+            },
+            {
+              "name": "ProcRate",
+              "value": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Перевертыш",
+      "desc": "Перевертыши получают прибавку к максимальному запасу здоровья, когда меняют форму<br><br><expandRow>(@MinUnits@) @HPPercent@% дополнительного максимального запаса здоровья</expandRow><br>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Shapeshifter.dds",
+      "effects": [
+        {
+          "minUnits": 3,
+          "maxUnits": 5,
+          "vars": [
+            {
+              "name": "HPPercent",
+              "value": 60.0
+            }
+          ]
+        },
+        {
+          "minUnits": 6,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "HPPercent",
+              "value": 120.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Стрелок",
+      "desc": "После атаки у стрелка появляется @ProcPercent@% шанс атаковать снова<br><br><row>(@MinUnits@) Количество дополнительных пораженных врагов: @ExtraTargetsHit@</row><br><row>(@MinUnits@) Количество дополнительных пораженных врагов: @ExtraTargetsHit@</row><br><row>(@MinUnits@) Количество дополнительных пораженных врагов: @ExtraTargetsHit@</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Gunslinger.dds",
+      "effects": [
+        {
+          "minUnits": 2,
+          "maxUnits": 3,
+          "vars": [
+            {
+              "name": "ProcPercent",
+              "value": 50.0
+            },
+            {
+              "name": "F768E185",
+              "value": 1.0
+            },
+            {
+              "name": "ExtraTargetsHit",
+              "value": 1.0
+            }
+          ]
+        },
+        {
+          "minUnits": 4,
+          "maxUnits": 5,
+          "vars": [
+            {
+              "name": "ProcPercent",
+              "value": 50.0
+            },
+            {
+              "name": "F768E185",
+              "value": 2.0
+            },
+            {
+              "name": "ExtraTargetsHit",
+              "value": 2.0
+            }
+          ]
+        },
+        {
+          "minUnits": 6,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "ProcPercent",
+              "value": 50.0
+            },
+            {
+              "name": "F768E185",
+              "value": 3.0
+            },
+            {
+              "name": "ExtraTargetsHit",
+              "value": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Чародей",
+      "desc": "Пассивно: чародеи получают вдвое больше маны от атак<br><br>Сила умений всех союзников увеличена<br><br><expandRow>(@MinUnits@) +@AP@% силы умений</expandRow><br>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Sorcerer.dds",
+      "effects": [
+        {
+          "minUnits": 3,
+          "maxUnits": 5,
+          "vars": [
+            {
+              "name": "AP",
+              "value": 45.0
+            }
+          ]
+        },
+        {
+          "minUnits": 6,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "AP",
+              "value": 100.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Робот",
+      "desc": "(@MinUnits@) Роботы начинают бой с полным запасом маны",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Robot.dds",
+      "effects": [
+        {
+          "minUnits": 1,
+          "maxUnits": 25000,
+          "vars": []
+        }
+      ]
+    },
+    {
+      "name": "tft_trait_displayname_Hextech",
+      "desc": "tft_trait_description_Hextech",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Hextech.dds",
+      "effects": [
+        {
+          "minUnits": 2,
+          "maxUnits": 3,
+          "vars": [
+            {
+              "name": "C78D1CC9",
+              "value": 4.0
+            },
+            {
+              "name": "2BD7DCB7",
+              "value": 5.0
+            }
+          ]
+        },
+        {
+          "minUnits": 4,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "C78D1CC9",
+              "value": 4.0
+            },
+            {
+              "name": "2BD7DCB7",
+              "value": 15.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Призрак",
+      "desc": "<row>(@MinUnits@) В начале боя проклинает случайного врага, уменьшая его запас здоровья до @HPToSet@</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Phantom.dds",
+      "effects": [
+        {
+          "minUnits": 2,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "HPToSet",
+              "value": 100.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Аристократ",
+      "desc": "Получает +@Armor@ брони, +@MagicResist@ сопротивления магии и восстанавливает @Heal@ здоровья при попадании<br><br><row>(@MinUnits@) 1 случайный союзник</row><br><row>(@MinUnits@) Все союзники</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Noble.dds",
+      "effects": [
+        {
+          "minUnits": 3,
+          "maxUnits": 5,
+          "vars": [
+            {
+              "name": "Armor",
+              "value": 60.0
+            },
+            {
+              "name": "Heal",
+              "value": 35.0
+            },
+            {
+              "name": "MagicResist",
+              "value": 60.0
+            }
+          ]
+        },
+        {
+          "minUnits": 6,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "Armor",
+              "value": 60.0
+            },
+            {
+              "name": "Heal",
+              "value": 35.0
+            },
+            {
+              "name": "MagicResist",
+              "value": 60.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Убийца",
+      "desc": "Пассивно: в начале боя убийцы прыгают к самому дальнему врагу<br><br>Убийцы наносят дополнительный критический урон<br><br><expandRow>(@MinUnits@) +@CritAmpPercent@% критического урона</expandRow><br>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Assassin.dds",
+      "effects": [
+        {
+          "minUnits": 3,
+          "maxUnits": 5,
+          "vars": [
+            {
+              "name": "CritAmpPercent",
+              "value": 125.0
+            }
+          ]
+        },
+        {
+          "minUnits": 6,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "CritAmpPercent",
+              "value": 350.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Оледенелый",
+      "desc": "У атак оледенелого есть шанс оглушить врагов на @StunDuration@ сек.<br><br><expandRow>(@MinUnits@) @ProcPercent@% шанс оглушения</expandRow><br>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Glacial.dds",
+      "effects": [
+        {
+          "minUnits": 2,
+          "maxUnits": 3,
+          "vars": [
+            {
+              "name": "ProcPercent",
+              "value": 20.0
+            },
+            {
+              "name": "StunDuration",
+              "value": 2.0
+            }
+          ]
+        },
+        {
+          "minUnits": 4,
+          "maxUnits": 5,
+          "vars": [
+            {
+              "name": "ProcPercent",
+              "value": 30.0
+            },
+            {
+              "name": "StunDuration",
+              "value": 2.0
+            }
+          ]
+        },
+        {
+          "minUnits": 6,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "ProcPercent",
+              "value": 45.0
+            },
+            {
+              "name": "StunDuration",
+              "value": 2.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Имперец",
+      "desc": "Наносит вдвое больше урона<br><br><row>(@MinUnits@) 1 случайный имперец</row><br><row>(@MinUnits@) Все имперцы</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Imperial.dds",
+      "effects": [
+        {
+          "minUnits": 2,
+          "maxUnits": 3,
+          "vars": [
+            {
+              "name": "DamageMultiplier",
+              "value": 2.0
+            }
+          ]
+        },
+        {
+          "minUnits": 4,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "DamageMultiplier",
+              "value": 2.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Мастер клинка",
+      "desc": "При попадании атаками у мастера клинка появляется @ProcChance@% шанс нанести дополнительные атаки<br><br><row>(@MinUnits@) Одна дополнительная атака</row><br><row>(@MinUnits@) Две дополнительные атаки</row><br><row>(@MinUnits@) Четыре дополнительные атаки</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Blademaster.dds",
+      "effects": [
+        {
+          "minUnits": 3,
+          "maxUnits": 5,
+          "vars": [
+            {
+              "name": "ProcChance",
+              "value": 45.0
+            },
+            {
+              "name": "ExtraAttacks",
+              "value": 1.0
+            }
+          ]
+        },
+        {
+          "minUnits": 6,
+          "maxUnits": 8,
+          "vars": [
+            {
+              "name": "ProcChance",
+              "value": 45.0
+            },
+            {
+              "name": "ExtraAttacks",
+              "value": 2.0
+            }
+          ]
+        },
+        {
+          "minUnits": 9,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "ProcChance",
+              "value": 45.0
+            },
+            {
+              "name": "ExtraAttacks",
+              "value": 4.0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "items": {
+    "1": {
+      "name": "Самый Лучший Меч",
+      "desc": "  +@AD@ силы атаки",
+      "icon": "ASSETS/Maps/Particles/TFT/Icon_BFSword.TFT.dds",
+      "from": [],
+      "effects": [
+        {
+          "name": "AD",
+          "value": 20.0
+        }
+      ]
+    },
+    "2": {
+      "name": "Изогнутый лук",
+      "desc": " +@AS@% скорости атаки",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_RecurveBow.TFT.dds",
+      "from": [],
+      "effects": [
+        {
+          "name": "AS",
+          "value": 20.0
+        }
+      ]
+    },
+    "3": {
+      "name": "Слишком Большой Жезл",
+      "desc": " +@AP@% силы умений",
+      "icon": "ASSETS/Maps/Particles/TFT/Icon_NeedlesslyLargeRod.TFT.dds",
+      "from": [],
+      "effects": [
+        {
+          "name": "AP",
+          "value": 20.0
+        }
+      ]
+    },
+    "4": {
+      "name": "Слеза богини",
+      "desc": " +@Mana@ маны",
+      "icon": "ASSETS/Maps/Particles/TFT/Icon_TearOfTheGoddess.TFT.dds",
+      "from": [],
+      "effects": [
+        {
+          "name": "Mana",
+          "value": 20.0
+        }
+      ]
+    },
+    "5": {
+      "name": "Кольчуга",
+      "desc": "+@Armor@ брони",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_ChainVest.TFT.dds",
+      "from": [],
+      "effects": [
+        {
+          "name": "Armor",
+          "value": 20.0
+        }
+      ]
+    },
+    "6": {
+      "name": "Поглощающий плащ",
+      "desc": "+@MagicResist@ сопротивления магии",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_NegatronCloak.TFT.dds",
+      "from": [],
+      "effects": [
+        {
+          "name": "MagicResist",
+          "value": 20.0
+        }
+      ]
+    },
+    "7": {
+      "name": "Пояс великана",
+      "desc": " +@Health@ здоровья",
+      "icon": "ASSETS/Maps/Particles/TFT/Icon_GiantsBelt.TFT.dds",
+      "from": [],
+      "effects": [
+        {
+          "name": "Health",
+          "value": 200.0
+        }
+      ]
+    },
+    "8": {
+      "name": "Лопатка",
+      "desc": "Для <i>чего-то</i> это пригодится...",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Spatula.TFT.dds",
+      "from": [],
+      "effects": [
+        {
+          "name": "FE9818EF",
+          "value": 5.0
+        }
+      ]
+    },
+    "11": {
+      "name": "Грань Бесконечности",
+      "desc": "Критические удары наносят на @CriticalStrikeAmp@% больше урона",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_InfinityEdge.TFT.dds",
+      "from": [
+        "1",
+        "1"
+      ],
+      "effects": [
+        {
+          "name": "CriticalStrikeAmp",
+          "value": 150.0
+        }
+      ]
+    },
+    "12": {
+      "name": "Меч Божественных",
+      "desc": "Каждую секунду владелец с вероятностью @ChanceToProc@% может увеличить шанс критического удара до 100%",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_SwordOfTheDivine.TFT.dds",
+      "from": [
+        "1",
+        "2"
+      ],
+      "effects": [
+        {
+          "name": "ChanceToProc",
+          "value": 5.0
+        }
+      ]
+    },
+    "13": {
+      "name": "Хекстековый штык",
+      "desc": "Восстанавливает здоровье в размере @OmniVamp@% от всего нанесенного урона",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_HextechGunblade.TFT.dds",
+      "from": [
+        "1",
+        "3"
+      ],
+      "effects": [
+        {
+          "name": "OmniVamp",
+          "value": 33.0
+        }
+      ]
+    },
+    "14": {
+      "name": "Копье Седзина",
+      "desc": "После применения умения владелец получает @ManaPercentRestore@% от максимального запаса маны за атаку",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_SpearOfShojin.TFT.dds",
+      "from": [
+        "1",
+        "4"
+      ],
+      "effects": [
+        {
+          "name": "ManaPercentRestore",
+          "value": 15.0
+        }
+      ]
+    },
+    "15": {
+      "name": "Ангел-хранитель",
+      "desc": "Владелец возрождается с @HealthRestore@ здоровья",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_GuardianAngel.TFT.dds",
+      "from": [
+        "1",
+        "5"
+      ],
+      "effects": [
+        {
+          "name": "HealthRestore",
+          "value": 1000.0
+        }
+      ]
+    },
+    "16": {
+      "name": "Кровопийца",
+      "desc": "Атаки восстанавливают здоровье в размере @Lifesteal@% от нанесенного урона",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Bloodthirster.TFT.dds",
+      "from": [
+        "1",
+        "6"
+      ],
+      "effects": [
+        {
+          "name": "Lifesteal",
+          "value": 50.0
+        }
+      ]
+    },
+    "17": {
+      "name": "Вестник Зика",
+      "desc": "В начале боя союзники в том же ряду на расстоянии @HexRange@ клеток получают +@AttackSpeed@% скорости атаки до конца сражения.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_ZekesHerald.TFT.dds",
+      "from": [
+        "1",
+        "7"
+      ],
+      "effects": [
+        {
+          "name": "AttackSpeed",
+          "value": 15.0
+        },
+        {
+          "name": "HexRange",
+          "value": 2.0
+        }
+      ]
+    },
+    "18": {
+      "name": "Призрачный клинок Йомуу",
+      "desc": "Дополнительно: %i:scaleAD% +@AD@<br>Владелец также становится убийцей",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_YoumuusGhostblade.TFT.dds",
+      "from": [
+        "1",
+        "8"
+      ],
+      "effects": [
+        {
+          "name": "AD",
+          "value": 20.0
+        }
+      ]
+    },
+    "22": {
+      "name": "Скорострельная пушка",
+      "desc": "От атак владельца нельзя увернуться. Дальность атаки удвоена",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_RapidFirecannon.TFT.dds",
+      "from": [
+        "2",
+        "2"
+      ],
+      "effects": []
+    },
+    "23": {
+      "name": "Клинок ярости Гинсу",
+      "desc": "Атаки увеличивают скорость атаки на @AttackSpeedPerStack@%. Эффект может суммироваться бесконечно",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_GuinsoosRageblade.TFT.dds",
+      "from": [
+        "2",
+        "3"
+      ],
+      "effects": [
+        {
+          "name": "AttackSpeedPerStack",
+          "value": 4.0
+        }
+      ]
+    },
+    "24": {
+      "name": "Заточка Статикка",
+      "desc": "Каждая третья атака наносит @Damage@ магического урона врагам (@BouncesTooltip@)",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_StatikkShiv.TFT.dds",
+      "from": [
+        "2",
+        "4"
+      ],
+      "effects": [
+        {
+          "name": "Damage",
+          "value": 90.0
+        },
+        {
+          "name": "Bounces",
+          "value": 3.0
+        },
+        {
+          "name": "BouncesTooltip",
+          "value": 4.0
+        }
+      ]
+    },
+    "25": {
+      "name": "Призрачный Танцор",
+      "desc": "Владелец уклоняется ото всех критических ударов",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_PhantomDancer.TFT.dds",
+      "from": [
+        "2",
+        "5"
+      ],
+      "effects": []
+    },
+    "26": {
+      "name": "Проклятый клинок",
+      "desc": "При попадании у атак появляется небольшой шанс уменьшить количество звезд цели на 1 до конца боя",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_CursedBlade.TFT.dds",
+      "from": [
+        "2",
+        "6"
+      ],
+      "effects": [
+        {
+          "name": "A56E0A21",
+          "value": 20.0
+        }
+      ]
+    },
+    "27": {
+      "name": "Титаническая гидра",
+      "desc": "Атаки наносят врагам поблизости урон в размере @MaxHealth@% от максимального запаса здоровья владельца",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_TitanicHydra.TFT.dds",
+      "from": [
+        "2",
+        "7"
+      ],
+      "effects": [
+        {
+          "name": "MaxHealth",
+          "value": 10.0
+        }
+      ]
+    },
+    "28": {
+      "name": "Клинок уничтоженного короля",
+      "desc": "Дополнительно: %i:scaleAS% +@AS@<br>Владелец также становится мастером клинка",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_BladeOfTheRuinedKing.TFT.dds",
+      "from": [
+        "2",
+        "8"
+      ],
+      "effects": [
+        {
+          "name": "AS",
+          "value": 20.0
+        }
+      ]
+    },
+    "33": {
+      "name": "Смертельная шляпа Рабадона",
+      "desc": "Сила умений владельца увеличивается на @APPercentAmp@%",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_RabadonsDeathcap.TFT.dds",
+      "from": [
+        "3",
+        "3"
+      ],
+      "effects": [
+        {
+          "name": "APPercentAmp",
+          "value": 50.0
+        }
+      ]
+    },
+    "34": {
+      "name": "Эхо Людена",
+      "desc": "При попадании умения наносят @Damage@ урона врагам поблизости",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_LudensEcho.TFT.dds",
+      "from": [
+        "3",
+        "4"
+      ],
+      "effects": [
+        {
+          "name": "Damage",
+          "value": 200.0
+        }
+      ]
+    },
+    "35": {
+      "name": "Медальон Железных Солари",
+      "desc": "В начале боя союзники в том же ряду на расстоянии @HexRange@ клеток получают щит, блокирующий @ShieldValue@ ед. урона.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_LocketOfTheIronSolari.TFT.dds",
+      "from": [
+        "3",
+        "5"
+      ],
+      "effects": [
+        {
+          "name": "ShieldValue",
+          "value": 250.0
+        },
+        {
+          "name": "ShieldDuration",
+          "value": 4.0
+        },
+        {
+          "name": "HexRange",
+          "value": 2.0
+        }
+      ]
+    },
+    "36": {
+      "name": "Ионийская искра",
+      "desc": "Когда враг применяет умение, он получает @Damage@ урона",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_IonicSpark.TFT.dds",
+      "from": [
+        "3",
+        "6"
+      ],
+      "effects": [
+        {
+          "name": "Damage",
+          "value": 150.0
+        }
+      ]
+    },
+    "37": {
+      "name": "Мореллономикон",
+      "desc": "Умения обжигают врагов, нанося урон в размере @BurnPercent@% от максимального здоровья цели в течение @BurnDuration@ сек. и не давая им лечиться",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Morellonomicon.TFT.dds",
+      "from": [
+        "3",
+        "7"
+      ],
+      "effects": [
+        {
+          "name": "BurnPercent",
+          "value": 25.0
+        },
+        {
+          "name": "6DF27940",
+          "value": 1.0
+        },
+        {
+          "name": "MonsterCap",
+          "value": 100.0
+        },
+        {
+          "name": "BurnDuration",
+          "value": 5.0
+        }
+      ]
+    },
+    "38": {
+      "name": "Юми",
+      "desc": "Дополнительно: %i:scaleAP% +@AP@<br>Владелец также становится чародеем",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Yuumi.TFT.dds",
+      "from": [
+        "3",
+        "8"
+      ],
+      "effects": [
+        {
+          "name": "AP",
+          "value": 20.0
+        }
+      ]
+    },
+    "44": {
+      "name": "Объятья серафима",
+      "desc": "Владелец восстанавливает себе @ManaRestore@ маны после применения умения",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_SeraphsEmbrace.TFT.dds",
+      "from": [
+        "4",
+        "4"
+      ],
+      "effects": [
+        {
+          "name": "ManaRestore",
+          "value": 20.0
+        }
+      ]
+    },
+    "45": {
+      "name": "Ледяное сердце",
+      "desc": "Враги поблизости теряют @AttackSpeedSlow@% скорости атаки",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_FrozenHeart.TFT.dds",
+      "from": [
+        "4",
+        "5"
+      ],
+      "effects": [
+        {
+          "name": "AttackSpeedSlow",
+          "value": 25.0
+        }
+      ]
+    },
+    "46": {
+      "name": "Тишина",
+      "desc": "При попадании у атак появляется шанс наложить на врага безмолвие, лишив его возможности восстанавливать ману в течение @SilenceDuration@ сек.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Hush.TFT.dds",
+      "from": [
+        "4",
+        "6"
+      ],
+      "effects": [
+        {
+          "name": "2275757B",
+          "value": 33.0
+        },
+        {
+          "name": "SilenceDuration",
+          "value": 5.0
+        },
+        {
+          "name": "4516A18D",
+          "value": 4.0
+        }
+      ]
+    },
+    "47": {
+      "name": "Искупление",
+      "desc": "Когда у владельца остается меньше @HPThreshold@% здоровья, он восстанавливает всем союзникам поблизости @HealthRestore@ здоровья",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Redemption.TFT.dds",
+      "from": [
+        "4",
+        "7"
+      ],
+      "effects": [
+        {
+          "name": "HealthRestore",
+          "value": 1000.0
+        },
+        {
+          "name": "HPThreshold",
+          "value": 25.0
+        },
+        {
+          "name": "5FFBBD48",
+          "value": 50.0
+        },
+        {
+          "name": "1E0630E9",
+          "value": 25.0
+        }
+      ]
+    },
+    "48": {
+      "name": "Даркин",
+      "desc": "Дополнительно: %i:scaleMana% +@Mana@<br>Владелец также становится демоном",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Darkin.TFT.dds",
+      "from": [
+        "4",
+        "8"
+      ],
+      "effects": [
+        {
+          "name": "Mana",
+          "value": 20.0
+        }
+      ]
+    },
+    "55": {
+      "name": "Шипованный доспех",
+      "desc": "Отражает @DamageReflect@% урона от предотвращенного урона",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Thornmail.TFT.dds",
+      "from": [
+        "5",
+        "5"
+      ],
+      "effects": [
+        {
+          "name": "DamageReflect",
+          "value": 100.0
+        }
+      ]
+    },
+    "56": {
+      "name": "Мечелом",
+      "desc": "У атак появляется шанс разоружить врага на @DisarmDuration@ сек.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_SwordBreaker.TFT.dds",
+      "from": [
+        "5",
+        "6"
+      ],
+      "effects": [
+        {
+          "name": "2426EA7E",
+          "value": 25.0
+        },
+        {
+          "name": "DisarmDuration",
+          "value": 4.0
+        }
+      ]
+    },
+    "57": {
+      "name": "Красное усиление",
+      "desc": "Атаки обжигают врагов, нанося урон в размере @BurnPercent@% от максимального здоровья цели в течение @BurnDuration@ сек. и не давая им лечиться",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_RedBuff.TFT.dds",
+      "from": [
+        "5",
+        "7"
+      ],
+      "effects": [
+        {
+          "name": "BurnPercent",
+          "value": 13.0
+        },
+        {
+          "name": "BurnDuration",
+          "value": 5.0
+        },
+        {
+          "name": "6DF27940",
+          "value": 1.0
+        },
+        {
+          "name": "MonsterCap",
+          "value": 100.0
+        }
+      ]
+    },
+    "58": {
+      "name": "Клятва рыцаря",
+      "desc": "Дополнительно: %i:scaleArmor% +@Armor@<br>Владелец также становится рыцарем",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_KnightsVow.TFT.dds",
+      "from": [
+        "5",
+        "8"
+      ],
+      "effects": [
+        {
+          "name": "Armor",
+          "value": 20.0
+        }
+      ]
+    },
+    "66": {
+      "name": "Коготь дракона",
+      "desc": "Дает @MagicReduction@% сопротивления магическому урону",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_DragonsClaw.TFT.dds",
+      "from": [
+        "6",
+        "6"
+      ],
+      "effects": [
+        {
+          "name": "MagicReduction",
+          "value": 83.0
+        }
+      ]
+    },
+    "67": {
+      "name": "Западный ветер",
+      "desc": "В начале боя изгоняет врага на @BanishDuration@ сек.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Zephyr.TFT.dds",
+      "from": [
+        "6",
+        "7"
+      ],
+      "effects": [
+        {
+          "name": "BanishDuration",
+          "value": 5.0
+        }
+      ]
+    },
+    "68": {
+      "name": "Ураган Рунаан",
+      "desc": "Дополнительно %i:scaleMR% +@ExtraMR@<br>Призывает духа, который копирует ваши атаки и наносит @MultiplierForDamage@% урона",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_RunaansHurricane.TFT.dds",
+      "from": [
+        "6",
+        "8"
+      ],
+      "effects": [
+        {
+          "name": "AdditionalTargets",
+          "value": 1.0
+        },
+        {
+          "name": "MultiplierForDamage",
+          "value": 25.0
+        },
+        {
+          "name": "ExtraMR",
+          "value": 20.0
+        }
+      ]
+    },
+    "77": {
+      "name": "Доспех Вармога",
+      "desc": "Владелец восстанавливает @HealthRegen@% от недостающего запаса здоровья в секунду",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_WarmogsArmor.TFT.dds",
+      "from": [
+        "7",
+        "7"
+      ],
+      "effects": [
+        {
+          "name": "HealthRegen",
+          "value": 6.0
+        },
+        {
+          "name": "0C90F194",
+          "value": 300.0
+        }
+      ]
+    },
+    "78": {
+      "name": "Замерзший Молот",
+      "desc": "Дополнительно: %i:scaleHealth% +@Health@<br>Владелец также становится оледенелым",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_FrozenMallet.TFT.dds",
+      "from": [
+        "8",
+        "7"
+      ],
+      "effects": [
+        {
+          "name": "Health",
+          "value": 200.0
+        }
+      ]
+    },
+    "88": {
+      "name": "Сила природы",
+      "desc": " Увеличивает размер команды на @MaxArmySizeIncrease@",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_ForceOfNature.TFT.dds",
+      "from": [
+        "8",
+        "8"
+      ],
+      "effects": [
+        {
+          "name": "MaxArmySizeIncrease",
+          "value": 1.0
+        }
+      ]
+    },
+    "100": {
+      "name": "Лопатка",
+      "desc": "Для <i>чего-то</i> это пригодится...",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Unknown.TFT.dds",
+      "from": [],
+      "effects": []
+    },
+    "541": {
+      "name": "Глашатай смерти",
+      "desc": "TFT_item_description_MortalReminder",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_MortalReminder.TFT.dds",
+      "from": [],
+      "effects": []
+    },
+    "10002": {
+      "name": "tft_item_name_JammedSlot",
+      "desc": "tft_item_description_JammedSlot",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Jammed.TFT.dds",
+      "from": [],
+      "effects": []
+    }
+  }
+}

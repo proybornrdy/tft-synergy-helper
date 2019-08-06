@@ -1,0 +1,5279 @@
+{
+  "champions": {
+    "4": {
+      "name": "Twisted Fate",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_TwistedFate.dds",
+      "stats": {
+        "hp": 450.0,
+        "hpScaleFactor": 1.8,
+        "mana": 50.0,
+        "initalMana": 0,
+        "damage": 40.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.7,
+        "range": 3
+      },
+      "traits": [
+        "Pirate",
+        "Sorcerer"
+      ],
+      "ability": {
+        "name": "Bir Kart Seç",
+        "desc": "Twisted Fate hedefini sersemletme, hedefin etrafındaki alana hasar verme veya kendine ve yakınındaki takım arkadaşlarına mana kazandırma ihtimali bulunan bir kart fırlatır.",
+        "icon": "ASSETS/Characters/TFT_TwistedFate/HUD/Icons2D/TFT_TwistedFate_Spell.TFT.dds",
+        "variables": [
+          {
+            "key": "RedCardDamage",
+            "values": [
+              50.0,
+              150.0,
+              250.0,
+              350.0,
+              450.0,
+              550.0,
+              650.0
+            ]
+          },
+          {
+            "key": "BlueCardDamage",
+            "values": [
+              50.0,
+              150.0,
+              250.0,
+              350.0,
+              450.0,
+              550.0,
+              650.0
+            ]
+          },
+          {
+            "key": "BlueCardManaRestore",
+            "values": [
+              5.0,
+              20.0,
+              35.0,
+              50.0,
+              65.0,
+              80.0,
+              95.0
+            ]
+          },
+          {
+            "key": "GoldCardStunDuration",
+            "values": [
+              1.0,
+              2.0,
+              3.0,
+              4.0,
+              5.0,
+              6.0,
+              7.0
+            ]
+          },
+          {
+            "key": "GoldCardDamage",
+            "values": [
+              50.0,
+              150.0,
+              250.0,
+              350.0,
+              450.0,
+              550.0,
+              650.0
+            ]
+          }
+        ]
+      }
+    },
+    "10": {
+      "name": "Kayle",
+      "cost": 5,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Kayle.dds",
+      "stats": {
+        "hp": 750.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 70.0,
+        "damageScaleFactor": 1.25,
+        "armor": 40.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 1.1,
+        "range": 3
+      },
+      "traits": [
+        "Noble",
+        "Knight"
+      ],
+      "ability": {
+        "name": "Yüce Adalet",
+        "desc": "Kayle canı en düşük takım arkadaşına kalkan vererek onu hasar görmez hale getirir.",
+        "icon": "ASSETS/Characters/Kayle/HUD/Icons2D/Kayle_R.dds",
+        "variables": [
+          {
+            "key": "ShieldDuration",
+            "values": [
+              1.0,
+              2.0,
+              3.0,
+              4.0,
+              5.0,
+              6.0,
+              7.0
+            ]
+          },
+          {
+            "key": "ExtraTargets",
+            "values": [
+              -1.0,
+              0.0,
+              1.0,
+              2.0,
+              3.0,
+              4.0,
+              5.0
+            ]
+          }
+        ]
+      }
+    },
+    "18": {
+      "name": "Tristana",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Tristana.dds",
+      "stats": {
+        "hp": 500.0,
+        "hpScaleFactor": 1.8,
+        "mana": 50.0,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 4
+      },
+      "traits": [
+        "Yordle",
+        "Gunslinger"
+      ],
+      "ability": {
+        "name": "Patlayıcı Yük",
+        "desc": "Tristana, mevcut hedefine 3 saldırının ardından patlayarak yakındaki rakiplere hasar veren bir bomba yerleştirir.",
+        "icon": "ASSETS/Characters/Tristana/HUD/Icons2D/Tristana_E.dds",
+        "variables": [
+          {
+            "key": "ExplosiveChargeDuration",
+            "values": [
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0
+            ]
+          },
+          {
+            "key": "ChargeBaseDamage",
+            "values": [
+              30.0,
+              60.0,
+              90.0,
+              120.0,
+              150.0,
+              180.0,
+              210.0
+            ]
+          },
+          {
+            "key": "PercentDamageIncreasePerStack",
+            "values": [
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5
+            ]
+          }
+        ]
+      }
+    },
+    "19": {
+      "name": "Warwick",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Warwick.dds",
+      "stats": {
+        "hp": 600.0,
+        "hpScaleFactor": 1.8,
+        "mana": 150.0,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 30.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 1
+      },
+      "traits": [
+        "Wild",
+        "Brawler"
+      ],
+      "ability": {
+        "name": "Sonsuz Şiddet",
+        "desc": "Warwick, en düşük cana sahip rakibin üstüne atılarak onu @Duration@ saniyeliğine sersemletir ve ona hasar verir. Bu sırada kendini iyileştirir. İsabet etkilerini uygular.",
+        "icon": "ASSETS/Characters/Warwick/HUD/Icons2D/WarwickR.dds",
+        "variables": [
+          {
+            "key": "Duration",
+            "values": [
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5
+            ]
+          },
+          {
+            "key": "BaseDamage",
+            "values": [
+              75.0,
+              150.0,
+              225.0,
+              300.0,
+              375.0,
+              450.0,
+              525.0
+            ]
+          },
+          {
+            "key": "DashHexSpeed",
+            "values": [
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0
+            ]
+          },
+          {
+            "key": "Hits",
+            "values": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          }
+        ]
+      }
+    },
+    "21": {
+      "name": "Miss Fortune",
+      "cost": 5,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_MissFortune.dds",
+      "stats": {
+        "hp": 650.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 75.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.85,
+        "range": 3
+      },
+      "traits": [
+        "Pirate",
+        "Gunslinger"
+      ],
+      "ability": {
+        "name": "Mermi Manyağı",
+        "desc": "Miss Fortune @ChannelDuration@ saniye boyunca yoğunlaşarak art arda kurşun dalgaları gönderir ve koni biçimindeki bir alandaki rakiplere hasar verir.",
+        "icon": "ASSETS/Characters/MissFortune/HUD/Icons2D/MissFortune_R.dds",
+        "variables": [
+          {
+            "key": "Waves",
+            "values": [
+              14.0,
+              14.0,
+              14.0,
+              14.0,
+              14.0,
+              14.0,
+              14.0
+            ]
+          },
+          {
+            "key": "TotalDamage",
+            "values": [
+              350.0,
+              800.0,
+              1250.0,
+              1700.0,
+              2150.0,
+              2600.0,
+              3050.0
+            ]
+          },
+          {
+            "key": "ChannelDuration",
+            "values": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          }
+        ]
+      }
+    },
+    "22": {
+      "name": "Ashe",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Ashe.dds",
+      "stats": {
+        "hp": 550.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 65.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.7,
+        "range": 4
+      },
+      "traits": [
+        "Glacial",
+        "Ranger"
+      ],
+      "ability": {
+        "name": "Büyülü Kristal Ok",
+        "desc": "Ashe en uzaktaki rakibi sersemleten ve ona hasar veren bir ok atar. Sersemletme süresi, rakibin ne kadar uzakta olduğuna bağlı olarak artar.",
+        "icon": "ASSETS/Characters/Ashe/HUD/Icons2D/Ashe_R.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              0.0,
+              200.0,
+              400.0,
+              600.0,
+              800.0,
+              1000.0,
+              1200.0
+            ]
+          },
+          {
+            "key": "StunDurationPerSquare",
+            "values": [
+              0.5,
+              1.0,
+              1.5,
+              2.0,
+              2.5,
+              3.0,
+              3.5
+            ]
+          }
+        ]
+      }
+    },
+    "25": {
+      "name": "Morgana",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Morgana.dds",
+      "stats": {
+        "hp": 650.0,
+        "hpScaleFactor": 1.8,
+        "mana": 150.0,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 2
+      },
+      "traits": [
+        "Demon",
+        "Sorcerer"
+      ],
+      "ability": {
+        "name": "Ruh Prangası",
+        "desc": "Morgana kendini yakınındaki rakiplere zincirler. Hedefler kısa bir gecikmenin ardından hâlâ yakındaysa hasar alır ve sersemler.",
+        "icon": "ASSETS/Characters/Morgana/HUD/Icons2D/FallenAngel_Purgatory.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              75.0,
+              200.0,
+              325.0,
+              450.0,
+              575.0,
+              700.0,
+              825.0
+            ]
+          },
+          {
+            "key": "ChainDuration",
+            "values": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          },
+          {
+            "key": "StunDuration",
+            "values": [
+              0.0,
+              2.0,
+              4.0,
+              6.0,
+              8.0,
+              10.0,
+              12.0
+            ]
+          },
+          {
+            "key": "SlowPercent",
+            "values": [
+              20.0,
+              20.0,
+              20.0,
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          {
+            "key": "CanCastRange",
+            "values": [
+              575.0,
+              575.0,
+              575.0,
+              575.0,
+              575.0,
+              575.0,
+              575.0
+            ]
+          }
+        ]
+      }
+    },
+    "28": {
+      "name": "Evelynn",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Evelyn.dds",
+      "stats": {
+        "hp": 550.0,
+        "hpScaleFactor": 1.8,
+        "mana": 75.0,
+        "initalMana": 0,
+        "damage": 70.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 1
+      },
+      "traits": [
+        "Demon",
+        "Assassin"
+      ],
+      "ability": {
+        "name": "Dul Bırakan",
+        "desc": "Evelynn en yakındaki 3 rakibe hasar verir ve uzağa ışınlanır. Hasar, düşük cana sahip rakiplere karşı artar.",
+        "icon": "ASSETS/Characters/Evelynn/HUD/Icons2D/Evelynn_R.dds",
+        "variables": [
+          {
+            "key": "CritMultiplier",
+            "values": [
+              1.0,
+              3.0,
+              5.0,
+              7.0,
+              9.0,
+              11.0,
+              13.0
+            ]
+          },
+          {
+            "key": "CritThreshold",
+            "values": [
+              0.65,
+              0.65,
+              0.65,
+              0.65,
+              0.65,
+              0.65,
+              0.65
+            ]
+          },
+          {
+            "key": "Damage",
+            "values": [
+              100.0,
+              200.0,
+              300.0,
+              400.0,
+              500.0,
+              600.0,
+              700.0
+            ]
+          },
+          {
+            "key": "BlinkBackDistance",
+            "values": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          }
+        ]
+      }
+    },
+    "30": {
+      "name": "Karthus",
+      "cost": 5,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Karthus.dds",
+      "stats": {
+        "hp": 850.0,
+        "hpScaleFactor": 1.8,
+        "mana": 85.0,
+        "initalMana": 0,
+        "damage": 65.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 3
+      },
+      "traits": [
+        "Phantom",
+        "Sorcerer"
+      ],
+      "ability": {
+        "name": "Ağıt",
+        "desc": "Karthus yoğunlaşarak @NumberOfTargets@ rasgele rakibi anında susturur. Eğer yoğunlaşma tamamlanırsa bu rakipler büyük miktarda hasar verir.",
+        "icon": "ASSETS/Characters/Karthus/HUD/Icons2D/Karthus_R.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              100.0,
+              400.0,
+              700.0,
+              1000.0,
+              1300.0,
+              1600.0,
+              1900.0
+            ]
+          },
+          {
+            "key": "NumberOfTargets",
+            "values": [
+              1.0,
+              5.0,
+              9.0,
+              13.0,
+              17.0,
+              21.0,
+              25.0
+            ]
+          }
+        ]
+      }
+    },
+    "31": {
+      "name": "Cho'Gath",
+      "cost": 4,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Chogath.dds",
+      "stats": {
+        "hp": 1000.0,
+        "hpScaleFactor": 1.8,
+        "mana": 150.0,
+        "initalMana": 0,
+        "damage": 70.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 1
+      },
+      "traits": [
+        "Void",
+        "Brawler"
+      ],
+      "ability": {
+        "name": "Kazıklı Zemin",
+        "desc": "Cho'Gath bir bölgeyi yararak buradaki rakipleri sersemletir ve onlara hasar verir.",
+        "icon": "ASSETS/Characters/Chogath/HUD/Icons2D/GreenTerror_SpikeSlam.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              0.0,
+              200.0,
+              400.0,
+              600.0,
+              800.0,
+              1000.0,
+              1200.0
+            ]
+          },
+          {
+            "key": "KnockDuration",
+            "values": [
+              1.25,
+              1.5,
+              1.75,
+              2.0,
+              2.25,
+              2.5,
+              2.75
+            ]
+          },
+          {
+            "key": "RuptureDelay",
+            "values": [
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5
+            ]
+          }
+        ]
+      }
+    },
+    "34": {
+      "name": "Anivia",
+      "cost": 5,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Anivia.dds",
+      "stats": {
+        "hp": 650.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 40.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 3
+      },
+      "traits": [
+        "Glacial",
+        "Elementalist"
+      ],
+      "ability": {
+        "name": "Buzul Fırtınası",
+        "desc": "Anivia büyük bir dolu fırtınası için yoğunlaşarak fırtınanın içindeki rakiplerin saldırı hızını azaltır.",
+        "icon": "ASSETS/Characters/Anivia/HUD/Icons2D/Anivia_R.dds",
+        "variables": [
+          {
+            "key": "TotalDamage",
+            "values": [
+              450.0,
+              700.0,
+              950.0,
+              1200.0,
+              1450.0,
+              1700.0,
+              1950.0
+            ]
+          },
+          {
+            "key": "AttackSpeedSlow",
+            "values": [
+              30.0,
+              50.0,
+              70.0,
+              90.0,
+              110.0,
+              130.0,
+              150.0
+            ]
+          },
+          {
+            "key": "StormDuration",
+            "values": [
+              8.0,
+              8.0,
+              8.0,
+              8.0,
+              8.0,
+              8.0,
+              8.0
+            ]
+          }
+        ]
+      }
+    },
+    "38": {
+      "name": "Kassadin",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Kassadin.dds",
+      "stats": {
+        "hp": 550.0,
+        "hpScaleFactor": 1.8,
+        "mana": 0.0,
+        "initalMana": 0,
+        "damage": 55.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 1
+      },
+      "traits": [
+        "Void",
+        "Sorcerer"
+      ],
+      "ability": {
+        "name": "Cehennem Kılıcı",
+        "desc": "Kassadin'in saldırıları rakiplerden mana çalar ve bunu @ShieldDuration@ saniye süren bir kalkana dönüştürür.",
+        "icon": "ASSETS/Characters/Kassadin/HUD/Icons2D/Kassadin_W.dds",
+        "variables": [
+          {
+            "key": "ShieldDuration",
+            "values": [
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0
+            ]
+          },
+          {
+            "key": "ManaSteal",
+            "values": [
+              0.0,
+              20.0,
+              40.0,
+              60.0,
+              80.0,
+              100.0,
+              120.0
+            ]
+          }
+        ]
+      }
+    },
+    "41": {
+      "name": "Gangplank",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Gangplank.dds",
+      "stats": {
+        "hp": 700.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 55.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 1
+      },
+      "traits": [
+        "Pirate",
+        "Gunslinger",
+        "Blademaster"
+      ],
+      "ability": {
+        "name": "Barut Fıçısı",
+        "desc": "Gangplank düzenli olarak fıçılar oluşturur. Kullanıldığında Gangplank fıçıları patlatarak yakındaki rakiplere hasar verir. İsabet etkilerini uygular.",
+        "icon": "ASSETS/Characters/Gangplank/HUD/Icons2D/Gangplank_E.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              75.0,
+              200.0,
+              325.0,
+              450.0,
+              575.0,
+              700.0,
+              825.0
+            ]
+          }
+        ]
+      }
+    },
+    "45": {
+      "name": "Veigar",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Veigar.dds",
+      "stats": {
+        "hp": 500.0,
+        "hpScaleFactor": 1.8,
+        "mana": 75.0,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.55,
+        "range": 3
+      },
+      "traits": [
+        "Yordle",
+        "Sorcerer"
+      ],
+      "ability": {
+        "name": "Ezeli Patlama",
+        "desc": "Veigar bir rakibi büyü enerjisiyle patlatarak ona hasar verir. Bu yetenek, yıldız seviyesi Veigar'dan düşük olan rakipleri anında katleder.",
+        "icon": "ASSETS/Characters/Veigar/HUD/Icons2D/VeigarPrimordialBurst.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              100.0,
+              300.0,
+              500.0,
+              700.0,
+              900.0,
+              1100.0,
+              1300.0
+            ]
+          },
+          {
+            "key": "LowerStarDamage",
+            "values": [
+              19999.0,
+              19999.0,
+              19999.0,
+              19999.0,
+              19999.0,
+              19999.0,
+              19999.0
+            ]
+          }
+        ]
+      }
+    },
+    "50": {
+      "name": "Swain",
+      "cost": 5,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Swain.dds",
+      "stats": {
+        "hp": 850.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 65.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 2
+      },
+      "traits": [
+        "Imperial",
+        "Demon",
+        "Shapeshifter"
+      ],
+      "ability": {
+        "name": "İblis Ateşi",
+        "desc": "Swain şekil değiştirerek yakındaki tüm rakiplerden can çalar. Şekil değiştirmesi sonlanırken yakınındaki rakiplere hasar veren bir enerji patlaması oluşturur.",
+        "icon": "ASSETS/Characters/Swain/HUD/Icons2D/Swain_R.dds",
+        "variables": [
+          {
+            "key": "TransformDuration",
+            "values": [
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0
+            ]
+          },
+          {
+            "key": "DamagePerTick",
+            "values": [
+              0.0,
+              50.0,
+              100.0,
+              150.0,
+              200.0,
+              250.0,
+              300.0
+            ]
+          },
+          {
+            "key": "HealPerTick",
+            "values": [
+              10.0,
+              50.0,
+              90.0,
+              130.0,
+              170.0,
+              210.0,
+              250.0
+            ]
+          },
+          {
+            "key": "SoulFlareDamage",
+            "values": [
+              0.0,
+              300.0,
+              600.0,
+              900.0,
+              1200.0,
+              1500.0,
+              1800.0
+            ]
+          },
+          {
+            "key": "HealthIncrease",
+            "values": null
+          }
+        ]
+      }
+    },
+    "53": {
+      "name": "Blitzcrank",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Blitzcrank.dds",
+      "stats": {
+        "hp": 600.0,
+        "hpScaleFactor": 1.8,
+        "mana": 125.0,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 35.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.5,
+        "range": 1
+      },
+      "traits": [
+        "Robot",
+        "Brawler"
+      ],
+      "ability": {
+        "name": "Roket El",
+        "desc": "Blitzcrank en uzaktaki rakibi kendine çeker ve onu @StunDuration@ saniyeliğine sersemletir.",
+        "icon": "ASSETS/Characters/Blitzcrank/HUD/Icons2D/Blitzcrank_RocketGrab.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              -250.0,
+              100.0,
+              450.0,
+              800.0,
+              1150.0,
+              1500.0,
+              1850.0
+            ]
+          },
+          {
+            "key": "StunDuration",
+            "values": [
+              2.5,
+              2.5,
+              2.5,
+              2.5,
+              2.5,
+              2.5,
+              2.5
+            ]
+          }
+        ]
+      }
+    },
+    "55": {
+      "name": "Katarina",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Katarina.dds",
+      "stats": {
+        "hp": 450.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 1
+      },
+      "traits": [
+        "Imperial",
+        "Assassin"
+      ],
+      "ability": {
+        "name": "Ölüm Çiçeği",
+        "desc": "Katarina @Duration@ saniye boyunca yoğunlaşarak yakınındaki @NumberOfTargets@ rakibe hançer fırlatır. Hançerler hasar verir ve iyileştirme etkilerini azaltır.",
+        "icon": "ASSETS/Characters/Katarina/HUD/Icons2D/Katarina_R.dds",
+        "variables": [
+          {
+            "key": "DamagePerTick",
+            "values": [
+              20.0,
+              40.0,
+              60.0,
+              80.0,
+              100.0,
+              120.0,
+              140.0
+            ]
+          },
+          {
+            "key": "TicksPerSecond",
+            "values": [
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0
+            ]
+          },
+          {
+            "key": "Duration",
+            "values": [
+              2.5,
+              2.5,
+              2.5,
+              2.5,
+              2.5,
+              2.5,
+              2.5
+            ]
+          },
+          {
+            "key": "GrievousWoundsDuration",
+            "values": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          },
+          {
+            "key": "NumberOfTargets",
+            "values": [
+              2.0,
+              4.0,
+              6.0,
+              8.0,
+              10.0,
+              12.0,
+              14.0
+            ]
+          }
+        ]
+      }
+    },
+    "60": {
+      "name": "Elise",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Elise.dds",
+      "stats": {
+        "hp": 450.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 40.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 2
+      },
+      "traits": [
+        "Demon",
+        "Shapeshifter"
+      ],
+      "ability": {
+        "name": "Örümcek Hali",
+        "desc": "Elise örümcek yavruları çağırır ve şekil değiştirerek can çalma kazanır.",
+        "icon": "ASSETS/Characters/Elise/HUD/Icons2D/EliseR.DDS",
+        "variables": [
+          {
+            "key": "NumSpiderlings",
+            "values": [
+              1.0,
+              1.0,
+              2.0,
+              4.0,
+              5.0,
+              6.0,
+              7.0
+            ]
+          },
+          {
+            "key": "Lifesteal",
+            "values": [
+              0.3,
+              0.6,
+              0.9,
+              1.2,
+              1.5,
+              1.8,
+              2.1
+            ]
+          },
+          {
+            "key": "SpiderFormDuration",
+            "values": [
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0
+            ]
+          }
+        ]
+      }
+    },
+    "63": {
+      "name": "Brand",
+      "cost": 4,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Brand.dds",
+      "stats": {
+        "hp": 700.0,
+        "hpScaleFactor": 1.8,
+        "mana": 125.0,
+        "initalMana": 0,
+        "damage": 60.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 3
+      },
+      "traits": [
+        "Demon",
+        "Elementalist"
+      ],
+      "ability": {
+        "name": "Volkan",
+        "desc": "Brand sıçrayan bir ateş topu fırlatarak isabet alan rakiplere hasar verir.",
+        "icon": "ASSETS/Characters/Brand/HUD/Icons2D/BrandR.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              25.0,
+              200.0,
+              375.0,
+              550.0,
+              725.0,
+              900.0,
+              1075.0
+            ]
+          },
+          {
+            "key": "MaxBounces",
+            "values": [
+              4.0,
+              4.0,
+              6.0,
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          }
+        ]
+      }
+    },
+    "67": {
+      "name": "Vayne",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Vayne.dds",
+      "stats": {
+        "hp": 550.0,
+        "hpScaleFactor": 1.8,
+        "mana": 0.0,
+        "initalMana": 0,
+        "damage": 40.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.75,
+        "range": 3
+      },
+      "traits": [
+        "Noble",
+        "Ranger"
+      ],
+      "ability": {
+        "name": "Gümüş Ok",
+        "desc": "Karakteristik: Vayne'in her üçüncü saldırısı, rakibinin azami canına bağlı olarak ilave gerçek hasar verir.",
+        "icon": "ASSETS/Characters/Vayne/HUD/Icons2D/Vayne_SilveredBolts.dds",
+        "variables": [
+          {
+            "key": "PercentDamage",
+            "values": [
+              0.06,
+              0.08,
+              0.1,
+              0.12,
+              0.14,
+              0.16,
+              0.18
+            ]
+          }
+        ]
+      }
+    },
+    "76": {
+      "name": "Nidalee",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Nidalee.dds",
+      "stats": {
+        "hp": 500.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 3
+      },
+      "traits": [
+        "Wild",
+        "Shapeshifter"
+      ],
+      "ability": {
+        "name": "İlkel Güdü",
+        "desc": "Nidalee kendini ve en düşük cana sahip takım arkadaşını iyileştirir. Ardından şekil değiştirerek saldırı hasarı kazanır.",
+        "icon": "ASSETS/Characters/Nidalee/HUD/Icons2D/Nidalee_R2.dds",
+        "variables": [
+          {
+            "key": "HoTDuration",
+            "values": [
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0
+            ]
+          },
+          {
+            "key": "HoTTotalHeal",
+            "values": [
+              -75.0,
+              150.0,
+              375.0,
+              600.0,
+              825.0,
+              1050.0,
+              1275.0
+            ]
+          },
+          {
+            "key": "ADInCougar",
+            "values": [
+              -30.0,
+              20.0,
+              70.0,
+              120.0,
+              170.0,
+              220.0,
+              270.0
+            ]
+          },
+          {
+            "key": "TransformDuration",
+            "values": [
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0
+            ]
+          },
+          {
+            "key": "AnimTime",
+            "values": [
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5
+            ]
+          }
+        ]
+      }
+    },
+    "78": {
+      "name": "Poppy",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Poppy.dds",
+      "stats": {
+        "hp": 800.0,
+        "hpScaleFactor": 1.8,
+        "mana": 75.0,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 40.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.5,
+        "range": 1
+      },
+      "traits": [
+        "Yordle",
+        "Knight"
+      ],
+      "ability": {
+        "name": "Muhafızın Hükmü",
+        "desc": "Poppy çekicini savurarak en yakındaki rakibe hasar verir ve onu havaya savurur.",
+        "icon": "ASSETS/Characters/Poppy/HUD/Icons2D/Poppy_R.dds",
+        "variables": [
+          {
+            "key": "DamagePart2",
+            "values": [
+              100.0,
+              300.0,
+              500.0,
+              700.0,
+              900.0,
+              1100.0,
+              1300.0
+            ]
+          },
+          {
+            "key": "KnockbackDurationPart2",
+            "values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "key": "StunDuration",
+            "values": [
+              1.0,
+              2.0,
+              3.0,
+              4.0,
+              5.0,
+              6.0,
+              7.0
+            ]
+          },
+          {
+            "key": "PoppyAnimLockDuration",
+            "values": [
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75
+            ]
+          },
+          {
+            "key": "NumberOfTargets",
+            "values": [
+              0.0,
+              1.0,
+              2.0,
+              3.0,
+              4.0,
+              5.0,
+              6.0
+            ]
+          }
+        ]
+      }
+    },
+    "82": {
+      "name": "Mordekaiser",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Mordekaiser.dds",
+      "stats": {
+        "hp": 550.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 40.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.5,
+        "range": 1
+      },
+      "traits": [
+        "Phantom",
+        "Knight"
+      ],
+      "ability": {
+        "name": "Mahvet",
+        "desc": "Mordekaiser gürzünü önündeki alana indirerek çizgi halindeki bir alanda bulunan iki rakibe hasar verir.",
+        "icon": "ASSETS/Characters/Mordekaiser/HUD/Icons2D/MordekaiserQ.MordeVGU.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              75.0,
+              200.0,
+              325.0,
+              450.0,
+              575.0,
+              700.0,
+              825.0
+            ]
+          },
+          {
+            "key": "MaceStartDistance",
+            "values": [
+              400.0,
+              400.0,
+              400.0,
+              400.0,
+              400.0,
+              400.0,
+              400.0
+            ]
+          },
+          {
+            "key": "MaceLength",
+            "values": [
+              625.0,
+              625.0,
+              625.0,
+              625.0,
+              625.0,
+              625.0,
+              625.0
+            ]
+          },
+          {
+            "key": "RectangleWidth",
+            "values": [
+              160.0,
+              160.0,
+              160.0,
+              160.0,
+              160.0,
+              160.0,
+              160.0
+            ]
+          }
+        ]
+      }
+    },
+    "84": {
+      "name": "Akali",
+      "cost": 4,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Akali.dds",
+      "stats": {
+        "hp": 650.0,
+        "hpScaleFactor": 1.8,
+        "mana": 25.0,
+        "initalMana": 0,
+        "damage": 70.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.7,
+        "range": 1
+      },
+      "traits": [
+        "Ninja",
+        "Assassin"
+      ],
+      "ability": {
+        "name": "Beş Nokta Saldırısı",
+        "desc": "Akali, hedefine kunailer fırlatarak hasar verir. Bu yetenek kritik vuruş yapabilir.",
+        "icon": "ASSETS/Characters/Akali/HUD/Icons2D/Akali_Q.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              25.0,
+              150.0,
+              275.0,
+              400.0,
+              525.0,
+              650.0,
+              775.0
+            ]
+          },
+          {
+            "key": "ConeDeg",
+            "values": [
+              30.0,
+              30.0,
+              30.0,
+              30.0,
+              30.0,
+              30.0,
+              30.0
+            ]
+          },
+          {
+            "key": "HexRange",
+            "values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        ]
+      }
+    },
+    "85": {
+      "name": "Kennen",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Kennen.dds",
+      "stats": {
+        "hp": 550.0,
+        "hpScaleFactor": 1.8,
+        "mana": 150.0,
+        "initalMana": 0,
+        "damage": 65.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 2
+      },
+      "traits": [
+        "Ninja",
+        "Yordle",
+        "Elementalist"
+      ],
+      "ability": {
+        "name": "Yıldırım Yağmuru",
+        "desc": "Kennen, kendi etrafında @StunDuration@ saniye boyunca içindeki rakiplere hasar veren ve onları sersemleten bir fırtına oluşturur.",
+        "icon": "ASSETS/Characters/Kennen/HUD/Icons2D/Kennen_R.dds",
+        "variables": [
+          {
+            "key": "TickRate",
+            "values": [
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5
+            ]
+          },
+          {
+            "key": "Duration",
+            "values": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          },
+          {
+            "key": "Damage",
+            "values": [
+              0.0,
+              225.0,
+              450.0,
+              675.0,
+              900.0,
+              1125.0,
+              1350.0
+            ]
+          },
+          {
+            "key": "StunDuration",
+            "values": [
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5
+            ]
+          }
+        ]
+      }
+    },
+    "86": {
+      "name": "Garen",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Garen.dds",
+      "stats": {
+        "hp": 600.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 40.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 1
+      },
+      "traits": [
+        "Noble",
+        "Knight"
+      ],
+      "ability": {
+        "name": "Yargı",
+        "desc": "Garen @SpinDuration@ saniye boyunca kılıcını çevirerek büyü hasarına karşı bağışıklık kazanır ve yakınındaki rakiplere hasar verir.",
+        "icon": "ASSETS/Characters/Garen/HUD/Icons2D/Garen_E1.dds",
+        "variables": [
+          {
+            "key": "SpinDuration",
+            "values": [
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0
+            ]
+          },
+          {
+            "key": "ETotalTicks",
+            "values": [
+              9.0,
+              9.0,
+              9.0,
+              9.0,
+              9.0,
+              9.0,
+              9.0
+            ]
+          },
+          {
+            "key": "DamagePerTick",
+            "values": [
+              15.0,
+              40.0,
+              65.0,
+              90.0,
+              115.0,
+              140.0,
+              165.0
+            ]
+          }
+        ]
+      }
+    },
+    "89": {
+      "name": "Leona",
+      "cost": 4,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Leona.dds",
+      "stats": {
+        "hp": 750.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 45.0,
+        "damageScaleFactor": 1.25,
+        "armor": 100.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.55,
+        "range": 1
+      },
+      "traits": [
+        "Noble",
+        "Guardian"
+      ],
+      "ability": {
+        "name": "Güneş Patlaması",
+        "desc": "Leona'nın gökten çağırdığı güneş ışını, içinde kalan rakiplere hasar verir ve onları yavaşlatır. Işının merkezindeki rakip sersemler.",
+        "icon": "ASSETS/Characters/Leona/HUD/Icons2D/LeonaSolarFlare.dds",
+        "variables": [
+          {
+            "key": "DelayTime",
+            "values": [
+              0.625,
+              0.625,
+              0.625,
+              0.625,
+              0.625,
+              0.625,
+              0.625
+            ]
+          },
+          {
+            "key": "CCDuration",
+            "values": [
+              2.0,
+              5.0,
+              8.0,
+              11.0,
+              14.0,
+              17.0,
+              20.0
+            ]
+          },
+          {
+            "key": "Damage",
+            "values": [
+              100.0,
+              175.0,
+              250.0,
+              325.0,
+              400.0,
+              475.0,
+              550.0
+            ]
+          }
+        ]
+      }
+    },
+    "98": {
+      "name": "Shen",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Shen.dds",
+      "stats": {
+        "hp": 650.0,
+        "hpScaleFactor": 1.8,
+        "mana": 150.0,
+        "initalMana": 0,
+        "damage": 65.0,
+        "damageScaleFactor": 1.25,
+        "armor": 30.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.7,
+        "range": 1
+      },
+      "traits": [
+        "Ninja",
+        "Blademaster"
+      ],
+      "ability": {
+        "name": "Ruh Sığınağı",
+        "desc": "Shen kendi etrafında bir alan oluşturarak bu alandaki takım arkadaşlarının tüm saldırılardan sakınmasını sağlar.",
+        "icon": "ASSETS/Characters/Shen/HUD/Icons2D/Shen_W.dds",
+        "variables": [
+          {
+            "key": "ZoneDuration",
+            "values": [
+              2.0,
+              3.0,
+              4.0,
+              5.0,
+              6.0,
+              7.0,
+              8.0
+            ]
+          }
+        ]
+      }
+    },
+    "102": {
+      "name": "Shyvana",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Shyvana.dds",
+      "stats": {
+        "hp": 650.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 30.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.7,
+        "range": 1
+      },
+      "traits": [
+        "Dragon",
+        "Shapeshifter"
+      ],
+      "ability": {
+        "name": "Ejderin Öfkesi",
+        "desc": "Shyvana atılıp şekil değiştirerek saldırı hasarı ve saldırı menzili kazanır. Şekil değiştirmiş haldeyken gerçekleştirdiği saldırılar rakiplerini tutuşturur.",
+        "icon": "ASSETS/Characters/Shyvana/HUD/Icons2D/ShyvanaDragonsDescent.dds",
+        "variables": [
+          {
+            "key": "TransformDuration",
+            "values": [
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0
+            ]
+          },
+          {
+            "key": "ADWhileDragon",
+            "values": [
+              50.0,
+              100.0,
+              150.0,
+              200.0,
+              250.0,
+              300.0,
+              350.0
+            ]
+          },
+          {
+            "key": "BurnDuration",
+            "values": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          },
+          {
+            "key": "BurnDamage",
+            "values": [
+              125.0,
+              250.0,
+              375.0,
+              500.0,
+              625.0,
+              750.0,
+              875.0
+            ]
+          }
+        ]
+      }
+    },
+    "103": {
+      "name": "Ahri",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Ahri.dds",
+      "stats": {
+        "hp": 450.0,
+        "hpScaleFactor": 1.8,
+        "mana": 75.0,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.55,
+        "range": 3
+      },
+      "traits": [
+        "Wild",
+        "Sorcerer"
+      ],
+      "ability": {
+        "name": "Aldatan Küre",
+        "desc": "Ahri bir çizgi halinde ilerleyen ve ona geri dönen bir küre fırlatır. Küre, içinden geçtiği rakiplere hasar verir.",
+        "icon": "ASSETS/Characters/Ahri/HUD/Icons2D/Ahri_OrbofDeception.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              50.0,
+              100.0,
+              200.0,
+              300.0,
+              400.0,
+              500.0,
+              475.0
+            ]
+          }
+        ]
+      }
+    },
+    "104": {
+      "name": "Graves",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Graves.dds",
+      "stats": {
+        "hp": 450.0,
+        "hpScaleFactor": 1.8,
+        "mana": 0.0,
+        "initalMana": 0,
+        "damage": 55.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.55,
+        "range": 1
+      },
+      "traits": [
+        "Pirate",
+        "Gunslinger"
+      ],
+      "ability": {
+        "name": "Dağınık Atış",
+        "desc": "Karakteristik: Graves'in saldırıları daha fazla hasar verir ve önündeki tüm rakiplere isabet eder.",
+        "icon": "ASSETS/Characters/Graves/HUD/Icons2D/BuckshotOld.dds",
+        "variables": [
+          {
+            "key": "DamageMultiplier",
+            "values": [
+              0.0,
+              0.05,
+              0.1,
+              0.15,
+              0.2,
+              0.25,
+              0.3
+            ]
+          }
+        ]
+      }
+    },
+    "106": {
+      "name": "Volibear",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Volibear.dds",
+      "stats": {
+        "hp": 700.0,
+        "hpScaleFactor": 1.8,
+        "mana": 75.0,
+        "initalMana": 0,
+        "damage": 75.0,
+        "damageScaleFactor": 1.25,
+        "armor": 30.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.55,
+        "range": 1
+      },
+      "traits": [
+        "Glacial",
+        "Brawler"
+      ],
+      "ability": {
+        "name": "Fırtına Pençe",
+        "desc": "Volibear saldırılarını rakiplerine zincirleme şekilde vuracak ve isabet etkilerini uygulayacak şekilde güçlendirir.",
+        "icon": "ASSETS/Characters/Volibear/HUD/Icons2D/VolibearR.dds",
+        "variables": [
+          {
+            "key": "BuffDuration",
+            "values": [
+              20.0,
+              20.0,
+              20.0,
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          {
+            "key": "MaxBounces",
+            "values": [
+              1.0,
+              2.0,
+              3.0,
+              4.0,
+              5.0,
+              6.0,
+              7.0
+            ]
+          },
+          {
+            "key": "ChainADMult",
+            "values": [
+              0.7,
+              0.8,
+              0.9,
+              1.0,
+              1.1,
+              1.2,
+              1.3
+            ]
+          },
+          {
+            "key": "SizeIncrease",
+            "values": [
+              0.08,
+              0.08,
+              0.08,
+              0.08,
+              0.08,
+              0.08,
+              0.08
+            ]
+          },
+          {
+            "key": "HexRange",
+            "values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        ]
+      }
+    },
+    "107": {
+      "name": "Rengar",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Rengar.dds",
+      "stats": {
+        "hp": 550.0,
+        "hpScaleFactor": 1.8,
+        "mana": 75.0,
+        "initalMana": 0,
+        "damage": 70.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 1
+      },
+      "traits": [
+        "Wild",
+        "Assassin"
+      ],
+      "ability": {
+        "name": "Yabani",
+        "desc": "Rengar en düşük cana sahip rakibe sıçrar ve saldırısıyla ilave hasar verir. Hasar verdikten sonra saldırı hızı ve %@CritBuff*100@ Kritik Vuruş İhtimali kazanır.",
+        "icon": "ASSETS/Characters/Rengar/HUD/Icons2D/RengarQ.dds",
+        "variables": [
+          {
+            "key": "ADMult",
+            "values": [
+              1.0,
+              2.0,
+              3.0,
+              4.0,
+              5.0,
+              6.0,
+              7.0
+            ]
+          },
+          {
+            "key": "ASBuff",
+            "values": [
+              0.1,
+              0.4,
+              0.7,
+              1.0,
+              1.3,
+              1.6,
+              1.9
+            ]
+          },
+          {
+            "key": "CritBuff",
+            "values": [
+              0.25,
+              0.25,
+              0.25,
+              0.25,
+              0.25,
+              0.25,
+              0.25
+            ]
+          },
+          {
+            "key": "BuffDuration",
+            "values": [
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0
+            ]
+          }
+        ]
+      }
+    },
+    "110": {
+      "name": "Varus",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Varus.dds",
+      "stats": {
+        "hp": 500.0,
+        "hpScaleFactor": 1.8,
+        "mana": 75.0,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.7,
+        "range": 4
+      },
+      "traits": [
+        "Demon",
+        "Ranger"
+      ],
+      "ability": {
+        "name": "Deşen Ok",
+        "desc": "Varus yayını gererek bir ok atar ve çizgi halindeki bir alandaki tüm rakiplere hasar verir.",
+        "icon": "ASSETS/Characters/Varus/HUD/Icons2D/VarusQ.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              50.0,
+              300.0,
+              550.0,
+              800.0,
+              1050.0,
+              1300.0,
+              1550.0
+            ]
+          },
+          {
+            "key": "HexRange",
+            "values": [
+              8.0,
+              8.0,
+              8.0,
+              8.0,
+              8.0,
+              8.0,
+              8.0
+            ]
+          }
+        ]
+      }
+    },
+    "113": {
+      "name": "Sejuani",
+      "cost": 4,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Sejuani.dds",
+      "stats": {
+        "hp": 850.0,
+        "hpScaleFactor": 1.8,
+        "mana": 150.0,
+        "initalMana": 0,
+        "damage": 45.0,
+        "damageScaleFactor": 1.25,
+        "armor": 40.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.55,
+        "range": 1
+      },
+      "traits": [
+        "Glacial",
+        "Knight"
+      ],
+      "ability": {
+        "name": "Buzul Hapsi",
+        "desc": "Sejuani büyük bir buz fırtınası oluşturarak kısa bir gecikmenin ardından içindeki rakipleri sersemletir.",
+        "icon": "ASSETS/Characters/Sejuani/HUD/Icons2D/Sejuani_R.dds",
+        "variables": [
+          {
+            "key": "ExplosionDelay",
+            "values": [
+              0.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "key": "Damage",
+            "values": [
+              25.0,
+              100.0,
+              175.0,
+              250.0,
+              325.0,
+              400.0,
+              475.0
+            ]
+          },
+          {
+            "key": "StunDuration",
+            "values": [
+              1.0,
+              2.0,
+              4.0,
+              6.0,
+              8.0,
+              10.0,
+              12.0
+            ]
+          }
+        ]
+      }
+    },
+    "114": {
+      "name": "Fiora",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Fiora.dds",
+      "stats": {
+        "hp": 400.0,
+        "hpScaleFactor": 1.8,
+        "mana": 75.0,
+        "initalMana": 0,
+        "damage": 40.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 1.0,
+        "range": 1
+      },
+      "traits": [
+        "Noble",
+        "Blademaster"
+      ],
+      "ability": {
+        "name": "Karşı Hamle",
+        "desc": "Fiora hasar ve yeteneklere karşı bağışıklık kazanır. Kısa bir gecikmenin ardından en yakındaki rakibi sersemletir ve ona hasar verir.",
+        "icon": "ASSETS/Characters/Fiora/HUD/Icons2D/Fiora_W.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              -50.0,
+              100.0,
+              250.0,
+              400.0,
+              550.0,
+              700.0,
+              850.0
+            ]
+          },
+          {
+            "key": "StunDuration",
+            "values": [
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5
+            ]
+          },
+          {
+            "key": "BlockDuration",
+            "values": [
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5
+            ]
+          }
+        ]
+      }
+    },
+    "117": {
+      "name": "Lulu",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Lulu.dds",
+      "stats": {
+        "hp": 500.0,
+        "hpScaleFactor": 1.8,
+        "mana": 150.0,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 2
+      },
+      "traits": [
+        "Yordle",
+        "Sorcerer"
+      ],
+      "ability": {
+        "name": "Vahşi Büyüme",
+        "desc": "Lulu bir takım arkadaşına ilave can sağlar ve hedefin yakınındaki rakipleri @CCDuration@ saniyeliğine havaya savurur.",
+        "icon": "ASSETS/Characters/Lulu/HUD/Icons2D/Lulu_GiantGrowth.dds",
+        "variables": [
+          {
+            "key": "BonusHealth",
+            "values": [
+              125.0,
+              300.0,
+              475.0,
+              650.0,
+              825.0,
+              1000.0,
+              1175.0
+            ]
+          },
+          {
+            "key": "ExtraTargets",
+            "values": [
+              -1.0,
+              0.0,
+              1.0,
+              2.0,
+              3.0,
+              4.0,
+              5.0
+            ]
+          },
+          {
+            "key": "BuffDuration",
+            "values": [
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0
+            ]
+          },
+          {
+            "key": "CCDuration",
+            "values": [
+              1.25,
+              1.25,
+              1.25,
+              1.25,
+              1.25,
+              1.25,
+              1.25
+            ]
+          }
+        ]
+      }
+    },
+    "119": {
+      "name": "Draven",
+      "cost": 4,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Draven.dds",
+      "stats": {
+        "hp": 700.0,
+        "hpScaleFactor": 1.8,
+        "mana": 50.0,
+        "initalMana": 0,
+        "damage": 75.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.75,
+        "range": 3
+      },
+      "traits": [
+        "Imperial",
+        "Blademaster"
+      ],
+      "ability": {
+        "name": "Dönen Balta",
+        "desc": "Draven, Dönen Balta kazanarak isabet halinde ilave hasar verir. İki defaya kadar birikir.",
+        "icon": "ASSETS/Characters/Draven/HUD/Icons2D/Draven_SpinningAxe.dds",
+        "variables": [
+          {
+            "key": "BuffDuration",
+            "values": [
+              5.75,
+              5.75,
+              5.75,
+              5.75,
+              5.75,
+              5.75,
+              5.75
+            ]
+          },
+          {
+            "key": "ADMult",
+            "values": [
+              1.0,
+              1.5,
+              2.0,
+              2.5,
+              3.0,
+              3.5,
+              4.0
+            ]
+          },
+          {
+            "key": "ASBuff",
+            "values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        ]
+      }
+    },
+    "121": {
+      "name": "Kha'Zix",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Khazix.dds",
+      "stats": {
+        "hp": 500.0,
+        "hpScaleFactor": 1.8,
+        "mana": 50.0,
+        "initalMana": 0,
+        "damage": 55.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 1
+      },
+      "traits": [
+        "Void",
+        "Assassin"
+      ],
+      "ability": {
+        "name": "Korkularından Beslen",
+        "desc": "Kha'Zix en yakındaki rakibi biçer. Yalnız rakiplere ilave hasar verir.",
+        "icon": "ASSETS/Characters/KhaZix/HUD/Icons2D/Khazix_Q.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              50.0,
+              150.0,
+              300.0,
+              450.0,
+              600.0,
+              750.0,
+              900.0
+            ]
+          },
+          {
+            "key": "IsolationDamage",
+            "values": [
+              200.0,
+              400.0,
+              600.0,
+              800.0,
+              1000.0,
+              1200.0,
+              1400.0
+            ]
+          }
+        ]
+      }
+    },
+    "122": {
+      "name": "Darius",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Darius.dds",
+      "stats": {
+        "hp": 600.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 40.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.5,
+        "range": 1
+      },
+      "traits": [
+        "Imperial",
+        "Knight"
+      ],
+      "ability": {
+        "name": "Biçen Balta",
+        "desc": "Darius baltasını savurarak yakındaki rakiplere hasar verir ve isabet alan rakiplere bağlı olarak iyileşir.",
+        "icon": "ASSETS/Characters/Darius/HUD/Icons2D/Darius_Icon_Decimate.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              100.0,
+              150.0,
+              200.0,
+              250.0,
+              300.0,
+              350.0,
+              400.0
+            ]
+          },
+          {
+            "key": "Heal",
+            "values": [
+              50.0,
+              100.0,
+              150.0,
+              200.0,
+              250.0,
+              300.0,
+              350.0
+            ]
+          }
+        ]
+      }
+    },
+    "126": {
+      "name": "Jayce",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Jayce.dds",
+      "stats": {
+        "hp": 600.0,
+        "hpScaleFactor": 1.8,
+        "mana": 50.0,
+        "initalMana": 0,
+        "damage": 55.0,
+        "damageScaleFactor": 1.25,
+        "armor": 30.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.7,
+        "range": 1
+      },
+      "traits": [
+        "Hextech",
+        "Shapeshifter"
+      ],
+      "ability": {
+        "name": "tft_character_jayce_ability_name",
+        "desc": "tft_character_jayce_ability_description",
+        "icon": "ASSETS/Characters/TFT_Jayce/HUD/Icons2D/TFT_Jayce_Spell.TFT_Hextech.dds",
+        "variables": [
+          {
+            "key": "RangeIncrease",
+            "values": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          },
+          {
+            "key": "TransformDuration",
+            "values": [
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0
+            ]
+          },
+          {
+            "key": "Damage",
+            "values": [
+              75.0,
+              150.0,
+              225.0,
+              300.0,
+              375.0,
+              450.0,
+              525.0
+            ]
+          },
+          {
+            "key": "CCDuration",
+            "values": [
+              0.75,
+              2.5,
+              4.25,
+              6.0,
+              7.75,
+              9.5,
+              11.25
+            ]
+          },
+          {
+            "key": "KnockbackDistance",
+            "values": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          },
+          {
+            "key": "AAMax",
+            "values": [
+              1.0,
+              3.0,
+              5.0,
+              7.0,
+              9.0,
+              11.0,
+              13.0
+            ]
+          }
+        ]
+      }
+    },
+    "127": {
+      "name": "Lissandra",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Lissandra.dds",
+      "stats": {
+        "hp": 450.0,
+        "hpScaleFactor": 1.8,
+        "mana": 150.0,
+        "initalMana": 0,
+        "damage": 40.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 2
+      },
+      "traits": [
+        "Glacial",
+        "Elementalist"
+      ],
+      "ability": {
+        "name": "Donmuş Mezar",
+        "desc": "Lissandra hedefini @EnemyStunDuration@ saniyeliğine buzla kaplayarak ona ve çevresindeki rakiplere hasar verir. Lissandra'nın canı yarısının altına düştüğünde şampiyon kendini buzla kaplayarak @SelfDuration@ saniyeliğine hedef alınamaz olur.",
+        "icon": "ASSETS/Characters/Lissandra/HUD/Icons2D/Lissandra_R.dds",
+        "variables": [
+          {
+            "key": "EnemyStunDuration",
+            "values": [
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5
+            ]
+          },
+          {
+            "key": "SelfDuration",
+            "values": [
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "key": "Damage",
+            "values": [
+              25.0,
+              150.0,
+              275.0,
+              400.0,
+              525.0,
+              650.0,
+              775.0
+            ]
+          },
+          {
+            "key": "SlowDuration",
+            "values": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          },
+          {
+            "key": "SlowAmount",
+            "values": [
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "key": "SlowFieldDuration",
+            "values": [
+              0.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          },
+          {
+            "key": "MaxHexRange",
+            "values": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          },
+          {
+            "key": "SelfUltHealthPercent",
+            "values": [
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5
+            ]
+          }
+        ]
+      }
+    },
+    "136": {
+      "name": "Aurelion Sol",
+      "cost": 4,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_AurelionSol.dds",
+      "stats": {
+        "hp": 650.0,
+        "hpScaleFactor": 1.8,
+        "mana": 125.0,
+        "initalMana": 0,
+        "damage": 40.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 3
+      },
+      "traits": [
+        "Dragon",
+        "Sorcerer"
+      ],
+      "ability": {
+        "name": "Işığın Sesi",
+        "desc": "Aurelion Sol çizgi halindeki bir alana ateş kusarak rakiplere hasar verir.",
+        "icon": "ASSETS/Characters/AurelionSol/HUD/Icons2D/AurelionSol_R.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              50.0,
+              250.0,
+              500.0,
+              750.0,
+              1000.0,
+              1250.0,
+              1500.0
+            ]
+          },
+          {
+            "key": "HexRange",
+            "values": [
+              8.0,
+              8.0,
+              8.0,
+              8.0,
+              8.0,
+              8.0,
+              8.0
+            ]
+          }
+        ]
+      }
+    },
+    "150": {
+      "name": "Gnar",
+      "cost": 4,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Gnar.dds",
+      "stats": {
+        "hp": 750.0,
+        "hpScaleFactor": 1.8,
+        "mana": 125.0,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 30.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.7,
+        "range": 2
+      },
+      "traits": [
+        "Wild",
+        "Yordle",
+        "Shapeshifter"
+      ],
+      "ability": {
+        "name": "GNAR!",
+        "desc": "Gnar şekil değiştirerek can ve saldırı gücü kazanır. Ardından en uzaktaki rakibin arkasına sıçrayarak yakınındaki rakiplere hasar verir ve onları @RCCDuration@ saniyeliğine sersemletir.",
+        "icon": "ASSETS/Characters/Gnar/HUD/Icons2D/GnarTransform.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              100.0,
+              200.0,
+              300.0,
+              400.0,
+              500.0,
+              600.0,
+              700.0
+            ]
+          },
+          {
+            "key": "RCCDuration",
+            "values": [
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "key": "RKnockbackDistance",
+            "values": [
+              500.0,
+              500.0,
+              500.0,
+              500.0,
+              500.0,
+              500.0,
+              500.0
+            ]
+          },
+          {
+            "key": "TransformDuration",
+            "values": [
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0
+            ]
+          },
+          {
+            "key": "TransformHealth",
+            "values": [
+              0.0,
+              300.0,
+              600.0,
+              900.0,
+              1200.0,
+              1500.0,
+              1800.0
+            ]
+          },
+          {
+            "key": "TransformAD",
+            "values": [
+              0.0,
+              30.0,
+              60.0,
+              90.0,
+              120.0,
+              150.0,
+              180.0
+            ]
+          }
+        ]
+      }
+    },
+    "157": {
+      "name": "Yasuo",
+      "cost": 5,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Yasuo.dds",
+      "stats": {
+        "hp": 700.0,
+        "hpScaleFactor": 1.8,
+        "mana": 25.0,
+        "initalMana": 0,
+        "damage": 75.0,
+        "damageScaleFactor": 1.25,
+        "armor": 35.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 1.0,
+        "range": 1
+      },
+      "traits": [
+        "Exile",
+        "Blademaster"
+      ],
+      "ability": {
+        "name": "Çelik Fırtına",
+        "desc": "Yasuo kılıcını ileri savurarak çizgi halindeki bir alandaki iki rakibe hasar verir. Üçüncü kullanımında Yasuo bir hortum göndererek çizgi halindeki bir alandaki rakiplere hasar verir ve onları @QKnockupDuration@ saniyeliğine havaya savurur. <br><br>İsabet etkilerini uygular.",
+        "icon": "ASSETS/Characters/Yasuo/HUD/Icons2D/Yasuo_Q1.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              -50.0,
+              150.0,
+              350.0,
+              550.0,
+              750.0,
+              950.0,
+              1150.0
+            ]
+          },
+          {
+            "key": "QHexRange",
+            "values": [
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "key": "QEmpowerHexRange",
+            "values": [
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0
+            ]
+          },
+          {
+            "key": "QCountForEmpower",
+            "values": [
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "key": "QWidth",
+            "values": [
+              75.0,
+              75.0,
+              75.0,
+              75.0,
+              75.0,
+              75.0,
+              75.0
+            ]
+          },
+          {
+            "key": "QKnockupDuration",
+            "values": [
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5
+            ]
+          }
+        ]
+      }
+    },
+    "164": {
+      "name": "Camille",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Camille.dds",
+      "stats": {
+        "hp": 550.0,
+        "hpScaleFactor": 1.8,
+        "mana": 150.0,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 1
+      },
+      "traits": [
+        "Hextech",
+        "Blademaster"
+      ],
+      "ability": {
+        "name": "Spell_TFT_CamilleR_Name",
+        "desc": "Spell_TFT_CamilleR_Summary",
+        "icon": "ASSETS/Characters/TFT_Camille/HUD/Icons2D/TFT_Camille_R.TFT_Hextech.dds",
+        "variables": [
+          {
+            "key": "Duration",
+            "values": [
+              3.0,
+              4.0,
+              5.0,
+              6.0,
+              7.0,
+              8.0,
+              9.0
+            ]
+          },
+          {
+            "key": "Damage",
+            "values": [
+              75.0,
+              200.0,
+              325.0,
+              450.0,
+              575.0,
+              700.0,
+              825.0
+            ]
+          }
+        ]
+      }
+    },
+    "201": {
+      "name": "Braum",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Braum.dds",
+      "stats": {
+        "hp": 750.0,
+        "hpScaleFactor": 1.8,
+        "mana": 50.0,
+        "initalMana": 0,
+        "damage": 40.0,
+        "damageScaleFactor": 1.25,
+        "armor": 75.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 1
+      },
+      "traits": [
+        "Glacial",
+        "Guardian"
+      ],
+      "ability": {
+        "name": "Kapı Gibi",
+        "desc": "Braum gelen hasarı engelleyen bir bariyer kazanır.",
+        "icon": "ASSETS/Characters/Braum/HUD/Icons2D/Braum_E.dds",
+        "variables": [
+          {
+            "key": "ShieldDR",
+            "values": [
+              60.0,
+              70.0,
+              80.0,
+              90.0,
+              100.0,
+              110.0,
+              120.0
+            ]
+          },
+          {
+            "key": "ShieldDuration",
+            "values": [
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0
+            ]
+          }
+        ]
+      }
+    },
+    "203": {
+      "name": "Kindred",
+      "cost": 4,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Kindred.dds",
+      "stats": {
+        "hp": 600.0,
+        "hpScaleFactor": 1.8,
+        "mana": 150.0,
+        "initalMana": 0,
+        "damage": 60.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 3
+      },
+      "traits": [
+        "Phantom",
+        "Ranger"
+      ],
+      "ability": {
+        "name": "Kuzunun Şefkati",
+        "desc": "Kindred, kendi etrafında takım arkadaşlarını katledilmekten koruyan bir alan oluşturur.",
+        "icon": "ASSETS/Characters/Kindred/HUD/Icons2D/Kindred_R.dds",
+        "variables": [
+          {
+            "key": "Duration",
+            "values": [
+              3.0,
+              4.0,
+              5.0,
+              6.0,
+              7.0,
+              8.0,
+              9.0
+            ]
+          },
+          {
+            "key": "MinHealth",
+            "values": [
+              0.0,
+              300.0,
+              600.0,
+              900.0,
+              1200.0,
+              1500.0,
+              1800.0
+            ]
+          }
+        ]
+      }
+    },
+    "222": {
+      "name": "Jinx",
+      "cost": 4,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Jinx.dds",
+      "stats": {
+        "hp": 550.0,
+        "hpScaleFactor": 1.8,
+        "mana": 0.0,
+        "initalMana": 0,
+        "damage": 75.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 3
+      },
+      "traits": [
+        "Hextech",
+        "Gunslinger"
+      ],
+      "ability": {
+        "name": "tft_character_jinx_ability_name",
+        "desc": "Spell_TFT_JinxPassive_Description",
+        "icon": "ASSETS/Characters/TFT_Jinx/HUD/Icons2D/TFT_Jinx_Spell.TFT_Hextech.dds",
+        "variables": [
+          {
+            "key": "HitWindow",
+            "values": [
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0
+            ]
+          },
+          {
+            "key": "BuffDuration",
+            "values": [
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0
+            ]
+          },
+          {
+            "key": "AttackSpeedBonus",
+            "values": [
+              0.5,
+              0.75,
+              1.0,
+              1.25,
+              1.5,
+              1.75,
+              2.0
+            ]
+          },
+          {
+            "key": "RocketDamage",
+            "values": [
+              -25.0,
+              100.0,
+              225.0,
+              350.0,
+              475.0,
+              600.0,
+              725.0
+            ]
+          }
+        ]
+      }
+    },
+    "236": {
+      "name": "Lucian",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Lucian.dds",
+      "stats": {
+        "hp": 600.0,
+        "hpScaleFactor": 1.8,
+        "mana": 35.0,
+        "initalMana": 0,
+        "damage": 65.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 3
+      },
+      "traits": [
+        "Noble",
+        "Gunslinger"
+      ],
+      "ability": {
+        "name": "Amansız Takip",
+        "desc": "Lucian rakiplerden uzağa atılarak bir rakibe iki kere saldırır. Bu saldırılardan biri saldırı hasarı, diğeri büyü hasarı verir.",
+        "icon": "ASSETS/Characters/Lucian/HUD/Icons2D/Lucian_E.dds",
+        "variables": [
+          {
+            "key": "FirstShotRatio",
+            "values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "key": "SecondShotDamage",
+            "values": [
+              50.0,
+              150.0,
+              250.0,
+              350.0,
+              450.0,
+              550.0,
+              650.0
+            ]
+          }
+        ]
+      }
+    },
+    "238": {
+      "name": "Zed",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Zed.dds",
+      "stats": {
+        "hp": 500.0,
+        "hpScaleFactor": 1.8,
+        "mana": 75.0,
+        "initalMana": 0,
+        "damage": 65.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 1
+      },
+      "traits": [
+        "Ninja",
+        "Assassin"
+      ],
+      "ability": {
+        "name": "Keskin Shuriken",
+        "desc": "Zed çizgi halindeki bir alanda bulunan rakiplere hasar veren bir shuriken fırlatır.",
+        "icon": "ASSETS/Characters/Zed/HUD/Icons2D/shadowninja_Q.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              100.0,
+              200.0,
+              300.0,
+              400.0,
+              500.0,
+              600.0,
+              700.0
+            ]
+          },
+          {
+            "key": "HexRange",
+            "values": [
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0
+            ]
+          }
+        ]
+      }
+    },
+    "254": {
+      "name": "Vi",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Vi.dds",
+      "stats": {
+        "hp": 600.0,
+        "hpScaleFactor": 1.8,
+        "mana": 125.0,
+        "initalMana": 0,
+        "damage": 55.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 1
+      },
+      "traits": [
+        "Hextech",
+        "Brawler"
+      ],
+      "ability": {
+        "name": "Spell_TFT_ViR_Name",
+        "desc": "Spell_TFT_ViR_Description",
+        "icon": "ASSETS/Characters/TFT_Vi/HUD/Icons2D/TFT_ViR.TFT_Hextech.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              100.0,
+              250.0,
+              400.0,
+              550.0,
+              700.0,
+              850.0,
+              1000.0
+            ]
+          },
+          {
+            "key": "CCDuration",
+            "values": [
+              1.5,
+              2.0,
+              2.5,
+              3.0,
+              3.5,
+              4.0,
+              4.5
+            ]
+          },
+          {
+            "key": "MoveSpeed",
+            "values": [
+              1000.0,
+              1000.0,
+              1000.0,
+              1000.0,
+              1000.0,
+              1000.0,
+              1000.0
+            ]
+          },
+          {
+            "key": "OthersCCDuration",
+            "values": [
+              0.25,
+              0.25,
+              0.25,
+              0.25,
+              0.25,
+              0.25,
+              0.25
+            ]
+          }
+        ]
+      }
+    },
+    "266": {
+      "name": "Aatrox",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Aatrox.dds",
+      "stats": {
+        "hp": 700.0,
+        "hpScaleFactor": 1.8,
+        "mana": 75.0,
+        "initalMana": 0,
+        "damage": 65.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 1
+      },
+      "traits": [
+        "Demon",
+        "Blademaster"
+      ],
+      "ability": {
+        "name": "Darkin Kılıcı",
+        "desc": "Aatrox önündeki bir alana saldırarak buradaki rakiplere hasar verir.",
+        "icon": "ASSETS/Characters/Aatrox/HUD/Icons2D/Aatrox_Q3.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              50.0,
+              250.0,
+              600.0,
+              950.0,
+              1250.0,
+              1550.0,
+              1850.0
+            ]
+          }
+        ]
+      }
+    },
+    "421": {
+      "name": "Rek'Sai",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Reksai.dds",
+      "stats": {
+        "hp": 650.0,
+        "hpScaleFactor": 1.8,
+        "mana": 150.0,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 1
+      },
+      "traits": [
+        "Void",
+        "Brawler"
+      ],
+      "ability": {
+        "name": "Gömül",
+        "desc": "Rek'Sai kısa süreliğine gömülerek hedef alınamaz hale gelir ve iyileşir. Rek'Sai tekrar yüzeye çıktığında en yakınındaki rakibe hasar verir ve onu @KnockUpDuration@ saniyeliğine havaya savurur.",
+        "icon": "ASSETS/Characters/RekSai/HUD/Icons2D/RekSai_W1.dds",
+        "variables": [
+          {
+            "key": "HealAmount",
+            "values": [
+              75.0,
+              150.0,
+              300.0,
+              450.0,
+              600.0,
+              750.0,
+              900.0
+            ]
+          },
+          {
+            "key": "BurrowDuration",
+            "values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "key": "HealTickRate",
+            "values": [
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5
+            ]
+          },
+          {
+            "key": "KnockupDuration",
+            "values": [
+              1.75,
+              1.75,
+              1.75,
+              1.75,
+              1.75,
+              1.75,
+              1.75
+            ]
+          },
+          {
+            "key": "KnockupDamage",
+            "values": [
+              50.0,
+              200.0,
+              350.0,
+              500.0,
+              650.0,
+              800.0,
+              950.0
+            ]
+          }
+        ]
+      }
+    },
+    "555": {
+      "name": "Pyke",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Pyke.dds",
+      "stats": {
+        "hp": 600.0,
+        "hpScaleFactor": 1.8,
+        "mana": 125.0,
+        "initalMana": 0,
+        "damage": 60.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 1
+      },
+      "traits": [
+        "Pirate",
+        "Assassin"
+      ],
+      "ability": {
+        "name": "Karanlık Gelgit",
+        "desc": "Pyke en uzaktaki rakibin arkasına atılarak arkasında içinden geçtiği rakipleri sersemleten bir suret bırakır.",
+        "icon": "ASSETS/Characters/Pyke/HUD/Icons2D/PykeE.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              100.0,
+              150.0,
+              200.0,
+              250.0,
+              300.0,
+              350.0,
+              400.0
+            ]
+          },
+          {
+            "key": "StunDuration",
+            "values": [
+              1.5,
+              2.0,
+              2.5,
+              3.0,
+              3.5,
+              4.0,
+              4.5
+            ]
+          },
+          {
+            "key": "StunDelay",
+            "values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "traits": [
+    {
+      "name": "Korsan",
+      "desc": "<row>(@MinUnits@) Başka bir oyuncuya karşı savaştıktan sonra en fazla 4 İlave Altın kazanırsın.</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Pirate.dds",
+      "effects": [
+        {
+          "minUnits": 3,
+          "maxUnits": 25000,
+          "vars": []
+        }
+      ]
+    },
+    {
+      "name": "Elementalist",
+      "desc": "Karakteristik: Elementalistler saldırılardan iki kat mana kazanır.<br><br><row>(@MinUnits@) Çatışmanın başında bir golem çağırır.</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Elementalist.dds",
+      "effects": [
+        {
+          "minUnits": 3,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "HPMultiplier",
+              "value": null
+            },
+            {
+              "name": "558229DF",
+              "value": null
+            },
+            {
+              "name": "SizeCoefficient",
+              "value": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "İblis",
+      "desc": "İblislerin saldırıları, bir rakibin bütün manasını yakıp rakibe yakılan mana kadar gerçek hasar verme şansına sahiptir.<br><br><expandRow>(@MinUnits@) %@ProcChance@ Mana Yakma İhtimali</expandRow><br>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Demon.dds",
+      "effects": [
+        {
+          "minUnits": 2,
+          "maxUnits": 3,
+          "vars": [
+            {
+              "name": "ProcChance",
+              "value": 20.0
+            },
+            {
+              "name": "DamagePercent",
+              "value": 100.0
+            },
+            {
+              "name": "4516A18D",
+              "value": 3.0
+            },
+            {
+              "name": "35BB0E0C",
+              "value": 33.0
+            },
+            {
+              "name": "0EBB5365",
+              "value": 25.0
+            },
+            {
+              "name": "1A14AA8A",
+              "value": 10.0
+            }
+          ]
+        },
+        {
+          "minUnits": 4,
+          "maxUnits": 5,
+          "vars": [
+            {
+              "name": "ProcChance",
+              "value": 40.0
+            },
+            {
+              "name": "DamagePercent",
+              "value": 100.0
+            },
+            {
+              "name": "4516A18D",
+              "value": 3.0
+            },
+            {
+              "name": "35BB0E0C",
+              "value": 33.0
+            },
+            {
+              "name": "0EBB5365",
+              "value": 25.0
+            },
+            {
+              "name": "1A14AA8A",
+              "value": 10.0
+            }
+          ]
+        },
+        {
+          "minUnits": 6,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "ProcChance",
+              "value": 80.0
+            },
+            {
+              "name": "DamagePercent",
+              "value": 100.0
+            },
+            {
+              "name": "4516A18D",
+              "value": 3.0
+            },
+            {
+              "name": "35BB0E0C",
+              "value": 33.0
+            },
+            {
+              "name": "0EBB5365",
+              "value": 25.0
+            },
+            {
+              "name": "1A14AA8A",
+              "value": 25.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vahşi",
+      "desc": "Saldırılar Hiddet yükleri biriktirir (en fazla 5 defaya kadar birikir). Her bir Hiddet yükü %@AttackSpeedPercent@ Saldırı Hızı verir.<br><br><row>(@MinUnits@) Yalnızca Vahşi takım arkadaşları için geçerli.</row><br><row>(@MinUnits@) Tüm takım arkadaşları için geçerli.</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Wild.dds",
+      "effects": [
+        {
+          "minUnits": 2,
+          "maxUnits": 3,
+          "vars": [
+            {
+              "name": "AttackSpeedPercent",
+              "value": 10.0
+            }
+          ]
+        },
+        {
+          "minUnits": 4,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "AttackSpeedPercent",
+              "value": 10.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hiçlik Yaratığı",
+      "desc": "<row>(@MinUnits@) Hiçlik Yaratığı şampiyonlar gerçek hasar verir.</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Void.dds",
+      "effects": [
+        {
+          "minUnits": 3,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "PercentArmorPen",
+              "value": 100.0
+            },
+            {
+              "name": "CB42693F",
+              "value": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dövüşçü",
+      "desc": "Dövüşçüler ilave azami can kazanır.<br><br><expandRow>(@MinUnits@) @BonusHealth@ İlave Can</expandRow><br>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Brawler.dds",
+      "effects": [
+        {
+          "minUnits": 2,
+          "maxUnits": 3,
+          "vars": [
+            {
+              "name": "BonusHealth",
+              "value": 300.0
+            }
+          ]
+        },
+        {
+          "minUnits": 4,
+          "maxUnits": 5,
+          "vars": [
+            {
+              "name": "BonusHealth",
+              "value": 700.0
+            }
+          ]
+        },
+        {
+          "minUnits": 6,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "BonusHealth",
+              "value": 1200.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ejderha",
+      "desc": "<row>(@MinUnits@) Ejderhalar büyü hasarına karşı %@MagicReduction@ direnç kazanır.</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Dragon.dds",
+      "effects": [
+        {
+          "minUnits": 2,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "MagicReduction",
+              "value": 83.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sürgün",
+      "desc": "<row>(@MinUnits@) Çatışmanın başında yanında takım arkadaşı olmayan sürgünler, azami canlarının %@ShieldPercent@ kadarına eşdeğer güçte kalkan kazanır.</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Exile.dds",
+      "effects": [
+        {
+          "minUnits": 1,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "ShieldPercent",
+              "value": 100.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Yordle",
+      "desc": "Yordle'lar rakiplerin saldırılarından sakınma ihtimali kazanır.<br><br><expandRow>(@MinUnits@) %@MissPercent@ Sakınma İhtimali</expandRow><br>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Yordle.dds",
+      "effects": [
+        {
+          "minUnits": 3,
+          "maxUnits": 5,
+          "vars": [
+            {
+              "name": "MissPercent",
+              "value": 30.0
+            }
+          ]
+        },
+        {
+          "minUnits": 6,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "MissPercent",
+              "value": 55.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Muhafız",
+      "desc": "<row>(@MinUnits@) Muhafızlar çatışmanın başında bitişik takım arkadaşlarına +@Armor@ Zırh verir. Bu zırh birikebilir.</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Guardian.dds",
+      "effects": [
+        {
+          "minUnits": 2,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "Armor",
+              "value": 50.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Şövalye",
+      "desc": "Tüm takım arkadaşları gelen hasarı engeller.<br><br><expandRow>(@MinUnits@) @BlockAmount@ Engellenen Hasar</expandRow>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Knight.dds",
+      "effects": [
+        {
+          "minUnits": 2,
+          "maxUnits": 3,
+          "vars": [
+            {
+              "name": "BlockAmount",
+              "value": 15.0
+            }
+          ]
+        },
+        {
+          "minUnits": 4,
+          "maxUnits": 5,
+          "vars": [
+            {
+              "name": "BlockAmount",
+              "value": 30.0
+            }
+          ]
+        },
+        {
+          "minUnits": 6,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "BlockAmount",
+              "value": 55.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ninja",
+      "desc": "Ninja özelliği yalnızca tam olarak 1 veya 4 Ninja varken etkindir.<br><br><row>(@MinUnits@) Ninja +@ADValue@ Saldırı Gücü ve +%@APValue@ Yetenek Gücü kazanır.</row><br><row>(@MinUnits@) Tüm Ninjalar +@ADValue@ Saldırı Gücü ve +%@APValue@ Yetenek Gücü kazanır.</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Ninja.dds",
+      "effects": [
+        {
+          "minUnits": 1,
+          "maxUnits": 1,
+          "vars": [
+            {
+              "name": "ADValue",
+              "value": 40.0
+            },
+            {
+              "name": "APValue",
+              "value": 40.0
+            }
+          ]
+        },
+        {
+          "minUnits": 4,
+          "maxUnits": 4,
+          "vars": [
+            {
+              "name": "ADValue",
+              "value": 60.0
+            },
+            {
+              "name": "APValue",
+              "value": 60.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kolcu",
+      "desc": "Kolcular, her @ProcRate@ saniyede bir saldırı hızlarını sonraki @ProcRate@ saniye boyunca ikiye katlama ihtimaline sahiptir.<br><br><expandRow>(@MinUnits@) %@ProcPercent@ İki Kat Saldırı Hızı Kazanma İhtimali</expandRow><br>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Ranger.dds",
+      "effects": [
+        {
+          "minUnits": 2,
+          "maxUnits": 3,
+          "vars": [
+            {
+              "name": "ProcPercent",
+              "value": 25.0
+            },
+            {
+              "name": "ASMultiplier",
+              "value": 2.0
+            },
+            {
+              "name": "ProcRate",
+              "value": 3.0
+            }
+          ]
+        },
+        {
+          "minUnits": 4,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "ProcPercent",
+              "value": 65.0
+            },
+            {
+              "name": "ASMultiplier",
+              "value": 2.0
+            },
+            {
+              "name": "ProcRate",
+              "value": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Şekil Değiştirici",
+      "desc": "Şekil Değiştiriciler, şekil değiştirdiklerinde ilave azami can kazanır.<br><br><expandRow>(@MinUnits@) %@HPPercent@ İlave Azami Can</expandRow><br>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Shapeshifter.dds",
+      "effects": [
+        {
+          "minUnits": 3,
+          "maxUnits": 5,
+          "vars": [
+            {
+              "name": "HPPercent",
+              "value": 60.0
+            }
+          ]
+        },
+        {
+          "minUnits": 6,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "HPPercent",
+              "value": 120.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Silahşor",
+      "desc": "Silahşorların saldırıları isabet halinde ve %@ProcPercent@ ihtimalle ilave saldırılar tetikler.<br><br><row>(@MinUnits@) Fazladan @ExtraTargetsHit@ rakibe saldırır.</row><br><row>(@MinUnits@) Fazladan @ExtraTargetsHit@ rakibe saldırır.</row><br><row>(@MinUnits@) Fazladan @ExtraTargetsHit@ rakibe saldırır.</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Gunslinger.dds",
+      "effects": [
+        {
+          "minUnits": 2,
+          "maxUnits": 3,
+          "vars": [
+            {
+              "name": "ProcPercent",
+              "value": 50.0
+            },
+            {
+              "name": "F768E185",
+              "value": 1.0
+            },
+            {
+              "name": "ExtraTargetsHit",
+              "value": 1.0
+            }
+          ]
+        },
+        {
+          "minUnits": 4,
+          "maxUnits": 5,
+          "vars": [
+            {
+              "name": "ProcPercent",
+              "value": 50.0
+            },
+            {
+              "name": "F768E185",
+              "value": 2.0
+            },
+            {
+              "name": "ExtraTargetsHit",
+              "value": 2.0
+            }
+          ]
+        },
+        {
+          "minUnits": 6,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "ProcPercent",
+              "value": 50.0
+            },
+            {
+              "name": "F768E185",
+              "value": 3.0
+            },
+            {
+              "name": "ExtraTargetsHit",
+              "value": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Büyücü",
+      "desc": "Karakteristik: Büyücüler, saldırılarından iki kat mana kazanır.<br><br>Tüm takım arkadaşlarının yetenek gücü artar.<br><br><expandRow>(@MinUnits@) +%@AP@ Yetenek Gücü</expandRow><br>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Sorcerer.dds",
+      "effects": [
+        {
+          "minUnits": 3,
+          "maxUnits": 5,
+          "vars": [
+            {
+              "name": "AP",
+              "value": 45.0
+            }
+          ]
+        },
+        {
+          "minUnits": 6,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "AP",
+              "value": 100.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Robot",
+      "desc": "(@MinUnits@) Robotlar çatışmaya manaları dolu olarak başlar.",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Robot.dds",
+      "effects": [
+        {
+          "minUnits": 1,
+          "maxUnits": 25000,
+          "vars": []
+        }
+      ]
+    },
+    {
+      "name": "tft_trait_displayname_Hextech",
+      "desc": "tft_trait_description_Hextech",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Hextech.dds",
+      "effects": [
+        {
+          "minUnits": 2,
+          "maxUnits": 3,
+          "vars": [
+            {
+              "name": "C78D1CC9",
+              "value": 4.0
+            },
+            {
+              "name": "2BD7DCB7",
+              "value": 5.0
+            }
+          ]
+        },
+        {
+          "minUnits": 4,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "C78D1CC9",
+              "value": 4.0
+            },
+            {
+              "name": "2BD7DCB7",
+              "value": 15.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hayalet",
+      "desc": "<row>(@MinUnits@) Çatışmanın başında rasgele bir rakibi lanetleyerek canını @HPToSet@ değerine çeker.</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Phantom.dds",
+      "effects": [
+        {
+          "minUnits": 2,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "HPToSet",
+              "value": 100.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Soylu",
+      "desc": "+@Armor@ Zırh, +@MagicResist@ Büyü Direnci ve isabet halinde @Heal@ Can iyileştirme kazandırır.<br><br><row>(@MinUnits@) 1 rasgele takım arkadaşı</row><br><row>(@MinUnits@) Tüm takım arkadaşları</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Noble.dds",
+      "effects": [
+        {
+          "minUnits": 3,
+          "maxUnits": 5,
+          "vars": [
+            {
+              "name": "Armor",
+              "value": 60.0
+            },
+            {
+              "name": "Heal",
+              "value": 35.0
+            },
+            {
+              "name": "MagicResist",
+              "value": 60.0
+            }
+          ]
+        },
+        {
+          "minUnits": 6,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "Armor",
+              "value": 60.0
+            },
+            {
+              "name": "Heal",
+              "value": 35.0
+            },
+            {
+              "name": "MagicResist",
+              "value": 60.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Suikastçı",
+      "desc": "Karakteristik: Suikastçılar çatışmanın başında en uzaktaki rakibe sıçrar.<br><br>Suikastçılar ilave kritik vuruş hasarı kazanır.<br><br><expandRow>(@MinUnits@) +%@CritAmpPercent@ Kritik Vuruş Hasarı</expandRow><br>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Assassin.dds",
+      "effects": [
+        {
+          "minUnits": 3,
+          "maxUnits": 5,
+          "vars": [
+            {
+              "name": "CritAmpPercent",
+              "value": 125.0
+            }
+          ]
+        },
+        {
+          "minUnits": 6,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "CritAmpPercent",
+              "value": 350.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Buzul",
+      "desc": "Buzulların saldırıları, rakipleri @StunDuration@ saniyeliğine sersemletme ihtimali kazanır.<br><br><expandRow>(@MinUnits@) %@ProcPercent@ Sersemletme İhtimali</expandRow><br>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Glacial.dds",
+      "effects": [
+        {
+          "minUnits": 2,
+          "maxUnits": 3,
+          "vars": [
+            {
+              "name": "ProcPercent",
+              "value": 20.0
+            },
+            {
+              "name": "StunDuration",
+              "value": 2.0
+            }
+          ]
+        },
+        {
+          "minUnits": 4,
+          "maxUnits": 5,
+          "vars": [
+            {
+              "name": "ProcPercent",
+              "value": 30.0
+            },
+            {
+              "name": "StunDuration",
+              "value": 2.0
+            }
+          ]
+        },
+        {
+          "minUnits": 6,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "ProcPercent",
+              "value": 45.0
+            },
+            {
+              "name": "StunDuration",
+              "value": 2.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Seçkin",
+      "desc": "İki kat hasar kazandırır.<br><br><row>(@MinUnits@) 1 Rasgele Seçkin</row><br><row>(@MinUnits@) Tüm Seçkinler</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Imperial.dds",
+      "effects": [
+        {
+          "minUnits": 2,
+          "maxUnits": 3,
+          "vars": [
+            {
+              "name": "DamageMultiplier",
+              "value": 2.0
+            }
+          ]
+        },
+        {
+          "minUnits": 4,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "DamageMultiplier",
+              "value": 2.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kılıç Ustası",
+      "desc": "Kılıç ustalarının saldırıları, isabet halinde ve %@ProcChance@ ihtimalle ilave saldırılar tetikler.<br><br><row>(@MinUnits@) Bir İlave Saldırı</row><br><row>(@MinUnits@) İki İlave Saldırı</row><br><row>(@MinUnits@) Dört İlave Saldırı</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Blademaster.dds",
+      "effects": [
+        {
+          "minUnits": 3,
+          "maxUnits": 5,
+          "vars": [
+            {
+              "name": "ProcChance",
+              "value": 45.0
+            },
+            {
+              "name": "ExtraAttacks",
+              "value": 1.0
+            }
+          ]
+        },
+        {
+          "minUnits": 6,
+          "maxUnits": 8,
+          "vars": [
+            {
+              "name": "ProcChance",
+              "value": 45.0
+            },
+            {
+              "name": "ExtraAttacks",
+              "value": 2.0
+            }
+          ]
+        },
+        {
+          "minUnits": 9,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "ProcChance",
+              "value": 45.0
+            },
+            {
+              "name": "ExtraAttacks",
+              "value": 4.0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "items": {
+    "1": {
+      "name": "TEK Kılıcı",
+      "desc": " +@AD@ Saldırı Hasarı",
+      "icon": "ASSETS/Maps/Particles/TFT/Icon_BFSword.TFT.dds",
+      "from": [],
+      "effects": [
+        {
+          "name": "AD",
+          "value": 20.0
+        }
+      ]
+    },
+    "2": {
+      "name": "Nişancı Yayı",
+      "desc": " +%@AS@ Saldırı Hızı",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_RecurveBow.TFT.dds",
+      "from": [],
+      "effects": [
+        {
+          "name": "AS",
+          "value": 20.0
+        }
+      ]
+    },
+    "3": {
+      "name": "Aşırı Büyük Sopa",
+      "desc": " +%@AP@ Yetenek Gücü",
+      "icon": "ASSETS/Maps/Particles/TFT/Icon_NeedlesslyLargeRod.TFT.dds",
+      "from": [],
+      "effects": [
+        {
+          "name": "AP",
+          "value": 20.0
+        }
+      ]
+    },
+    "4": {
+      "name": "Tanrıça'nın Gözyaşı",
+      "desc": " +@Mana@ Mana",
+      "icon": "ASSETS/Maps/Particles/TFT/Icon_TearOfTheGoddess.TFT.dds",
+      "from": [],
+      "effects": [
+        {
+          "name": "Mana",
+          "value": 20.0
+        }
+      ]
+    },
+    "5": {
+      "name": "Zincir Yelek",
+      "desc": "+@Armor@ Zırh",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_ChainVest.TFT.dds",
+      "from": [],
+      "effects": [
+        {
+          "name": "Armor",
+          "value": 20.0
+        }
+      ]
+    },
+    "6": {
+      "name": "Negatron Pelerini",
+      "desc": "+@MagicResist@ Büyü Direnci",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_NegatronCloak.TFT.dds",
+      "from": [],
+      "effects": [
+        {
+          "name": "MagicResist",
+          "value": 20.0
+        }
+      ]
+    },
+    "7": {
+      "name": "Dev Kemeri",
+      "desc": " +@Health@ Can",
+      "icon": "ASSETS/Maps/Particles/TFT/Icon_GiantsBelt.TFT.dds",
+      "from": [],
+      "effects": [
+        {
+          "name": "Health",
+          "value": 200.0
+        }
+      ]
+    },
+    "8": {
+      "name": "Spatula",
+      "desc": "En azından <i>bir işe</i> yarıyordur...",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Spatula.TFT.dds",
+      "from": [],
+      "effects": [
+        {
+          "name": "FE9818EF",
+          "value": 5.0
+        }
+      ]
+    },
+    "11": {
+      "name": "Ebedi Kılıç",
+      "desc": "Kritik vuruşlar +%@CriticalStrikeAmp@ Hasar verir.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_InfinityEdge.TFT.dds",
+      "from": [
+        "1",
+        "1"
+      ],
+      "effects": [
+        {
+          "name": "CriticalStrikeAmp",
+          "value": 150.0
+        }
+      ]
+    },
+    "12": {
+      "name": "İlahların Kılıcı",
+      "desc": "Kullanıcı her saniye %@ChanceToProc@ ihtimalle %100 Kritik Vuruş kazanır.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_SwordOfTheDivine.TFT.dds",
+      "from": [
+        "1",
+        "2"
+      ],
+      "effects": [
+        {
+          "name": "ChanceToProc",
+          "value": 5.0
+        }
+      ]
+    },
+    "13": {
+      "name": "Hextech Silahkılıç",
+      "desc": "Verilen tüm hasarın %@OmniVamp@ kadarına eşdeğer miktarda iyileştirir.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_HextechGunblade.TFT.dds",
+      "from": [
+        "1",
+        "3"
+      ],
+      "effects": [
+        {
+          "name": "OmniVamp",
+          "value": 33.0
+        }
+      ]
+    },
+    "14": {
+      "name": "Shojin'in Mızrağı",
+      "desc": "Kullanıcısı, yetenek kullanmasının ardından saldırı başına azami manasının %@ManaPercentRestore@ kadarını kazanır.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_SpearOfShojin.TFT.dds",
+      "from": [
+        "1",
+        "4"
+      ],
+      "effects": [
+        {
+          "name": "ManaPercentRestore",
+          "value": 15.0
+        }
+      ]
+    },
+    "15": {
+      "name": "Koruyucu Melek",
+      "desc": "Kullanıcısı @HealthRestore@ Can ile yeniden doğar.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_GuardianAngel.TFT.dds",
+      "from": [
+        "1",
+        "5"
+      ],
+      "effects": [
+        {
+          "name": "HealthRestore",
+          "value": 1000.0
+        }
+      ]
+    },
+    "16": {
+      "name": "Kanasusamış",
+      "desc": "Saldırılar verdikleri hasarın %@Lifesteal@ kadarına eşdeğer miktarda iyileştirir.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Bloodthirster.TFT.dds",
+      "from": [
+        "1",
+        "6"
+      ],
+      "effects": [
+        {
+          "name": "Lifesteal",
+          "value": 50.0
+        }
+      ]
+    },
+    "17": {
+      "name": "Zeke'nin Sancağı",
+      "desc": "Çatışmanın başında aynı yatay çizgi üstünde ve @HexRange@ hücrelik bir alan içinde bulunan takım arkadaşları, çatışmanın geri kalanı boyunca %@AttackSpeed@ Saldırı Hızı kazanır.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_ZekesHerald.TFT.dds",
+      "from": [
+        "1",
+        "7"
+      ],
+      "effects": [
+        {
+          "name": "AttackSpeed",
+          "value": 15.0
+        },
+        {
+          "name": "HexRange",
+          "value": 2.0
+        }
+      ]
+    },
+    "18": {
+      "name": "Youmuu'nun Hayaletkılıcı",
+      "desc": "Fazladan %i:scaleAD% +@AD@<br>Kullanıcı ayrıca bir Suikastçı.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_YoumuusGhostblade.TFT.dds",
+      "from": [
+        "1",
+        "8"
+      ],
+      "effects": [
+        {
+          "name": "AD",
+          "value": 20.0
+        }
+      ]
+    },
+    "22": {
+      "name": "Bombardıman Topu",
+      "desc": "Kullanıcının saldırılarından sakınılamaz. Saldırı menzili iki katına çıkar.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_RapidFirecannon.TFT.dds",
+      "from": [
+        "2",
+        "2"
+      ],
+      "effects": []
+    },
+    "23": {
+      "name": "Guinsoo'nun Hiddeti",
+      "desc": "Saldırılar %@AttackSpeedPerStack@ Saldırı Hızı sağlar. Sınırsız yük biriktirebilir.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_GuinsoosRageblade.TFT.dds",
+      "from": [
+        "2",
+        "3"
+      ],
+      "effects": [
+        {
+          "name": "AttackSpeedPerStack",
+          "value": 4.0
+        }
+      ]
+    },
+    "24": {
+      "name": "Statikk Hançer",
+      "desc": "Her 3. saldırı @BouncesTooltip@ rakibe @Damage@ Büyü Hasarı verir.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_StatikkShiv.TFT.dds",
+      "from": [
+        "2",
+        "4"
+      ],
+      "effects": [
+        {
+          "name": "Damage",
+          "value": 90.0
+        },
+        {
+          "name": "Bounces",
+          "value": 3.0
+        },
+        {
+          "name": "BouncesTooltip",
+          "value": 4.0
+        }
+      ]
+    },
+    "25": {
+      "name": "Hayalet Dansçı",
+      "desc": "Kullanıcısı tüm kritik vuruşlardan sakınır.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_PhantomDancer.TFT.dds",
+      "from": [
+        "2",
+        "5"
+      ],
+      "effects": []
+    },
+    "26": {
+      "name": "Lanetli Kılıç",
+      "desc": "Saldırılar, isabet halinde ve düşük ihtimalle rakibin yıldız seviyesini çatışmanın geri kalanı boyunca 1 azaltır.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_CursedBlade.TFT.dds",
+      "from": [
+        "2",
+        "6"
+      ],
+      "effects": [
+        {
+          "name": "A56E0A21",
+          "value": 20.0
+        }
+      ]
+    },
+    "27": {
+      "name": "Haşmetli Hydra",
+      "desc": "Saldırılar kullanıcının azami canının %@MaxHealth@ kadarını saçılma hasarı olarak verir.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_TitanicHydra.TFT.dds",
+      "from": [
+        "2",
+        "7"
+      ],
+      "effects": [
+        {
+          "name": "MaxHealth",
+          "value": 10.0
+        }
+      ]
+    },
+    "28": {
+      "name": "Mahvolmuş Kralın Kılıcı",
+      "desc": "Fazladan %i:scaleAS% +@AS@<br>Kullanıcı ayrıca bir Kılıç Ustası.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_BladeOfTheRuinedKing.TFT.dds",
+      "from": [
+        "2",
+        "8"
+      ],
+      "effects": [
+        {
+          "name": "AS",
+          "value": 20.0
+        }
+      ]
+    },
+    "33": {
+      "name": "Rabadon'un Şapkası",
+      "desc": "Kullanıcının yetenek gücü niteliği %@APPercentAmp@ artar.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_RabadonsDeathcap.TFT.dds",
+      "from": [
+        "3",
+        "3"
+      ],
+      "effects": [
+        {
+          "name": "APPercentAmp",
+          "value": 50.0
+        }
+      ]
+    },
+    "34": {
+      "name": "Luden'in Feryadı",
+      "desc": "Yetenekler isabet halinde @Damage@ Saçılma Hasarı verir.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_LudensEcho.TFT.dds",
+      "from": [
+        "3",
+        "4"
+      ],
+      "effects": [
+        {
+          "name": "Damage",
+          "value": 200.0
+        }
+      ]
+    },
+    "35": {
+      "name": "Demir Solari'nin Broşu",
+      "desc": "Çatışmanın başında aynı yatay çizgi üstünde ve en fazla @HexRange@ hücrelik bir alan içinde bulunan takım arkadaşları, @ShieldValue@ Hasar engelleyen bir kalkan kazanır.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_LocketOfTheIronSolari.TFT.dds",
+      "from": [
+        "3",
+        "5"
+      ],
+      "effects": [
+        {
+          "name": "ShieldValue",
+          "value": 250.0
+        },
+        {
+          "name": "ShieldDuration",
+          "value": 4.0
+        },
+        {
+          "name": "HexRange",
+          "value": 2.0
+        }
+      ]
+    },
+    "36": {
+      "name": "İyon Kıvılcımı",
+      "desc": "Rakipler yetenek kullandıklarında @Damage@ Hasar alır.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_IonicSpark.TFT.dds",
+      "from": [
+        "3",
+        "6"
+      ],
+      "effects": [
+        {
+          "name": "Damage",
+          "value": 150.0
+        }
+      ]
+    },
+    "37": {
+      "name": "Morellonomikon",
+      "desc": "Yetenekler @BurnDuration@ saniye boyunca rakibin azami canının %@BurnPercent@ kadarına eşdeğer miktarda yanma hasarı verir ve iyileştirme etkilerini engeller.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Morellonomicon.TFT.dds",
+      "from": [
+        "3",
+        "7"
+      ],
+      "effects": [
+        {
+          "name": "BurnPercent",
+          "value": 25.0
+        },
+        {
+          "name": "6DF27940",
+          "value": 1.0
+        },
+        {
+          "name": "MonsterCap",
+          "value": 100.0
+        },
+        {
+          "name": "BurnDuration",
+          "value": 5.0
+        }
+      ]
+    },
+    "38": {
+      "name": "Yuumi",
+      "desc": "Fazladan %i:scaleAP% +@AP@<br>Kullanıcı ayrıca bir Büyücü.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Yuumi.TFT.dds",
+      "from": [
+        "3",
+        "8"
+      ],
+      "effects": [
+        {
+          "name": "AP",
+          "value": 20.0
+        }
+      ]
+    },
+    "44": {
+      "name": "Seraph'ın Şefkati",
+      "desc": "Kullanıcısı yetenek kullandıktan sonra @ManaRestore@ Mana yeniler.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_SeraphsEmbrace.TFT.dds",
+      "from": [
+        "4",
+        "4"
+      ],
+      "effects": [
+        {
+          "name": "ManaRestore",
+          "value": 20.0
+        }
+      ]
+    },
+    "45": {
+      "name": "Donmuş Yürek",
+      "desc": "Bitişik rakipler %@AttackSpeedSlow@ Saldırı Hızı kaybeder.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_FrozenHeart.TFT.dds",
+      "from": [
+        "4",
+        "5"
+      ],
+      "effects": [
+        {
+          "name": "AttackSpeedSlow",
+          "value": 25.0
+        }
+      ]
+    },
+    "46": {
+      "name": "Sustur",
+      "desc": "Saldırıların, isabet halinde rakibi susturarak @SilenceDuration@ saniye boyunca rakibin mana kazanmasını engelleme ihtimali bulunur.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Hush.TFT.dds",
+      "from": [
+        "4",
+        "6"
+      ],
+      "effects": [
+        {
+          "name": "2275757B",
+          "value": 33.0
+        },
+        {
+          "name": "SilenceDuration",
+          "value": 5.0
+        },
+        {
+          "name": "4516A18D",
+          "value": 4.0
+        }
+      ]
+    },
+    "47": {
+      "name": "Kefaret",
+      "desc": "Canı %@HPThreshold@ değerinin altına düştüğünde yakınındaki tüm takım arkadaşlarını @HealthRestore@ Can iyileştirir.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Redemption.TFT.dds",
+      "from": [
+        "4",
+        "7"
+      ],
+      "effects": [
+        {
+          "name": "HealthRestore",
+          "value": 1000.0
+        },
+        {
+          "name": "HPThreshold",
+          "value": 25.0
+        },
+        {
+          "name": "5FFBBD48",
+          "value": 50.0
+        },
+        {
+          "name": "1E0630E9",
+          "value": 25.0
+        }
+      ]
+    },
+    "48": {
+      "name": "Darkin",
+      "desc": "Fazladan %i:scaleMana% +@Mana@<br>Kullanıcı ayrıca bir İblis.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Darkin.TFT.dds",
+      "from": [
+        "4",
+        "8"
+      ],
+      "effects": [
+        {
+          "name": "Mana",
+          "value": 20.0
+        }
+      ]
+    },
+    "55": {
+      "name": "Çivili Zırh",
+      "desc": "Engellenen saldırı hasarının %@DamageReflect@ kadarını yansıtır.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Thornmail.TFT.dds",
+      "from": [
+        "5",
+        "5"
+      ],
+      "effects": [
+        {
+          "name": "DamageReflect",
+          "value": 100.0
+        }
+      ]
+    },
+    "56": {
+      "name": "Kılıç Kıran",
+      "desc": "Saldırılar @DisarmDuration@ saniyeliğine silahsız bırakma ihtimaline sahiptir.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_SwordBreaker.TFT.dds",
+      "from": [
+        "5",
+        "6"
+      ],
+      "effects": [
+        {
+          "name": "2426EA7E",
+          "value": 25.0
+        },
+        {
+          "name": "DisarmDuration",
+          "value": 4.0
+        }
+      ]
+    },
+    "57": {
+      "name": "Kırmızı Güçlendirme",
+      "desc": "Saldırılar @BurnDuration@ saniye boyunca rakibin azami canının %@BurnPercent@ kadarına eşdeğer miktarda yanma hasarı verir ve iyileştirme etkilerini engeller.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_RedBuff.TFT.dds",
+      "from": [
+        "5",
+        "7"
+      ],
+      "effects": [
+        {
+          "name": "BurnPercent",
+          "value": 13.0
+        },
+        {
+          "name": "BurnDuration",
+          "value": 5.0
+        },
+        {
+          "name": "6DF27940",
+          "value": 1.0
+        },
+        {
+          "name": "MonsterCap",
+          "value": 100.0
+        }
+      ]
+    },
+    "58": {
+      "name": "Şövalyenin Adağı",
+      "desc": "Fazladan %i:scaleArmor% +@Armor@<br>Kullanıcı ayrıca bir Şövalye.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_KnightsVow.TFT.dds",
+      "from": [
+        "5",
+        "8"
+      ],
+      "effects": [
+        {
+          "name": "Armor",
+          "value": 20.0
+        }
+      ]
+    },
+    "66": {
+      "name": "Ejder Pençesi",
+      "desc": "Büyü hasarına karşı %@MagicReduction@ direnç kazanırsın.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_DragonsClaw.TFT.dds",
+      "from": [
+        "6",
+        "6"
+      ],
+      "effects": [
+        {
+          "name": "MagicReduction",
+          "value": 83.0
+        }
+      ]
+    },
+    "67": {
+      "name": "Karayel",
+      "desc": "Çatışmanın başında bir rakibi @BanishDuration@ saniyeliğine sürgün eder.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Zephyr.TFT.dds",
+      "from": [
+        "6",
+        "7"
+      ],
+      "effects": [
+        {
+          "name": "BanishDuration",
+          "value": 5.0
+        }
+      ]
+    },
+    "68": {
+      "name": "Runaan'ın Kasırgası",
+      "desc": "Fazladan %i:scaleMR% +@ExtraMR@<br>Saldırılarını taklit eden ve %@MultiplierForDamage@ Hasar veren bir ruh çağırır.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_RunaansHurricane.TFT.dds",
+      "from": [
+        "6",
+        "8"
+      ],
+      "effects": [
+        {
+          "name": "AdditionalTargets",
+          "value": 1.0
+        },
+        {
+          "name": "MultiplierForDamage",
+          "value": 25.0
+        },
+        {
+          "name": "ExtraMR",
+          "value": 20.0
+        }
+      ]
+    },
+    "77": {
+      "name": "Warmog'un Zırhı",
+      "desc": "Kullanıcı her saniye %@HealthRegen@ Eksik Can yeniler.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_WarmogsArmor.TFT.dds",
+      "from": [
+        "7",
+        "7"
+      ],
+      "effects": [
+        {
+          "name": "HealthRegen",
+          "value": 6.0
+        },
+        {
+          "name": "0C90F194",
+          "value": 300.0
+        }
+      ]
+    },
+    "78": {
+      "name": "Donmuş Balyoz",
+      "desc": "Fazladan %i:scaleHealth% +@Health@<br>Kullanıcı ayrıca bir Buzul.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_FrozenMallet.TFT.dds",
+      "from": [
+        "8",
+        "7"
+      ],
+      "effects": [
+        {
+          "name": "Health",
+          "value": 200.0
+        }
+      ]
+    },
+    "88": {
+      "name": "Doğanın Kudreti",
+      "desc": " +@MaxArmySizeIncrease@ takım büyüklüğü kazandırır.",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_ForceOfNature.TFT.dds",
+      "from": [
+        "8",
+        "8"
+      ],
+      "effects": [
+        {
+          "name": "MaxArmySizeIncrease",
+          "value": 1.0
+        }
+      ]
+    },
+    "100": {
+      "name": "Spatula",
+      "desc": "En azından <i>bir işe</i> yarıyordur...",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Unknown.TFT.dds",
+      "from": [],
+      "effects": []
+    },
+    "541": {
+      "name": "Fani Hatıratı",
+      "desc": "TFT_item_description_MortalReminder",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_MortalReminder.TFT.dds",
+      "from": [],
+      "effects": []
+    },
+    "10002": {
+      "name": "tft_item_name_JammedSlot",
+      "desc": "tft_item_description_JammedSlot",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Jammed.TFT.dds",
+      "from": [],
+      "effects": []
+    }
+  }
+}

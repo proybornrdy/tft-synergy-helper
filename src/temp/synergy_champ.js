@@ -5,6 +5,7 @@ import champData from './jsonData/champions.json';
 import classData from './jsonData/classes.json';
 import originData from './jsonData/origins.json';
 
+import ReadData from './readData';
 
 
 class Synergy extends React.Component {
@@ -29,6 +30,7 @@ class Synergy extends React.Component {
         var champList = this.state.generatedChamp;
         var link = this.state.dataLink;
         const self = this;
+        console.log("sadfasf",ReadData.getData)
         if (!champList>0){
             return (<td className = "select-container" width="50"></td>)
         }
@@ -246,15 +248,6 @@ class Synergy extends React.Component {
                     selectedChamp: test
                 }));
             }
-            // if(gen.includes(e.target.id)){
-            //     var temp = [gen]
-            //     temp.splice(temp.indexOf(e.target.id))
-            //     e.target.className += " clicked"
-            //     test.push(e.target.id)
-            //     this.setState(state => ({
-            //         generatedChamp: temp
-            //     }));
-            // }
 
         }
     }
@@ -660,6 +653,9 @@ class Synergy extends React.Component {
                         </div>
 
                     </div>
+                </div>
+                <div>
+                ~~~!~!~!~
                 </div>
             </div>
         );

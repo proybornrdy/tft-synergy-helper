@@ -1,0 +1,5279 @@
+{
+  "champions": {
+    "4": {
+      "name": "卡牌大师",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_TwistedFate.dds",
+      "stats": {
+        "hp": 450.0,
+        "hpScaleFactor": 1.8,
+        "mana": 50.0,
+        "initalMana": 0,
+        "damage": 40.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.7,
+        "range": 3
+      },
+      "traits": [
+        "Pirate",
+        "Sorcerer"
+      ],
+      "ability": {
+        "name": "选牌",
+        "desc": "崔斯特扔出一张卡牌，要么晕眩，要么伤害目标周围的敌人，要么回复他自身和附近友军的法力值",
+        "icon": "ASSETS/Characters/TFT_TwistedFate/HUD/Icons2D/TFT_TwistedFate_Spell.TFT.dds",
+        "variables": [
+          {
+            "key": "RedCardDamage",
+            "values": [
+              50.0,
+              150.0,
+              250.0,
+              350.0,
+              450.0,
+              550.0,
+              650.0
+            ]
+          },
+          {
+            "key": "BlueCardDamage",
+            "values": [
+              50.0,
+              150.0,
+              250.0,
+              350.0,
+              450.0,
+              550.0,
+              650.0
+            ]
+          },
+          {
+            "key": "BlueCardManaRestore",
+            "values": [
+              5.0,
+              20.0,
+              35.0,
+              50.0,
+              65.0,
+              80.0,
+              95.0
+            ]
+          },
+          {
+            "key": "GoldCardStunDuration",
+            "values": [
+              1.0,
+              2.0,
+              3.0,
+              4.0,
+              5.0,
+              6.0,
+              7.0
+            ]
+          },
+          {
+            "key": "GoldCardDamage",
+            "values": [
+              50.0,
+              150.0,
+              250.0,
+              350.0,
+              450.0,
+              550.0,
+              650.0
+            ]
+          }
+        ]
+      }
+    },
+    "10": {
+      "name": "正义天使",
+      "cost": 5,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Kayle.dds",
+      "stats": {
+        "hp": 750.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 70.0,
+        "damageScaleFactor": 1.25,
+        "armor": 40.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 1.1,
+        "range": 3
+      },
+      "traits": [
+        "Noble",
+        "Knight"
+      ],
+      "ability": {
+        "name": "圣裁之刻",
+        "desc": "凯尔为最虚弱的友军提供护盾来使该友军免疫伤害",
+        "icon": "ASSETS/Characters/Kayle/HUD/Icons2D/Kayle_R.dds",
+        "variables": [
+          {
+            "key": "ShieldDuration",
+            "values": [
+              1.0,
+              2.0,
+              3.0,
+              4.0,
+              5.0,
+              6.0,
+              7.0
+            ]
+          },
+          {
+            "key": "ExtraTargets",
+            "values": [
+              -1.0,
+              0.0,
+              1.0,
+              2.0,
+              3.0,
+              4.0,
+              5.0
+            ]
+          }
+        ]
+      }
+    },
+    "18": {
+      "name": "麦林炮手",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Tristana.dds",
+      "stats": {
+        "hp": 500.0,
+        "hpScaleFactor": 1.8,
+        "mana": 50.0,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 4
+      },
+      "traits": [
+        "Yordle",
+        "Gunslinger"
+      ],
+      "ability": {
+        "name": "爆炸火花",
+        "desc": "崔丝塔娜将一颗炸弹放置到她的当前目标的身上，并在3次攻击后引爆该炸弹，来伤害附近的敌人",
+        "icon": "ASSETS/Characters/Tristana/HUD/Icons2D/Tristana_E.dds",
+        "variables": [
+          {
+            "key": "ExplosiveChargeDuration",
+            "values": [
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0
+            ]
+          },
+          {
+            "key": "ChargeBaseDamage",
+            "values": [
+              30.0,
+              60.0,
+              90.0,
+              120.0,
+              150.0,
+              180.0,
+              210.0
+            ]
+          },
+          {
+            "key": "PercentDamageIncreasePerStack",
+            "values": [
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5
+            ]
+          }
+        ]
+      }
+    },
+    "19": {
+      "name": "祖安怒兽",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Warwick.dds",
+      "stats": {
+        "hp": 600.0,
+        "hpScaleFactor": 1.8,
+        "mana": 150.0,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 30.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 1
+      },
+      "traits": [
+        "Wild",
+        "Brawler"
+      ],
+      "ability": {
+        "name": "无尽束缚",
+        "desc": "沃里克扑向生命值最低的敌人，将其晕眩@Duration@秒，造成伤害，并治疗自己。附带攻击特效。",
+        "icon": "ASSETS/Characters/Warwick/HUD/Icons2D/WarwickR.dds",
+        "variables": [
+          {
+            "key": "Duration",
+            "values": [
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5
+            ]
+          },
+          {
+            "key": "BaseDamage",
+            "values": [
+              75.0,
+              150.0,
+              225.0,
+              300.0,
+              375.0,
+              450.0,
+              525.0
+            ]
+          },
+          {
+            "key": "DashHexSpeed",
+            "values": [
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0
+            ]
+          },
+          {
+            "key": "Hits",
+            "values": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          }
+        ]
+      }
+    },
+    "21": {
+      "name": "赏金猎人",
+      "cost": 5,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_MissFortune.dds",
+      "stats": {
+        "hp": 650.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 75.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.85,
+        "range": 3
+      },
+      "traits": [
+        "Pirate",
+        "Gunslinger"
+      ],
+      "ability": {
+        "name": "弹幕时间",
+        "desc": "厄运小姐引导@ChannelDuration@秒，呈锥形发射若干波子弹来伤害敌人",
+        "icon": "ASSETS/Characters/MissFortune/HUD/Icons2D/MissFortune_R.dds",
+        "variables": [
+          {
+            "key": "Waves",
+            "values": [
+              14.0,
+              14.0,
+              14.0,
+              14.0,
+              14.0,
+              14.0,
+              14.0
+            ]
+          },
+          {
+            "key": "TotalDamage",
+            "values": [
+              350.0,
+              800.0,
+              1250.0,
+              1700.0,
+              2150.0,
+              2600.0,
+              3050.0
+            ]
+          },
+          {
+            "key": "ChannelDuration",
+            "values": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          }
+        ]
+      }
+    },
+    "22": {
+      "name": "寒冰射手",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Ashe.dds",
+      "stats": {
+        "hp": 550.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 65.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.7,
+        "range": 4
+      },
+      "traits": [
+        "Glacial",
+        "Ranger"
+      ],
+      "ability": {
+        "name": "魔法水晶箭",
+        "desc": "艾希发射一支箭来晕眩并伤害距离最远的敌人。敌人距离越远，晕眩时长越久",
+        "icon": "ASSETS/Characters/Ashe/HUD/Icons2D/Ashe_R.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              0.0,
+              200.0,
+              400.0,
+              600.0,
+              800.0,
+              1000.0,
+              1200.0
+            ]
+          },
+          {
+            "key": "StunDurationPerSquare",
+            "values": [
+              0.5,
+              1.0,
+              1.5,
+              2.0,
+              2.5,
+              3.0,
+              3.5
+            ]
+          }
+        ]
+      }
+    },
+    "25": {
+      "name": "堕落天使",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Morgana.dds",
+      "stats": {
+        "hp": 650.0,
+        "hpScaleFactor": 1.8,
+        "mana": 150.0,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 2
+      },
+      "traits": [
+        "Demon",
+        "Sorcerer"
+      ],
+      "ability": {
+        "name": "灵魂镣铐",
+        "desc": "莫甘娜对附近的敌人放处于枷锁，在短暂的延迟后，如果敌人仍在附近，则莫甘娜会对他们造成伤害和晕眩效果",
+        "icon": "ASSETS/Characters/Morgana/HUD/Icons2D/FallenAngel_Purgatory.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              75.0,
+              200.0,
+              325.0,
+              450.0,
+              575.0,
+              700.0,
+              825.0
+            ]
+          },
+          {
+            "key": "ChainDuration",
+            "values": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          },
+          {
+            "key": "StunDuration",
+            "values": [
+              0.0,
+              2.0,
+              4.0,
+              6.0,
+              8.0,
+              10.0,
+              12.0
+            ]
+          },
+          {
+            "key": "SlowPercent",
+            "values": [
+              20.0,
+              20.0,
+              20.0,
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          {
+            "key": "CanCastRange",
+            "values": [
+              575.0,
+              575.0,
+              575.0,
+              575.0,
+              575.0,
+              575.0,
+              575.0
+            ]
+          }
+        ]
+      }
+    },
+    "28": {
+      "name": "痛苦之拥",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Evelyn.dds",
+      "stats": {
+        "hp": 550.0,
+        "hpScaleFactor": 1.8,
+        "mana": 75.0,
+        "initalMana": 0,
+        "damage": 70.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 1
+      },
+      "traits": [
+        "Demon",
+        "Assassin"
+      ],
+      "ability": {
+        "name": "最终抚慰",
+        "desc": "伊芙琳对距离最近的3名敌人造成伤害，同时自身传送到远处。对低生命值的敌人造成的伤害会提升。",
+        "icon": "ASSETS/Characters/Evelynn/HUD/Icons2D/Evelynn_R.dds",
+        "variables": [
+          {
+            "key": "CritMultiplier",
+            "values": [
+              1.0,
+              3.0,
+              5.0,
+              7.0,
+              9.0,
+              11.0,
+              13.0
+            ]
+          },
+          {
+            "key": "CritThreshold",
+            "values": [
+              0.65,
+              0.65,
+              0.65,
+              0.65,
+              0.65,
+              0.65,
+              0.65
+            ]
+          },
+          {
+            "key": "Damage",
+            "values": [
+              100.0,
+              200.0,
+              300.0,
+              400.0,
+              500.0,
+              600.0,
+              700.0
+            ]
+          },
+          {
+            "key": "BlinkBackDistance",
+            "values": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          }
+        ]
+      }
+    },
+    "30": {
+      "name": "死亡颂唱者",
+      "cost": 5,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Karthus.dds",
+      "stats": {
+        "hp": 850.0,
+        "hpScaleFactor": 1.8,
+        "mana": 85.0,
+        "initalMana": 0,
+        "damage": 65.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 3
+      },
+      "traits": [
+        "Phantom",
+        "Sorcerer"
+      ],
+      "ability": {
+        "name": "安魂曲",
+        "desc": "卡尔萨斯进行引导，立刻沉默@NumberOfTargets@名随机的敌人。如果引导完成，他会对他们造成重度伤害。",
+        "icon": "ASSETS/Characters/Karthus/HUD/Icons2D/Karthus_R.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              100.0,
+              400.0,
+              700.0,
+              1000.0,
+              1300.0,
+              1600.0,
+              1900.0
+            ]
+          },
+          {
+            "key": "NumberOfTargets",
+            "values": [
+              1.0,
+              5.0,
+              9.0,
+              13.0,
+              17.0,
+              21.0,
+              25.0
+            ]
+          }
+        ]
+      }
+    },
+    "31": {
+      "name": "虚空恐惧",
+      "cost": 4,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Chogath.dds",
+      "stats": {
+        "hp": 1000.0,
+        "hpScaleFactor": 1.8,
+        "mana": 150.0,
+        "initalMana": 0,
+        "damage": 70.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 1
+      },
+      "traits": [
+        "Void",
+        "Brawler"
+      ],
+      "ability": {
+        "name": "破裂",
+        "desc": "科加斯碎裂一片区域，对区域内的敌人造成伤害和晕眩效果",
+        "icon": "ASSETS/Characters/Chogath/HUD/Icons2D/GreenTerror_SpikeSlam.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              0.0,
+              200.0,
+              400.0,
+              600.0,
+              800.0,
+              1000.0,
+              1200.0
+            ]
+          },
+          {
+            "key": "KnockDuration",
+            "values": [
+              1.25,
+              1.5,
+              1.75,
+              2.0,
+              2.25,
+              2.5,
+              2.75
+            ]
+          },
+          {
+            "key": "RuptureDelay",
+            "values": [
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5
+            ]
+          }
+        ]
+      }
+    },
+    "34": {
+      "name": "冰晶凤凰",
+      "cost": 5,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Anivia.dds",
+      "stats": {
+        "hp": 650.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 40.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 3
+      },
+      "traits": [
+        "Glacial",
+        "Elementalist"
+      ],
+      "ability": {
+        "name": "冰川风暴",
+        "desc": "艾尼维亚引导一次大型冰风暴，对其中的敌人造成伤害和攻速减慢效果",
+        "icon": "ASSETS/Characters/Anivia/HUD/Icons2D/Anivia_R.dds",
+        "variables": [
+          {
+            "key": "TotalDamage",
+            "values": [
+              450.0,
+              700.0,
+              950.0,
+              1200.0,
+              1450.0,
+              1700.0,
+              1950.0
+            ]
+          },
+          {
+            "key": "AttackSpeedSlow",
+            "values": [
+              30.0,
+              50.0,
+              70.0,
+              90.0,
+              110.0,
+              130.0,
+              150.0
+            ]
+          },
+          {
+            "key": "StormDuration",
+            "values": [
+              8.0,
+              8.0,
+              8.0,
+              8.0,
+              8.0,
+              8.0,
+              8.0
+            ]
+          }
+        ]
+      }
+    },
+    "38": {
+      "name": "虚空行者",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Kassadin.dds",
+      "stats": {
+        "hp": 550.0,
+        "hpScaleFactor": 1.8,
+        "mana": 0.0,
+        "initalMana": 0,
+        "damage": 55.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 1
+      },
+      "traits": [
+        "Void",
+        "Sorcerer"
+      ],
+      "ability": {
+        "name": "虚空之刃",
+        "desc": "卡萨丁的攻击可从敌人那里偷取法力值，并将其转化成一层持续@ShieldDuration@秒的护盾",
+        "icon": "ASSETS/Characters/Kassadin/HUD/Icons2D/Kassadin_W.dds",
+        "variables": [
+          {
+            "key": "ShieldDuration",
+            "values": [
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0
+            ]
+          },
+          {
+            "key": "ManaSteal",
+            "values": [
+              0.0,
+              20.0,
+              40.0,
+              60.0,
+              80.0,
+              100.0,
+              120.0
+            ]
+          }
+        ]
+      }
+    },
+    "41": {
+      "name": "海洋之灾",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Gangplank.dds",
+      "stats": {
+        "hp": 700.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 55.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 1
+      },
+      "traits": [
+        "Pirate",
+        "Gunslinger",
+        "Blademaster"
+      ],
+      "ability": {
+        "name": "火药桶",
+        "desc": "普朗克周期性地制造火药桶。在施放时，普朗克会引爆火药桶来伤害附近的敌人。附带攻击特效。",
+        "icon": "ASSETS/Characters/Gangplank/HUD/Icons2D/Gangplank_E.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              75.0,
+              200.0,
+              325.0,
+              450.0,
+              575.0,
+              700.0,
+              825.0
+            ]
+          }
+        ]
+      }
+    },
+    "45": {
+      "name": "邪恶小法师",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Veigar.dds",
+      "stats": {
+        "hp": 500.0,
+        "hpScaleFactor": 1.8,
+        "mana": 75.0,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.55,
+        "range": 3
+      },
+      "traits": [
+        "Yordle",
+        "Sorcerer"
+      ],
+      "ability": {
+        "name": "能量爆裂",
+        "desc": "维迦用魔法能量来轰击一名敌人，造成伤害。如果敌人的星级低于维迦，那么这个技能会将其立刻击杀",
+        "icon": "ASSETS/Characters/Veigar/HUD/Icons2D/VeigarPrimordialBurst.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              100.0,
+              300.0,
+              500.0,
+              700.0,
+              900.0,
+              1100.0,
+              1300.0
+            ]
+          },
+          {
+            "key": "LowerStarDamage",
+            "values": [
+              19999.0,
+              19999.0,
+              19999.0,
+              19999.0,
+              19999.0,
+              19999.0,
+              19999.0
+            ]
+          }
+        ]
+      }
+    },
+    "50": {
+      "name": "诺克萨斯统领",
+      "cost": 5,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Swain.dds",
+      "stats": {
+        "hp": 850.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 65.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 2
+      },
+      "traits": [
+        "Imperial",
+        "Demon",
+        "Shapeshifter"
+      ],
+      "ability": {
+        "name": "恶魔耀光",
+        "desc": "斯维因变形，可从附近的所有敌人那里吸取生命值。在变形结束时，斯维因会放出一团能量，来对附近的敌人造成伤害",
+        "icon": "ASSETS/Characters/Swain/HUD/Icons2D/Swain_R.dds",
+        "variables": [
+          {
+            "key": "TransformDuration",
+            "values": [
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0
+            ]
+          },
+          {
+            "key": "DamagePerTick",
+            "values": [
+              0.0,
+              50.0,
+              100.0,
+              150.0,
+              200.0,
+              250.0,
+              300.0
+            ]
+          },
+          {
+            "key": "HealPerTick",
+            "values": [
+              10.0,
+              50.0,
+              90.0,
+              130.0,
+              170.0,
+              210.0,
+              250.0
+            ]
+          },
+          {
+            "key": "SoulFlareDamage",
+            "values": [
+              0.0,
+              300.0,
+              600.0,
+              900.0,
+              1200.0,
+              1500.0,
+              1800.0
+            ]
+          },
+          {
+            "key": "HealthIncrease",
+            "values": null
+          }
+        ]
+      }
+    },
+    "53": {
+      "name": "蒸汽机器人",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Blitzcrank.dds",
+      "stats": {
+        "hp": 600.0,
+        "hpScaleFactor": 1.8,
+        "mana": 125.0,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 35.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.5,
+        "range": 1
+      },
+      "traits": [
+        "Robot",
+        "Brawler"
+      ],
+      "ability": {
+        "name": "机械飞爪",
+        "desc": "布里茨将距离最远的敌人拉到他面前并将其晕眩@StunDuration@秒",
+        "icon": "ASSETS/Characters/Blitzcrank/HUD/Icons2D/Blitzcrank_RocketGrab.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              -250.0,
+              100.0,
+              450.0,
+              800.0,
+              1150.0,
+              1500.0,
+              1850.0
+            ]
+          },
+          {
+            "key": "StunDuration",
+            "values": [
+              2.5,
+              2.5,
+              2.5,
+              2.5,
+              2.5,
+              2.5,
+              2.5
+            ]
+          }
+        ]
+      }
+    },
+    "55": {
+      "name": "不祥之刃",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Katarina.dds",
+      "stats": {
+        "hp": 450.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 1
+      },
+      "traits": [
+        "Imperial",
+        "Assassin"
+      ],
+      "ability": {
+        "name": "死亡莲华",
+        "desc": "卡特琳娜引导@Duration@秒并朝附近的@NumberOfTargets@名敌人投掷匕首，对他们造成伤害并减少治疗效果",
+        "icon": "ASSETS/Characters/Katarina/HUD/Icons2D/Katarina_R.dds",
+        "variables": [
+          {
+            "key": "DamagePerTick",
+            "values": [
+              20.0,
+              40.0,
+              60.0,
+              80.0,
+              100.0,
+              120.0,
+              140.0
+            ]
+          },
+          {
+            "key": "TicksPerSecond",
+            "values": [
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0
+            ]
+          },
+          {
+            "key": "Duration",
+            "values": [
+              2.5,
+              2.5,
+              2.5,
+              2.5,
+              2.5,
+              2.5,
+              2.5
+            ]
+          },
+          {
+            "key": "GrievousWoundsDuration",
+            "values": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          },
+          {
+            "key": "NumberOfTargets",
+            "values": [
+              2.0,
+              4.0,
+              6.0,
+              8.0,
+              10.0,
+              12.0,
+              14.0
+            ]
+          }
+        ]
+      }
+    },
+    "60": {
+      "name": "蜘蛛女皇",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Elise.dds",
+      "stats": {
+        "hp": 450.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 40.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 2
+      },
+      "traits": [
+        "Demon",
+        "Shapeshifter"
+      ],
+      "ability": {
+        "name": "蜘蛛形态",
+        "desc": "伊莉丝召唤幼蛛并变形，获得生命偷取。",
+        "icon": "ASSETS/Characters/Elise/HUD/Icons2D/EliseR.DDS",
+        "variables": [
+          {
+            "key": "NumSpiderlings",
+            "values": [
+              1.0,
+              1.0,
+              2.0,
+              4.0,
+              5.0,
+              6.0,
+              7.0
+            ]
+          },
+          {
+            "key": "Lifesteal",
+            "values": [
+              0.3,
+              0.6,
+              0.9,
+              1.2,
+              1.5,
+              1.8,
+              2.1
+            ]
+          },
+          {
+            "key": "SpiderFormDuration",
+            "values": [
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0
+            ]
+          }
+        ]
+      }
+    },
+    "63": {
+      "name": "复仇焰魂",
+      "cost": 4,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Brand.dds",
+      "stats": {
+        "hp": 700.0,
+        "hpScaleFactor": 1.8,
+        "mana": 125.0,
+        "initalMana": 0,
+        "damage": 60.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 3
+      },
+      "traits": [
+        "Demon",
+        "Elementalist"
+      ],
+      "ability": {
+        "name": "烈焰风暴",
+        "desc": "布兰德发射一团会弹射的火球，对命中的所有敌人造成伤害",
+        "icon": "ASSETS/Characters/Brand/HUD/Icons2D/BrandR.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              25.0,
+              200.0,
+              375.0,
+              550.0,
+              725.0,
+              900.0,
+              1075.0
+            ]
+          },
+          {
+            "key": "MaxBounces",
+            "values": [
+              4.0,
+              4.0,
+              6.0,
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          }
+        ]
+      }
+    },
+    "67": {
+      "name": "暗夜猎手",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Vayne.dds",
+      "stats": {
+        "hp": 550.0,
+        "hpScaleFactor": 1.8,
+        "mana": 0.0,
+        "initalMana": 0,
+        "damage": 40.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.75,
+        "range": 3
+      },
+      "traits": [
+        "Noble",
+        "Ranger"
+      ],
+      "ability": {
+        "name": "圣银弩箭",
+        "desc": "固有：薇恩每第三次攻击造成基于目标最大生命值的额外真实伤害",
+        "icon": "ASSETS/Characters/Vayne/HUD/Icons2D/Vayne_SilveredBolts.dds",
+        "variables": [
+          {
+            "key": "PercentDamage",
+            "values": [
+              0.06,
+              0.08,
+              0.1,
+              0.12,
+              0.14,
+              0.16,
+              0.18
+            ]
+          }
+        ]
+      }
+    },
+    "76": {
+      "name": "狂野女猎手",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Nidalee.dds",
+      "stats": {
+        "hp": 500.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 3
+      },
+      "traits": [
+        "Wild",
+        "Shapeshifter"
+      ],
+      "ability": {
+        "name": "野性奔腾",
+        "desc": "奈德丽治疗自身和伤势最重的友军，然后变形并获得攻击力",
+        "icon": "ASSETS/Characters/Nidalee/HUD/Icons2D/Nidalee_R2.dds",
+        "variables": [
+          {
+            "key": "HoTDuration",
+            "values": [
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0
+            ]
+          },
+          {
+            "key": "HoTTotalHeal",
+            "values": [
+              -75.0,
+              150.0,
+              375.0,
+              600.0,
+              825.0,
+              1050.0,
+              1275.0
+            ]
+          },
+          {
+            "key": "ADInCougar",
+            "values": [
+              -30.0,
+              20.0,
+              70.0,
+              120.0,
+              170.0,
+              220.0,
+              270.0
+            ]
+          },
+          {
+            "key": "TransformDuration",
+            "values": [
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0
+            ]
+          },
+          {
+            "key": "AnimTime",
+            "values": [
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5
+            ]
+          }
+        ]
+      }
+    },
+    "78": {
+      "name": "圣锤之毅",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Poppy.dds",
+      "stats": {
+        "hp": 800.0,
+        "hpScaleFactor": 1.8,
+        "mana": 75.0,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 40.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.5,
+        "range": 1
+      },
+      "traits": [
+        "Yordle",
+        "Knight"
+      ],
+      "ability": {
+        "name": "持卫的裁决",
+        "desc": "波比挥舞她的铁锤，来伤害并击飞距离最近的敌人",
+        "icon": "ASSETS/Characters/Poppy/HUD/Icons2D/Poppy_R.dds",
+        "variables": [
+          {
+            "key": "DamagePart2",
+            "values": [
+              100.0,
+              300.0,
+              500.0,
+              700.0,
+              900.0,
+              1100.0,
+              1300.0
+            ]
+          },
+          {
+            "key": "KnockbackDurationPart2",
+            "values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "key": "StunDuration",
+            "values": [
+              1.0,
+              2.0,
+              3.0,
+              4.0,
+              5.0,
+              6.0,
+              7.0
+            ]
+          },
+          {
+            "key": "PoppyAnimLockDuration",
+            "values": [
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75
+            ]
+          },
+          {
+            "key": "NumberOfTargets",
+            "values": [
+              0.0,
+              1.0,
+              2.0,
+              3.0,
+              4.0,
+              5.0,
+              6.0
+            ]
+          }
+        ]
+      }
+    },
+    "82": {
+      "name": "铁铠冥魂",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Mordekaiser.dds",
+      "stats": {
+        "hp": 550.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 40.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.5,
+        "range": 1
+      },
+      "traits": [
+        "Phantom",
+        "Knight"
+      ],
+      "ability": {
+        "name": "破灭之锤",
+        "desc": "莫德凯撒朝他前方挥舞他的权杖，沿直线对两名敌人造成伤害",
+        "icon": "ASSETS/Characters/Mordekaiser/HUD/Icons2D/MordekaiserQ.MordeVGU.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              75.0,
+              200.0,
+              325.0,
+              450.0,
+              575.0,
+              700.0,
+              825.0
+            ]
+          },
+          {
+            "key": "MaceStartDistance",
+            "values": [
+              400.0,
+              400.0,
+              400.0,
+              400.0,
+              400.0,
+              400.0,
+              400.0
+            ]
+          },
+          {
+            "key": "MaceLength",
+            "values": [
+              625.0,
+              625.0,
+              625.0,
+              625.0,
+              625.0,
+              625.0,
+              625.0
+            ]
+          },
+          {
+            "key": "RectangleWidth",
+            "values": [
+              160.0,
+              160.0,
+              160.0,
+              160.0,
+              160.0,
+              160.0,
+              160.0
+            ]
+          }
+        ]
+      }
+    },
+    "84": {
+      "name": "离群之刺",
+      "cost": 4,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Akali.dds",
+      "stats": {
+        "hp": 650.0,
+        "hpScaleFactor": 1.8,
+        "mana": 25.0,
+        "initalMana": 0,
+        "damage": 70.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.7,
+        "range": 1
+      },
+      "traits": [
+        "Ninja",
+        "Assassin"
+      ],
+      "ability": {
+        "name": "我流奥义！寒影",
+        "desc": "阿卡丽朝她目标掷出苦无，造成伤害。这个技能可以暴击",
+        "icon": "ASSETS/Characters/Akali/HUD/Icons2D/Akali_Q.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              25.0,
+              150.0,
+              275.0,
+              400.0,
+              525.0,
+              650.0,
+              775.0
+            ]
+          },
+          {
+            "key": "ConeDeg",
+            "values": [
+              30.0,
+              30.0,
+              30.0,
+              30.0,
+              30.0,
+              30.0,
+              30.0
+            ]
+          },
+          {
+            "key": "HexRange",
+            "values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        ]
+      }
+    },
+    "85": {
+      "name": "狂暴之心",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Kennen.dds",
+      "stats": {
+        "hp": 550.0,
+        "hpScaleFactor": 1.8,
+        "mana": 150.0,
+        "initalMana": 0,
+        "damage": 65.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 2
+      },
+      "traits": [
+        "Ninja",
+        "Yordle",
+        "Elementalist"
+      ],
+      "ability": {
+        "name": "秘奥义！万雷天牢引",
+        "desc": "凯南召唤一阵风暴来环绕自身，对其内的敌人造成伤害和@StunDuration@秒晕眩效果",
+        "icon": "ASSETS/Characters/Kennen/HUD/Icons2D/Kennen_R.dds",
+        "variables": [
+          {
+            "key": "TickRate",
+            "values": [
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5
+            ]
+          },
+          {
+            "key": "Duration",
+            "values": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          },
+          {
+            "key": "Damage",
+            "values": [
+              0.0,
+              225.0,
+              450.0,
+              675.0,
+              900.0,
+              1125.0,
+              1350.0
+            ]
+          },
+          {
+            "key": "StunDuration",
+            "values": [
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5
+            ]
+          }
+        ]
+      }
+    },
+    "86": {
+      "name": "德玛西亚之力",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Garen.dds",
+      "stats": {
+        "hp": 600.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 40.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 1
+      },
+      "traits": [
+        "Noble",
+        "Knight"
+      ],
+      "ability": {
+        "name": "审判",
+        "desc": "盖伦旋转他的剑刃@SpinDuration@秒，变得免疫魔法伤害，同时会对附近的敌人造成伤害",
+        "icon": "ASSETS/Characters/Garen/HUD/Icons2D/Garen_E1.dds",
+        "variables": [
+          {
+            "key": "SpinDuration",
+            "values": [
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0
+            ]
+          },
+          {
+            "key": "ETotalTicks",
+            "values": [
+              9.0,
+              9.0,
+              9.0,
+              9.0,
+              9.0,
+              9.0,
+              9.0
+            ]
+          },
+          {
+            "key": "DamagePerTick",
+            "values": [
+              15.0,
+              40.0,
+              65.0,
+              90.0,
+              115.0,
+              140.0,
+              165.0
+            ]
+          }
+        ]
+      }
+    },
+    "89": {
+      "name": "曙光女神",
+      "cost": 4,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Leona.dds",
+      "stats": {
+        "hp": 750.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 45.0,
+        "damageScaleFactor": 1.25,
+        "armor": 100.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.55,
+        "range": 1
+      },
+      "traits": [
+        "Noble",
+        "Guardian"
+      ],
+      "ability": {
+        "name": "日炎耀斑",
+        "desc": "蕾欧娜召唤一道太阳光束从天而降，对其内的敌人造成伤害和减速效果。其中心的敌人会被晕眩",
+        "icon": "ASSETS/Characters/Leona/HUD/Icons2D/LeonaSolarFlare.dds",
+        "variables": [
+          {
+            "key": "DelayTime",
+            "values": [
+              0.625,
+              0.625,
+              0.625,
+              0.625,
+              0.625,
+              0.625,
+              0.625
+            ]
+          },
+          {
+            "key": "CCDuration",
+            "values": [
+              2.0,
+              5.0,
+              8.0,
+              11.0,
+              14.0,
+              17.0,
+              20.0
+            ]
+          },
+          {
+            "key": "Damage",
+            "values": [
+              100.0,
+              175.0,
+              250.0,
+              325.0,
+              400.0,
+              475.0,
+              550.0
+            ]
+          }
+        ]
+      }
+    },
+    "98": {
+      "name": "暮光之眼",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Shen.dds",
+      "stats": {
+        "hp": 650.0,
+        "hpScaleFactor": 1.8,
+        "mana": 150.0,
+        "initalMana": 0,
+        "damage": 65.0,
+        "damageScaleFactor": 1.25,
+        "armor": 30.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.7,
+        "range": 1
+      },
+      "traits": [
+        "Ninja",
+        "Blademaster"
+      ],
+      "ability": {
+        "name": "奥义！魂佑",
+        "desc": "慎创造一个领域来环绕自身，允许其内的友军闪避所有攻击",
+        "icon": "ASSETS/Characters/Shen/HUD/Icons2D/Shen_W.dds",
+        "variables": [
+          {
+            "key": "ZoneDuration",
+            "values": [
+              2.0,
+              3.0,
+              4.0,
+              5.0,
+              6.0,
+              7.0,
+              8.0
+            ]
+          }
+        ]
+      }
+    },
+    "102": {
+      "name": "龙血武姬",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Shyvana.dds",
+      "stats": {
+        "hp": 650.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 30.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.7,
+        "range": 1
+      },
+      "traits": [
+        "Dragon",
+        "Shapeshifter"
+      ],
+      "ability": {
+        "name": "魔龙降世",
+        "desc": "希瓦娜突进并变形，获得攻击力和攻击距离。在变形时，她的攻击可使敌人燃烧",
+        "icon": "ASSETS/Characters/Shyvana/HUD/Icons2D/ShyvanaDragonsDescent.dds",
+        "variables": [
+          {
+            "key": "TransformDuration",
+            "values": [
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0
+            ]
+          },
+          {
+            "key": "ADWhileDragon",
+            "values": [
+              50.0,
+              100.0,
+              150.0,
+              200.0,
+              250.0,
+              300.0,
+              350.0
+            ]
+          },
+          {
+            "key": "BurnDuration",
+            "values": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          },
+          {
+            "key": "BurnDamage",
+            "values": [
+              125.0,
+              250.0,
+              375.0,
+              500.0,
+              625.0,
+              750.0,
+              875.0
+            ]
+          }
+        ]
+      }
+    },
+    "103": {
+      "name": "九尾妖狐",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Ahri.dds",
+      "stats": {
+        "hp": 450.0,
+        "hpScaleFactor": 1.8,
+        "mana": 75.0,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.55,
+        "range": 3
+      },
+      "traits": [
+        "Wild",
+        "Sorcerer"
+      ],
+      "ability": {
+        "name": "欺诈宝珠",
+        "desc": "阿狸沿直线发射一颗会折返的法球，对沿途的敌人造成伤害",
+        "icon": "ASSETS/Characters/Ahri/HUD/Icons2D/Ahri_OrbofDeception.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              50.0,
+              100.0,
+              200.0,
+              300.0,
+              400.0,
+              500.0,
+              475.0
+            ]
+          }
+        ]
+      }
+    },
+    "104": {
+      "name": "法外狂徒",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Graves.dds",
+      "stats": {
+        "hp": 450.0,
+        "hpScaleFactor": 1.8,
+        "mana": 0.0,
+        "initalMana": 0,
+        "damage": 55.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.55,
+        "range": 1
+      },
+      "traits": [
+        "Pirate",
+        "Gunslinger"
+      ],
+      "ability": {
+        "name": "大号铅弹",
+        "desc": "固有：格雷福斯的攻击造成提升过的伤害并命中他前方的所有敌人",
+        "icon": "ASSETS/Characters/Graves/HUD/Icons2D/BuckshotOld.dds",
+        "variables": [
+          {
+            "key": "DamageMultiplier",
+            "values": [
+              0.0,
+              0.05,
+              0.1,
+              0.15,
+              0.2,
+              0.25,
+              0.3
+            ]
+          }
+        ]
+      }
+    },
+    "106": {
+      "name": "雷霆咆哮",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Volibear.dds",
+      "stats": {
+        "hp": 700.0,
+        "hpScaleFactor": 1.8,
+        "mana": 75.0,
+        "initalMana": 0,
+        "damage": 75.0,
+        "damageScaleFactor": 1.25,
+        "armor": 30.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.55,
+        "range": 1
+      },
+      "traits": [
+        "Glacial",
+        "Brawler"
+      ],
+      "ability": {
+        "name": "雷霆怒爪",
+        "desc": "沃利贝尔强化他的攻击，以在敌人之间弹射，并施加攻击特效",
+        "icon": "ASSETS/Characters/Volibear/HUD/Icons2D/VolibearR.dds",
+        "variables": [
+          {
+            "key": "BuffDuration",
+            "values": [
+              20.0,
+              20.0,
+              20.0,
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          {
+            "key": "MaxBounces",
+            "values": [
+              1.0,
+              2.0,
+              3.0,
+              4.0,
+              5.0,
+              6.0,
+              7.0
+            ]
+          },
+          {
+            "key": "ChainADMult",
+            "values": [
+              0.7,
+              0.8,
+              0.9,
+              1.0,
+              1.1,
+              1.2,
+              1.3
+            ]
+          },
+          {
+            "key": "SizeIncrease",
+            "values": [
+              0.08,
+              0.08,
+              0.08,
+              0.08,
+              0.08,
+              0.08,
+              0.08
+            ]
+          },
+          {
+            "key": "HexRange",
+            "values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        ]
+      }
+    },
+    "107": {
+      "name": "傲之追猎者",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Rengar.dds",
+      "stats": {
+        "hp": 550.0,
+        "hpScaleFactor": 1.8,
+        "mana": 75.0,
+        "initalMana": 0,
+        "damage": 70.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 1
+      },
+      "traits": [
+        "Wild",
+        "Assassin"
+      ],
+      "ability": {
+        "name": "残忍无情",
+        "desc": "雷恩加尔跃向最弱的敌人，并对其造成额外伤害。在造成伤害后，雷恩加尔会获得攻击速度和@CritBuff*100@%暴击几率",
+        "icon": "ASSETS/Characters/Rengar/HUD/Icons2D/RengarQ.dds",
+        "variables": [
+          {
+            "key": "ADMult",
+            "values": [
+              1.0,
+              2.0,
+              3.0,
+              4.0,
+              5.0,
+              6.0,
+              7.0
+            ]
+          },
+          {
+            "key": "ASBuff",
+            "values": [
+              0.1,
+              0.4,
+              0.7,
+              1.0,
+              1.3,
+              1.6,
+              1.9
+            ]
+          },
+          {
+            "key": "CritBuff",
+            "values": [
+              0.25,
+              0.25,
+              0.25,
+              0.25,
+              0.25,
+              0.25,
+              0.25
+            ]
+          },
+          {
+            "key": "BuffDuration",
+            "values": [
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0
+            ]
+          }
+        ]
+      }
+    },
+    "110": {
+      "name": "惩戒之箭",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Varus.dds",
+      "stats": {
+        "hp": 500.0,
+        "hpScaleFactor": 1.8,
+        "mana": 75.0,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.7,
+        "range": 4
+      },
+      "traits": [
+        "Demon",
+        "Ranger"
+      ],
+      "ability": {
+        "name": "穿刺之箭",
+        "desc": "韦鲁斯引导并射出一支箭，对一条直线上的所有敌人造成伤害",
+        "icon": "ASSETS/Characters/Varus/HUD/Icons2D/VarusQ.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              50.0,
+              300.0,
+              550.0,
+              800.0,
+              1050.0,
+              1300.0,
+              1550.0
+            ]
+          },
+          {
+            "key": "HexRange",
+            "values": [
+              8.0,
+              8.0,
+              8.0,
+              8.0,
+              8.0,
+              8.0,
+              8.0
+            ]
+          }
+        ]
+      }
+    },
+    "113": {
+      "name": "北地之怒",
+      "cost": 4,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Sejuani.dds",
+      "stats": {
+        "hp": 850.0,
+        "hpScaleFactor": 1.8,
+        "mana": 150.0,
+        "initalMana": 0,
+        "damage": 45.0,
+        "damageScaleFactor": 1.25,
+        "armor": 40.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.55,
+        "range": 1
+      },
+      "traits": [
+        "Glacial",
+        "Knight"
+      ],
+      "ability": {
+        "name": "极冰寒狱",
+        "desc": "瑟庄妮创造一团大型的冰川风暴，在短暂的延迟后，对其内的敌人造成晕眩效果",
+        "icon": "ASSETS/Characters/Sejuani/HUD/Icons2D/Sejuani_R.dds",
+        "variables": [
+          {
+            "key": "ExplosionDelay",
+            "values": [
+              0.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "key": "Damage",
+            "values": [
+              25.0,
+              100.0,
+              175.0,
+              250.0,
+              325.0,
+              400.0,
+              475.0
+            ]
+          },
+          {
+            "key": "StunDuration",
+            "values": [
+              1.0,
+              2.0,
+              4.0,
+              6.0,
+              8.0,
+              10.0,
+              12.0
+            ]
+          }
+        ]
+      }
+    },
+    "114": {
+      "name": "无双剑姬",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Fiora.dds",
+      "stats": {
+        "hp": 400.0,
+        "hpScaleFactor": 1.8,
+        "mana": 75.0,
+        "initalMana": 0,
+        "damage": 40.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 1.0,
+        "range": 1
+      },
+      "traits": [
+        "Noble",
+        "Blademaster"
+      ],
+      "ability": {
+        "name": "劳伦特心眼刀",
+        "desc": "菲奥娜变得免疫伤害和技能。在短暂的延迟后，她会对距离最近的敌人造成伤害和晕眩效果",
+        "icon": "ASSETS/Characters/Fiora/HUD/Icons2D/Fiora_W.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              -50.0,
+              100.0,
+              250.0,
+              400.0,
+              550.0,
+              700.0,
+              850.0
+            ]
+          },
+          {
+            "key": "StunDuration",
+            "values": [
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5
+            ]
+          },
+          {
+            "key": "BlockDuration",
+            "values": [
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5
+            ]
+          }
+        ]
+      }
+    },
+    "117": {
+      "name": "仙灵女巫",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Lulu.dds",
+      "stats": {
+        "hp": 500.0,
+        "hpScaleFactor": 1.8,
+        "mana": 150.0,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 2
+      },
+      "traits": [
+        "Yordle",
+        "Sorcerer"
+      ],
+      "ability": {
+        "name": "狂野生长",
+        "desc": "璐璐为一名友军提供额外生命值，并击飞该友军附近的敌人@CCDuration@秒",
+        "icon": "ASSETS/Characters/Lulu/HUD/Icons2D/Lulu_GiantGrowth.dds",
+        "variables": [
+          {
+            "key": "BonusHealth",
+            "values": [
+              125.0,
+              300.0,
+              475.0,
+              650.0,
+              825.0,
+              1000.0,
+              1175.0
+            ]
+          },
+          {
+            "key": "ExtraTargets",
+            "values": [
+              -1.0,
+              0.0,
+              1.0,
+              2.0,
+              3.0,
+              4.0,
+              5.0
+            ]
+          },
+          {
+            "key": "BuffDuration",
+            "values": [
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0
+            ]
+          },
+          {
+            "key": "CCDuration",
+            "values": [
+              1.25,
+              1.25,
+              1.25,
+              1.25,
+              1.25,
+              1.25,
+              1.25
+            ]
+          }
+        ]
+      }
+    },
+    "119": {
+      "name": "荣耀行刑官",
+      "cost": 4,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Draven.dds",
+      "stats": {
+        "hp": 700.0,
+        "hpScaleFactor": 1.8,
+        "mana": 50.0,
+        "initalMana": 0,
+        "damage": 75.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.75,
+        "range": 3
+      },
+      "traits": [
+        "Imperial",
+        "Blademaster"
+      ],
+      "ability": {
+        "name": "旋转飞斧",
+        "desc": "德莱文获得旋转飞斧，造成额外攻击特效伤害。至多可叠加2次",
+        "icon": "ASSETS/Characters/Draven/HUD/Icons2D/Draven_SpinningAxe.dds",
+        "variables": [
+          {
+            "key": "BuffDuration",
+            "values": [
+              5.75,
+              5.75,
+              5.75,
+              5.75,
+              5.75,
+              5.75,
+              5.75
+            ]
+          },
+          {
+            "key": "ADMult",
+            "values": [
+              1.0,
+              1.5,
+              2.0,
+              2.5,
+              3.0,
+              3.5,
+              4.0
+            ]
+          },
+          {
+            "key": "ASBuff",
+            "values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        ]
+      }
+    },
+    "121": {
+      "name": "虚空掠夺者",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Khazix.dds",
+      "stats": {
+        "hp": 500.0,
+        "hpScaleFactor": 1.8,
+        "mana": 50.0,
+        "initalMana": 0,
+        "damage": 55.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 1
+      },
+      "traits": [
+        "Void",
+        "Assassin"
+      ],
+      "ability": {
+        "name": "品尝恐惧",
+        "desc": "卡兹克斩击距离最近的敌人，并可对孤立无援的敌人造成额外伤害",
+        "icon": "ASSETS/Characters/KhaZix/HUD/Icons2D/Khazix_Q.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              50.0,
+              150.0,
+              300.0,
+              450.0,
+              600.0,
+              750.0,
+              900.0
+            ]
+          },
+          {
+            "key": "IsolationDamage",
+            "values": [
+              200.0,
+              400.0,
+              600.0,
+              800.0,
+              1000.0,
+              1200.0,
+              1400.0
+            ]
+          }
+        ]
+      }
+    },
+    "122": {
+      "name": "诺克萨斯之手",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Darius.dds",
+      "stats": {
+        "hp": 600.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 40.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.5,
+        "range": 1
+      },
+      "traits": [
+        "Imperial",
+        "Knight"
+      ],
+      "ability": {
+        "name": "大杀四方",
+        "desc": "德莱厄斯挥舞他的斧头，对附近的敌人造成伤害并基于他命中的敌人数量来治疗自身",
+        "icon": "ASSETS/Characters/Darius/HUD/Icons2D/Darius_Icon_Decimate.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              100.0,
+              150.0,
+              200.0,
+              250.0,
+              300.0,
+              350.0,
+              400.0
+            ]
+          },
+          {
+            "key": "Heal",
+            "values": [
+              50.0,
+              100.0,
+              150.0,
+              200.0,
+              250.0,
+              300.0,
+              350.0
+            ]
+          }
+        ]
+      }
+    },
+    "126": {
+      "name": "未来守护者",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Jayce.dds",
+      "stats": {
+        "hp": 600.0,
+        "hpScaleFactor": 1.8,
+        "mana": 50.0,
+        "initalMana": 0,
+        "damage": 55.0,
+        "damageScaleFactor": 1.25,
+        "armor": 30.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.7,
+        "range": 1
+      },
+      "traits": [
+        "Hextech",
+        "Shapeshifter"
+      ],
+      "ability": {
+        "name": "tft_character_jayce_ability_name",
+        "desc": "tft_character_jayce_ability_description",
+        "icon": "ASSETS/Characters/TFT_Jayce/HUD/Icons2D/TFT_Jayce_Spell.TFT_Hextech.dds",
+        "variables": [
+          {
+            "key": "RangeIncrease",
+            "values": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          },
+          {
+            "key": "TransformDuration",
+            "values": [
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0
+            ]
+          },
+          {
+            "key": "Damage",
+            "values": [
+              75.0,
+              150.0,
+              225.0,
+              300.0,
+              375.0,
+              450.0,
+              525.0
+            ]
+          },
+          {
+            "key": "CCDuration",
+            "values": [
+              0.75,
+              2.5,
+              4.25,
+              6.0,
+              7.75,
+              9.5,
+              11.25
+            ]
+          },
+          {
+            "key": "KnockbackDistance",
+            "values": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          },
+          {
+            "key": "AAMax",
+            "values": [
+              1.0,
+              3.0,
+              5.0,
+              7.0,
+              9.0,
+              11.0,
+              13.0
+            ]
+          }
+        ]
+      }
+    },
+    "127": {
+      "name": "冰霜女巫",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Lissandra.dds",
+      "stats": {
+        "hp": 450.0,
+        "hpScaleFactor": 1.8,
+        "mana": 150.0,
+        "initalMana": 0,
+        "damage": 40.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 2
+      },
+      "traits": [
+        "Glacial",
+        "Elementalist"
+      ],
+      "ability": {
+        "name": "冰封陵墓",
+        "desc": "丽桑卓将目标封入冰块@EnemyStunDuration@秒，并对附近的敌人造成伤害。在半血以下时，丽桑卓会将自己封入冰块，并变得无法被选取，持续@SelfDuration@秒",
+        "icon": "ASSETS/Characters/Lissandra/HUD/Icons2D/Lissandra_R.dds",
+        "variables": [
+          {
+            "key": "EnemyStunDuration",
+            "values": [
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5
+            ]
+          },
+          {
+            "key": "SelfDuration",
+            "values": [
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "key": "Damage",
+            "values": [
+              25.0,
+              150.0,
+              275.0,
+              400.0,
+              525.0,
+              650.0,
+              775.0
+            ]
+          },
+          {
+            "key": "SlowDuration",
+            "values": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          },
+          {
+            "key": "SlowAmount",
+            "values": [
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "key": "SlowFieldDuration",
+            "values": [
+              0.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          },
+          {
+            "key": "MaxHexRange",
+            "values": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          },
+          {
+            "key": "SelfUltHealthPercent",
+            "values": [
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5
+            ]
+          }
+        ]
+      }
+    },
+    "136": {
+      "name": "铸星龙王",
+      "cost": 4,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_AurelionSol.dds",
+      "stats": {
+        "hp": 650.0,
+        "hpScaleFactor": 1.8,
+        "mana": 125.0,
+        "initalMana": 0,
+        "damage": 40.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 3
+      },
+      "traits": [
+        "Dragon",
+        "Sorcerer"
+      ],
+      "ability": {
+        "name": "星弦高落",
+        "desc": "奥瑞利安 · 索尔沿直线喷出一道龙息，来对敌人造成伤害。",
+        "icon": "ASSETS/Characters/AurelionSol/HUD/Icons2D/AurelionSol_R.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              50.0,
+              250.0,
+              500.0,
+              750.0,
+              1000.0,
+              1250.0,
+              1500.0
+            ]
+          },
+          {
+            "key": "HexRange",
+            "values": [
+              8.0,
+              8.0,
+              8.0,
+              8.0,
+              8.0,
+              8.0,
+              8.0
+            ]
+          }
+        ]
+      }
+    },
+    "150": {
+      "name": "迷失之牙",
+      "cost": 4,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Gnar.dds",
+      "stats": {
+        "hp": 750.0,
+        "hpScaleFactor": 1.8,
+        "mana": 125.0,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 30.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.7,
+        "range": 2
+      },
+      "traits": [
+        "Wild",
+        "Yordle",
+        "Shapeshifter"
+      ],
+      "ability": {
+        "name": "呐啊！",
+        "desc": "纳尔变形，获得生命值、攻击力并跳到距离最远的敌人身后，伤害并晕眩附近的敌人@RCCDuration@秒",
+        "icon": "ASSETS/Characters/Gnar/HUD/Icons2D/GnarTransform.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              100.0,
+              200.0,
+              300.0,
+              400.0,
+              500.0,
+              600.0,
+              700.0
+            ]
+          },
+          {
+            "key": "RCCDuration",
+            "values": [
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "key": "RKnockbackDistance",
+            "values": [
+              500.0,
+              500.0,
+              500.0,
+              500.0,
+              500.0,
+              500.0,
+              500.0
+            ]
+          },
+          {
+            "key": "TransformDuration",
+            "values": [
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0
+            ]
+          },
+          {
+            "key": "TransformHealth",
+            "values": [
+              0.0,
+              300.0,
+              600.0,
+              900.0,
+              1200.0,
+              1500.0,
+              1800.0
+            ]
+          },
+          {
+            "key": "TransformAD",
+            "values": [
+              0.0,
+              30.0,
+              60.0,
+              90.0,
+              120.0,
+              150.0,
+              180.0
+            ]
+          }
+        ]
+      }
+    },
+    "157": {
+      "name": "疾风剑豪",
+      "cost": 5,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Yasuo.dds",
+      "stats": {
+        "hp": 700.0,
+        "hpScaleFactor": 1.8,
+        "mana": 25.0,
+        "initalMana": 0,
+        "damage": 75.0,
+        "damageScaleFactor": 1.25,
+        "armor": 35.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 1.0,
+        "range": 1
+      },
+      "traits": [
+        "Exile",
+        "Blademaster"
+      ],
+      "ability": {
+        "name": "斩钢闪",
+        "desc": "亚索向前戳刺，来对一条直线上的2名敌人造成伤害。在第三次施放时，亚索会吹出一道龙卷风来替代戳刺，以对一条直线上的敌人造成伤害和@QKnockupDuration@秒击飞效果。<br><br>附带攻击特效。",
+        "icon": "ASSETS/Characters/Yasuo/HUD/Icons2D/Yasuo_Q1.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              -50.0,
+              150.0,
+              350.0,
+              550.0,
+              750.0,
+              950.0,
+              1150.0
+            ]
+          },
+          {
+            "key": "QHexRange",
+            "values": [
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "key": "QEmpowerHexRange",
+            "values": [
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0
+            ]
+          },
+          {
+            "key": "QCountForEmpower",
+            "values": [
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "key": "QWidth",
+            "values": [
+              75.0,
+              75.0,
+              75.0,
+              75.0,
+              75.0,
+              75.0,
+              75.0
+            ]
+          },
+          {
+            "key": "QKnockupDuration",
+            "values": [
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5
+            ]
+          }
+        ]
+      }
+    },
+    "164": {
+      "name": "青钢影",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Camille.dds",
+      "stats": {
+        "hp": 550.0,
+        "hpScaleFactor": 1.8,
+        "mana": 150.0,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 1
+      },
+      "traits": [
+        "Hextech",
+        "Blademaster"
+      ],
+      "ability": {
+        "name": "Spell_TFT_CamilleR_Name",
+        "desc": "Spell_TFT_CamilleR_Summary",
+        "icon": "ASSETS/Characters/TFT_Camille/HUD/Icons2D/TFT_Camille_R.TFT_Hextech.dds",
+        "variables": [
+          {
+            "key": "Duration",
+            "values": [
+              3.0,
+              4.0,
+              5.0,
+              6.0,
+              7.0,
+              8.0,
+              9.0
+            ]
+          },
+          {
+            "key": "Damage",
+            "values": [
+              75.0,
+              200.0,
+              325.0,
+              450.0,
+              575.0,
+              700.0,
+              825.0
+            ]
+          }
+        ]
+      }
+    },
+    "201": {
+      "name": "弗雷尔卓德之心",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Braum.dds",
+      "stats": {
+        "hp": 750.0,
+        "hpScaleFactor": 1.8,
+        "mana": 50.0,
+        "initalMana": 0,
+        "damage": 40.0,
+        "damageScaleFactor": 1.25,
+        "armor": 75.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 1
+      },
+      "traits": [
+        "Glacial",
+        "Guardian"
+      ],
+      "ability": {
+        "name": "坚不可摧",
+        "desc": "布隆获得一道屏障来格挡所有即将到来的伤害",
+        "icon": "ASSETS/Characters/Braum/HUD/Icons2D/Braum_E.dds",
+        "variables": [
+          {
+            "key": "ShieldDR",
+            "values": [
+              60.0,
+              70.0,
+              80.0,
+              90.0,
+              100.0,
+              110.0,
+              120.0
+            ]
+          },
+          {
+            "key": "ShieldDuration",
+            "values": [
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0
+            ]
+          }
+        ]
+      }
+    },
+    "203": {
+      "name": "永猎双子",
+      "cost": 4,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Kindred.dds",
+      "stats": {
+        "hp": 600.0,
+        "hpScaleFactor": 1.8,
+        "mana": 150.0,
+        "initalMana": 0,
+        "damage": 60.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 3
+      },
+      "traits": [
+        "Phantom",
+        "Ranger"
+      ],
+      "ability": {
+        "name": "羊灵生息",
+        "desc": "千珏创造一个领域来环绕自身，可预防友军阵亡",
+        "icon": "ASSETS/Characters/Kindred/HUD/Icons2D/Kindred_R.dds",
+        "variables": [
+          {
+            "key": "Duration",
+            "values": [
+              3.0,
+              4.0,
+              5.0,
+              6.0,
+              7.0,
+              8.0,
+              9.0
+            ]
+          },
+          {
+            "key": "MinHealth",
+            "values": [
+              0.0,
+              300.0,
+              600.0,
+              900.0,
+              1200.0,
+              1500.0,
+              1800.0
+            ]
+          }
+        ]
+      }
+    },
+    "222": {
+      "name": "暴走萝莉",
+      "cost": 4,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Jinx.dds",
+      "stats": {
+        "hp": 550.0,
+        "hpScaleFactor": 1.8,
+        "mana": 0.0,
+        "initalMana": 0,
+        "damage": 75.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 3
+      },
+      "traits": [
+        "Hextech",
+        "Gunslinger"
+      ],
+      "ability": {
+        "name": "tft_character_jinx_ability_name",
+        "desc": "Spell_TFT_JinxPassive_Description",
+        "icon": "ASSETS/Characters/TFT_Jinx/HUD/Icons2D/TFT_Jinx_Spell.TFT_Hextech.dds",
+        "variables": [
+          {
+            "key": "HitWindow",
+            "values": [
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0
+            ]
+          },
+          {
+            "key": "BuffDuration",
+            "values": [
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0
+            ]
+          },
+          {
+            "key": "AttackSpeedBonus",
+            "values": [
+              0.5,
+              0.75,
+              1.0,
+              1.25,
+              1.5,
+              1.75,
+              2.0
+            ]
+          },
+          {
+            "key": "RocketDamage",
+            "values": [
+              -25.0,
+              100.0,
+              225.0,
+              350.0,
+              475.0,
+              600.0,
+              725.0
+            ]
+          }
+        ]
+      }
+    },
+    "236": {
+      "name": "圣枪游侠",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Lucian.dds",
+      "stats": {
+        "hp": 600.0,
+        "hpScaleFactor": 1.8,
+        "mana": 35.0,
+        "initalMana": 0,
+        "damage": 65.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 3
+      },
+      "traits": [
+        "Noble",
+        "Gunslinger"
+      ],
+      "ability": {
+        "name": "冷酷追击",
+        "desc": "卢锡安突进到安全处，并攻击一名敌人两次，一次造成攻击伤害，另一次造成技能伤害",
+        "icon": "ASSETS/Characters/Lucian/HUD/Icons2D/Lucian_E.dds",
+        "variables": [
+          {
+            "key": "FirstShotRatio",
+            "values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "key": "SecondShotDamage",
+            "values": [
+              50.0,
+              150.0,
+              250.0,
+              350.0,
+              450.0,
+              550.0,
+              650.0
+            ]
+          }
+        ]
+      }
+    },
+    "238": {
+      "name": "影流之主",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Zed.dds",
+      "stats": {
+        "hp": 500.0,
+        "hpScaleFactor": 1.8,
+        "mana": 75.0,
+        "initalMana": 0,
+        "damage": 65.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 1
+      },
+      "traits": [
+        "Ninja",
+        "Assassin"
+      ],
+      "ability": {
+        "name": "影奥义！诸刃",
+        "desc": "劫扔出一枚手里剑，对一条直线上的敌人造成伤害",
+        "icon": "ASSETS/Characters/Zed/HUD/Icons2D/shadowninja_Q.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              100.0,
+              200.0,
+              300.0,
+              400.0,
+              500.0,
+              600.0,
+              700.0
+            ]
+          },
+          {
+            "key": "HexRange",
+            "values": [
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0
+            ]
+          }
+        ]
+      }
+    },
+    "254": {
+      "name": "皮城执法官",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Vi.dds",
+      "stats": {
+        "hp": 600.0,
+        "hpScaleFactor": 1.8,
+        "mana": 125.0,
+        "initalMana": 0,
+        "damage": 55.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 1
+      },
+      "traits": [
+        "Hextech",
+        "Brawler"
+      ],
+      "ability": {
+        "name": "Spell_TFT_ViR_Name",
+        "desc": "Spell_TFT_ViR_Description",
+        "icon": "ASSETS/Characters/TFT_Vi/HUD/Icons2D/TFT_ViR.TFT_Hextech.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              100.0,
+              250.0,
+              400.0,
+              550.0,
+              700.0,
+              850.0,
+              1000.0
+            ]
+          },
+          {
+            "key": "CCDuration",
+            "values": [
+              1.5,
+              2.0,
+              2.5,
+              3.0,
+              3.5,
+              4.0,
+              4.5
+            ]
+          },
+          {
+            "key": "MoveSpeed",
+            "values": [
+              1000.0,
+              1000.0,
+              1000.0,
+              1000.0,
+              1000.0,
+              1000.0,
+              1000.0
+            ]
+          },
+          {
+            "key": "OthersCCDuration",
+            "values": [
+              0.25,
+              0.25,
+              0.25,
+              0.25,
+              0.25,
+              0.25,
+              0.25
+            ]
+          }
+        ]
+      }
+    },
+    "266": {
+      "name": "暗裔剑魔",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Aatrox.dds",
+      "stats": {
+        "hp": 700.0,
+        "hpScaleFactor": 1.8,
+        "mana": 75.0,
+        "initalMana": 0,
+        "damage": 65.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 1
+      },
+      "traits": [
+        "Demon",
+        "Blademaster"
+      ],
+      "ability": {
+        "name": "暗裔之刃",
+        "desc": "亚托克斯顺劈他面前的区域，对区域内的敌人造成伤害",
+        "icon": "ASSETS/Characters/Aatrox/HUD/Icons2D/Aatrox_Q3.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              50.0,
+              250.0,
+              600.0,
+              950.0,
+              1250.0,
+              1550.0,
+              1850.0
+            ]
+          }
+        ]
+      }
+    },
+    "421": {
+      "name": "虚空遁地兽",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Reksai.dds",
+      "stats": {
+        "hp": 650.0,
+        "hpScaleFactor": 1.8,
+        "mana": 150.0,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 1
+      },
+      "traits": [
+        "Void",
+        "Brawler"
+      ],
+      "ability": {
+        "name": "遁地",
+        "desc": "雷克塞遁入地底一小段时间，来变得无法被选取并治疗自身。当雷克塞破土而出时，她会造成伤害并击飞距离最近的敌人@KnockUpDuration@秒",
+        "icon": "ASSETS/Characters/RekSai/HUD/Icons2D/RekSai_W1.dds",
+        "variables": [
+          {
+            "key": "HealAmount",
+            "values": [
+              75.0,
+              150.0,
+              300.0,
+              450.0,
+              600.0,
+              750.0,
+              900.0
+            ]
+          },
+          {
+            "key": "BurrowDuration",
+            "values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "key": "HealTickRate",
+            "values": [
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5
+            ]
+          },
+          {
+            "key": "KnockupDuration",
+            "values": [
+              1.75,
+              1.75,
+              1.75,
+              1.75,
+              1.75,
+              1.75,
+              1.75
+            ]
+          },
+          {
+            "key": "KnockupDamage",
+            "values": [
+              50.0,
+              200.0,
+              350.0,
+              500.0,
+              650.0,
+              800.0,
+              950.0
+            ]
+          }
+        ]
+      }
+    },
+    "555": {
+      "name": "血港鬼影",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Pyke.dds",
+      "stats": {
+        "hp": 600.0,
+        "hpScaleFactor": 1.8,
+        "mana": 125.0,
+        "initalMana": 0,
+        "damage": 60.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 1
+      },
+      "traits": [
+        "Pirate",
+        "Assassin"
+      ],
+      "ability": {
+        "name": "魅影浪洄",
+        "desc": "派克突进到距离最远的敌人身后，并创造一道残影来晕眩沿途的敌人",
+        "icon": "ASSETS/Characters/Pyke/HUD/Icons2D/PykeE.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              100.0,
+              150.0,
+              200.0,
+              250.0,
+              300.0,
+              350.0,
+              400.0
+            ]
+          },
+          {
+            "key": "StunDuration",
+            "values": [
+              1.5,
+              2.0,
+              2.5,
+              3.0,
+              3.5,
+              4.0,
+              4.5
+            ]
+          },
+          {
+            "key": "StunDelay",
+            "values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "traits": [
+    {
+      "name": "海盗",
+      "desc": "<row>(@MinUnits@) 在与另一名玩家的战斗环节结束时，最多提供4枚额外的金币</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Pirate.dds",
+      "effects": [
+        {
+          "minUnits": 3,
+          "maxUnits": 25000,
+          "vars": []
+        }
+      ]
+    },
+    {
+      "name": "元素使",
+      "desc": "固有：元素使们的攻击提供双倍法力值<br><br><row>(@MinUnits@) 在战斗环节开始时，召唤一个魔像</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Elementalist.dds",
+      "effects": [
+        {
+          "minUnits": 3,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "HPMultiplier",
+              "value": null
+            },
+            {
+              "name": "558229DF",
+              "value": null
+            },
+            {
+              "name": "SizeCoefficient",
+              "value": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "恶魔",
+      "desc": "恶魔们的攻击有一定几率灼烧一名敌人的所有法力值并造成相当于被灼烧法力值的真实伤害。<br><br><expandRow>(@MinUnits@) @ProcChance@%几率灼烧法力值</expandRow><br>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Demon.dds",
+      "effects": [
+        {
+          "minUnits": 2,
+          "maxUnits": 3,
+          "vars": [
+            {
+              "name": "ProcChance",
+              "value": 20.0
+            },
+            {
+              "name": "DamagePercent",
+              "value": 100.0
+            },
+            {
+              "name": "4516A18D",
+              "value": 3.0
+            },
+            {
+              "name": "35BB0E0C",
+              "value": 33.0
+            },
+            {
+              "name": "0EBB5365",
+              "value": 25.0
+            },
+            {
+              "name": "1A14AA8A",
+              "value": 10.0
+            }
+          ]
+        },
+        {
+          "minUnits": 4,
+          "maxUnits": 5,
+          "vars": [
+            {
+              "name": "ProcChance",
+              "value": 40.0
+            },
+            {
+              "name": "DamagePercent",
+              "value": 100.0
+            },
+            {
+              "name": "4516A18D",
+              "value": 3.0
+            },
+            {
+              "name": "35BB0E0C",
+              "value": 33.0
+            },
+            {
+              "name": "0EBB5365",
+              "value": 25.0
+            },
+            {
+              "name": "1A14AA8A",
+              "value": 10.0
+            }
+          ]
+        },
+        {
+          "minUnits": 6,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "ProcChance",
+              "value": 80.0
+            },
+            {
+              "name": "DamagePercent",
+              "value": 100.0
+            },
+            {
+              "name": "4516A18D",
+              "value": 3.0
+            },
+            {
+              "name": "35BB0E0C",
+              "value": 33.0
+            },
+            {
+              "name": "0EBB5365",
+              "value": 25.0
+            },
+            {
+              "name": "1A14AA8A",
+              "value": 25.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "狂野",
+      "desc": "攻击会生成怒气层数(最多可叠5层)。每层怒气提供@AttackSpeedPercent@%攻击速度。<br><br><row>(@MinUnits@) 仅限狂野单位友军</row><br><row>(@MinUnits@) 所有友军</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Wild.dds",
+      "effects": [
+        {
+          "minUnits": 2,
+          "maxUnits": 3,
+          "vars": [
+            {
+              "name": "AttackSpeedPercent",
+              "value": 10.0
+            }
+          ]
+        },
+        {
+          "minUnits": 4,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "AttackSpeedPercent",
+              "value": 10.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "虚空",
+      "desc": "<row>(@MinUnits@) 虚空英雄现在造成真实伤害</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Void.dds",
+      "effects": [
+        {
+          "minUnits": 3,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "PercentArmorPen",
+              "value": 100.0
+            },
+            {
+              "name": "CB42693F",
+              "value": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "斗士",
+      "desc": "斗士获得额外的最大生命值<br><br><expandRow>(@MinUnits@) @BonusHealth@额外生命值</expandRow><br>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Brawler.dds",
+      "effects": [
+        {
+          "minUnits": 2,
+          "maxUnits": 3,
+          "vars": [
+            {
+              "name": "BonusHealth",
+              "value": 300.0
+            }
+          ]
+        },
+        {
+          "minUnits": 4,
+          "maxUnits": 5,
+          "vars": [
+            {
+              "name": "BonusHealth",
+              "value": 700.0
+            }
+          ]
+        },
+        {
+          "minUnits": 6,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "BonusHealth",
+              "value": 1200.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "龙",
+      "desc": "<row>(@MinUnits@)龙获得@MagicReduction@%魔法抗性</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Dragon.dds",
+      "effects": [
+        {
+          "minUnits": 2,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "MagicReduction",
+              "value": 83.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "浪人",
+      "desc": "<row>(@MinUnits@) 在战斗环节开始时，如果一名浪人的邻近格子没有友军，那么该浪人会获得一层相当于其@ShieldPercent@%最大生命值的护盾</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Exile.dds",
+      "effects": [
+        {
+          "minUnits": 1,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "ShieldPercent",
+              "value": 100.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "约德尔人",
+      "desc": "约德尔人们有一定几率闪避敌人的攻击<br><br><expandRow>(@MinUnits@) @MissPercent@%闪避几率</expandRow><br>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Yordle.dds",
+      "effects": [
+        {
+          "minUnits": 3,
+          "maxUnits": 5,
+          "vars": [
+            {
+              "name": "MissPercent",
+              "value": 30.0
+            }
+          ]
+        },
+        {
+          "minUnits": 6,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "MissPercent",
+              "value": 55.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "护卫",
+      "desc": "<row>(@MinUnits@) 在战斗环节开始时，所有护卫提供+@Armor@护甲给邻近的友军。这个护甲可以叠加。</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Guardian.dds",
+      "effects": [
+        {
+          "minUnits": 2,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "Armor",
+              "value": 50.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "骑士",
+      "desc": "所有友军格挡所受的伤害<br><br><expandRow>(@MinUnits@) @BlockAmount@伤害格挡</expandRow>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Knight.dds",
+      "effects": [
+        {
+          "minUnits": 2,
+          "maxUnits": 3,
+          "vars": [
+            {
+              "name": "BlockAmount",
+              "value": 15.0
+            }
+          ]
+        },
+        {
+          "minUnits": 4,
+          "maxUnits": 5,
+          "vars": [
+            {
+              "name": "BlockAmount",
+              "value": 30.0
+            }
+          ]
+        },
+        {
+          "minUnits": 6,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "BlockAmount",
+              "value": 55.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "忍者",
+      "desc": "忍者特质只会在你的场上*恰好*拥有1或4名忍者时激活<br><br><row>(@MinUnits@) 忍者获得+@ADValue@攻击力和+@APValue@%法术强度</row><br><row>(@MinUnits@) 所有忍者获得+@ADValue@攻击力和+@APValue@%法术强度</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Ninja.dds",
+      "effects": [
+        {
+          "minUnits": 1,
+          "maxUnits": 1,
+          "vars": [
+            {
+              "name": "ADValue",
+              "value": 40.0
+            },
+            {
+              "name": "APValue",
+              "value": 40.0
+            }
+          ]
+        },
+        {
+          "minUnits": 4,
+          "maxUnits": 4,
+          "vars": [
+            {
+              "name": "ADValue",
+              "value": 60.0
+            },
+            {
+              "name": "APValue",
+              "value": 60.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "游侠",
+      "desc": "游侠们每过@ProcRate@秒都有一定几率来使他们在接下来的@ProcRate@秒内攻速翻倍。<br><br><expandRow>(@MinUnits@) @ProcPercent@%几率使攻速翻倍</expandRow><br>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Ranger.dds",
+      "effects": [
+        {
+          "minUnits": 2,
+          "maxUnits": 3,
+          "vars": [
+            {
+              "name": "ProcPercent",
+              "value": 25.0
+            },
+            {
+              "name": "ASMultiplier",
+              "value": 2.0
+            },
+            {
+              "name": "ProcRate",
+              "value": 3.0
+            }
+          ]
+        },
+        {
+          "minUnits": 4,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "ProcPercent",
+              "value": 65.0
+            },
+            {
+              "name": "ASMultiplier",
+              "value": 2.0
+            },
+            {
+              "name": "ProcRate",
+              "value": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "换形师",
+      "desc": "换形师们会在他们变形时获得额外最大生命值<br><br><expandRow>(@MinUnits@) @HPPercent@%额外最大生命值</expandRow><br>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Shapeshifter.dds",
+      "effects": [
+        {
+          "minUnits": 3,
+          "maxUnits": 5,
+          "vars": [
+            {
+              "name": "HPPercent",
+              "value": 60.0
+            }
+          ]
+        },
+        {
+          "minUnits": 6,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "HPPercent",
+              "value": 120.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "枪手",
+      "desc": "枪手们的攻击在命中时有@ProcPercent@%几率打出额外的攻击<br><br><row>(@MinUnits@) 攻击@ExtraTargetsHit@名额外的敌人</row><br><row>(@MinUnits@) 攻击@ExtraTargetsHit@名额外的敌人</row><br><row>(@MinUnits@) 攻击@ExtraTargetsHit@名额外的敌人</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Gunslinger.dds",
+      "effects": [
+        {
+          "minUnits": 2,
+          "maxUnits": 3,
+          "vars": [
+            {
+              "name": "ProcPercent",
+              "value": 50.0
+            },
+            {
+              "name": "F768E185",
+              "value": 1.0
+            },
+            {
+              "name": "ExtraTargetsHit",
+              "value": 1.0
+            }
+          ]
+        },
+        {
+          "minUnits": 4,
+          "maxUnits": 5,
+          "vars": [
+            {
+              "name": "ProcPercent",
+              "value": 50.0
+            },
+            {
+              "name": "F768E185",
+              "value": 2.0
+            },
+            {
+              "name": "ExtraTargetsHit",
+              "value": 2.0
+            }
+          ]
+        },
+        {
+          "minUnits": 6,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "ProcPercent",
+              "value": 50.0
+            },
+            {
+              "name": "F768E185",
+              "value": 3.0
+            },
+            {
+              "name": "ExtraTargetsHit",
+              "value": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "法师",
+      "desc": "固有：法师们的攻击提供双倍法力值<br><br>所有友军的法术强度得到提升<br><br><expandRow>(@MinUnits@) +@AP@%法术强度</expandRow><br>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Sorcerer.dds",
+      "effects": [
+        {
+          "minUnits": 3,
+          "maxUnits": 5,
+          "vars": [
+            {
+              "name": "AP",
+              "value": 45.0
+            }
+          ]
+        },
+        {
+          "minUnits": 6,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "AP",
+              "value": 100.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "机器人",
+      "desc": "(@MinUnits@) 机器人在开始战斗时就有满额的法力值",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Robot.dds",
+      "effects": [
+        {
+          "minUnits": 1,
+          "maxUnits": 25000,
+          "vars": []
+        }
+      ]
+    },
+    {
+      "name": "tft_trait_displayname_Hextech",
+      "desc": "tft_trait_description_Hextech",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Hextech.dds",
+      "effects": [
+        {
+          "minUnits": 2,
+          "maxUnits": 3,
+          "vars": [
+            {
+              "name": "C78D1CC9",
+              "value": 4.0
+            },
+            {
+              "name": "2BD7DCB7",
+              "value": 5.0
+            }
+          ]
+        },
+        {
+          "minUnits": 4,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "C78D1CC9",
+              "value": 4.0
+            },
+            {
+              "name": "2BD7DCB7",
+              "value": 15.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "暗影",
+      "desc": "<row>(@MinUnits@) 在战斗环节开始时，诅咒一名随机的敌人，将其生命值设为@HPToSet@</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Phantom.dds",
+      "effects": [
+        {
+          "minUnits": 2,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "HPToSet",
+              "value": 100.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "贵族",
+      "desc": "+@Armor@护甲、+@MagicResist@魔抗并且每次攻击在命中时治疗@Heal@生命值<br><br><row>(@MinUnits@) 1名随机友军</row><br><row>(@MinUnits@) 所有友军</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Noble.dds",
+      "effects": [
+        {
+          "minUnits": 3,
+          "maxUnits": 5,
+          "vars": [
+            {
+              "name": "Armor",
+              "value": 60.0
+            },
+            {
+              "name": "Heal",
+              "value": 35.0
+            },
+            {
+              "name": "MagicResist",
+              "value": 60.0
+            }
+          ]
+        },
+        {
+          "minUnits": 6,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "Armor",
+              "value": 60.0
+            },
+            {
+              "name": "Heal",
+              "value": 35.0
+            },
+            {
+              "name": "MagicResist",
+              "value": 60.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "刺客",
+      "desc": "固有：刺客们在每场战斗开始时会跃至距离最远的敌人处<br><br>刺客们会获得额外的暴击伤害。<br><br><expandRow>(@MinUnits@) +@CritAmpPercent@%暴击伤害</expandRow><br>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Assassin.dds",
+      "effects": [
+        {
+          "minUnits": 3,
+          "maxUnits": 5,
+          "vars": [
+            {
+              "name": "CritAmpPercent",
+              "value": 125.0
+            }
+          ]
+        },
+        {
+          "minUnits": 6,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "CritAmpPercent",
+              "value": 350.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "极地",
+      "desc": "极地生物们的攻击有一定几率造成@StunDuration@秒晕眩效果<br><br><expandRow>(@MinUnits@) @ProcPercent@%几率造成晕眩</expandRow><br>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Glacial.dds",
+      "effects": [
+        {
+          "minUnits": 2,
+          "maxUnits": 3,
+          "vars": [
+            {
+              "name": "ProcPercent",
+              "value": 20.0
+            },
+            {
+              "name": "StunDuration",
+              "value": 2.0
+            }
+          ]
+        },
+        {
+          "minUnits": 4,
+          "maxUnits": 5,
+          "vars": [
+            {
+              "name": "ProcPercent",
+              "value": 30.0
+            },
+            {
+              "name": "StunDuration",
+              "value": 2.0
+            }
+          ]
+        },
+        {
+          "minUnits": 6,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "ProcPercent",
+              "value": 45.0
+            },
+            {
+              "name": "StunDuration",
+              "value": 2.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "帝国",
+      "desc": "造成双倍伤害<br><br><row>(@MinUnits@) 1名随机的帝国单位</row><br><row>(@MinUnits@) 所有帝国单位</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Imperial.dds",
+      "effects": [
+        {
+          "minUnits": 2,
+          "maxUnits": 3,
+          "vars": [
+            {
+              "name": "DamageMultiplier",
+              "value": 2.0
+            }
+          ]
+        },
+        {
+          "minUnits": 4,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "DamageMultiplier",
+              "value": 2.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "剑士",
+      "desc": "剑士们的每次攻击在命中时有@ProcChance@%几率触发一定次数的额外攻击<br><br><row>(@MinUnits@) 1次额外攻击</row><br><row>(@MinUnits@) 2次额外攻击</row><br><row>(@MinUnits@) 4次额外攻击</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Blademaster.dds",
+      "effects": [
+        {
+          "minUnits": 3,
+          "maxUnits": 5,
+          "vars": [
+            {
+              "name": "ProcChance",
+              "value": 45.0
+            },
+            {
+              "name": "ExtraAttacks",
+              "value": 1.0
+            }
+          ]
+        },
+        {
+          "minUnits": 6,
+          "maxUnits": 8,
+          "vars": [
+            {
+              "name": "ProcChance",
+              "value": 45.0
+            },
+            {
+              "name": "ExtraAttacks",
+              "value": 2.0
+            }
+          ]
+        },
+        {
+          "minUnits": 9,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "ProcChance",
+              "value": 45.0
+            },
+            {
+              "name": "ExtraAttacks",
+              "value": 4.0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "items": {
+    "1": {
+      "name": "暴风之剑",
+      "desc": " +@AD@攻击力",
+      "icon": "ASSETS/Maps/Particles/TFT/Icon_BFSword.TFT.dds",
+      "from": [],
+      "effects": [
+        {
+          "name": "AD",
+          "value": 20.0
+        }
+      ]
+    },
+    "2": {
+      "name": "反曲之弓",
+      "desc": " +@AS@%攻击速度",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_RecurveBow.TFT.dds",
+      "from": [],
+      "effects": [
+        {
+          "name": "AS",
+          "value": 20.0
+        }
+      ]
+    },
+    "3": {
+      "name": "无用大棒",
+      "desc": " +@AP@%法术强度",
+      "icon": "ASSETS/Maps/Particles/TFT/Icon_NeedlesslyLargeRod.TFT.dds",
+      "from": [],
+      "effects": [
+        {
+          "name": "AP",
+          "value": 20.0
+        }
+      ]
+    },
+    "4": {
+      "name": "女神之泪",
+      "desc": " +@Mana@法力值",
+      "icon": "ASSETS/Maps/Particles/TFT/Icon_TearOfTheGoddess.TFT.dds",
+      "from": [],
+      "effects": [
+        {
+          "name": "Mana",
+          "value": 20.0
+        }
+      ]
+    },
+    "5": {
+      "name": "锁子甲",
+      "desc": "+@Armor@护甲",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_ChainVest.TFT.dds",
+      "from": [],
+      "effects": [
+        {
+          "name": "Armor",
+          "value": 20.0
+        }
+      ]
+    },
+    "6": {
+      "name": "负极斗篷",
+      "desc": " +@MagicResist@魔法抗性",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_NegatronCloak.TFT.dds",
+      "from": [],
+      "effects": [
+        {
+          "name": "MagicResist",
+          "value": 20.0
+        }
+      ]
+    },
+    "7": {
+      "name": "巨人腰带",
+      "desc": " +@Health@生命值",
+      "icon": "ASSETS/Maps/Particles/TFT/Icon_GiantsBelt.TFT.dds",
+      "from": [],
+      "effects": [
+        {
+          "name": "Health",
+          "value": 200.0
+        }
+      ]
+    },
+    "8": {
+      "name": "金铲铲",
+      "desc": "它必须做点<i>什么</i>...",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Spatula.TFT.dds",
+      "from": [],
+      "effects": [
+        {
+          "name": "FE9818EF",
+          "value": 5.0
+        }
+      ]
+    },
+    "11": {
+      "name": "无尽之刃",
+      "desc": "暴击造成+@CriticalStrikeAmp@%伤害",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_InfinityEdge.TFT.dds",
+      "from": [
+        "1",
+        "1"
+      ],
+      "effects": [
+        {
+          "name": "CriticalStrikeAmp",
+          "value": 150.0
+        }
+      ]
+    },
+    "12": {
+      "name": "神圣之剑",
+      "desc": "每过一秒，携带者就有@ChanceToProc@%几率获得100%暴击几率",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_SwordOfTheDivine.TFT.dds",
+      "from": [
+        "1",
+        "2"
+      ],
+      "effects": [
+        {
+          "name": "ChanceToProc",
+          "value": 5.0
+        }
+      ]
+    },
+    "13": {
+      "name": "海克斯科技枪刃",
+      "desc": " +@OmniVamp@%全能吸血",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_HextechGunblade.TFT.dds",
+      "from": [
+        "1",
+        "3"
+      ],
+      "effects": [
+        {
+          "name": "OmniVamp",
+          "value": 33.0
+        }
+      ]
+    },
+    "14": {
+      "name": "朔极之矛",
+      "desc": "在施放后，携带者的每次攻击回复自身@ManaPercentRestore@%最大法力值",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_SpearOfShojin.TFT.dds",
+      "from": [
+        "1",
+        "4"
+      ],
+      "effects": [
+        {
+          "name": "ManaPercentRestore",
+          "value": 15.0
+        }
+      ]
+    },
+    "15": {
+      "name": "守护天使",
+      "desc": "携带者可复活并具有@HealthRestore@生命值。",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_GuardianAngel.TFT.dds",
+      "from": [
+        "1",
+        "5"
+      ],
+      "effects": [
+        {
+          "name": "HealthRestore",
+          "value": 1000.0
+        }
+      ]
+    },
+    "16": {
+      "name": "饮血剑",
+      "desc": " +@Lifesteal@%攻击吸血 ",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Bloodthirster.TFT.dds",
+      "from": [
+        "1",
+        "6"
+      ],
+      "effects": [
+        {
+          "name": "Lifesteal",
+          "value": 50.0
+        }
+      ]
+    },
+    "17": {
+      "name": "基克的先驱",
+      "desc": "在战斗环节开始时，站在同一排@HexRange@格内的友军获得+@AttackSpeed@%攻击速度，持续至本回合战斗结束",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_ZekesHerald.TFT.dds",
+      "from": [
+        "1",
+        "7"
+      ],
+      "effects": [
+        {
+          "name": "AttackSpeed",
+          "value": 15.0
+        },
+        {
+          "name": "HexRange",
+          "value": 2.0
+        }
+      ]
+    },
+    "18": {
+      "name": "幽梦之魂",
+      "desc": "额外%i:scaleAD%+@AD@<br>携带者也是一名【刺客】",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_YoumuusGhostblade.TFT.dds",
+      "from": [
+        "1",
+        "8"
+      ],
+      "effects": [
+        {
+          "name": "AD",
+          "value": 20.0
+        }
+      ]
+    },
+    "22": {
+      "name": "疾射火炮",
+      "desc": "携带者的攻击不会被闪避。攻击距离翻倍",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_RapidFirecannon.TFT.dds",
+      "from": [
+        "2",
+        "2"
+      ],
+      "effects": []
+    },
+    "23": {
+      "name": "鬼索的狂暴之刃",
+      "desc": "攻击提供@AttackSpeedPerStack@%攻击速度。可无限叠加。",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_GuinsoosRageblade.TFT.dds",
+      "from": [
+        "2",
+        "3"
+      ],
+      "effects": [
+        {
+          "name": "AttackSpeedPerStack",
+          "value": 4.0
+        }
+      ]
+    },
+    "24": {
+      "name": "斯塔缇克电刃",
+      "desc": "每第3次攻击对@BouncesTooltip@敌人造成@Damage@魔法伤害。",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_StatikkShiv.TFT.dds",
+      "from": [
+        "2",
+        "4"
+      ],
+      "effects": [
+        {
+          "name": "Damage",
+          "value": 90.0
+        },
+        {
+          "name": "Bounces",
+          "value": 3.0
+        },
+        {
+          "name": "BouncesTooltip",
+          "value": 4.0
+        }
+      ]
+    },
+    "25": {
+      "name": "幻影之舞",
+      "desc": "携带者会闪避所有暴击",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_PhantomDancer.TFT.dds",
+      "from": [
+        "2",
+        "5"
+      ],
+      "effects": []
+    },
+    "26": {
+      "name": "诅咒之刃",
+      "desc": "攻击在命中时有较低几率使敌人的星级降低1，持续至本回合战斗结束",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_CursedBlade.TFT.dds",
+      "from": [
+        "2",
+        "6"
+      ],
+      "effects": [
+        {
+          "name": "A56E0A21",
+          "value": 20.0
+        }
+      ]
+    },
+    "27": {
+      "name": "巨型九头蛇",
+      "desc": "攻击造成基于携带者@MaxHealth@%最大生命值的溅射伤害",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_TitanicHydra.TFT.dds",
+      "from": [
+        "2",
+        "7"
+      ],
+      "effects": [
+        {
+          "name": "MaxHealth",
+          "value": 10.0
+        }
+      ]
+    },
+    "28": {
+      "name": "破败王者之刃",
+      "desc": "额外%i:scaleAS%+@AS@<br>携带者也是一名【剑士】",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_BladeOfTheRuinedKing.TFT.dds",
+      "from": [
+        "2",
+        "8"
+      ],
+      "effects": [
+        {
+          "name": "AS",
+          "value": 20.0
+        }
+      ]
+    },
+    "33": {
+      "name": "灭世者的死亡之帽",
+      "desc": "携带者的法术强度属性会增幅@APPercentAmp@%",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_RabadonsDeathcap.TFT.dds",
+      "from": [
+        "3",
+        "3"
+      ],
+      "effects": [
+        {
+          "name": "APPercentAmp",
+          "value": 50.0
+        }
+      ]
+    },
+    "34": {
+      "name": "卢登的回声",
+      "desc": "技能在命中时造成@Damage@溅射伤害",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_LudensEcho.TFT.dds",
+      "from": [
+        "3",
+        "4"
+      ],
+      "effects": [
+        {
+          "name": "Damage",
+          "value": 200.0
+        }
+      ]
+    },
+    "35": {
+      "name": "钢铁烈阳之匣",
+      "desc": "在战斗环节开始时，站在同一排@HexRange@格内的友军获得一层格挡@ShieldValue@伤害的护盾。",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_LocketOfTheIronSolari.TFT.dds",
+      "from": [
+        "3",
+        "5"
+      ],
+      "effects": [
+        {
+          "name": "ShieldValue",
+          "value": 250.0
+        },
+        {
+          "name": "ShieldDuration",
+          "value": 4.0
+        },
+        {
+          "name": "HexRange",
+          "value": 2.0
+        }
+      ]
+    },
+    "36": {
+      "name": "离子火花",
+      "desc": "敌人在每次施放技能时，都会承受@Damage@伤害",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_IonicSpark.TFT.dds",
+      "from": [
+        "3",
+        "6"
+      ],
+      "effects": [
+        {
+          "name": "Damage",
+          "value": 150.0
+        }
+      ]
+    },
+    "37": {
+      "name": "莫雷洛秘典",
+      "desc": "技能造成燃烧伤害，在@BurnDuration@秒内持续造成相当于敌人@BurnPercent@%最大生命值的总伤害，并阻止治疗",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Morellonomicon.TFT.dds",
+      "from": [
+        "3",
+        "7"
+      ],
+      "effects": [
+        {
+          "name": "BurnPercent",
+          "value": 25.0
+        },
+        {
+          "name": "6DF27940",
+          "value": 1.0
+        },
+        {
+          "name": "MonsterCap",
+          "value": 100.0
+        },
+        {
+          "name": "BurnDuration",
+          "value": 5.0
+        }
+      ]
+    },
+    "38": {
+      "name": "魔法猫咪",
+      "desc": "额外%i:scaleAP%+@AP@<br>携带者也是一名【法师】",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Yuumi.TFT.dds",
+      "from": [
+        "3",
+        "8"
+      ],
+      "effects": [
+        {
+          "name": "AP",
+          "value": 20.0
+        }
+      ]
+    },
+    "44": {
+      "name": "炽天使之拥",
+      "desc": "携带者在技能施放后回复@ManaRestore@法力",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_SeraphsEmbrace.TFT.dds",
+      "from": [
+        "4",
+        "4"
+      ],
+      "effects": [
+        {
+          "name": "ManaRestore",
+          "value": 20.0
+        }
+      ]
+    },
+    "45": {
+      "name": "冰霜之心",
+      "desc": "邻近格子的敌人们失去@AttackSpeedSlow@%攻击速度",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_FrozenHeart.TFT.dds",
+      "from": [
+        "4",
+        "5"
+      ],
+      "effects": [
+        {
+          "name": "AttackSpeedSlow",
+          "value": 25.0
+        }
+      ]
+    },
+    "46": {
+      "name": "肃静",
+      "desc": "攻击在命中时有很高几率造成沉默效果，阻止敌人施放技能，持续@SilenceDuration@秒",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Hush.TFT.dds",
+      "from": [
+        "4",
+        "6"
+      ],
+      "effects": [
+        {
+          "name": "2275757B",
+          "value": 33.0
+        },
+        {
+          "name": "SilenceDuration",
+          "value": 5.0
+        },
+        {
+          "name": "4516A18D",
+          "value": 4.0
+        }
+      ]
+    },
+    "47": {
+      "name": "救赎",
+      "desc": "生命值降至@HPThreshold@%以下时，治疗附近所有友军@HealthRestore@生命值",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Redemption.TFT.dds",
+      "from": [
+        "4",
+        "7"
+      ],
+      "effects": [
+        {
+          "name": "HealthRestore",
+          "value": 1000.0
+        },
+        {
+          "name": "HPThreshold",
+          "value": 25.0
+        },
+        {
+          "name": "5FFBBD48",
+          "value": 50.0
+        },
+        {
+          "name": "1E0630E9",
+          "value": 25.0
+        }
+      ]
+    },
+    "48": {
+      "name": "暗裔",
+      "desc": "额外%i:scaleMana%+@Mana@<br>携带者也是一名【恶魔】",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Darkin.TFT.dds",
+      "from": [
+        "4",
+        "8"
+      ],
+      "effects": [
+        {
+          "name": "Mana",
+          "value": 20.0
+        }
+      ]
+    },
+    "55": {
+      "name": "荆棘之甲",
+      "desc": "被攻击时回敬@DamageReflect@%的已缓和伤害",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Thornmail.TFT.dds",
+      "from": [
+        "5",
+        "5"
+      ],
+      "effects": [
+        {
+          "name": "DamageReflect",
+          "value": 100.0
+        }
+      ]
+    },
+    "56": {
+      "name": "折剑者",
+      "desc": "攻击有一定几率造成@DisarmDuration@秒缴械效果",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_SwordBreaker.TFT.dds",
+      "from": [
+        "5",
+        "6"
+      ],
+      "effects": [
+        {
+          "name": "2426EA7E",
+          "value": 25.0
+        },
+        {
+          "name": "DisarmDuration",
+          "value": 4.0
+        }
+      ]
+    },
+    "57": {
+      "name": "红色增益",
+      "desc": "攻击造成燃烧效果，在@BurnDuration@秒内持续造成相当于敌人@BurnPercent@%最大生命值的总伤害，并阻止治疗",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_RedBuff.TFT.dds",
+      "from": [
+        "5",
+        "7"
+      ],
+      "effects": [
+        {
+          "name": "BurnPercent",
+          "value": 13.0
+        },
+        {
+          "name": "BurnDuration",
+          "value": 5.0
+        },
+        {
+          "name": "6DF27940",
+          "value": 1.0
+        },
+        {
+          "name": "MonsterCap",
+          "value": 100.0
+        }
+      ]
+    },
+    "58": {
+      "name": "骑士之誓",
+      "desc": "额外%i:scaleArmor%+@Armor@<br>携带者也是一名【骑士】",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_KnightsVow.TFT.dds",
+      "from": [
+        "5",
+        "8"
+      ],
+      "effects": [
+        {
+          "name": "Armor",
+          "value": 20.0
+        }
+      ]
+    },
+    "66": {
+      "name": "巨龙之爪",
+      "desc": "获得83%对魔法伤害的抗性",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_DragonsClaw.TFT.dds",
+      "from": [
+        "6",
+        "6"
+      ],
+      "effects": [
+        {
+          "name": "MagicReduction",
+          "value": 83.0
+        }
+      ]
+    },
+    "67": {
+      "name": "灵风",
+      "desc": "在战斗环节开始时，放逐一名敌人@BanishDuration@秒",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Zephyr.TFT.dds",
+      "from": [
+        "6",
+        "7"
+      ],
+      "effects": [
+        {
+          "name": "BanishDuration",
+          "value": 5.0
+        }
+      ]
+    },
+    "68": {
+      "name": "卢安娜的飓风",
+      "desc": "额外%i:scaleMR%+@ExtraMR@<br>召唤一个灵体来模拟你的攻击，造成@MultiplierForDamage@%伤害",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_RunaansHurricane.TFT.dds",
+      "from": [
+        "6",
+        "8"
+      ],
+      "effects": [
+        {
+          "name": "AdditionalTargets",
+          "value": 1.0
+        },
+        {
+          "name": "MultiplierForDamage",
+          "value": 25.0
+        },
+        {
+          "name": "ExtraMR",
+          "value": 20.0
+        }
+      ]
+    },
+    "77": {
+      "name": "狂徒铠甲",
+      "desc": "携带者每秒可回复@HealthRegen@%已损失生命值。",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_WarmogsArmor.TFT.dds",
+      "from": [
+        "7",
+        "7"
+      ],
+      "effects": [
+        {
+          "name": "HealthRegen",
+          "value": 6.0
+        },
+        {
+          "name": "0C90F194",
+          "value": 300.0
+        }
+      ]
+    },
+    "78": {
+      "name": "冰霜之锤",
+      "desc": "额外%i:scaleHealth%+@Health@<br>携带者也是一名【极地】生物",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_FrozenMallet.TFT.dds",
+      "from": [
+        "8",
+        "7"
+      ],
+      "effects": [
+        {
+          "name": "Health",
+          "value": 200.0
+        }
+      ]
+    },
+    "88": {
+      "name": "自然之力",
+      "desc": "获得+@MaxArmySizeIncrease@队伍规模",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_ForceOfNature.TFT.dds",
+      "from": [
+        "8",
+        "8"
+      ],
+      "effects": [
+        {
+          "name": "MaxArmySizeIncrease",
+          "value": 1.0
+        }
+      ]
+    },
+    "100": {
+      "name": "金铲铲",
+      "desc": "它必须做点<i>什么</i>...",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Unknown.TFT.dds",
+      "from": [],
+      "effects": []
+    },
+    "541": {
+      "name": "凡性的提醒",
+      "desc": "TFT_item_description_MortalReminder",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_MortalReminder.TFT.dds",
+      "from": [],
+      "effects": []
+    },
+    "10002": {
+      "name": "tft_item_name_JammedSlot",
+      "desc": "tft_item_description_JammedSlot",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Jammed.TFT.dds",
+      "from": [],
+      "effects": []
+    }
+  }
+}

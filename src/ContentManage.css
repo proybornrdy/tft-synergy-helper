@@ -1,0 +1,241 @@
+body{
+    background-color: #36393b;
+}
+h3 {
+    width: -webkit-min-content;
+    width: -moz-min-content;
+    width: min-content;
+    margin: auto;
+    padding:0 20%;
+    color: #EEE6AB;
+    border-bottom: thin solid #EEE6AB;
+}
+
+h5{
+    margin:0 5px;
+    margin-bottom: 5px;
+    text-align: left;
+    border-bottom: thin solid #C5BC8E;
+}
+.synergyClick{
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: GoldenRod;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 5px;
+    margin-bottom: 0;
+    padding: 2px 5px;
+    border-bottom: none;
+}
+
+.champImg{
+    display: inline-block;
+    margin:5px;
+    width: 50px;
+    height: 50px;
+    -webkit-filter: grayscale(90%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(90%);
+}
+.champImg:hover{
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+}
+.active{
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+}
+
+
+div .pbeChamp{
+    display: inline-block;
+    margin:0;
+    position:relative;
+}
+.pbeSign {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 83%;
+    z-index: 100;
+    margin:5px;
+    padding:0 ;
+    background-color: rgba(255, 0, 0, 0.4);
+    color: white;
+}
+
+div .champGroup{
+    display: inline-block;
+    vertical-align: top;
+    margin:15px 20px;
+    margin-bottom: 0;
+
+
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+
+    min-height: 88px;
+    min-width: 64px;
+
+    background-color: #696758;
+
+}
+
+div .champSubContainer{
+    display: inline-block;
+    vertical-align: top;
+    width:100%;
+}
+
+div .container{
+    width:90%;
+    margin:auto;
+    text-align: center;
+}
+
+
+.sortNavBtn{
+    margin:5px 50px;
+    width:200px;
+    height:25px;
+
+    background-color: #36393b;
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    color: #EEE6AB;
+
+}
+.sortNavBtn:hover{
+    background-color: #EEE6AB;
+    color: #36393b;
+}
+
+.sortNavBtn:disabled{
+    background-color: #EEE6AB;
+    color:black;
+    cursor: default;
+}
+
+div .resultBox{
+    width:800px;
+    height:200px;
+    background-color: #45484B;
+}
+div .synergyBox{
+    margin:10px 20px;
+    text-align: center;
+    background-color: #696758;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+
+    min-width: 210px;
+    min-height: 60px;
+}
+
+.overideContainer{
+    margin:0 10px;
+    text-align: left;
+}
+
+.buildBtn{
+    position: relative;
+    margin: 22.5%;
+    padding: 5px;
+
+    background-color: #36393b;
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    color: #EEE6AB;
+}
+.buildBtn:hover{
+    background-color: #EEE6AB;
+    color: #36393b;
+}
+Button:focus {outline:0;}
+
+.synergy{
+    margin: 5px 3px;
+    padding: 0 5px;
+    padding-bottom: 2px;
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+.complete{
+    background-color: GoldenRod;
+}
+.partial{
+    background-color: slateGray;
+}
+
+.genselBox{
+    display: inline-block;
+    vertical-align: top;
+    margin:0;
+    margin:auto;
+    text-align: center;
+
+
+}
+.btnCase{
+    min-height: 21px;
+}
+.test {
+    position: relative;
+    margin:0;
+
+    background-color: #36393b;
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    color: #EEE6AB;
+
+}
+.test:hover{
+    background-color: #EEE6AB;
+    color: #36393b;
+}
+
+.inline{
+    display: inline-block;
+    margin-right: 5px;
+}
+.synBtn{
+    vertical-align: top;
+    margin-top: 15px;
+
+    padding: 5px;
+
+    background-color: #36393b;
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    color: #EEE6AB;
+}
+.synBtn:hover{
+    background-color: #EEE6AB;
+    color: #36393b;
+}
+.synBorder{
+    border: thick solid green;
+}
+.synContainer{
+    margin-top: 5px ;
+}
+p{
+    float:right;
+    margin:0;
+}

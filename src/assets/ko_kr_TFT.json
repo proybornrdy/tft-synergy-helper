@@ -1,0 +1,5279 @@
+{
+  "champions": {
+    "4": {
+      "name": "트위스티드 페이트",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_TwistedFate.dds",
+      "stats": {
+        "hp": 450.0,
+        "hpScaleFactor": 1.8,
+        "mana": 50.0,
+        "initalMana": 0,
+        "damage": 40.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.7,
+        "range": 3
+      },
+      "traits": [
+        "Pirate",
+        "Sorcerer"
+      ],
+      "ability": {
+        "name": "카드 뽑기",
+        "desc": "트위스티드 페이트가 카드를 던져 대상 주변에 있는 적에게 피해를 주고 기절시키거나 자신과 주변 아군의 마나를 회복합니다.",
+        "icon": "ASSETS/Characters/TFT_TwistedFate/HUD/Icons2D/TFT_TwistedFate_Spell.TFT.dds",
+        "variables": [
+          {
+            "key": "RedCardDamage",
+            "values": [
+              50.0,
+              150.0,
+              250.0,
+              350.0,
+              450.0,
+              550.0,
+              650.0
+            ]
+          },
+          {
+            "key": "BlueCardDamage",
+            "values": [
+              50.0,
+              150.0,
+              250.0,
+              350.0,
+              450.0,
+              550.0,
+              650.0
+            ]
+          },
+          {
+            "key": "BlueCardManaRestore",
+            "values": [
+              5.0,
+              20.0,
+              35.0,
+              50.0,
+              65.0,
+              80.0,
+              95.0
+            ]
+          },
+          {
+            "key": "GoldCardStunDuration",
+            "values": [
+              1.0,
+              2.0,
+              3.0,
+              4.0,
+              5.0,
+              6.0,
+              7.0
+            ]
+          },
+          {
+            "key": "GoldCardDamage",
+            "values": [
+              50.0,
+              150.0,
+              250.0,
+              350.0,
+              450.0,
+              550.0,
+              650.0
+            ]
+          }
+        ]
+      }
+    },
+    "10": {
+      "name": "케일",
+      "cost": 5,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Kayle.dds",
+      "stats": {
+        "hp": 750.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 70.0,
+        "damageScaleFactor": 1.25,
+        "armor": 40.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 1.1,
+        "range": 3
+      },
+      "traits": [
+        "Noble",
+        "Knight"
+      ],
+      "ability": {
+        "name": "신성한 심판",
+        "desc": "케일이 가장 약한 아군에게 보호막을 씌워 피해를 입지 않게 합니다.",
+        "icon": "ASSETS/Characters/Kayle/HUD/Icons2D/Kayle_R.dds",
+        "variables": [
+          {
+            "key": "ShieldDuration",
+            "values": [
+              1.0,
+              2.0,
+              3.0,
+              4.0,
+              5.0,
+              6.0,
+              7.0
+            ]
+          },
+          {
+            "key": "ExtraTargets",
+            "values": [
+              -1.0,
+              0.0,
+              1.0,
+              2.0,
+              3.0,
+              4.0,
+              5.0
+            ]
+          }
+        ]
+      }
+    },
+    "18": {
+      "name": "트리스타나",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Tristana.dds",
+      "stats": {
+        "hp": 500.0,
+        "hpScaleFactor": 1.8,
+        "mana": 50.0,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 4
+      },
+      "traits": [
+        "Yordle",
+        "Gunslinger"
+      ],
+      "ability": {
+        "name": "폭발 화약",
+        "desc": "트리스타나가 현재 대상에게 폭탄을 설치합니다. 폭탄은 3회 공격 시 폭발하며 주변 적에게 피해를 입힙니다.",
+        "icon": "ASSETS/Characters/Tristana/HUD/Icons2D/Tristana_E.dds",
+        "variables": [
+          {
+            "key": "ExplosiveChargeDuration",
+            "values": [
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0
+            ]
+          },
+          {
+            "key": "ChargeBaseDamage",
+            "values": [
+              30.0,
+              60.0,
+              90.0,
+              120.0,
+              150.0,
+              180.0,
+              210.0
+            ]
+          },
+          {
+            "key": "PercentDamageIncreasePerStack",
+            "values": [
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5
+            ]
+          }
+        ]
+      }
+    },
+    "19": {
+      "name": "워윅",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Warwick.dds",
+      "stats": {
+        "hp": 600.0,
+        "hpScaleFactor": 1.8,
+        "mana": 150.0,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 30.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 1
+      },
+      "traits": [
+        "Wild",
+        "Brawler"
+      ],
+      "ability": {
+        "name": "무한의 구속",
+        "desc": "워윅이 가장 체력이 낮은 적에게 달려들어 @Duration@초 동안 기절시키고 피해를 입히며 자신의 체력을 회복합니다. 적중 시 효과가 적용됩니다.",
+        "icon": "ASSETS/Characters/Warwick/HUD/Icons2D/WarwickR.dds",
+        "variables": [
+          {
+            "key": "Duration",
+            "values": [
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5
+            ]
+          },
+          {
+            "key": "BaseDamage",
+            "values": [
+              75.0,
+              150.0,
+              225.0,
+              300.0,
+              375.0,
+              450.0,
+              525.0
+            ]
+          },
+          {
+            "key": "DashHexSpeed",
+            "values": [
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0
+            ]
+          },
+          {
+            "key": "Hits",
+            "values": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          }
+        ]
+      }
+    },
+    "21": {
+      "name": "미스 포츈",
+      "cost": 5,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_MissFortune.dds",
+      "stats": {
+        "hp": 650.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 75.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.85,
+        "range": 3
+      },
+      "traits": [
+        "Pirate",
+        "Gunslinger"
+      ],
+      "ability": {
+        "name": "쌍권총 난사",
+        "desc": "미스 포츈이 @ChannelDuration@초 동안 정신 집중을 하며 원뿔 모양으로 총을 난사해 범위 내의 적에게 피해를 입힙니다.",
+        "icon": "ASSETS/Characters/MissFortune/HUD/Icons2D/MissFortune_R.dds",
+        "variables": [
+          {
+            "key": "Waves",
+            "values": [
+              14.0,
+              14.0,
+              14.0,
+              14.0,
+              14.0,
+              14.0,
+              14.0
+            ]
+          },
+          {
+            "key": "TotalDamage",
+            "values": [
+              350.0,
+              800.0,
+              1250.0,
+              1700.0,
+              2150.0,
+              2600.0,
+              3050.0
+            ]
+          },
+          {
+            "key": "ChannelDuration",
+            "values": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          }
+        ]
+      }
+    },
+    "22": {
+      "name": "애쉬",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Ashe.dds",
+      "stats": {
+        "hp": 550.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 65.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.7,
+        "range": 4
+      },
+      "traits": [
+        "Glacial",
+        "Ranger"
+      ],
+      "ability": {
+        "name": "마법의 수정화살",
+        "desc": "애쉬가 화살을 발사해 가장 멀리 있는 적에게 피해를 입히고 기절시킵니다. 적이 멀수록 기절 시간이 길어집니다.",
+        "icon": "ASSETS/Characters/Ashe/HUD/Icons2D/Ashe_R.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              0.0,
+              200.0,
+              400.0,
+              600.0,
+              800.0,
+              1000.0,
+              1200.0
+            ]
+          },
+          {
+            "key": "StunDurationPerSquare",
+            "values": [
+              0.5,
+              1.0,
+              1.5,
+              2.0,
+              2.5,
+              3.0,
+              3.5
+            ]
+          }
+        ]
+      }
+    },
+    "25": {
+      "name": "모르가나",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Morgana.dds",
+      "stats": {
+        "hp": 650.0,
+        "hpScaleFactor": 1.8,
+        "mana": 150.0,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 2
+      },
+      "traits": [
+        "Demon",
+        "Sorcerer"
+      ],
+      "ability": {
+        "name": "영혼의 족쇄",
+        "desc": "모르가나가 주변 적을 사슬로 묶어 피해를 입힙니다. 잠시 후 벗어나지 못한 적을 기절시킵니다.",
+        "icon": "ASSETS/Characters/Morgana/HUD/Icons2D/FallenAngel_Purgatory.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              75.0,
+              200.0,
+              325.0,
+              450.0,
+              575.0,
+              700.0,
+              825.0
+            ]
+          },
+          {
+            "key": "ChainDuration",
+            "values": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          },
+          {
+            "key": "StunDuration",
+            "values": [
+              0.0,
+              2.0,
+              4.0,
+              6.0,
+              8.0,
+              10.0,
+              12.0
+            ]
+          },
+          {
+            "key": "SlowPercent",
+            "values": [
+              20.0,
+              20.0,
+              20.0,
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          {
+            "key": "CanCastRange",
+            "values": [
+              575.0,
+              575.0,
+              575.0,
+              575.0,
+              575.0,
+              575.0,
+              575.0
+            ]
+          }
+        ]
+      }
+    },
+    "28": {
+      "name": "이블린",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Evelyn.dds",
+      "stats": {
+        "hp": 550.0,
+        "hpScaleFactor": 1.8,
+        "mana": 75.0,
+        "initalMana": 0,
+        "damage": 70.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 1
+      },
+      "traits": [
+        "Demon",
+        "Assassin"
+      ],
+      "ability": {
+        "name": "최후의 포옹",
+        "desc": "이블린이 가장 가까운 적 셋에게 피해를 입히고 순간이동해 멀어집니다. 체력이 낮은 적을 공격하면 피해량이 증가합니다.",
+        "icon": "ASSETS/Characters/Evelynn/HUD/Icons2D/Evelynn_R.dds",
+        "variables": [
+          {
+            "key": "CritMultiplier",
+            "values": [
+              1.0,
+              3.0,
+              5.0,
+              7.0,
+              9.0,
+              11.0,
+              13.0
+            ]
+          },
+          {
+            "key": "CritThreshold",
+            "values": [
+              0.65,
+              0.65,
+              0.65,
+              0.65,
+              0.65,
+              0.65,
+              0.65
+            ]
+          },
+          {
+            "key": "Damage",
+            "values": [
+              100.0,
+              200.0,
+              300.0,
+              400.0,
+              500.0,
+              600.0,
+              700.0
+            ]
+          },
+          {
+            "key": "BlinkBackDistance",
+            "values": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          }
+        ]
+      }
+    },
+    "30": {
+      "name": "카서스",
+      "cost": 5,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Karthus.dds",
+      "stats": {
+        "hp": 850.0,
+        "hpScaleFactor": 1.8,
+        "mana": 85.0,
+        "initalMana": 0,
+        "damage": 65.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 3
+      },
+      "traits": [
+        "Phantom",
+        "Sorcerer"
+      ],
+      "ability": {
+        "name": "진혼곡",
+        "desc": "카서스가 정신 집중을 시작하며 즉시 무작위 적 @NumberOfTargets@명을 침묵시킵니다. 정신 집중이 끝나면 해당 적들에게 큰 피해를 입힙니다.",
+        "icon": "ASSETS/Characters/Karthus/HUD/Icons2D/Karthus_R.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              100.0,
+              400.0,
+              700.0,
+              1000.0,
+              1300.0,
+              1600.0,
+              1900.0
+            ]
+          },
+          {
+            "key": "NumberOfTargets",
+            "values": [
+              1.0,
+              5.0,
+              9.0,
+              13.0,
+              17.0,
+              21.0,
+              25.0
+            ]
+          }
+        ]
+      }
+    },
+    "31": {
+      "name": "초가스",
+      "cost": 4,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Chogath.dds",
+      "stats": {
+        "hp": 1000.0,
+        "hpScaleFactor": 1.8,
+        "mana": 150.0,
+        "initalMana": 0,
+        "damage": 70.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 1
+      },
+      "traits": [
+        "Void",
+        "Brawler"
+      ],
+      "ability": {
+        "name": "파열",
+        "desc": "초가스가 땅을 파열시켜 대상 지역에 있는 적 모두를 기절시키고 피해를 입힙니다.",
+        "icon": "ASSETS/Characters/Chogath/HUD/Icons2D/GreenTerror_SpikeSlam.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              0.0,
+              200.0,
+              400.0,
+              600.0,
+              800.0,
+              1000.0,
+              1200.0
+            ]
+          },
+          {
+            "key": "KnockDuration",
+            "values": [
+              1.25,
+              1.5,
+              1.75,
+              2.0,
+              2.25,
+              2.5,
+              2.75
+            ]
+          },
+          {
+            "key": "RuptureDelay",
+            "values": [
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5
+            ]
+          }
+        ]
+      }
+    },
+    "34": {
+      "name": "애니비아",
+      "cost": 5,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Anivia.dds",
+      "stats": {
+        "hp": 650.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 40.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 3
+      },
+      "traits": [
+        "Glacial",
+        "Elementalist"
+      ],
+      "ability": {
+        "name": "얼음 폭풍",
+        "desc": "애니비아가 폭풍우를 소환해 폭풍우 안의 모든 적에게 피해를 입히고 공격 속도를 낮춥니다.",
+        "icon": "ASSETS/Characters/Anivia/HUD/Icons2D/Anivia_R.dds",
+        "variables": [
+          {
+            "key": "TotalDamage",
+            "values": [
+              450.0,
+              700.0,
+              950.0,
+              1200.0,
+              1450.0,
+              1700.0,
+              1950.0
+            ]
+          },
+          {
+            "key": "AttackSpeedSlow",
+            "values": [
+              30.0,
+              50.0,
+              70.0,
+              90.0,
+              110.0,
+              130.0,
+              150.0
+            ]
+          },
+          {
+            "key": "StormDuration",
+            "values": [
+              8.0,
+              8.0,
+              8.0,
+              8.0,
+              8.0,
+              8.0,
+              8.0
+            ]
+          }
+        ]
+      }
+    },
+    "38": {
+      "name": "카사딘",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Kassadin.dds",
+      "stats": {
+        "hp": 550.0,
+        "hpScaleFactor": 1.8,
+        "mana": 0.0,
+        "initalMana": 0,
+        "damage": 55.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 1
+      },
+      "traits": [
+        "Void",
+        "Sorcerer"
+      ],
+      "ability": {
+        "name": "황천의 검",
+        "desc": "카사딘이 공격하면 적으로부터 마나를 훔쳐 보호막으로 전환합니다. 보호막은 @ShieldDuration@초 동안 유지됩니다.",
+        "icon": "ASSETS/Characters/Kassadin/HUD/Icons2D/Kassadin_W.dds",
+        "variables": [
+          {
+            "key": "ShieldDuration",
+            "values": [
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0
+            ]
+          },
+          {
+            "key": "ManaSteal",
+            "values": [
+              0.0,
+              20.0,
+              40.0,
+              60.0,
+              80.0,
+              100.0,
+              120.0
+            ]
+          }
+        ]
+      }
+    },
+    "41": {
+      "name": "갱플랭크",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Gangplank.dds",
+      "stats": {
+        "hp": 700.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 55.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 1
+      },
+      "traits": [
+        "Pirate",
+        "Gunslinger",
+        "Blademaster"
+      ],
+      "ability": {
+        "name": "화약통",
+        "desc": "갱플랭크가 주기적으로 화약통을 생성합니다. 스킬을 사용하면 화약통을 폭발시켜 주변 적에게 피해를 입힙니다. 적중 시 효과가 적용됩니다.",
+        "icon": "ASSETS/Characters/Gangplank/HUD/Icons2D/Gangplank_E.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              75.0,
+              200.0,
+              325.0,
+              450.0,
+              575.0,
+              700.0,
+              825.0
+            ]
+          }
+        ]
+      }
+    },
+    "45": {
+      "name": "베이가",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Veigar.dds",
+      "stats": {
+        "hp": 500.0,
+        "hpScaleFactor": 1.8,
+        "mana": 75.0,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.55,
+        "range": 3
+      },
+      "traits": [
+        "Yordle",
+        "Sorcerer"
+      ],
+      "ability": {
+        "name": "태초의 폭발",
+        "desc": "베이가가 적에게 마법 에너지를 발사해 피해를 입힙니다. 베이가보다 등급이 낮은 적은 즉시 사망합니다.",
+        "icon": "ASSETS/Characters/Veigar/HUD/Icons2D/VeigarPrimordialBurst.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              100.0,
+              300.0,
+              500.0,
+              700.0,
+              900.0,
+              1100.0,
+              1300.0
+            ]
+          },
+          {
+            "key": "LowerStarDamage",
+            "values": [
+              19999.0,
+              19999.0,
+              19999.0,
+              19999.0,
+              19999.0,
+              19999.0,
+              19999.0
+            ]
+          }
+        ]
+      }
+    },
+    "50": {
+      "name": "스웨인",
+      "cost": 5,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Swain.dds",
+      "stats": {
+        "hp": 850.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 65.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 2
+      },
+      "traits": [
+        "Imperial",
+        "Demon",
+        "Shapeshifter"
+      ],
+      "ability": {
+        "name": "악의 불길",
+        "desc": "스웨인이 변신해 주변 모든 적의 체력을 흡수합니다. 변신이 끝나면 에너지 충격파를 방출해 주변 적에게 피해를 입힙니다.",
+        "icon": "ASSETS/Characters/Swain/HUD/Icons2D/Swain_R.dds",
+        "variables": [
+          {
+            "key": "TransformDuration",
+            "values": [
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0
+            ]
+          },
+          {
+            "key": "DamagePerTick",
+            "values": [
+              0.0,
+              50.0,
+              100.0,
+              150.0,
+              200.0,
+              250.0,
+              300.0
+            ]
+          },
+          {
+            "key": "HealPerTick",
+            "values": [
+              10.0,
+              50.0,
+              90.0,
+              130.0,
+              170.0,
+              210.0,
+              250.0
+            ]
+          },
+          {
+            "key": "SoulFlareDamage",
+            "values": [
+              0.0,
+              300.0,
+              600.0,
+              900.0,
+              1200.0,
+              1500.0,
+              1800.0
+            ]
+          },
+          {
+            "key": "HealthIncrease",
+            "values": null
+          }
+        ]
+      }
+    },
+    "53": {
+      "name": "블리츠크랭크",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Blitzcrank.dds",
+      "stats": {
+        "hp": 600.0,
+        "hpScaleFactor": 1.8,
+        "mana": 125.0,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 35.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.5,
+        "range": 1
+      },
+      "traits": [
+        "Robot",
+        "Brawler"
+      ],
+      "ability": {
+        "name": "로켓 손",
+        "desc": "블리츠크랭크가 가장 멀리 있는 적을 당기고 @StunDuration@초 동안 기절시킵니다.",
+        "icon": "ASSETS/Characters/Blitzcrank/HUD/Icons2D/Blitzcrank_RocketGrab.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              -250.0,
+              100.0,
+              450.0,
+              800.0,
+              1150.0,
+              1500.0,
+              1850.0
+            ]
+          },
+          {
+            "key": "StunDuration",
+            "values": [
+              2.5,
+              2.5,
+              2.5,
+              2.5,
+              2.5,
+              2.5,
+              2.5
+            ]
+          }
+        ]
+      }
+    },
+    "55": {
+      "name": "카타리나",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Katarina.dds",
+      "stats": {
+        "hp": 450.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 1
+      },
+      "traits": [
+        "Imperial",
+        "Assassin"
+      ],
+      "ability": {
+        "name": "죽음의 연꽃",
+        "desc": "카타리나가 @Duration@초 동안 정신 집중을 한 뒤 주변 적 @NumberOfTargets@명에게 단검을 던져 피해를 입히고 회복 효과를 감소시킵니다.",
+        "icon": "ASSETS/Characters/Katarina/HUD/Icons2D/Katarina_R.dds",
+        "variables": [
+          {
+            "key": "DamagePerTick",
+            "values": [
+              20.0,
+              40.0,
+              60.0,
+              80.0,
+              100.0,
+              120.0,
+              140.0
+            ]
+          },
+          {
+            "key": "TicksPerSecond",
+            "values": [
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0
+            ]
+          },
+          {
+            "key": "Duration",
+            "values": [
+              2.5,
+              2.5,
+              2.5,
+              2.5,
+              2.5,
+              2.5,
+              2.5
+            ]
+          },
+          {
+            "key": "GrievousWoundsDuration",
+            "values": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          },
+          {
+            "key": "NumberOfTargets",
+            "values": [
+              2.0,
+              4.0,
+              6.0,
+              8.0,
+              10.0,
+              12.0,
+              14.0
+            ]
+          }
+        ]
+      }
+    },
+    "60": {
+      "name": "엘리스",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Elise.dds",
+      "stats": {
+        "hp": 450.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 40.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 2
+      },
+      "traits": [
+        "Demon",
+        "Shapeshifter"
+      ],
+      "ability": {
+        "name": "거미 형태",
+        "desc": "엘리스가 새끼 거미를 소환하고 변신해 생명력 흡수 효과를 얻습니다.",
+        "icon": "ASSETS/Characters/Elise/HUD/Icons2D/EliseR.DDS",
+        "variables": [
+          {
+            "key": "NumSpiderlings",
+            "values": [
+              1.0,
+              1.0,
+              2.0,
+              4.0,
+              5.0,
+              6.0,
+              7.0
+            ]
+          },
+          {
+            "key": "Lifesteal",
+            "values": [
+              0.3,
+              0.6,
+              0.9,
+              1.2,
+              1.5,
+              1.8,
+              2.1
+            ]
+          },
+          {
+            "key": "SpiderFormDuration",
+            "values": [
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0
+            ]
+          }
+        ]
+      }
+    },
+    "63": {
+      "name": "브랜드",
+      "cost": 4,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Brand.dds",
+      "stats": {
+        "hp": 700.0,
+        "hpScaleFactor": 1.8,
+        "mana": 125.0,
+        "initalMana": 0,
+        "damage": 60.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 3
+      },
+      "traits": [
+        "Demon",
+        "Elementalist"
+      ],
+      "ability": {
+        "name": "파멸의 불덩이",
+        "desc": "브랜드가 튕기는 불덩이를 발사해 닿는 적에게 피해를 입힙니다.",
+        "icon": "ASSETS/Characters/Brand/HUD/Icons2D/BrandR.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              25.0,
+              200.0,
+              375.0,
+              550.0,
+              725.0,
+              900.0,
+              1075.0
+            ]
+          },
+          {
+            "key": "MaxBounces",
+            "values": [
+              4.0,
+              4.0,
+              6.0,
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          }
+        ]
+      }
+    },
+    "67": {
+      "name": "베인",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Vayne.dds",
+      "stats": {
+        "hp": 550.0,
+        "hpScaleFactor": 1.8,
+        "mana": 0.0,
+        "initalMana": 0,
+        "damage": 40.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.75,
+        "range": 3
+      },
+      "traits": [
+        "Noble",
+        "Ranger"
+      ],
+      "ability": {
+        "name": "은화살",
+        "desc": "고유 - 베인이 세 번째 공격마다 적 최대 체력에 비례한 고정 피해를 입힙니다.",
+        "icon": "ASSETS/Characters/Vayne/HUD/Icons2D/Vayne_SilveredBolts.dds",
+        "variables": [
+          {
+            "key": "PercentDamage",
+            "values": [
+              0.06,
+              0.08,
+              0.1,
+              0.12,
+              0.14,
+              0.16,
+              0.18
+            ]
+          }
+        ]
+      }
+    },
+    "76": {
+      "name": "니달리",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Nidalee.dds",
+      "stats": {
+        "hp": 500.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 3
+      },
+      "traits": [
+        "Wild",
+        "Shapeshifter"
+      ],
+      "ability": {
+        "name": "태고의 생명력",
+        "desc": "니달리가 자신과 가장 약한 아군의 체력을 회복한 뒤 변신해 공격력을 얻습니다.",
+        "icon": "ASSETS/Characters/Nidalee/HUD/Icons2D/Nidalee_R2.dds",
+        "variables": [
+          {
+            "key": "HoTDuration",
+            "values": [
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0
+            ]
+          },
+          {
+            "key": "HoTTotalHeal",
+            "values": [
+              -75.0,
+              150.0,
+              375.0,
+              600.0,
+              825.0,
+              1050.0,
+              1275.0
+            ]
+          },
+          {
+            "key": "ADInCougar",
+            "values": [
+              -30.0,
+              20.0,
+              70.0,
+              120.0,
+              170.0,
+              220.0,
+              270.0
+            ]
+          },
+          {
+            "key": "TransformDuration",
+            "values": [
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0
+            ]
+          },
+          {
+            "key": "AnimTime",
+            "values": [
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5
+            ]
+          }
+        ]
+      }
+    },
+    "78": {
+      "name": "뽀삐",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Poppy.dds",
+      "stats": {
+        "hp": 800.0,
+        "hpScaleFactor": 1.8,
+        "mana": 75.0,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 40.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.5,
+        "range": 1
+      },
+      "traits": [
+        "Yordle",
+        "Knight"
+      ],
+      "ability": {
+        "name": "수호자의 심판",
+        "desc": "뽀삐가 망치를 휘둘러 피해를 입히고 가장 가까운 적을 공중에 띄웁니다.",
+        "icon": "ASSETS/Characters/Poppy/HUD/Icons2D/Poppy_R.dds",
+        "variables": [
+          {
+            "key": "DamagePart2",
+            "values": [
+              100.0,
+              300.0,
+              500.0,
+              700.0,
+              900.0,
+              1100.0,
+              1300.0
+            ]
+          },
+          {
+            "key": "KnockbackDurationPart2",
+            "values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "key": "StunDuration",
+            "values": [
+              1.0,
+              2.0,
+              3.0,
+              4.0,
+              5.0,
+              6.0,
+              7.0
+            ]
+          },
+          {
+            "key": "PoppyAnimLockDuration",
+            "values": [
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75
+            ]
+          },
+          {
+            "key": "NumberOfTargets",
+            "values": [
+              0.0,
+              1.0,
+              2.0,
+              3.0,
+              4.0,
+              5.0,
+              6.0
+            ]
+          }
+        ]
+      }
+    },
+    "82": {
+      "name": "모데카이저",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Mordekaiser.dds",
+      "stats": {
+        "hp": 550.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 40.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.5,
+        "range": 1
+      },
+      "traits": [
+        "Phantom",
+        "Knight"
+      ],
+      "ability": {
+        "name": "말살",
+        "desc": "모데카이저가 전방에 철퇴를 내리쳐 일직선상에 있는 적 두 명에게 피해를 입힙니다.",
+        "icon": "ASSETS/Characters/Mordekaiser/HUD/Icons2D/MordekaiserQ.MordeVGU.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              75.0,
+              200.0,
+              325.0,
+              450.0,
+              575.0,
+              700.0,
+              825.0
+            ]
+          },
+          {
+            "key": "MaceStartDistance",
+            "values": [
+              400.0,
+              400.0,
+              400.0,
+              400.0,
+              400.0,
+              400.0,
+              400.0
+            ]
+          },
+          {
+            "key": "MaceLength",
+            "values": [
+              625.0,
+              625.0,
+              625.0,
+              625.0,
+              625.0,
+              625.0,
+              625.0
+            ]
+          },
+          {
+            "key": "RectangleWidth",
+            "values": [
+              160.0,
+              160.0,
+              160.0,
+              160.0,
+              160.0,
+              160.0,
+              160.0
+            ]
+          }
+        ]
+      }
+    },
+    "84": {
+      "name": "아칼리",
+      "cost": 4,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Akali.dds",
+      "stats": {
+        "hp": 650.0,
+        "hpScaleFactor": 1.8,
+        "mana": 25.0,
+        "initalMana": 0,
+        "damage": 70.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.7,
+        "range": 1
+      },
+      "traits": [
+        "Ninja",
+        "Assassin"
+      ],
+      "ability": {
+        "name": "오연투척검",
+        "desc": "아칼리가 대상에게 단검을 던져 피해를 입힙니다. 이 스킬에는 치명타가 적용될 수 있습니다.",
+        "icon": "ASSETS/Characters/Akali/HUD/Icons2D/Akali_Q.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              25.0,
+              150.0,
+              275.0,
+              400.0,
+              525.0,
+              650.0,
+              775.0
+            ]
+          },
+          {
+            "key": "ConeDeg",
+            "values": [
+              30.0,
+              30.0,
+              30.0,
+              30.0,
+              30.0,
+              30.0,
+              30.0
+            ]
+          },
+          {
+            "key": "HexRange",
+            "values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        ]
+      }
+    },
+    "85": {
+      "name": "케넨",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Kennen.dds",
+      "stats": {
+        "hp": 550.0,
+        "hpScaleFactor": 1.8,
+        "mana": 150.0,
+        "initalMana": 0,
+        "damage": 65.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 2
+      },
+      "traits": [
+        "Ninja",
+        "Yordle",
+        "Elementalist"
+      ],
+      "ability": {
+        "name": "날카로운 소용돌이",
+        "desc": "케넨이 주변에 폭풍을 소환해 범위 내에 있는 적에게 피해를 입히고 @StunDuration@초 동안 기절시킵니다.",
+        "icon": "ASSETS/Characters/Kennen/HUD/Icons2D/Kennen_R.dds",
+        "variables": [
+          {
+            "key": "TickRate",
+            "values": [
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5
+            ]
+          },
+          {
+            "key": "Duration",
+            "values": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          },
+          {
+            "key": "Damage",
+            "values": [
+              0.0,
+              225.0,
+              450.0,
+              675.0,
+              900.0,
+              1125.0,
+              1350.0
+            ]
+          },
+          {
+            "key": "StunDuration",
+            "values": [
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5
+            ]
+          }
+        ]
+      }
+    },
+    "86": {
+      "name": "가렌",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Garen.dds",
+      "stats": {
+        "hp": 600.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 40.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 1
+      },
+      "traits": [
+        "Noble",
+        "Knight"
+      ],
+      "ability": {
+        "name": "심판",
+        "desc": "가렌이 @SpinDuration@초 동안 검을 들고 회전하며 마법 피해에 면역 상태가 되고 주변 적에게 피해를 입힙니다.",
+        "icon": "ASSETS/Characters/Garen/HUD/Icons2D/Garen_E1.dds",
+        "variables": [
+          {
+            "key": "SpinDuration",
+            "values": [
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0
+            ]
+          },
+          {
+            "key": "ETotalTicks",
+            "values": [
+              9.0,
+              9.0,
+              9.0,
+              9.0,
+              9.0,
+              9.0,
+              9.0
+            ]
+          },
+          {
+            "key": "DamagePerTick",
+            "values": [
+              15.0,
+              40.0,
+              65.0,
+              90.0,
+              115.0,
+              140.0,
+              165.0
+            ]
+          }
+        ]
+      }
+    },
+    "89": {
+      "name": "레오나",
+      "cost": 4,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Leona.dds",
+      "stats": {
+        "hp": 750.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 45.0,
+        "damageScaleFactor": 1.25,
+        "armor": 100.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.55,
+        "range": 1
+      },
+      "traits": [
+        "Noble",
+        "Guardian"
+      ],
+      "ability": {
+        "name": "흑점 폭발",
+        "desc": "레오나가 태양 광선을 내리꽂아 범위 내의 적에게 피해를 입히고 둔화시킵니다. 빛줄기 중심에 있는 적은 기절합니다.",
+        "icon": "ASSETS/Characters/Leona/HUD/Icons2D/LeonaSolarFlare.dds",
+        "variables": [
+          {
+            "key": "DelayTime",
+            "values": [
+              0.625,
+              0.625,
+              0.625,
+              0.625,
+              0.625,
+              0.625,
+              0.625
+            ]
+          },
+          {
+            "key": "CCDuration",
+            "values": [
+              2.0,
+              5.0,
+              8.0,
+              11.0,
+              14.0,
+              17.0,
+              20.0
+            ]
+          },
+          {
+            "key": "Damage",
+            "values": [
+              100.0,
+              175.0,
+              250.0,
+              325.0,
+              400.0,
+              475.0,
+              550.0
+            ]
+          }
+        ]
+      }
+    },
+    "98": {
+      "name": "쉔",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Shen.dds",
+      "stats": {
+        "hp": 650.0,
+        "hpScaleFactor": 1.8,
+        "mana": 150.0,
+        "initalMana": 0,
+        "damage": 65.0,
+        "damageScaleFactor": 1.25,
+        "armor": 30.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.7,
+        "range": 1
+      },
+      "traits": [
+        "Ninja",
+        "Blademaster"
+      ],
+      "ability": {
+        "name": "의지의 결계",
+        "desc": "쉔이 주변에 결계를 생성합니다. 결계 안의 아군은 모든 공격을 회피합니다.",
+        "icon": "ASSETS/Characters/Shen/HUD/Icons2D/Shen_W.dds",
+        "variables": [
+          {
+            "key": "ZoneDuration",
+            "values": [
+              2.0,
+              3.0,
+              4.0,
+              5.0,
+              6.0,
+              7.0,
+              8.0
+            ]
+          }
+        ]
+      }
+    },
+    "102": {
+      "name": "쉬바나",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Shyvana.dds",
+      "stats": {
+        "hp": 650.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 30.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.7,
+        "range": 1
+      },
+      "traits": [
+        "Dragon",
+        "Shapeshifter"
+      ],
+      "ability": {
+        "name": "용의 강림",
+        "desc": "쉬바나가 돌진하며 변신하고 공격력과 공격 사거리가 증가합니다. 변신 시 공격은 적을 불태웁니다.",
+        "icon": "ASSETS/Characters/Shyvana/HUD/Icons2D/ShyvanaDragonsDescent.dds",
+        "variables": [
+          {
+            "key": "TransformDuration",
+            "values": [
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0
+            ]
+          },
+          {
+            "key": "ADWhileDragon",
+            "values": [
+              50.0,
+              100.0,
+              150.0,
+              200.0,
+              250.0,
+              300.0,
+              350.0
+            ]
+          },
+          {
+            "key": "BurnDuration",
+            "values": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          },
+          {
+            "key": "BurnDamage",
+            "values": [
+              125.0,
+              250.0,
+              375.0,
+              500.0,
+              625.0,
+              750.0,
+              875.0
+            ]
+          }
+        ]
+      }
+    },
+    "103": {
+      "name": "아리",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Ahri.dds",
+      "stats": {
+        "hp": 450.0,
+        "hpScaleFactor": 1.8,
+        "mana": 75.0,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.55,
+        "range": 3
+      },
+      "traits": [
+        "Wild",
+        "Sorcerer"
+      ],
+      "ability": {
+        "name": "현혹의 구슬",
+        "desc": "아리가 일직선으로 구슬을 던집니다. 구슬은 아리에게 되돌아오며 닿는 적에게 피해를 입힙니다.",
+        "icon": "ASSETS/Characters/Ahri/HUD/Icons2D/Ahri_OrbofDeception.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              50.0,
+              100.0,
+              200.0,
+              300.0,
+              400.0,
+              500.0,
+              475.0
+            ]
+          }
+        ]
+      }
+    },
+    "104": {
+      "name": "그레이브즈",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Graves.dds",
+      "stats": {
+        "hp": 450.0,
+        "hpScaleFactor": 1.8,
+        "mana": 0.0,
+        "initalMana": 0,
+        "damage": 55.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.55,
+        "range": 1
+      },
+      "traits": [
+        "Pirate",
+        "Gunslinger"
+      ],
+      "ability": {
+        "name": "산탄 사격",
+        "desc": "고유 - 그레이브즈의 공격은 전방에 있는 모든 적에게 추가 피해를 입힙니다.",
+        "icon": "ASSETS/Characters/Graves/HUD/Icons2D/BuckshotOld.dds",
+        "variables": [
+          {
+            "key": "DamageMultiplier",
+            "values": [
+              0.0,
+              0.05,
+              0.1,
+              0.15,
+              0.2,
+              0.25,
+              0.3
+            ]
+          }
+        ]
+      }
+    },
+    "106": {
+      "name": "볼리베어",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Volibear.dds",
+      "stats": {
+        "hp": 700.0,
+        "hpScaleFactor": 1.8,
+        "mana": 75.0,
+        "initalMana": 0,
+        "damage": 75.0,
+        "damageScaleFactor": 1.25,
+        "armor": 30.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.55,
+        "range": 1
+      },
+      "traits": [
+        "Glacial",
+        "Brawler"
+      ],
+      "ability": {
+        "name": "천둥 발톱",
+        "desc": "볼리베어의 공격이 강화되어 여러 적에게 연쇄 피해를 입히고 적중 시 효과를 적용합니다.",
+        "icon": "ASSETS/Characters/Volibear/HUD/Icons2D/VolibearR.dds",
+        "variables": [
+          {
+            "key": "BuffDuration",
+            "values": [
+              20.0,
+              20.0,
+              20.0,
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          {
+            "key": "MaxBounces",
+            "values": [
+              1.0,
+              2.0,
+              3.0,
+              4.0,
+              5.0,
+              6.0,
+              7.0
+            ]
+          },
+          {
+            "key": "ChainADMult",
+            "values": [
+              0.7,
+              0.8,
+              0.9,
+              1.0,
+              1.1,
+              1.2,
+              1.3
+            ]
+          },
+          {
+            "key": "SizeIncrease",
+            "values": [
+              0.08,
+              0.08,
+              0.08,
+              0.08,
+              0.08,
+              0.08,
+              0.08
+            ]
+          },
+          {
+            "key": "HexRange",
+            "values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        ]
+      }
+    },
+    "107": {
+      "name": "렝가",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Rengar.dds",
+      "stats": {
+        "hp": 550.0,
+        "hpScaleFactor": 1.8,
+        "mana": 75.0,
+        "initalMana": 0,
+        "damage": 70.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 1
+      },
+      "traits": [
+        "Wild",
+        "Assassin"
+      ],
+      "ability": {
+        "name": "포악함",
+        "desc": "렝가가 가장 체력이 낮은 적에게 도약해 적중 시 추가 피해를 입힙니다. 이후 렝가의 공격 속도가 오르고 치명타 확률이 @CritBuff*100@% 증가합니다.",
+        "icon": "ASSETS/Characters/Rengar/HUD/Icons2D/RengarQ.dds",
+        "variables": [
+          {
+            "key": "ADMult",
+            "values": [
+              1.0,
+              2.0,
+              3.0,
+              4.0,
+              5.0,
+              6.0,
+              7.0
+            ]
+          },
+          {
+            "key": "ASBuff",
+            "values": [
+              0.1,
+              0.4,
+              0.7,
+              1.0,
+              1.3,
+              1.6,
+              1.9
+            ]
+          },
+          {
+            "key": "CritBuff",
+            "values": [
+              0.25,
+              0.25,
+              0.25,
+              0.25,
+              0.25,
+              0.25,
+              0.25
+            ]
+          },
+          {
+            "key": "BuffDuration",
+            "values": [
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0
+            ]
+          }
+        ]
+      }
+    },
+    "110": {
+      "name": "바루스",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Varus.dds",
+      "stats": {
+        "hp": 500.0,
+        "hpScaleFactor": 1.8,
+        "mana": 75.0,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.7,
+        "range": 4
+      },
+      "traits": [
+        "Demon",
+        "Ranger"
+      ],
+      "ability": {
+        "name": "꿰뚫는 화살",
+        "desc": "바루스가 힘을 모아 화살을 발사해 일직선상의 모든 적에게 피해를 입힙니다.",
+        "icon": "ASSETS/Characters/Varus/HUD/Icons2D/VarusQ.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              50.0,
+              300.0,
+              550.0,
+              800.0,
+              1050.0,
+              1300.0,
+              1550.0
+            ]
+          },
+          {
+            "key": "HexRange",
+            "values": [
+              8.0,
+              8.0,
+              8.0,
+              8.0,
+              8.0,
+              8.0,
+              8.0
+            ]
+          }
+        ]
+      }
+    },
+    "113": {
+      "name": "세주아니",
+      "cost": 4,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Sejuani.dds",
+      "stats": {
+        "hp": 850.0,
+        "hpScaleFactor": 1.8,
+        "mana": 150.0,
+        "initalMana": 0,
+        "damage": 45.0,
+        "damageScaleFactor": 1.25,
+        "armor": 40.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.55,
+        "range": 1
+      },
+      "traits": [
+        "Glacial",
+        "Knight"
+      ],
+      "ability": {
+        "name": "빙하 감옥",
+        "desc": "세주아니가 거대한 빙하 폭풍을 일으킵니다. 빙하 폭풍 안의 적은 잠시 후 기절합니다.",
+        "icon": "ASSETS/Characters/Sejuani/HUD/Icons2D/Sejuani_R.dds",
+        "variables": [
+          {
+            "key": "ExplosionDelay",
+            "values": [
+              0.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "key": "Damage",
+            "values": [
+              25.0,
+              100.0,
+              175.0,
+              250.0,
+              325.0,
+              400.0,
+              475.0
+            ]
+          },
+          {
+            "key": "StunDuration",
+            "values": [
+              1.0,
+              2.0,
+              4.0,
+              6.0,
+              8.0,
+              10.0,
+              12.0
+            ]
+          }
+        ]
+      }
+    },
+    "114": {
+      "name": "피오라",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Fiora.dds",
+      "stats": {
+        "hp": 400.0,
+        "hpScaleFactor": 1.8,
+        "mana": 75.0,
+        "initalMana": 0,
+        "damage": 40.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 1.0,
+        "range": 1
+      },
+      "traits": [
+        "Noble",
+        "Blademaster"
+      ],
+      "ability": {
+        "name": "응수",
+        "desc": "피오라가 모든 피해와 스킬에 면역 상태가 됩니다. 잠시 후 가장 가까운 적을 기절시키고 피해를 입힙니다.",
+        "icon": "ASSETS/Characters/Fiora/HUD/Icons2D/Fiora_W.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              -50.0,
+              100.0,
+              250.0,
+              400.0,
+              550.0,
+              700.0,
+              850.0
+            ]
+          },
+          {
+            "key": "StunDuration",
+            "values": [
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5
+            ]
+          },
+          {
+            "key": "BlockDuration",
+            "values": [
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5
+            ]
+          }
+        ]
+      }
+    },
+    "117": {
+      "name": "룰루",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Lulu.dds",
+      "stats": {
+        "hp": 500.0,
+        "hpScaleFactor": 1.8,
+        "mana": 150.0,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 2
+      },
+      "traits": [
+        "Yordle",
+        "Sorcerer"
+      ],
+      "ability": {
+        "name": "급성장",
+        "desc": "룰루가 아군에게 추가 체력을 부여하고 주변 적을 @CCDuration@초 동안 공중에 띄웁니다.",
+        "icon": "ASSETS/Characters/Lulu/HUD/Icons2D/Lulu_GiantGrowth.dds",
+        "variables": [
+          {
+            "key": "BonusHealth",
+            "values": [
+              125.0,
+              300.0,
+              475.0,
+              650.0,
+              825.0,
+              1000.0,
+              1175.0
+            ]
+          },
+          {
+            "key": "ExtraTargets",
+            "values": [
+              -1.0,
+              0.0,
+              1.0,
+              2.0,
+              3.0,
+              4.0,
+              5.0
+            ]
+          },
+          {
+            "key": "BuffDuration",
+            "values": [
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0
+            ]
+          },
+          {
+            "key": "CCDuration",
+            "values": [
+              1.25,
+              1.25,
+              1.25,
+              1.25,
+              1.25,
+              1.25,
+              1.25
+            ]
+          }
+        ]
+      }
+    },
+    "119": {
+      "name": "드레이븐",
+      "cost": 4,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Draven.dds",
+      "stats": {
+        "hp": 700.0,
+        "hpScaleFactor": 1.8,
+        "mana": 50.0,
+        "initalMana": 0,
+        "damage": 75.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.75,
+        "range": 3
+      },
+      "traits": [
+        "Imperial",
+        "Blademaster"
+      ],
+      "ability": {
+        "name": "회전 도끼",
+        "desc": "드레이븐이 회전 도끼를 얻어 적중 시 피해량이 증가합니다. 최대 2번 중첩됩니다.",
+        "icon": "ASSETS/Characters/Draven/HUD/Icons2D/Draven_SpinningAxe.dds",
+        "variables": [
+          {
+            "key": "BuffDuration",
+            "values": [
+              5.75,
+              5.75,
+              5.75,
+              5.75,
+              5.75,
+              5.75,
+              5.75
+            ]
+          },
+          {
+            "key": "ADMult",
+            "values": [
+              1.0,
+              1.5,
+              2.0,
+              2.5,
+              3.0,
+              3.5,
+              4.0
+            ]
+          },
+          {
+            "key": "ASBuff",
+            "values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        ]
+      }
+    },
+    "121": {
+      "name": "카직스",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Khazix.dds",
+      "stats": {
+        "hp": 500.0,
+        "hpScaleFactor": 1.8,
+        "mana": 50.0,
+        "initalMana": 0,
+        "damage": 55.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 1
+      },
+      "traits": [
+        "Void",
+        "Assassin"
+      ],
+      "ability": {
+        "name": "공포 감지",
+        "desc": "카직스가 가장 가까운 적을 베어 피해를 입힙니다. 고립된 적은 추가 피해를 입습니다.",
+        "icon": "ASSETS/Characters/KhaZix/HUD/Icons2D/Khazix_Q.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              50.0,
+              150.0,
+              300.0,
+              450.0,
+              600.0,
+              750.0,
+              900.0
+            ]
+          },
+          {
+            "key": "IsolationDamage",
+            "values": [
+              200.0,
+              400.0,
+              600.0,
+              800.0,
+              1000.0,
+              1200.0,
+              1400.0
+            ]
+          }
+        ]
+      }
+    },
+    "122": {
+      "name": "다리우스",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Darius.dds",
+      "stats": {
+        "hp": 600.0,
+        "hpScaleFactor": 1.8,
+        "mana": 100,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 40.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.5,
+        "range": 1
+      },
+      "traits": [
+        "Imperial",
+        "Knight"
+      ],
+      "ability": {
+        "name": "학살",
+        "desc": "다리우스가 도끼를 휘둘러 주변 적에게 피해를 입히고 맞은 적의 수에 비례해 자신의 체력을 회복합니다.",
+        "icon": "ASSETS/Characters/Darius/HUD/Icons2D/Darius_Icon_Decimate.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              100.0,
+              150.0,
+              200.0,
+              250.0,
+              300.0,
+              350.0,
+              400.0
+            ]
+          },
+          {
+            "key": "Heal",
+            "values": [
+              50.0,
+              100.0,
+              150.0,
+              200.0,
+              250.0,
+              300.0,
+              350.0
+            ]
+          }
+        ]
+      }
+    },
+    "126": {
+      "name": "제이스",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Jayce.dds",
+      "stats": {
+        "hp": 600.0,
+        "hpScaleFactor": 1.8,
+        "mana": 50.0,
+        "initalMana": 0,
+        "damage": 55.0,
+        "damageScaleFactor": 1.25,
+        "armor": 30.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.7,
+        "range": 1
+      },
+      "traits": [
+        "Hextech",
+        "Shapeshifter"
+      ],
+      "ability": {
+        "name": "tft_character_jayce_ability_name",
+        "desc": "tft_character_jayce_ability_description",
+        "icon": "ASSETS/Characters/TFT_Jayce/HUD/Icons2D/TFT_Jayce_Spell.TFT_Hextech.dds",
+        "variables": [
+          {
+            "key": "RangeIncrease",
+            "values": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          },
+          {
+            "key": "TransformDuration",
+            "values": [
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0
+            ]
+          },
+          {
+            "key": "Damage",
+            "values": [
+              75.0,
+              150.0,
+              225.0,
+              300.0,
+              375.0,
+              450.0,
+              525.0
+            ]
+          },
+          {
+            "key": "CCDuration",
+            "values": [
+              0.75,
+              2.5,
+              4.25,
+              6.0,
+              7.75,
+              9.5,
+              11.25
+            ]
+          },
+          {
+            "key": "KnockbackDistance",
+            "values": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          },
+          {
+            "key": "AAMax",
+            "values": [
+              1.0,
+              3.0,
+              5.0,
+              7.0,
+              9.0,
+              11.0,
+              13.0
+            ]
+          }
+        ]
+      }
+    },
+    "127": {
+      "name": "리산드라",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Lissandra.dds",
+      "stats": {
+        "hp": 450.0,
+        "hpScaleFactor": 1.8,
+        "mana": 150.0,
+        "initalMana": 0,
+        "damage": 40.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 2
+      },
+      "traits": [
+        "Glacial",
+        "Elementalist"
+      ],
+      "ability": {
+        "name": "얼음 무덤",
+        "desc": "리산드라가 대상을 @EnemyStunDuration@초 동안 얼음 속에 가두고 주변 적에게 피해를 입힙니다. 리산드라의 체력이 절반 이하일 경우 자신의 몸을 얼음으로 감싸 @SelfDuration@초 동안 대상으로 지정할 수 없는 상태가 됩니다.",
+        "icon": "ASSETS/Characters/Lissandra/HUD/Icons2D/Lissandra_R.dds",
+        "variables": [
+          {
+            "key": "EnemyStunDuration",
+            "values": [
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5
+            ]
+          },
+          {
+            "key": "SelfDuration",
+            "values": [
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "key": "Damage",
+            "values": [
+              25.0,
+              150.0,
+              275.0,
+              400.0,
+              525.0,
+              650.0,
+              775.0
+            ]
+          },
+          {
+            "key": "SlowDuration",
+            "values": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          },
+          {
+            "key": "SlowAmount",
+            "values": [
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "key": "SlowFieldDuration",
+            "values": [
+              0.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          },
+          {
+            "key": "MaxHexRange",
+            "values": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          },
+          {
+            "key": "SelfUltHealthPercent",
+            "values": [
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5
+            ]
+          }
+        ]
+      }
+    },
+    "136": {
+      "name": "아우렐리온 솔",
+      "cost": 4,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_AurelionSol.dds",
+      "stats": {
+        "hp": 650.0,
+        "hpScaleFactor": 1.8,
+        "mana": 125.0,
+        "initalMana": 0,
+        "damage": 40.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 3
+      },
+      "traits": [
+        "Dragon",
+        "Sorcerer"
+      ],
+      "ability": {
+        "name": "성운의 공명",
+        "desc": "아우렐리온 솔이 일직선으로 거대한 불길을 내뿜어 적에게 피해를 입힙니다.",
+        "icon": "ASSETS/Characters/AurelionSol/HUD/Icons2D/AurelionSol_R.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              50.0,
+              250.0,
+              500.0,
+              750.0,
+              1000.0,
+              1250.0,
+              1500.0
+            ]
+          },
+          {
+            "key": "HexRange",
+            "values": [
+              8.0,
+              8.0,
+              8.0,
+              8.0,
+              8.0,
+              8.0,
+              8.0
+            ]
+          }
+        ]
+      }
+    },
+    "150": {
+      "name": "나르",
+      "cost": 4,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Gnar.dds",
+      "stats": {
+        "hp": 750.0,
+        "hpScaleFactor": 1.8,
+        "mana": 125.0,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 30.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.7,
+        "range": 2
+      },
+      "traits": [
+        "Wild",
+        "Yordle",
+        "Shapeshifter"
+      ],
+      "ability": {
+        "name": "나르!",
+        "desc": "나르가 변신하며 체력과 공격력이 증가하고 가장 멀리 있는 적 뒤로 뜁니다. 착지할 때 주변 적에게 피해를 입히며 @RCCDuration@초 동안 기절시킵니다.",
+        "icon": "ASSETS/Characters/Gnar/HUD/Icons2D/GnarTransform.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              100.0,
+              200.0,
+              300.0,
+              400.0,
+              500.0,
+              600.0,
+              700.0
+            ]
+          },
+          {
+            "key": "RCCDuration",
+            "values": [
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "key": "RKnockbackDistance",
+            "values": [
+              500.0,
+              500.0,
+              500.0,
+              500.0,
+              500.0,
+              500.0,
+              500.0
+            ]
+          },
+          {
+            "key": "TransformDuration",
+            "values": [
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0
+            ]
+          },
+          {
+            "key": "TransformHealth",
+            "values": [
+              0.0,
+              300.0,
+              600.0,
+              900.0,
+              1200.0,
+              1500.0,
+              1800.0
+            ]
+          },
+          {
+            "key": "TransformAD",
+            "values": [
+              0.0,
+              30.0,
+              60.0,
+              90.0,
+              120.0,
+              150.0,
+              180.0
+            ]
+          }
+        ]
+      }
+    },
+    "157": {
+      "name": "야스오",
+      "cost": 5,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Yasuo.dds",
+      "stats": {
+        "hp": 700.0,
+        "hpScaleFactor": 1.8,
+        "mana": 25.0,
+        "initalMana": 0,
+        "damage": 75.0,
+        "damageScaleFactor": 1.25,
+        "armor": 35.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 1.0,
+        "range": 1
+      },
+      "traits": [
+        "Exile",
+        "Blademaster"
+      ],
+      "ability": {
+        "name": "강철 폭풍",
+        "desc": "야스오가 검을 전방으로 내질러 일직선상의 적 두 명에게 피해를 입힙니다. 세 번째 사용 시 야스오가 회오리바람을 날려 일직선상의 적에게 피해를 입히고 공중으로 @QKnockupDuration@초 동안 띄워 올립니다. <br><br>적중 시 효과가 적용됩니다.",
+        "icon": "ASSETS/Characters/Yasuo/HUD/Icons2D/Yasuo_Q1.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              -50.0,
+              150.0,
+              350.0,
+              550.0,
+              750.0,
+              950.0,
+              1150.0
+            ]
+          },
+          {
+            "key": "QHexRange",
+            "values": [
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "key": "QEmpowerHexRange",
+            "values": [
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0,
+              6.0
+            ]
+          },
+          {
+            "key": "QCountForEmpower",
+            "values": [
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "key": "QWidth",
+            "values": [
+              75.0,
+              75.0,
+              75.0,
+              75.0,
+              75.0,
+              75.0,
+              75.0
+            ]
+          },
+          {
+            "key": "QKnockupDuration",
+            "values": [
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              1.5
+            ]
+          }
+        ]
+      }
+    },
+    "164": {
+      "name": "카밀",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Camille.dds",
+      "stats": {
+        "hp": 550.0,
+        "hpScaleFactor": 1.8,
+        "mana": 150.0,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 1
+      },
+      "traits": [
+        "Hextech",
+        "Blademaster"
+      ],
+      "ability": {
+        "name": "Spell_TFT_CamilleR_Name",
+        "desc": "Spell_TFT_CamilleR_Summary",
+        "icon": "ASSETS/Characters/TFT_Camille/HUD/Icons2D/TFT_Camille_R.TFT_Hextech.dds",
+        "variables": [
+          {
+            "key": "Duration",
+            "values": [
+              3.0,
+              4.0,
+              5.0,
+              6.0,
+              7.0,
+              8.0,
+              9.0
+            ]
+          },
+          {
+            "key": "Damage",
+            "values": [
+              75.0,
+              200.0,
+              325.0,
+              450.0,
+              575.0,
+              700.0,
+              825.0
+            ]
+          }
+        ]
+      }
+    },
+    "201": {
+      "name": "브라움",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Braum.dds",
+      "stats": {
+        "hp": 750.0,
+        "hpScaleFactor": 1.8,
+        "mana": 50.0,
+        "initalMana": 0,
+        "damage": 40.0,
+        "damageScaleFactor": 1.25,
+        "armor": 75.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 1
+      },
+      "traits": [
+        "Glacial",
+        "Guardian"
+      ],
+      "ability": {
+        "name": "불굴",
+        "desc": "브라움이 피해를 막아주는 방패를 얻습니다.",
+        "icon": "ASSETS/Characters/Braum/HUD/Icons2D/Braum_E.dds",
+        "variables": [
+          {
+            "key": "ShieldDR",
+            "values": [
+              60.0,
+              70.0,
+              80.0,
+              90.0,
+              100.0,
+              110.0,
+              120.0
+            ]
+          },
+          {
+            "key": "ShieldDuration",
+            "values": [
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0
+            ]
+          }
+        ]
+      }
+    },
+    "203": {
+      "name": "킨드레드",
+      "cost": 4,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Kindred.dds",
+      "stats": {
+        "hp": 600.0,
+        "hpScaleFactor": 1.8,
+        "mana": 150.0,
+        "initalMana": 0,
+        "damage": 60.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 3
+      },
+      "traits": [
+        "Phantom",
+        "Ranger"
+      ],
+      "ability": {
+        "name": "양의 안식처",
+        "desc": "킨드레드가 자신의 주변에 아군이 죽지 않는 영역을 만들어냅니다.",
+        "icon": "ASSETS/Characters/Kindred/HUD/Icons2D/Kindred_R.dds",
+        "variables": [
+          {
+            "key": "Duration",
+            "values": [
+              3.0,
+              4.0,
+              5.0,
+              6.0,
+              7.0,
+              8.0,
+              9.0
+            ]
+          },
+          {
+            "key": "MinHealth",
+            "values": [
+              0.0,
+              300.0,
+              600.0,
+              900.0,
+              1200.0,
+              1500.0,
+              1800.0
+            ]
+          }
+        ]
+      }
+    },
+    "222": {
+      "name": "징크스",
+      "cost": 4,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Jinx.dds",
+      "stats": {
+        "hp": 550.0,
+        "hpScaleFactor": 1.8,
+        "mana": 0.0,
+        "initalMana": 0,
+        "damage": 75.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 3
+      },
+      "traits": [
+        "Hextech",
+        "Gunslinger"
+      ],
+      "ability": {
+        "name": "tft_character_jinx_ability_name",
+        "desc": "Spell_TFT_JinxPassive_Description",
+        "icon": "ASSETS/Characters/TFT_Jinx/HUD/Icons2D/TFT_Jinx_Spell.TFT_Hextech.dds",
+        "variables": [
+          {
+            "key": "HitWindow",
+            "values": [
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0
+            ]
+          },
+          {
+            "key": "BuffDuration",
+            "values": [
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              60.0
+            ]
+          },
+          {
+            "key": "AttackSpeedBonus",
+            "values": [
+              0.5,
+              0.75,
+              1.0,
+              1.25,
+              1.5,
+              1.75,
+              2.0
+            ]
+          },
+          {
+            "key": "RocketDamage",
+            "values": [
+              -25.0,
+              100.0,
+              225.0,
+              350.0,
+              475.0,
+              600.0,
+              725.0
+            ]
+          }
+        ]
+      }
+    },
+    "236": {
+      "name": "루시안",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Lucian.dds",
+      "stats": {
+        "hp": 600.0,
+        "hpScaleFactor": 1.8,
+        "mana": 35.0,
+        "initalMana": 0,
+        "damage": 65.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 3
+      },
+      "traits": [
+        "Noble",
+        "Gunslinger"
+      ],
+      "ability": {
+        "name": "끈질긴 추격",
+        "desc": "루시안이 안전한 쪽으로 돌진하며 공격력으로 1회, 스킬 피해로 1회 공격합니다.",
+        "icon": "ASSETS/Characters/Lucian/HUD/Icons2D/Lucian_E.dds",
+        "variables": [
+          {
+            "key": "FirstShotRatio",
+            "values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "key": "SecondShotDamage",
+            "values": [
+              50.0,
+              150.0,
+              250.0,
+              350.0,
+              450.0,
+              550.0,
+              650.0
+            ]
+          }
+        ]
+      }
+    },
+    "238": {
+      "name": "제드",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Zed.dds",
+      "stats": {
+        "hp": 500.0,
+        "hpScaleFactor": 1.8,
+        "mana": 75.0,
+        "initalMana": 0,
+        "damage": 65.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 1
+      },
+      "traits": [
+        "Ninja",
+        "Assassin"
+      ],
+      "ability": {
+        "name": "예리한 표창",
+        "desc": "제드가 표창을 던져 일직선상의 적에게 피해를 입힙니다.",
+        "icon": "ASSETS/Characters/Zed/HUD/Icons2D/shadowninja_Q.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              100.0,
+              200.0,
+              300.0,
+              400.0,
+              500.0,
+              600.0,
+              700.0
+            ]
+          },
+          {
+            "key": "HexRange",
+            "values": [
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0,
+              4.0
+            ]
+          }
+        ]
+      }
+    },
+    "254": {
+      "name": "바이",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Vi.dds",
+      "stats": {
+        "hp": 600.0,
+        "hpScaleFactor": 1.8,
+        "mana": 125.0,
+        "initalMana": 0,
+        "damage": 55.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 1
+      },
+      "traits": [
+        "Hextech",
+        "Brawler"
+      ],
+      "ability": {
+        "name": "Spell_TFT_ViR_Name",
+        "desc": "Spell_TFT_ViR_Description",
+        "icon": "ASSETS/Characters/TFT_Vi/HUD/Icons2D/TFT_ViR.TFT_Hextech.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              100.0,
+              250.0,
+              400.0,
+              550.0,
+              700.0,
+              850.0,
+              1000.0
+            ]
+          },
+          {
+            "key": "CCDuration",
+            "values": [
+              1.5,
+              2.0,
+              2.5,
+              3.0,
+              3.5,
+              4.0,
+              4.5
+            ]
+          },
+          {
+            "key": "MoveSpeed",
+            "values": [
+              1000.0,
+              1000.0,
+              1000.0,
+              1000.0,
+              1000.0,
+              1000.0,
+              1000.0
+            ]
+          },
+          {
+            "key": "OthersCCDuration",
+            "values": [
+              0.25,
+              0.25,
+              0.25,
+              0.25,
+              0.25,
+              0.25,
+              0.25
+            ]
+          }
+        ]
+      }
+    },
+    "266": {
+      "name": "아트록스",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Aatrox.dds",
+      "stats": {
+        "hp": 700.0,
+        "hpScaleFactor": 1.8,
+        "mana": 75.0,
+        "initalMana": 0,
+        "damage": 65.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 1
+      },
+      "traits": [
+        "Demon",
+        "Blademaster"
+      ],
+      "ability": {
+        "name": "다르킨의 검",
+        "desc": "아트록스가 대검을 휘둘러 전방의 적에게 피해를 입힙니다.",
+        "icon": "ASSETS/Characters/Aatrox/HUD/Icons2D/Aatrox_Q3.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              50.0,
+              250.0,
+              600.0,
+              950.0,
+              1250.0,
+              1550.0,
+              1850.0
+            ]
+          }
+        ]
+      }
+    },
+    "421": {
+      "name": "렉사이",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Reksai.dds",
+      "stats": {
+        "hp": 650.0,
+        "hpScaleFactor": 1.8,
+        "mana": 150.0,
+        "initalMana": 0,
+        "damage": 50.0,
+        "damageScaleFactor": 1.25,
+        "armor": 20.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.65,
+        "range": 1
+      },
+      "traits": [
+        "Void",
+        "Brawler"
+      ],
+      "ability": {
+        "name": "매복",
+        "desc": "렉사이가 잠시 매복 상태가 됩니다. 매복 상태에서는 대상으로 지정할 수 없으며 체력을 회복합니다. 렉사이가 매복을 풀고 나올 때 가장 가까운 적에게 피해를 입히고 @KnockUpDuration@초 동안 공중으로 띄워 올립니다.",
+        "icon": "ASSETS/Characters/RekSai/HUD/Icons2D/RekSai_W1.dds",
+        "variables": [
+          {
+            "key": "HealAmount",
+            "values": [
+              75.0,
+              150.0,
+              300.0,
+              450.0,
+              600.0,
+              750.0,
+              900.0
+            ]
+          },
+          {
+            "key": "BurrowDuration",
+            "values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "key": "HealTickRate",
+            "values": [
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5
+            ]
+          },
+          {
+            "key": "KnockupDuration",
+            "values": [
+              1.75,
+              1.75,
+              1.75,
+              1.75,
+              1.75,
+              1.75,
+              1.75
+            ]
+          },
+          {
+            "key": "KnockupDamage",
+            "values": [
+              50.0,
+              200.0,
+              350.0,
+              500.0,
+              650.0,
+              800.0,
+              950.0
+            ]
+          }
+        ]
+      }
+    },
+    "555": {
+      "name": "파이크",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Pyke.dds",
+      "stats": {
+        "hp": 600.0,
+        "hpScaleFactor": 1.8,
+        "mana": 125.0,
+        "initalMana": 0,
+        "damage": 60.0,
+        "damageScaleFactor": 1.25,
+        "armor": 25.0,
+        "magicResist": 20.0,
+        "critMultiplier": 1.5,
+        "critChance": 0.25,
+        "attackSpeed": 0.6,
+        "range": 1
+      },
+      "traits": [
+        "Pirate",
+        "Assassin"
+      ],
+      "ability": {
+        "name": "망자의 물살",
+        "desc": "파이크가 가장 멀리 있는 적 뒤로 돌진하며 잔상을 남깁니다. 잔상이 통과하며 닿은 적은 기절합니다.",
+        "icon": "ASSETS/Characters/Pyke/HUD/Icons2D/PykeE.dds",
+        "variables": [
+          {
+            "key": "Damage",
+            "values": [
+              100.0,
+              150.0,
+              200.0,
+              250.0,
+              300.0,
+              350.0,
+              400.0
+            ]
+          },
+          {
+            "key": "StunDuration",
+            "values": [
+              1.5,
+              2.0,
+              2.5,
+              3.0,
+              3.5,
+              4.0,
+              4.5
+            ]
+          },
+          {
+            "key": "StunDelay",
+            "values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "traits": [
+    {
+      "name": "해적",
+      "desc": "<row>(@MinUnits@) 다른 플레이어와 전투 후에 최대 4의 추가 골드를 얻습니다.</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Pirate.dds",
+      "effects": [
+        {
+          "minUnits": 3,
+          "maxUnits": 25000,
+          "vars": []
+        }
+      ]
+    },
+    {
+      "name": "원소술사",
+      "desc": "고유 - 원소술사는 공격 시 2배의 마나를 획득합니다.<br><br><row>(@MinUnits@) 전투 시작 시 골렘 하나를 소환합니다.</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Elementalist.dds",
+      "effects": [
+        {
+          "minUnits": 3,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "HPMultiplier",
+              "value": null
+            },
+            {
+              "name": "558229DF",
+              "value": null
+            },
+            {
+              "name": "SizeCoefficient",
+              "value": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "악마",
+      "desc": "악마는 공격 시 일정 확률로 적 하나의 마나를 전부 불태워 없애고 불태운 마나와 같은 양의 고정 피해를 입힙니다.<br><br><expandRow>(@MinUnits@) 마나 불태우기 확률 @ProcChance@%</expandRow><br>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Demon.dds",
+      "effects": [
+        {
+          "minUnits": 2,
+          "maxUnits": 3,
+          "vars": [
+            {
+              "name": "ProcChance",
+              "value": 20.0
+            },
+            {
+              "name": "DamagePercent",
+              "value": 100.0
+            },
+            {
+              "name": "4516A18D",
+              "value": 3.0
+            },
+            {
+              "name": "35BB0E0C",
+              "value": 33.0
+            },
+            {
+              "name": "0EBB5365",
+              "value": 25.0
+            },
+            {
+              "name": "1A14AA8A",
+              "value": 10.0
+            }
+          ]
+        },
+        {
+          "minUnits": 4,
+          "maxUnits": 5,
+          "vars": [
+            {
+              "name": "ProcChance",
+              "value": 40.0
+            },
+            {
+              "name": "DamagePercent",
+              "value": 100.0
+            },
+            {
+              "name": "4516A18D",
+              "value": 3.0
+            },
+            {
+              "name": "35BB0E0C",
+              "value": 33.0
+            },
+            {
+              "name": "0EBB5365",
+              "value": 25.0
+            },
+            {
+              "name": "1A14AA8A",
+              "value": 10.0
+            }
+          ]
+        },
+        {
+          "minUnits": 6,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "ProcChance",
+              "value": 80.0
+            },
+            {
+              "name": "DamagePercent",
+              "value": 100.0
+            },
+            {
+              "name": "4516A18D",
+              "value": 3.0
+            },
+            {
+              "name": "35BB0E0C",
+              "value": 33.0
+            },
+            {
+              "name": "0EBB5365",
+              "value": 25.0
+            },
+            {
+              "name": "1A14AA8A",
+              "value": 25.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "야생",
+      "desc": "공격할 때마다 분노 중첩이 쌓입니다. 최대 5번까지 중첩되며 중첩된 분노당 공격 속도가 @AttackSpeedPercent@% 증가합니다.<br><br><row>(@MinUnits@) 야생 아군만 해당</row><br><row>(@MinUnits@) 모든 아군에 적용</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Wild.dds",
+      "effects": [
+        {
+          "minUnits": 2,
+          "maxUnits": 3,
+          "vars": [
+            {
+              "name": "AttackSpeedPercent",
+              "value": 10.0
+            }
+          ]
+        },
+        {
+          "minUnits": 4,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "AttackSpeedPercent",
+              "value": 10.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "공허",
+      "desc": "<row>(@MinUnits@) 이제 공허 챔피언들이 고정 피해를 입힙니다.</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Void.dds",
+      "effects": [
+        {
+          "minUnits": 3,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "PercentArmorPen",
+              "value": 100.0
+            },
+            {
+              "name": "CB42693F",
+              "value": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "싸움꾼",
+      "desc": "싸움꾼은 추가 최대 체력을 얻습니다.<br><br><expandRow>(@MinUnits@) 추가 체력 @BonusHealth@</expandRow><br>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Brawler.dds",
+      "effects": [
+        {
+          "minUnits": 2,
+          "maxUnits": 3,
+          "vars": [
+            {
+              "name": "BonusHealth",
+              "value": 300.0
+            }
+          ]
+        },
+        {
+          "minUnits": 4,
+          "maxUnits": 5,
+          "vars": [
+            {
+              "name": "BonusHealth",
+              "value": 700.0
+            }
+          ]
+        },
+        {
+          "minUnits": 6,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "BonusHealth",
+              "value": 1200.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "용",
+      "desc": "<row>(@MinUnits@) 용은 마법 피해에 대한 저항력 @MagicReduction@%를 얻습니다.</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Dragon.dds",
+      "effects": [
+        {
+          "minUnits": 2,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "MagicReduction",
+              "value": 83.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "추방자",
+      "desc": "<row>(@MinUnits@) 전투 시작 시 추방자 주변에 아군이 없다면 최대 체력의 @ShieldPercent@%만큼 피해를 흡수하는 보호막을 획득합니다.</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Exile.dds",
+      "effects": [
+        {
+          "minUnits": 1,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "ShieldPercent",
+              "value": 100.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "요들",
+      "desc": "요들은 일정 확률로 적의 공격을 회피합니다.<br><br><expandRow>(@MinUnits@) 회피율 @MissPercent@%</expandRow><br>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Yordle.dds",
+      "effects": [
+        {
+          "minUnits": 3,
+          "maxUnits": 5,
+          "vars": [
+            {
+              "name": "MissPercent",
+              "value": 30.0
+            }
+          ]
+        },
+        {
+          "minUnits": 6,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "MissPercent",
+              "value": 55.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "수호자",
+      "desc": "<row>(@MinUnits@) 전투 시작 시 수호자들이 주변 아군들의 방어력을 +@Armor@ 증가시킵니다. 이 효과는 중첩될 수 있습니다.</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Guardian.dds",
+      "effects": [
+        {
+          "minUnits": 2,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "Armor",
+              "value": 50.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "기사",
+      "desc": "모든 아군이 피해를 방어합니다.<br><br><expandRow>(@MinUnits@) @BlockAmount@의 피해 방어</expandRow>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Knight.dds",
+      "effects": [
+        {
+          "minUnits": 2,
+          "maxUnits": 3,
+          "vars": [
+            {
+              "name": "BlockAmount",
+              "value": 15.0
+            }
+          ]
+        },
+        {
+          "minUnits": 4,
+          "maxUnits": 5,
+          "vars": [
+            {
+              "name": "BlockAmount",
+              "value": 30.0
+            }
+          ]
+        },
+        {
+          "minUnits": 6,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "BlockAmount",
+              "value": 55.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "닌자",
+      "desc": "닌자 특성은 닌자가 *정확히* 하나 또는 넷 모두 있을 때 활성화됩니다.<br><br><row>(@MinUnits@) 닌자 유닛 공격력 +@ADValue@ 및 주문력 +@APValue@% 증가</row><br><row>(@MinUnits@) 모든 닌자 유닛 공격력 +@ADValue@ 및 주문력 +@APValue@% 증가</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Ninja.dds",
+      "effects": [
+        {
+          "minUnits": 1,
+          "maxUnits": 1,
+          "vars": [
+            {
+              "name": "ADValue",
+              "value": 40.0
+            },
+            {
+              "name": "APValue",
+              "value": 40.0
+            }
+          ]
+        },
+        {
+          "minUnits": 4,
+          "maxUnits": 4,
+          "vars": [
+            {
+              "name": "ADValue",
+              "value": 60.0
+            },
+            {
+              "name": "APValue",
+              "value": 60.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "정찰대",
+      "desc": "정찰대는 @ProcRate@초마다 일정 확률로 @ProcRate@초 동안 공격 속도가 두 배로 증가합니다. <br><br><expandRow>(@MinUnits@) @ProcPercent@% 확률로 공격 속도 두 배로 증가</expandRow><br>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Ranger.dds",
+      "effects": [
+        {
+          "minUnits": 2,
+          "maxUnits": 3,
+          "vars": [
+            {
+              "name": "ProcPercent",
+              "value": 25.0
+            },
+            {
+              "name": "ASMultiplier",
+              "value": 2.0
+            },
+            {
+              "name": "ProcRate",
+              "value": 3.0
+            }
+          ]
+        },
+        {
+          "minUnits": 4,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "ProcPercent",
+              "value": 65.0
+            },
+            {
+              "name": "ASMultiplier",
+              "value": 2.0
+            },
+            {
+              "name": "ProcRate",
+              "value": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "형상변환자",
+      "desc": "형상변환자는 변신 시 추가 최대 체력을 얻습니다.<br><br><expandRow>(@MinUnits@) 추가 최대 체력 @HPPercent@%</expandRow><br>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Shapeshifter.dds",
+      "effects": [
+        {
+          "minUnits": 3,
+          "maxUnits": 5,
+          "vars": [
+            {
+              "name": "HPPercent",
+              "value": 60.0
+            }
+          ]
+        },
+        {
+          "minUnits": 6,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "HPPercent",
+              "value": 120.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "총잡이",
+      "desc": "총잡이는 공격 적중 시 @ProcPercent@%의 확률로 추가 공격을 합니다.<br><br><row>(@MinUnits@) @ExtraTargetsHit@명의 적 추가 공격</row><br><row>(@MinUnits@) @ExtraTargetsHit@명의 적 추가 공격</row><br><row>(@MinUnits@) @ExtraTargetsHit@명의 적 추가 공격</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Gunslinger.dds",
+      "effects": [
+        {
+          "minUnits": 2,
+          "maxUnits": 3,
+          "vars": [
+            {
+              "name": "ProcPercent",
+              "value": 50.0
+            },
+            {
+              "name": "F768E185",
+              "value": 1.0
+            },
+            {
+              "name": "ExtraTargetsHit",
+              "value": 1.0
+            }
+          ]
+        },
+        {
+          "minUnits": 4,
+          "maxUnits": 5,
+          "vars": [
+            {
+              "name": "ProcPercent",
+              "value": 50.0
+            },
+            {
+              "name": "F768E185",
+              "value": 2.0
+            },
+            {
+              "name": "ExtraTargetsHit",
+              "value": 2.0
+            }
+          ]
+        },
+        {
+          "minUnits": 6,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "ProcPercent",
+              "value": 50.0
+            },
+            {
+              "name": "F768E185",
+              "value": 3.0
+            },
+            {
+              "name": "ExtraTargetsHit",
+              "value": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "마법사",
+      "desc": "고유 - 마법사는 공격 시 2배의 마나를 획득합니다.<br><br>모든 아군의 주문력이 증가합니다.<br><br><expandRow>(@MinUnits@) 주문력 +@AP@%</expandRow><br>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Sorcerer.dds",
+      "effects": [
+        {
+          "minUnits": 3,
+          "maxUnits": 5,
+          "vars": [
+            {
+              "name": "AP",
+              "value": 45.0
+            }
+          ]
+        },
+        {
+          "minUnits": 6,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "AP",
+              "value": 100.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "로봇",
+      "desc": "(@MinUnits@) 로봇은 마나가 가득찬 상태로 전투를 시작합니다.",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Robot.dds",
+      "effects": [
+        {
+          "minUnits": 1,
+          "maxUnits": 25000,
+          "vars": []
+        }
+      ]
+    },
+    {
+      "name": "tft_trait_displayname_Hextech",
+      "desc": "tft_trait_description_Hextech",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Hextech.dds",
+      "effects": [
+        {
+          "minUnits": 2,
+          "maxUnits": 3,
+          "vars": [
+            {
+              "name": "C78D1CC9",
+              "value": 4.0
+            },
+            {
+              "name": "2BD7DCB7",
+              "value": 5.0
+            }
+          ]
+        },
+        {
+          "minUnits": 4,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "C78D1CC9",
+              "value": 4.0
+            },
+            {
+              "name": "2BD7DCB7",
+              "value": 15.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "유령",
+      "desc": "<row>(@MinUnits@) 전투 시작 시 무작위 적 하나에게 저주를 걸어 @HPToSet@의 체력을 갖도록 합니다.</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Phantom.dds",
+      "effects": [
+        {
+          "minUnits": 2,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "HPToSet",
+              "value": 100.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "귀족",
+      "desc": "방어력이 +@Armor@, 마법 저항력이 +@MagicResist@ 증가하며 적중 시 @Heal@의 체력을 회복합니다.<br><br><row>(@MinUnits@) 무작위 아군 하나에 적용</row><br><row>(@MinUnits@) 모든 아군에 적용</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Noble.dds",
+      "effects": [
+        {
+          "minUnits": 3,
+          "maxUnits": 5,
+          "vars": [
+            {
+              "name": "Armor",
+              "value": 60.0
+            },
+            {
+              "name": "Heal",
+              "value": 35.0
+            },
+            {
+              "name": "MagicResist",
+              "value": 60.0
+            }
+          ]
+        },
+        {
+          "minUnits": 6,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "Armor",
+              "value": 60.0
+            },
+            {
+              "name": "Heal",
+              "value": 35.0
+            },
+            {
+              "name": "MagicResist",
+              "value": 60.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "암살자",
+      "desc": "고유 - 전투 시작 시 암살자는 가장 멀리 있는 적에게 도약합니다.<br><br>암살자는 추가 치명타 피해량을 획득합니다.<br><br><expandRow>(@MinUnits@) +치명타 피해량의 @CritAmpPercent@%</expandRow><br>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Assassin.dds",
+      "effects": [
+        {
+          "minUnits": 3,
+          "maxUnits": 5,
+          "vars": [
+            {
+              "name": "CritAmpPercent",
+              "value": 125.0
+            }
+          ]
+        },
+        {
+          "minUnits": 6,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "CritAmpPercent",
+              "value": 350.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "빙하",
+      "desc": "빙하는 공격 시 일정 확률로 적을 @StunDuration@초 동안 기절시킵니다.<br><br><expandRow>(@MinUnits@) 적을 기절시킬 확률 @ProcPercent@%</expandRow><br>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Glacial.dds",
+      "effects": [
+        {
+          "minUnits": 2,
+          "maxUnits": 3,
+          "vars": [
+            {
+              "name": "ProcPercent",
+              "value": 20.0
+            },
+            {
+              "name": "StunDuration",
+              "value": 2.0
+            }
+          ]
+        },
+        {
+          "minUnits": 4,
+          "maxUnits": 5,
+          "vars": [
+            {
+              "name": "ProcPercent",
+              "value": 30.0
+            },
+            {
+              "name": "StunDuration",
+              "value": 2.0
+            }
+          ]
+        },
+        {
+          "minUnits": 6,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "ProcPercent",
+              "value": 45.0
+            },
+            {
+              "name": "StunDuration",
+              "value": 2.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "제국",
+      "desc": "두 배의 피해를 입힙니다.<br><br><row>(@MinUnits@) 무작위 제국 유닛 하나에 적용</row><br><row>(@MinUnits@) 모든 제국 유닛에 적용</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Imperial.dds",
+      "effects": [
+        {
+          "minUnits": 2,
+          "maxUnits": 3,
+          "vars": [
+            {
+              "name": "DamageMultiplier",
+              "value": 2.0
+            }
+          ]
+        },
+        {
+          "minUnits": 4,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "DamageMultiplier",
+              "value": 2.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "검사",
+      "desc": "검사는 공격 적중 시 @ProcChance@%의 확률로 추가 공격을 가합니다.<br><br><row>(@MinUnits@) 추가 공격 1회</row><br><row>(@MinUnits@) 추가 공격 2회</row><br><row>(@MinUnits@) 추가 공격 4회</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Blademaster.dds",
+      "effects": [
+        {
+          "minUnits": 3,
+          "maxUnits": 5,
+          "vars": [
+            {
+              "name": "ProcChance",
+              "value": 45.0
+            },
+            {
+              "name": "ExtraAttacks",
+              "value": 1.0
+            }
+          ]
+        },
+        {
+          "minUnits": 6,
+          "maxUnits": 8,
+          "vars": [
+            {
+              "name": "ProcChance",
+              "value": 45.0
+            },
+            {
+              "name": "ExtraAttacks",
+              "value": 2.0
+            }
+          ]
+        },
+        {
+          "minUnits": 9,
+          "maxUnits": 25000,
+          "vars": [
+            {
+              "name": "ProcChance",
+              "value": 45.0
+            },
+            {
+              "name": "ExtraAttacks",
+              "value": 4.0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "items": {
+    "1": {
+      "name": "B.F. 대검",
+      "desc": " 공격력 +@AD@",
+      "icon": "ASSETS/Maps/Particles/TFT/Icon_BFSword.TFT.dds",
+      "from": [],
+      "effects": [
+        {
+          "name": "AD",
+          "value": 20.0
+        }
+      ]
+    },
+    "2": {
+      "name": "곡궁",
+      "desc": " 공격 속도 +@AS@%",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_RecurveBow.TFT.dds",
+      "from": [],
+      "effects": [
+        {
+          "name": "AS",
+          "value": 20.0
+        }
+      ]
+    },
+    "3": {
+      "name": "쓸데없이 큰 지팡이",
+      "desc": " 주문력 +@AP@%",
+      "icon": "ASSETS/Maps/Particles/TFT/Icon_NeedlesslyLargeRod.TFT.dds",
+      "from": [],
+      "effects": [
+        {
+          "name": "AP",
+          "value": 20.0
+        }
+      ]
+    },
+    "4": {
+      "name": "여신의 눈물",
+      "desc": " 마나 +@Mana@",
+      "icon": "ASSETS/Maps/Particles/TFT/Icon_TearOfTheGoddess.TFT.dds",
+      "from": [],
+      "effects": [
+        {
+          "name": "Mana",
+          "value": 20.0
+        }
+      ]
+    },
+    "5": {
+      "name": "쇠사슬 조끼",
+      "desc": "방어력 +@Armor@",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_ChainVest.TFT.dds",
+      "from": [],
+      "effects": [
+        {
+          "name": "Armor",
+          "value": 20.0
+        }
+      ]
+    },
+    "6": {
+      "name": "음전자 망토",
+      "desc": "마법 저항력 +@MagicResist@",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_NegatronCloak.TFT.dds",
+      "from": [],
+      "effects": [
+        {
+          "name": "MagicResist",
+          "value": 20.0
+        }
+      ]
+    },
+    "7": {
+      "name": "거인의 허리띠",
+      "desc": " 체력 +@Health@",
+      "icon": "ASSETS/Maps/Particles/TFT/Icon_GiantsBelt.TFT.dds",
+      "from": [],
+      "effects": [
+        {
+          "name": "Health",
+          "value": 200.0
+        }
+      ]
+    },
+    "8": {
+      "name": "뒤집개",
+      "desc": "분명 무슨 효과가 있을 겁니다...",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Spatula.TFT.dds",
+      "from": [],
+      "effects": [
+        {
+          "name": "FE9818EF",
+          "value": 5.0
+        }
+      ]
+    },
+    "11": {
+      "name": "무한의 대검",
+      "desc": "치명타 공격 시 +@CriticalStrikeAmp@%의 피해",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_InfinityEdge.TFT.dds",
+      "from": [
+        "1",
+        "1"
+      ],
+      "effects": [
+        {
+          "name": "CriticalStrikeAmp",
+          "value": 150.0
+        }
+      ]
+    },
+    "12": {
+      "name": "신성의 검",
+      "desc": "매초 치명타 확률 100%가 적용될 확률이 @ChanceToProc@%",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_SwordOfTheDivine.TFT.dds",
+      "from": [
+        "1",
+        "2"
+      ],
+      "effects": [
+        {
+          "name": "ChanceToProc",
+          "value": 5.0
+        }
+      ]
+    },
+    "13": {
+      "name": "마법공학 총검",
+      "desc": "가한 모든 피해량의 @OmniVamp@%만큼 체력 회복",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_HextechGunblade.TFT.dds",
+      "from": [
+        "1",
+        "3"
+      ],
+      "effects": [
+        {
+          "name": "OmniVamp",
+          "value": 33.0
+        }
+      ]
+    },
+    "14": {
+      "name": "쇼진의 창",
+      "desc": "스킬 사용 후 공격할 때마다 최대 마나의 @ManaPercentRestore@%에 해당하는 마나 회복",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_SpearOfShojin.TFT.dds",
+      "from": [
+        "1",
+        "4"
+      ],
+      "effects": [
+        {
+          "name": "ManaPercentRestore",
+          "value": 15.0
+        }
+      ]
+    },
+    "15": {
+      "name": "수호 천사",
+      "desc": "장착 상태에서 사망 시 @HealthRestore@의 체력을 지닌 채 부활",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_GuardianAngel.TFT.dds",
+      "from": [
+        "1",
+        "5"
+      ],
+      "effects": [
+        {
+          "name": "HealthRestore",
+          "value": 1000.0
+        }
+      ]
+    },
+    "16": {
+      "name": "피바라기",
+      "desc": "공격 시 가한 피해량의 @Lifesteal@%만큼 체력 회복",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Bloodthirster.TFT.dds",
+      "from": [
+        "1",
+        "6"
+      ],
+      "effects": [
+        {
+          "name": "Lifesteal",
+          "value": 50.0
+        }
+      ]
+    },
+    "17": {
+      "name": "지크의 전령",
+      "desc": "전투 시작 시 가로로 @HexRange@칸 내에 있는 모든 아군의 공격 속도가 남은 전투 시간 동안 +@AttackSpeed@% 증가",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_ZekesHerald.TFT.dds",
+      "from": [
+        "1",
+        "7"
+      ],
+      "effects": [
+        {
+          "name": "AttackSpeed",
+          "value": 15.0
+        },
+        {
+          "name": "HexRange",
+          "value": 2.0
+        }
+      ]
+    },
+    "18": {
+      "name": "요우무의 유령검",
+      "desc": "추가 %i:scaleAD% +@AD@<br>장착 시 암살자 특성 획득",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_YoumuusGhostblade.TFT.dds",
+      "from": [
+        "1",
+        "8"
+      ],
+      "effects": [
+        {
+          "name": "AD",
+          "value": 20.0
+        }
+      ]
+    },
+    "22": {
+      "name": "고속 연사포",
+      "desc": "장착 시 적이 공격을 회피할 수 없으며 사거리가 두 배로 증가",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_RapidFirecannon.TFT.dds",
+      "from": [
+        "2",
+        "2"
+      ],
+      "effects": []
+    },
+    "23": {
+      "name": "구인수의 격노검",
+      "desc": "공격 시 공격 속도가 @AttackSpeedPerStack@% 증가 (무제한 중첩)",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_GuinsoosRageblade.TFT.dds",
+      "from": [
+        "2",
+        "3"
+      ],
+      "effects": [
+        {
+          "name": "AttackSpeedPerStack",
+          "value": 4.0
+        }
+      ]
+    },
+    "24": {
+      "name": "스태틱의 단검",
+      "desc": "세 번째 공격마다 @BouncesTooltip@명의 적에게 @Damage@의 마법 피해",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_StatikkShiv.TFT.dds",
+      "from": [
+        "2",
+        "4"
+      ],
+      "effects": [
+        {
+          "name": "Damage",
+          "value": 90.0
+        },
+        {
+          "name": "Bounces",
+          "value": 3.0
+        },
+        {
+          "name": "BouncesTooltip",
+          "value": 4.0
+        }
+      ]
+    },
+    "25": {
+      "name": "유령 무희",
+      "desc": "장착 시 모든 치명타 공격 회피",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_PhantomDancer.TFT.dds",
+      "from": [
+        "2",
+        "5"
+      ],
+      "effects": []
+    },
+    "26": {
+      "name": "저주받은 칼날",
+      "desc": "공격 적중 시 낮은 확률로 남은 전투 시간 동안 적 1성 낮춤",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_CursedBlade.TFT.dds",
+      "from": [
+        "2",
+        "6"
+      ],
+      "effects": [
+        {
+          "name": "A56E0A21",
+          "value": 20.0
+        }
+      ]
+    },
+    "27": {
+      "name": "거대한 히드라",
+      "desc": "공격 시 장착한 유닛 최대 체력의 @MaxHealth@%만큼 광역 피해",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_TitanicHydra.TFT.dds",
+      "from": [
+        "2",
+        "7"
+      ],
+      "effects": [
+        {
+          "name": "MaxHealth",
+          "value": 10.0
+        }
+      ]
+    },
+    "28": {
+      "name": "몰락한 왕의 검",
+      "desc": "추가 %i:scaleAS% +@AS@<br>장착 시 검사 특성 획득",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_BladeOfTheRuinedKing.TFT.dds",
+      "from": [
+        "2",
+        "8"
+      ],
+      "effects": [
+        {
+          "name": "AS",
+          "value": 20.0
+        }
+      ]
+    },
+    "33": {
+      "name": "라바돈의 죽음모자",
+      "desc": "장착 시 주문력 @APPercentAmp@% 증가",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_RabadonsDeathcap.TFT.dds",
+      "from": [
+        "3",
+        "3"
+      ],
+      "effects": [
+        {
+          "name": "APPercentAmp",
+          "value": 50.0
+        }
+      ]
+    },
+    "34": {
+      "name": "루덴의 메아리",
+      "desc": "스킬 적중 시 @Damage@의 광역 피해",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_LudensEcho.TFT.dds",
+      "from": [
+        "3",
+        "4"
+      ],
+      "effects": [
+        {
+          "name": "Damage",
+          "value": 200.0
+        }
+      ]
+    },
+    "35": {
+      "name": "강철의 솔라리 펜던트",
+      "desc": "전투 시작 시 가로로 @HexRange@칸 내에 있는 모든 아군이 @ShieldValue@의 피해를 흡수하는 보호막 획득",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_LocketOfTheIronSolari.TFT.dds",
+      "from": [
+        "3",
+        "5"
+      ],
+      "effects": [
+        {
+          "name": "ShieldValue",
+          "value": 250.0
+        },
+        {
+          "name": "ShieldDuration",
+          "value": 4.0
+        },
+        {
+          "name": "HexRange",
+          "value": 2.0
+        }
+      ]
+    },
+    "36": {
+      "name": "이온 충격기",
+      "desc": "스킬을 사용하는 적에게 @Damage@의 피해",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_IonicSpark.TFT.dds",
+      "from": [
+        "3",
+        "6"
+      ],
+      "effects": [
+        {
+          "name": "Damage",
+          "value": 150.0
+        }
+      ]
+    },
+    "37": {
+      "name": "모렐로노미콘",
+      "desc": "스킬 공격 시 적을 불태워 @BurnDuration@초에 걸쳐 적 최대 체력의 @BurnPercent@%에 해당하는 피해를 입히고 체력 회복 효과 무효화",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Morellonomicon.TFT.dds",
+      "from": [
+        "3",
+        "7"
+      ],
+      "effects": [
+        {
+          "name": "BurnPercent",
+          "value": 25.0
+        },
+        {
+          "name": "6DF27940",
+          "value": 1.0
+        },
+        {
+          "name": "MonsterCap",
+          "value": 100.0
+        },
+        {
+          "name": "BurnDuration",
+          "value": 5.0
+        }
+      ]
+    },
+    "38": {
+      "name": "유미",
+      "desc": "추가 %i:scaleAP% +@AP@<br>장착 시 마법사 특성 획득",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Yuumi.TFT.dds",
+      "from": [
+        "3",
+        "8"
+      ],
+      "effects": [
+        {
+          "name": "AP",
+          "value": 20.0
+        }
+      ]
+    },
+    "44": {
+      "name": "대천사의 포옹",
+      "desc": "장착 시 스킬 사용 후 @ManaRestore@의 마나 회복",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_SeraphsEmbrace.TFT.dds",
+      "from": [
+        "4",
+        "4"
+      ],
+      "effects": [
+        {
+          "name": "ManaRestore",
+          "value": 20.0
+        }
+      ]
+    },
+    "45": {
+      "name": "얼어붙은 심장",
+      "desc": "주변 적의 공격 속도가 @AttackSpeedSlow@% 감소",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_FrozenHeart.TFT.dds",
+      "from": [
+        "4",
+        "5"
+      ],
+      "effects": [
+        {
+          "name": "AttackSpeedSlow",
+          "value": 25.0
+        }
+      ]
+    },
+    "46": {
+      "name": "침묵",
+      "desc": "공격 적중 시 일정 확률로 적을 침묵시켜 @SilenceDuration@초 동안 마나 획득 차단",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Hush.TFT.dds",
+      "from": [
+        "4",
+        "6"
+      ],
+      "effects": [
+        {
+          "name": "2275757B",
+          "value": 33.0
+        },
+        {
+          "name": "SilenceDuration",
+          "value": 5.0
+        },
+        {
+          "name": "4516A18D",
+          "value": 4.0
+        }
+      ]
+    },
+    "47": {
+      "name": "구원",
+      "desc": "체력이 @HPThreshold@% 아래로 떨어지면 주변 모든 아군의 체력을 @HealthRestore@만큼 회복",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Redemption.TFT.dds",
+      "from": [
+        "4",
+        "7"
+      ],
+      "effects": [
+        {
+          "name": "HealthRestore",
+          "value": 1000.0
+        },
+        {
+          "name": "HPThreshold",
+          "value": 25.0
+        },
+        {
+          "name": "5FFBBD48",
+          "value": 50.0
+        },
+        {
+          "name": "1E0630E9",
+          "value": 25.0
+        }
+      ]
+    },
+    "48": {
+      "name": "다르킨",
+      "desc": "추가 %i:scaleMana% +@Mana@<br>장착 시 악마 특성 획득",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Darkin.TFT.dds",
+      "from": [
+        "4",
+        "8"
+      ],
+      "effects": [
+        {
+          "name": "Mana",
+          "value": 20.0
+        }
+      ]
+    },
+    "55": {
+      "name": "가시 갑옷",
+      "desc": "받은 공격에서 감소된 피해량의 @DamageReflect@%를 적에게 돌려줌",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Thornmail.TFT.dds",
+      "from": [
+        "5",
+        "5"
+      ],
+      "effects": [
+        {
+          "name": "DamageReflect",
+          "value": 100.0
+        }
+      ]
+    },
+    "56": {
+      "name": "파쇄검",
+      "desc": "공격 시 일정 확률로 @DisarmDuration@초 동안 적 무장 해제",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_SwordBreaker.TFT.dds",
+      "from": [
+        "5",
+        "6"
+      ],
+      "effects": [
+        {
+          "name": "2426EA7E",
+          "value": 25.0
+        },
+        {
+          "name": "DisarmDuration",
+          "value": 4.0
+        }
+      ]
+    },
+    "57": {
+      "name": "붉은 덩굴정령",
+      "desc": "공격 시 적을 불태워 @BurnDuration@초에 걸쳐 적 최대 체력의 @BurnPercent@%에 해당하는 피해를 입히고 체력 회복 효과 무효화",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_RedBuff.TFT.dds",
+      "from": [
+        "5",
+        "7"
+      ],
+      "effects": [
+        {
+          "name": "BurnPercent",
+          "value": 13.0
+        },
+        {
+          "name": "BurnDuration",
+          "value": 5.0
+        },
+        {
+          "name": "6DF27940",
+          "value": 1.0
+        },
+        {
+          "name": "MonsterCap",
+          "value": 100.0
+        }
+      ]
+    },
+    "58": {
+      "name": "기사의 맹세",
+      "desc": "추가 %i:scaleArmor% +@Armor@<br>장착 시 기사 특성 획득",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_KnightsVow.TFT.dds",
+      "from": [
+        "5",
+        "8"
+      ],
+      "effects": [
+        {
+          "name": "Armor",
+          "value": 20.0
+        }
+      ]
+    },
+    "66": {
+      "name": "용의 발톱",
+      "desc": "마법 저항력 @MagicReduction@% 증가",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_DragonsClaw.TFT.dds",
+      "from": [
+        "6",
+        "6"
+      ],
+      "effects": [
+        {
+          "name": "MagicReduction",
+          "value": 83.0
+        }
+      ]
+    },
+    "67": {
+      "name": "서풍",
+      "desc": "전투 시작 시 적 하나를 @BanishDuration@초 동안 추방",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Zephyr.TFT.dds",
+      "from": [
+        "6",
+        "7"
+      ],
+      "effects": [
+        {
+          "name": "BanishDuration",
+          "value": 5.0
+        }
+      ]
+    },
+    "68": {
+      "name": "루난의 허리케인",
+      "desc": "추가 %i:scaleMR% +@ExtraMR@<br>장착한 유닛의 공격을 따라 하며 @MultiplierForDamage@%의 피해를 입히는 영혼 소환",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_RunaansHurricane.TFT.dds",
+      "from": [
+        "6",
+        "8"
+      ],
+      "effects": [
+        {
+          "name": "AdditionalTargets",
+          "value": 1.0
+        },
+        {
+          "name": "MultiplierForDamage",
+          "value": 25.0
+        },
+        {
+          "name": "ExtraMR",
+          "value": 20.0
+        }
+      ]
+    },
+    "77": {
+      "name": "워모그의 갑옷",
+      "desc": "초당 잃은 체력의 @HealthRegen@%만큼 체력 회복",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_WarmogsArmor.TFT.dds",
+      "from": [
+        "7",
+        "7"
+      ],
+      "effects": [
+        {
+          "name": "HealthRegen",
+          "value": 6.0
+        },
+        {
+          "name": "0C90F194",
+          "value": 300.0
+        }
+      ]
+    },
+    "78": {
+      "name": "얼어붙은 망치",
+      "desc": "추가 %i:scaleHealth% +@Health@<br>장착 시 빙하 특성 획득",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_FrozenMallet.TFT.dds",
+      "from": [
+        "8",
+        "7"
+      ],
+      "effects": [
+        {
+          "name": "Health",
+          "value": 200.0
+        }
+      ]
+    },
+    "88": {
+      "name": "대자연의 힘",
+      "desc": " 팀 규모 +@MaxArmySizeIncrease@ 증가",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_ForceOfNature.TFT.dds",
+      "from": [
+        "8",
+        "8"
+      ],
+      "effects": [
+        {
+          "name": "MaxArmySizeIncrease",
+          "value": 1.0
+        }
+      ]
+    },
+    "100": {
+      "name": "뒤집개",
+      "desc": "분명 무슨 효과가 있을 겁니다...",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Unknown.TFT.dds",
+      "from": [],
+      "effects": []
+    },
+    "541": {
+      "name": "필멸자의 운명",
+      "desc": "TFT_item_description_MortalReminder",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_MortalReminder.TFT.dds",
+      "from": [],
+      "effects": []
+    },
+    "10002": {
+      "name": "tft_item_name_JammedSlot",
+      "desc": "tft_item_description_JammedSlot",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Jammed.TFT.dds",
+      "from": [],
+      "effects": []
+    }
+  }
+}
