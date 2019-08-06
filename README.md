@@ -25,3 +25,11 @@ Select champions of your choice to build the team.
    - **Caution**: this action will regenerate the team with updated champion pool in `selected` box
 5. If the generated team is not to your taste, clicking on `reBuild` button will regenerate the team.
 7. By clicking on `reset` button, it clears out both `selected` and `generated` boxes.
+
+## Information on code itself
+
+#### DataManage.js
+
+#### ContentManage.js
+
+#### Banner.js
